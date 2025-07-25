@@ -220,24 +220,40 @@
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-/* 页面级加载 */
+/* 页面级加载 - 修复居中问题 */
 .loading-page {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(255, 255, 255, 0.9);
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.95);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
   z-index: 9999;
   backdrop-filter: blur(4px);
+  margin: 0;
+  padding: 0;
 }
 
 .loading-page-dark {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+/* 页面级加载内容容器 */
+.loading-page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  max-width: 400px;
+  padding: 24px;
 }
 
 /* 按钮内加载 */
@@ -271,6 +287,12 @@
 .loading-xl {
   width: 32px;
   height: 32px;
+}
+
+/* 页面加载专用大尺寸 */
+.loading-page-size {
+  width: 40px;
+  height: 40px;
 }
 
 /* 颜色变体 */
@@ -311,14 +333,42 @@
   color: #1890ff;
 }
 
+/* 页面加载文本 */
+.loading-page-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #666;
+  margin-top: 16px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.loading-page-text-dark {
+  color: #ccc;
+}
+
 /* 响应式设计 */
 @media (max-width: 768px) {
   .loading-page {
     padding: 20px;
   }
   
+  .loading-page-content {
+    padding: 16px;
+    max-width: 300px;
+  }
+  
   .loading-text {
     font-size: 12px;
+  }
+  
+  .loading-page-text {
+    font-size: 14px;
+  }
+  
+  .loading-page-size {
+    width: 32px;
+    height: 32px;
   }
 }
 
@@ -341,6 +391,15 @@
     border-right-color: transparent;
     border-bottom-color: transparent;
   }
+}
+
+/* 确保加载器不被其他元素遮挡 */
+.loading-page * {
+  pointer-events: none;
+}
+
+.loading-page {
+  pointer-events: auto;
 }
 
 /* 打印样式 */
