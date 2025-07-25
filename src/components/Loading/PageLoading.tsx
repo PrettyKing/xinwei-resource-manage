@@ -68,16 +68,17 @@ export const PageLoading: React.FC<PageLoadingProps> = ({
       onClick={handleMaskClick}
     >
       <div 
-        className="flex flex-col items-center gap-4"
+        className="loading-page-content"
         onClick={(e) => e.stopPropagation()}
       >
         <Loading
           type={type}
           size={size}
           color={color}
+          className="loading-page-size"
         />
         {tip && (
-          <div className={`text-center ${dark ? 'text-white' : 'text-gray-600'}`}>
+          <div className={`loading-page-text ${dark ? 'loading-page-text-dark' : ''}`}>
             {tip}
           </div>
         )}
