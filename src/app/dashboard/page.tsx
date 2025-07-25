@@ -1,15 +1,86 @@
 'use client';
 
-import { Card, Row, Col, Statistic, Typography, Table, Tag, Progress } from 'antd';
-import {
-  ShoppingCartOutlined,
-  AppstoreOutlined,
-  TeamOutlined,
-  DollarOutlined,
-  AlertOutlined,
-} from '@ant-design/icons';
+// 自定义图标组件
+const DashboardIcon = () => (
+  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
+  </svg>
+);
 
-const { Title, Paragraph } = Typography;
+const MaterialIcon = () => (
+  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+  </svg>
+);
+
+const InboundIcon = () => (
+  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-2.293 2.293c-.63.63-.184 1.707.707 1.707H19M7 13v4a2 2 0 002 2h4a2 2 0 002-2v-1M9 9h10V7a2 2 0 00-2-2H9v4z" />
+  </svg>
+);
+
+const SupplierIcon = () => (
+  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+  </svg>
+);
+
+const MoneyIcon = () => (
+  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+  </svg>
+);
+
+const TrendIcon = () => (
+  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+  </svg>
+);
+
+const AlertIcon = () => (
+  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.892-.833-2.464 0L4.34 16.5c-.77.833.192 2.5 1.732 2.5z" />
+  </svg>
+);
+
+const ViewIcon = () => (
+  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+  </svg>
+);
+
+// 统计卡片组件
+interface StatCardProps {
+  title: string;
+  value: string | number;
+  icon: React.ReactNode;
+  color: string;
+  bgColor: string;
+  trend?: string;
+}
+
+const StatCard = ({ title, value, icon, color, bgColor, trend }: StatCardProps) => (
+  <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 hover:shadow-lg transition-all duration-300">
+    <div className="flex items-center justify-between">
+      <div>
+        <p className="text-sm font-medium text-gray-600 mb-1">{title}</p>
+        <p className="text-2xl font-bold text-gray-900">{value}</p>
+        {trend && (
+          <div className="flex items-center mt-2">
+            <TrendIcon />
+            <span className="text-sm text-green-600 ml-1">{trend}</span>
+          </div>
+        )}
+      </div>
+      <div className={`w-12 h-12 rounded-xl ${bgColor} flex items-center justify-center`}>
+        <div className={color}>
+          {icon}
+        </div>
+      </div>
+    </div>
+  </div>
+);
 
 // 模拟数据
 const mockData = {
@@ -47,173 +118,199 @@ const mockData = {
       status: 'approved',
       date: '2025-07-24',
     },
+    {
+      key: '4',
+      orderNumber: 'IN-2025-004',
+      supplier: '东方建材',
+      materials: 12,
+      amount: 15800,
+      status: 'completed',
+      date: '2025-07-23',
+    },
+    {
+      key: '5',
+      orderNumber: 'IN-2025-005',
+      supplier: '恒力材料',
+      materials: 6,
+      amount: 9200,
+      status: 'pending',
+      date: '2025-07-23',
+    },
   ],
   lowStock: [
-    { name: '水泥 42.5R', current: 120, min: 200, unit: '吨' },
-    { name: '钢筋 HRB400', current: 45, min: 100, unit: '吨' },
-    { name: '砂浆添加剂', current: 8, min: 20, unit: '桶' },
+    { name: '水泥 42.5R', current: 120, min: 200, unit: '吨', percentage: 60 },
+    { name: '钢筋 HRB400', current: 45, min: 100, unit: '吨', percentage: 45 },
+    { name: '砂浆添加剂', current: 8, min: 20, unit: '桶', percentage: 40 },
+    { name: '防水涂料', current: 25, min: 50, unit: '桶', percentage: 50 },
   ],
 };
 
 const statusMap = {
-  completed: { color: 'green', text: '已完成' },
-  pending: { color: 'orange', text: '待审核' },
-  approved: { color: 'blue', text: '已审批' },
-  draft: { color: 'gray', text: '草稿' },
-  rejected: { color: 'red', text: '已拒绝' },
+  completed: { color: 'text-green-600', bg: 'bg-green-100', text: '已完成' },
+  pending: { color: 'text-orange-600', bg: 'bg-orange-100', text: '待审核' },
+  approved: { color: 'text-blue-600', bg: 'bg-blue-100', text: '已审批' },
+  draft: { color: 'text-gray-600', bg: 'bg-gray-100', text: '草稿' },
+  rejected: { color: 'text-red-600', bg: 'bg-red-100', text: '已拒绝' },
 };
 
 export default function DashboardPage() {
-  const columns = [
-    {
-      title: '入库单号',
-      dataIndex: 'orderNumber',
-      key: 'orderNumber',
-    },
-    {
-      title: '供应商',
-      dataIndex: 'supplier',
-      key: 'supplier',
-    },
-    {
-      title: '材料种类',
-      dataIndex: 'materials',
-      key: 'materials',
-      render: (count: number) => `${count} 种`,
-    },
-    {
-      title: '金额',
-      dataIndex: 'amount',
-      key: 'amount',
-      render: (amount: number) => `¥${amount.toLocaleString()}`,
-    },
-    {
-      title: '状态',
-      dataIndex: 'status',
-      key: 'status',
-      render: (status: keyof typeof statusMap) => (
-        <Tag color={statusMap[status].color}>
-          {statusMap[status].text}
-        </Tag>
-      ),
-    },
-    {
-      title: '日期',
-      dataIndex: 'date',
-      key: 'date',
-    },
-  ];
-
   return (
     <div className="space-y-6">
       {/* 页面标题 */}
-      <div>
-        <Title level={2} className="mb-2">
+      <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+        <h1 className="text-2xl font-bold text-gray-900 mb-2">
           仪表盘
-        </Title>
-        <Paragraph className="text-gray-600">
+        </h1>
+        <p className="text-gray-600">
           欢迎回来！这里是您的资源管理概览。
-        </Paragraph>
+        </p>
       </div>
 
       {/* 统计卡片 */}
-      <Row gutter={[16, 16]}>
-        <Col xs={24} sm={12} lg={6}>
-          <Card>
-            <Statistic
-              title="材料总数"
-              value={mockData.stats.totalMaterials}
-              prefix={<AppstoreOutlined className="text-blue-500" />}
-              suffix="种"
-            />
-          </Card>
-        </Col>
-        <Col xs={24} sm={12} lg={6}>
-          <Card>
-            <Statistic
-              title="今日入库"
-              value={mockData.stats.todayInbound}
-              prefix={<ShoppingCartOutlined className="text-green-500" />}
-              suffix="单"
-            />
-          </Card>
-        </Col>
-        <Col xs={24} sm={12} lg={6}>
-          <Card>
-            <Statistic
-              title="供应商数量"
-              value={mockData.stats.totalSuppliers}
-              prefix={<TeamOutlined className="text-purple-500" />}
-              suffix="家"
-            />
-          </Card>
-        </Col>
-        <Col xs={24} sm={12} lg={6}>
-          <Card>
-            <Statistic
-              title="本月采购额"
-              value={mockData.stats.monthlyValue}
-              prefix={<DollarOutlined className="text-orange-500" />}
-              precision={0}
-              formatter={(value) => `¥${value?.toLocaleString()}`}
-            />
-          </Card>
-        </Col>
-      </Row>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <StatCard
+          title="材料总数"
+          value={`${mockData.stats.totalMaterials} 种`}
+          icon={<MaterialIcon />}
+          color="text-blue-600"
+          bgColor="bg-blue-100"
+          trend="+12%"
+        />
+        <StatCard
+          title="今日入库"
+          value={`${mockData.stats.todayInbound} 单`}
+          icon={<InboundIcon />}
+          color="text-green-600"
+          bgColor="bg-green-100"
+          trend="+8%"
+        />
+        <StatCard
+          title="供应商数量"
+          value={`${mockData.stats.totalSuppliers} 家`}
+          icon={<SupplierIcon />}
+          color="text-purple-600"
+          bgColor="bg-purple-100"
+          trend="+3%"
+        />
+        <StatCard
+          title="本月采购额"
+          value={`¥${mockData.stats.monthlyValue.toLocaleString()}`}
+          icon={<MoneyIcon />}
+          color="text-orange-600"
+          bgColor="bg-orange-100"
+          trend="+15%"
+        />
+      </div>
 
-      <Row gutter={[16, 16]}>
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* 最近入库记录 */}
-        <Col xs={24} lg={16}>
-          <Card
-            title={
+        <div className="lg:col-span-2">
+          <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+            <div className="flex items-center justify-between mb-6">
               <div className="flex items-center">
-                <AlertOutlined className="mr-2" />
-                最近入库记录
+                <TrendIcon />
+                <h2 className="text-lg font-semibold text-gray-900 ml-2">最近入库记录</h2>
               </div>
-            }
-            extra={<a href="/dashboard/inbound">查看全部</a>}
-          >
-            <Table
-              dataSource={mockData.recentInbound}
-              columns={columns}
-              pagination={false}
-              size="small"
-            />
-          </Card>
-        </Col>
+              <button className="text-blue-600 hover:text-blue-700 text-sm font-medium flex items-center">
+                <ViewIcon />
+                <span className="ml-1">查看全部</span>
+              </button>
+            </div>
+            
+            <div className="overflow-hidden">
+              <div className="overflow-x-auto">
+                <table className="min-w-full">
+                  <thead>
+                    <tr className="border-b border-gray-200">
+                      <th className="text-left py-3 px-4 font-medium text-gray-900">入库单号</th>
+                      <th className="text-left py-3 px-4 font-medium text-gray-900">供应商</th>
+                      <th className="text-left py-3 px-4 font-medium text-gray-900">材料种类</th>
+                      <th className="text-left py-3 px-4 font-medium text-gray-900">金额</th>
+                      <th className="text-left py-3 px-4 font-medium text-gray-900">状态</th>
+                      <th className="text-left py-3 px-4 font-medium text-gray-900">日期</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {mockData.recentInbound.map((item) => (
+                      <tr key={item.key} className="border-b border-gray-100 hover:bg-gray-50 transition-colors duration-200">
+                        <td className="py-3 px-4">
+                          <span className="font-medium text-gray-900">{item.orderNumber}</span>
+                        </td>
+                        <td className="py-3 px-4">
+                          <span className="text-gray-700">{item.supplier}</span>
+                        </td>
+                        <td className="py-3 px-4">
+                          <span className="text-gray-700">{item.materials} 种</span>
+                        </td>
+                        <td className="py-3 px-4">
+                          <span className="font-medium text-gray-900">¥{item.amount.toLocaleString()}</span>
+                        </td>
+                        <td className="py-3 px-4">
+                          <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${
+                            statusMap[item.status as keyof typeof statusMap].bg
+                          } ${statusMap[item.status as keyof typeof statusMap].color}`}>
+                            {statusMap[item.status as keyof typeof statusMap].text}
+                          </span>
+                        </td>
+                        <td className="py-3 px-4">
+                          <span className="text-gray-700">{item.date}</span>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
 
         {/* 库存预警 */}
-        <Col xs={24} lg={8}>
-          <Card
-            title={
+        <div>
+          <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6">
+            <div className="flex items-center justify-between mb-6">
               <div className="flex items-center">
-                <AlertOutlined className="mr-2 text-red-500" />
-                库存预警
+                <AlertIcon />
+                <h2 className="text-lg font-semibold text-gray-900 ml-2">库存预警</h2>
               </div>
-            }
-            extra={<a href="/dashboard/materials">查看全部</a>}
-          >
+              <button className="text-blue-600 hover:text-blue-700 text-sm font-medium flex items-center">
+                <ViewIcon />
+                <span className="ml-1">查看全部</span>
+              </button>
+            </div>
+            
             <div className="space-y-4">
               {mockData.lowStock.map((item, index) => (
-                <div key={index} className="border-b border-gray-100 pb-3 last:border-b-0">
+                <div key={index} className="p-4 bg-gray-50 rounded-xl">
                   <div className="flex justify-between items-center mb-2">
-                    <span className="font-medium text-sm">{item.name}</span>
+                    <span className="font-medium text-gray-900 text-sm">{item.name}</span>
                     <span className="text-xs text-gray-500">
                       {item.current}/{item.min} {item.unit}
                     </span>
                   </div>
-                  <Progress
-                    percent={Math.round((item.current / item.min) * 100)}
-                    size="small"
-                    status={item.current < item.min ? 'exception' : 'normal'}
-                    showInfo={false}
-                  />
+                  <div className="w-full bg-gray-200 rounded-full h-2">
+                    <div
+                      className={`h-2 rounded-full transition-all duration-300 ${
+                        item.percentage < 50 ? 'bg-red-500' : item.percentage < 70 ? 'bg-orange-500' : 'bg-green-500'
+                      }`}
+                      style={{ width: `${item.percentage}%` }}
+                    ></div>
+                  </div>
+                  <div className="mt-2 flex justify-between items-center">
+                    <span className={`text-xs font-medium ${
+                      item.percentage < 50 ? 'text-red-600' : item.percentage < 70 ? 'text-orange-600' : 'text-green-600'
+                    }`}>
+                      {item.percentage}%
+                    </span>
+                    {item.percentage < 50 && (
+                      <span className="text-xs text-red-600 font-medium">库存不足</span>
+                    )}
+                  </div>
                 </div>
               ))}
             </div>
-          </Card>
-        </Col>
-      </Row>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
