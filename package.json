@@ -10,9 +10,6 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@ant-design/icons": "^5.3.7",
-    "@ant-design/nextjs-registry": "^1.1.0",
-    "antd": "^5.19.1",
     "bcryptjs": "^2.4.3",
     "dayjs": "^1.11.11",
     "jsonwebtoken": "^9.0.2",
