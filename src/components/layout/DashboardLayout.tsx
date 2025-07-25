@@ -3,80 +3,21 @@
 import { useState, useEffect, useRef } from 'react';
 import { useRouter, usePathname } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
-
-// 图标组件 (SVG)
-const DashboardIcon = () => (
-  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
-  </svg>
-);
-
-const MaterialsIcon = () => (
-  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
-  </svg>
-);
-
-const InboundIcon = () => (
-  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-2.293 2.293c-.63.63-.184 1.707.707 1.707H19M7 13v4a2 2 0 002 2h4a2 2 0 002-2v-1M9 9h10V7a2 2 0 00-2-2H9v4z" />
-  </svg>
-);
-
-const SuppliersIcon = () => (
-  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-  </svg>
-);
-
-const ReportsIcon = () => (
-  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-  </svg>
-);
-
-const UserIcon = () => (
-  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-  </svg>
-);
-
-const MenuIcon = () => (
-  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-  </svg>
-);
-
-const LogoutIcon = () => (
-  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
-  </svg>
-);
-
-const SettingsIcon = () => (
-  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-  </svg>
-);
-
-const ChevronDownIcon = () => (
-  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-  </svg>
-);
-
-const SearchIcon = () => (
-  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-  </svg>
-);
-
-const BellIcon = () => (
-  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
-  </svg>
-);
+import {
+  DashboardIcon,
+  MaterialsIcon,
+  InboundIcon,
+  SuppliersIcon,
+  ReportsIcon,
+  UserIcon,
+  MenuIcon,
+  LogoutIcon,
+  SettingsIcon,
+  ChevronDownIcon,
+  SearchIcon,
+  BellIcon,
+  SpinnerIcon
+} from '@/components/icons';
 
 interface DashboardLayoutProps {
   children: React.ReactNode;
@@ -112,27 +53,27 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
   const menuItems = [
     {
       key: '/dashboard',
-      icon: <DashboardIcon />,
+      icon: <DashboardIcon size={20} />,
       label: '仪表盘',
     },
     {
       key: '/dashboard/materials',
-      icon: <MaterialsIcon />,
+      icon: <MaterialsIcon size={20} />,
       label: '材料管理',
     },
     {
       key: '/dashboard/inbound',
-      icon: <InboundIcon />,
+      icon: <InboundIcon size={20} />,
       label: '入库管理',
     },
     {
       key: '/dashboard/suppliers',
-      icon: <SuppliersIcon />,
+      icon: <SuppliersIcon size={20} />,
       label: '供应商管理',
     },
     {
       key: '/dashboard/reports',
-      icon: <ReportsIcon />,
+      icon: <ReportsIcon size={20} />,
       label: '统计报表',
     },
   ];
@@ -169,7 +110,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
         <div className="text-center bg-white p-8 rounded-xl shadow-lg">
-          <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mb-4"></div>
+          <SpinnerIcon size={48} className="text-blue-500 mx-auto mb-4" />
           <div className="text-gray-600 font-medium">
             {isLoading ? '正在验证身份...' : '跳转到登录页面...'}
           </div>
@@ -240,13 +181,13 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
                 onClick={() => setCollapsed(!collapsed)}
                 className="p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200"
               >
-                <MenuIcon />
+                <MenuIcon size={24} />
               </button>
               
               {/* 搜索框 */}
               <div className="relative hidden md:block">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <SearchIcon />
+                  <SearchIcon size={20} className="text-gray-400" />
                 </div>
                 <input
                   type="text"
@@ -260,7 +201,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
             <div className="flex items-center space-x-4">
               {/* 通知按钮 */}
               <button className="p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200 relative">
-                <BellIcon />
+                <BellIcon size={20} />
                 <span className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 text-white text-xs rounded-full flex items-center justify-center">
                   3
                 </span>
@@ -285,7 +226,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
                       {user ? getRoleDisplayName(user.role) : ''}
                     </span>
                   </div>
-                  <ChevronDownIcon />
+                  <ChevronDownIcon size={16} />
                 </button>
 
                 {/* 用户下拉菜单 */}
@@ -299,9 +240,10 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
                         }}
                         className="flex items-center w-full px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 rounded-lg transition-colors duration-200"
                       >
-                        <UserIcon />
-                        <span className="ml-3">个人资料</span>
+                        <UserIcon size={16} className="mr-3" />
+                        个人资料
                       </button>
+                      
                       <button
                         onClick={() => {
                           setUserMenuOpen(false);
@@ -309,10 +251,12 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
                         }}
                         className="flex items-center w-full px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 rounded-lg transition-colors duration-200"
                       >
-                        <SettingsIcon />
-                        <span className="ml-3">系统设置</span>
+                        <SettingsIcon size={16} className="mr-3" />
+                        系统设置
                       </button>
-                      <hr className="my-2 border-gray-100" />
+                      
+                      <div className="border-t border-gray-100 my-2"></div>
+                      
                       <button
                         onClick={() => {
                           setUserMenuOpen(false);
@@ -320,8 +264,8 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
                         }}
                         className="flex items-center w-full px-4 py-2 text-sm text-red-600 hover:bg-red-50 rounded-lg transition-colors duration-200"
                       >
-                        <LogoutIcon />
-                        <span className="ml-3">退出登录</span>
+                        <LogoutIcon size={16} className="mr-3" />
+                        退出登录
                       </button>
                     </div>
                   </div>
