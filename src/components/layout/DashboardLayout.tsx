@@ -1,7 +1,7 @@
 'use client';
 
-import { useState } from 'react';
-import { Layout, Menu, Typography, Avatar, Dropdown, Space, Button } from 'antd';
+import { useState, useEffect } from 'react';
+import { Layout, Menu, Typography, Avatar, Dropdown, Space, Button, Spin } from 'antd';
 import {
   DashboardOutlined,
   AppstoreOutlined,
@@ -15,6 +15,7 @@ import {
   MenuUnfoldOutlined,
 } from '@ant-design/icons';
 import { useRouter, usePathname } from 'next/navigation';
+import { useAuth } from '@/contexts/AuthContext';
 
 const { Header, Sider, Content } = Layout;
 const { Title } = Typography;
@@ -27,6 +28,14 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
   const [collapsed, setCollapsed] = useState(false);
   const router = useRouter();
   const pathname = usePathname();
+  const { user, logout, isAuthenticated, isLoading } = useAuth();
+
+  // 如果未认证，重定向到登录页
+  useEffect(() => {
+    if (!isLoading && !isAuthenticated) {
+      router.push('/login');
+    }
+  }, [isAuthenticated, isLoading, router]);
 
   const menuItems = [
     {
@@ -82,15 +91,47 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
     router.push(key);
   };
 
-  const handleUserMenuClick = ({ key }: { key: string }) => {
+  const handleUserMenuClick = async ({ key }: { key: string }) => {
     if (key === 'logout') {
-      // TODO: 实现退出登录逻辑
-      router.push('/login');
+      try {
+        await logout();
+        router.push('/login');
+      } catch (error) {
+        console.error('退出登录失败:', error);
+      }
     } else {
       // TODO: 处理其他用户菜单项
       console.log('User menu clicked:', key);
     }
   };
+
+  // 获取角色显示名称
+  const getRoleDisplayName = (role: string) => {
+    switch (role) {
+      case 'admin':
+        return '系统管理员';
+      case 'manager':
+        return '管理员';
+      case 'operator':
+        return '操作员';
+      default:
+        return '用户';
+    }
+  };
+
+  // 如果正在加载或未认证，显示加载页面
+  if (isLoading || !isAuthenticated) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gray-50">
+        <div className="text-center">
+          <Spin size="large" />
+          <div className="mt-4 text-gray-600">
+            {isLoading ? '正在验证身份...' : '跳转到登录页面...'}
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <Layout className="min-h-screen">
@@ -140,7 +181,14 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
             >
               <Space className="cursor-pointer hover:bg-gray-50 px-3 py-2 rounded">
                 <Avatar size="small" icon={<UserOutlined />} />
-                <span className="text-gray-700">管理员</span>
+                <div className="flex flex-col items-start">
+                  <span className="text-gray-700 font-medium text-sm">
+                    {user?.username || '用户'}
+                  </span>
+                  <span className="text-gray-500 text-xs">
+                    {user ? getRoleDisplayName(user.role) : ''}
+                  </span>
+                </div>
               </Space>
             </Dropdown>
           </Space>
