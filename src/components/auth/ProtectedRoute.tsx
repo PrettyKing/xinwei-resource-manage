@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
 import { checkRolePermission } from '@/lib/auth';
+import { SpinnerIcon, AlertIcon } from '@/components/icons';
 
 interface ProtectedRouteProps {
   children: React.ReactNode;
@@ -30,7 +31,7 @@ export default function ProtectedRoute({
     return (
       <div className="min-h-screen flex items-center justify-center bg-gray-50">
         <div className="text-center">
-          <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mb-4"></div>
+          <SpinnerIcon size={48} className="text-blue-500 mx-auto mb-4" />
           <div className="text-gray-600 font-medium">正在验证权限...</div>
         </div>
       </div>
@@ -42,7 +43,7 @@ export default function ProtectedRoute({
     return fallback || (
       <div className="min-h-screen flex items-center justify-center bg-gray-50">
         <div className="text-center">
-          <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mb-4"></div>
+          <SpinnerIcon size={48} className="text-blue-500 mx-auto mb-4" />
           <div className="text-gray-600 font-medium">跳转到登录页面...</div>
         </div>
       </div>
@@ -57,9 +58,7 @@ export default function ProtectedRoute({
         <div className="max-w-md mx-auto text-center">
           <div className="bg-white p-8 rounded-lg shadow-lg">
             <div className="w-16 h-16 mx-auto mb-4 flex items-center justify-center bg-red-100 rounded-full">
-              <svg className="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.892-.833-2.464 0L4.34 16.5c-.77.833.192 2.5 1.732 2.5z" />
-              </svg>
+              <AlertIcon size={32} className="text-red-600" />
             </div>
             <h1 className="text-2xl font-bold text-gray-900 mb-2">403</h1>
             <p className="text-gray-600 mb-4">抱歉，您没有权限访问此页面。</p>
