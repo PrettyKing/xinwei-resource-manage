@@ -6,7 +6,6 @@ import {
   AppstoreOutlined,
   TeamOutlined,
   DollarOutlined,
-  TrendingUpOutlined,
   AlertOutlined,
 } from '@ant-design/icons';
 
@@ -168,7 +167,7 @@ export default function DashboardPage() {
           <Card
             title={
               <div className="flex items-center">
-                <TrendingUpOutlined className="mr-2" />
+                <AlertOutlined className="mr-2" />
                 最近入库记录
               </div>
             }
