@@ -14,14 +14,24 @@
 - 🏢 供应商管理
 - 📊 库存统计与报表
 - 📱 响应式设计
+- 🎨 现代化 UI 设计
 
 ## 技术栈
 
 - **前端**: Next.js 14, React 18, TypeScript
-- **UI**: Ant Design, Tailwind CSS
+- **UI**: 纯 Tailwind CSS（无任何第三方组件库）
 - **数据库**: MongoDB, Mongoose
 - **认证**: JWT, bcryptjs
 - **状态管理**: React Context + useReducer
+
+## 设计特点
+
+- ✅ **完全无依赖的 UI 组件** - 无 Ant Design 或其他组件库
+- 🎨 **现代化设计** - 渐变背景、阴影效果、圆角设计
+- 📱 **响应式布局** - 适配各种屏幕尺寸
+- ⚡ **高性能** - 轻量级代码，快速加载
+- 🛡️ **类型安全** - 完整的 TypeScript 支持
+- 🎯 **自定义组件** - 完全可控的 UI 组件
 
 ## 快速开始
 
@@ -65,15 +75,14 @@ npm run dev
 
 首次启动系统时，需要创建管理员账号：
 
-1. 访问系统初始化接口：
 ```bash
 curl -X POST http://localhost:3000/api/auth/init
 ```
 
-2. 系统将创建默认管理员账号：
-   - 用户名：`admin`
-   - 密码：`123456`
-   - 邮箱：`admin@xinwei.com`
+### 默认管理员账号
+- 用户名：`admin`
+- 密码：`123456`
+- 邮箱：`admin@xinwei.com`
 
 ### 角色权限
 
@@ -85,9 +94,9 @@ curl -X POST http://localhost:3000/api/auth/init
 
 角色权限采用层级继承机制，高级角色自动拥有低级角色的所有权限。
 
-### API 接口
+## API 接口
 
-#### 认证相关接口
+### 认证相关接口
 
 - `POST /api/auth/register` - 用户注册
 - `POST /api/auth/login` - 用户登录
@@ -96,61 +105,9 @@ curl -X POST http://localhost:3000/api/auth/init
 - `POST /api/auth/init` - 初始化管理员账号
 - `GET /api/auth/init` - 获取系统初始化状态
 
-#### 健康检查
+### 健康检查
 
 - `GET /api/health` - 数据库连接状态检查
-
-### 使用认证系统
-
-#### 在组件中使用认证状态
-
-```tsx
-import { useAuth } from '@/contexts/AuthContext';
-
-function MyComponent() {
-  const { user, isAuthenticated, login, logout } = useAuth();
-  
-  if (!isAuthenticated) {
-    return <div>请先登录</div>;
-  }
-  
-  return <div>欢迎, {user?.username}!</div>;
-}
-```
-
-#### 权限保护组件
-
-```tsx
-import ProtectedRoute from '@/components/auth/ProtectedRoute';
-
-function AdminPage() {
-  return (
-    <ProtectedRoute requiredRole="admin">
-      <div>只有管理员能看到这个页面</div>
-    </ProtectedRoute>
-  );
-}
-```
-
-#### 使用权限Hook
-
-```tsx
-import { usePermission } from '@/components/auth/ProtectedRoute';
-
-function MyComponent() {
-  const { hasPermission, user, role } = usePermission('manager');
-  
-  return (
-    <div>
-      {hasPermission ? (
-        <button>管理员操作</button>
-      ) : (
-        <span>权限不足</span>
-      )}
-    </div>
-  );
-}
-```
 
 ## 项目结构
 
@@ -179,6 +136,26 @@ src/
 │   └── InboundOrder.ts  # 入库单模型
 └── types/               # TypeScript 类型定义
 ```
+
+## UI 组件系统
+
+项目采用完全自定义的 UI 组件，基于 Tailwind CSS 构建：
+
+### 自定义组件特性
+
+- 🎨 **现代设计语言** - 渐变色、阴影、圆角
+- 📱 **响应式设计** - 自适应各种屏幕
+- ⚡ **高性能** - 无第三方组件库依赖
+- 🛠️ **完全可控** - 易于自定义和扩展
+
+### 主要组件
+
+- **输入框** - 带图标、验证状态、密码显示切换
+- **按钮** - 加载状态、不同样式变体
+- **卡片** - 阴影效果、悬停动画
+- **表格** - 响应式、排序、状态标签
+- **消息提示** - 自定义实现的 Toast 消息
+- **加载器** - CSS 动画的加载指示器
 
 ## 数据库设计
 
@@ -255,50 +232,51 @@ src/
 
 ## 开发指南
 
-### 添加新的API路由
+### 添加新的自定义组件
 
-1. 在 `src/app/api/` 目录下创建新的路由文件
-2. 使用认证中间件保护需要权限的接口：
+创建新组件时，请遵循以下原则：
+
+1. **使用 Tailwind CSS** - 不引入任何外部样式库
+2. **响应式设计** - 考虑移动端适配
+3. **类型安全** - 使用 TypeScript 定义 props
+4. **一致性** - 保持与现有组件的设计语言一致
 
 ```typescript
-import { authenticateUser } from '@/lib/auth';
-
-export async function GET(request: NextRequest) {
-  try {
-    // 验证用户身份
-    const user = await authenticateUser(request);
-    
-    // 业务逻辑
-    return NextResponse.json({ success: true });
-  } catch (error) {
-    return NextResponse.json(
-      { error: '认证失败' },
-      { status: 401 }
-    );
-  }
+interface CustomComponentProps {
+  children: React.ReactNode;
+  variant?: 'primary' | 'secondary';
+  size?: 'sm' | 'md' | 'lg';
 }
+
+const CustomComponent = ({ children, variant = 'primary', size = 'md' }: CustomComponentProps) => {
+  return (
+    <div className={`rounded-lg transition-all duration-200 ${
+      variant === 'primary' ? 'bg-blue-600 text-white' : 'bg-gray-100 text-gray-900'
+    } ${
+      size === 'sm' ? 'px-3 py-2 text-sm' : 
+      size === 'lg' ? 'px-6 py-4 text-lg' : 'px-4 py-3'
+    }`}>
+      {children}
+    </div>
+  );
+};
 ```
 
-### 添加权限保护的页面
+### 权限控制
+
+使用内置的权限保护组件：
 
 ```tsx
-import { withAuth } from '@/components/auth/ProtectedRoute';
+import ProtectedRoute from '@/components/auth/ProtectedRoute';
 
 function AdminPage() {
-  return <div>管理员页面</div>;
+  return (
+    <ProtectedRoute requiredRole="admin">
+      <div>只有管理员能访问</div>
+    </ProtectedRoute>
+  );
 }
-
-export default withAuth(AdminPage, 'admin');
 ```
-
-### 错误处理
-
-系统提供了统一的错误处理机制：
-
-- **401 Unauthorized**: 未认证或token无效
-- **403 Forbidden**: 权限不足
-- **409 Conflict**: 资源冲突（如用户已存在）
-- **500 Internal Server Error**: 服务器内部错误
 
 ## 安全考虑
 
@@ -307,6 +285,32 @@ export default withAuth(AdminPage, 'admin');
 3. **输入验证**: 所有用户输入都经过严格验证
 4. **权限控制**: 基于角色的访问控制，支持层级权限
 5. **HTTPS**: 生产环境强制使用 HTTPS
+
+## 开发计划
+
+### 已完成 ✅
+
+- [x] 项目基础架构
+- [x] 用户认证系统
+- [x] 权限管理系统
+- [x] 数据库模型设计
+- [x] 现代化 UI 布局
+- [x] 完全移除 Ant Design 依赖
+
+### 进行中 🚧
+
+- [ ] 材料管理模块
+- [ ] 供应商管理模块
+- [ ] 入库管理模块
+
+### 计划中 📋
+
+- [ ] 库存统计模块
+- [ ] 报表生成功能
+- [ ] 数据导入导出
+- [ ] 系统设置模块
+- [ ] 操作日志记录
+- [ ] 消息通知系统
 
 ## 部署
 
@@ -331,44 +335,6 @@ npm run build
 npm start
 ```
 
-### Docker 部署
-
-```dockerfile
-FROM node:18-alpine
-WORKDIR /app
-COPY package*.json ./
-RUN npm ci --only=production
-COPY . .
-RUN npm run build
-EXPOSE 3000
-CMD ["npm", "start"]
-```
-
-## 开发计划
-
-### 已完成 ✅
-
-- [x] 项目基础架构
-- [x] 用户认证系统
-- [x] 权限管理系统
-- [x] 数据库模型设计
-- [x] 基础UI布局
-
-### 进行中 🚧
-
-- [ ] 材料管理模块
-- [ ] 供应商管理模块
-- [ ] 入库管理模块
-
-### 计划中 📋
-
-- [ ] 库存统计模块
-- [ ] 报表生成功能
-- [ ] 数据导入导出
-- [ ] 系统设置模块
-- [ ] 操作日志记录
-- [ ] 消息通知系统
-
 ## 贡献指南
 
 1. Fork 本仓库
@@ -376,26 +342,6 @@ CMD ["npm", "start"]
 3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
 4. 推送到分支 (`git push origin feature/AmazingFeature`)
 5. 打开 Pull Request
-
-## 常见问题
-
-### Q: 忘记管理员密码怎么办？
-
-A: 可以通过以下方式重置：
-
-1. 直接修改数据库中的密码字段
-2. 或者清空 users 集合，重新初始化系统
-
-### Q: 如何修改默认的管理员账号？
-
-A: 修改 `src/app/api/auth/init/route.ts` 文件中的默认配置。
-
-### Q: 如何添加新的用户角色？
-
-A: 
-1. 修改 `src/models/User.ts` 中的角色枚举
-2. 更新 `src/lib/auth.ts` 中的权限层级配置
-3. 相应更新所有引用角色的地方
 
 ## 许可证
 
