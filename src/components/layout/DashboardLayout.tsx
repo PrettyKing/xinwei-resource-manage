@@ -15,9 +15,9 @@ import {
   SettingsIcon,
   ChevronDownIcon,
   SearchIcon,
-  BellIcon,
-  SpinnerIcon
+  BellIcon
 } from '@/components/icons';
+import { PageLoading } from '@/components/Loading';
 
 interface DashboardLayoutProps {
   children: React.ReactNode;
@@ -105,17 +105,16 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
     }
   };
 
-  // 如果正在加载或未认证，显示加载页面
+  // 如果正在加载或未认证，显示页面加载
   if (isLoading || !isAuthenticated) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
-        <div className="text-center bg-white p-8 rounded-xl shadow-lg">
-          <SpinnerIcon size={48} className="text-blue-500 mx-auto mb-4" />
-          <div className="text-gray-600 font-medium">
-            {isLoading ? '正在验证身份...' : '跳转到登录页面...'}
-          </div>
-        </div>
-      </div>
+      <PageLoading
+        visible={true}
+        tip={isLoading ? '正在验证身份...' : '跳转到登录页面...'}
+        type="spinner"
+        size="lg"
+        color="primary"
+      />
     );
   }
 
