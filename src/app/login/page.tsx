@@ -9,9 +9,9 @@ import {
   LockIcon,
   MailIcon,
   EyeIcon,
-  EyeSlashIcon,
-  SpinnerIcon
+  EyeSlashIcon
 } from '@/components/icons';
+import { PageLoading, ButtonLoading } from '@/components/Loading';
 
 interface LoginForm {
   username: string;
@@ -74,29 +74,6 @@ const CustomInput = ({ type = 'text', placeholder, value, onChange, icon, error,
   );
 };
 
-// 自定义按钮组件
-interface ButtonProps {
-  type?: 'button' | 'submit';
-  onClick?: () => void;
-  loading?: boolean;
-  children: React.ReactNode;
-  className?: string;
-}
-
-const CustomButton = ({ type = 'button', onClick, loading, children, className = '' }: ButtonProps) => (
-  <button
-    type={type}
-    onClick={onClick}
-    disabled={loading}
-    className={`w-full flex items-center justify-center px-4 py-3 border border-transparent rounded-lg shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200 ${className}`}
-  >
-    {loading && (
-      <SpinnerIcon size={16} className="text-white mr-2" />
-    )}
-    {children}
-  </button>
-);
-
 // 消息提示函数
 const showMessage = (message: string, type: 'success' | 'error' = 'success') => {
   // 创建临时消息元素
@@ -125,7 +102,8 @@ const showMessage = (message: string, type: 'success' | 'error' = 'success') => 
 };
 
 export default function LoginPage() {
-  const [loading, setLoading] = useState(false);
+  const [loginLoading, setLoginLoading] = useState(false);
+  const [registerLoading, setRegisterLoading] = useState(false);
   const [activeTab, setActiveTab] = useState('login');
   const [loginData, setLoginData] = useState<LoginForm>({ username: '', password: '' });
   const [registerData, setRegisterData] = useState<RegisterForm>({
@@ -146,15 +124,16 @@ export default function LoginPage() {
     }
   }, [isAuthenticated, router]);
 
-  // 如果正在加载认证状态，显示加载中
+  // 如果正在加载认证状态，显示页面加载
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center">
-        <div className="text-center bg-white p-8 rounded-xl shadow-lg">
-          <SpinnerIcon size={48} className="text-blue-500 mx-auto mb-4" />
-          <div className="text-gray-600 font-medium">正在验证登录状态...</div>
-        </div>
-      </div>
+      <PageLoading
+        visible={true}
+        tip="正在验证登录状态..."
+        type="spinner"
+        size="lg"
+        color="primary"
+      />
     );
   }
 
@@ -208,7 +187,7 @@ export default function LoginPage() {
     
     if (!validateLogin()) return;
     
-    setLoading(true);
+    setLoginLoading(true);
     try {
       await login(loginData.username, loginData.password);
       showMessage('登录成功！');
@@ -216,7 +195,7 @@ export default function LoginPage() {
     } catch (error) {
       showMessage(error instanceof Error ? error.message : '登录失败', 'error');
     } finally {
-      setLoading(false);
+      setLoginLoading(false);
     }
   };
 
@@ -225,7 +204,7 @@ export default function LoginPage() {
     
     if (!validateRegister()) return;
     
-    setLoading(true);
+    setRegisterLoading(true);
     try {
       await register({
         username: registerData.username,
@@ -237,7 +216,7 @@ export default function LoginPage() {
     } catch (error) {
       showMessage(error instanceof Error ? error.message : '注册失败', 'error');
     } finally {
-      setLoading(false);
+      setRegisterLoading(false);
     }
   };
 
@@ -302,9 +281,15 @@ export default function LoginPage() {
                 required
               />
 
-              <CustomButton type="submit" loading={loading} className="mt-6">
-                {loading ? '登录中...' : '立即登录'}
-              </CustomButton>
+              <ButtonLoading
+                type="submit"
+                loading={loginLoading}
+                loadingText="登录中..."
+                size="default"
+                className="mt-6"
+              >
+                立即登录
+              </ButtonLoading>
 
               <div className="text-center mt-4">
                 <p className="text-sm text-gray-600">测试账号：admin / 123456</p>
@@ -352,9 +337,15 @@ export default function LoginPage() {
                 required
               />
 
-              <CustomButton type="submit" loading={loading} className="mt-6">
-                {loading ? '注册中...' : '立即注册'}
-              </CustomButton>
+              <ButtonLoading
+                type="submit"
+                loading={registerLoading}
+                loadingText="注册中..."
+                size="default"
+                className="mt-6"
+              >
+                立即注册
+              </ButtonLoading>
 
               <div className="text-center mt-4">
                 <p className="text-sm text-gray-600">注册后将自动登录系统</p>
