@@ -29,7 +29,7 @@ interface MaterialsPageState {
 }
 
 export default function MaterialsPage() {
-  const { user } = useAuth();
+  const { user, token } = useAuth();
   const [state, setState] = useState<MaterialsPageState>({
     materials: [],
     loading: true,
@@ -58,14 +58,33 @@ export default function MaterialsPage() {
       if (state.filter.status) params.append('status', state.filter.status);
       if (state.filter.lowStock) params.append('lowStock', 'true');
 
-      const response = await fetch(`/api/materials?${params}`);
+      const headers: HeadersInit = {
+        'Content-Type': 'application/json',
+      };
+
+      // 添加认证头
+      if (token) {
+        headers['Authorization'] = `Bearer ${token}`;
+      }
+
+      const response = await fetch(`/api/materials?${params}`, {
+        headers
+      });
+
+      if (!response.ok) {
+        if (response.status === 401) {
+          throw new Error('登录已过期，请重新登录');
+        }
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+      }
+
       const result = await response.json();
 
       if (result.success) {
         setState(prev => ({
           ...prev,
-          materials: result.data.items,
-          total: result.data.total,
+          materials: result.data.items || [],
+          total: result.data.total || 0,
           loading: false
         }));
       } else {
@@ -73,15 +92,23 @@ export default function MaterialsPage() {
       }
     } catch (error) {
       console.error('获取材料列表失败:', error);
-      setState(prev => ({ ...prev, loading: false }));
+      setState(prev => ({ 
+        ...prev, 
+        loading: false,
+        materials: [],
+        total: 0
+      }));
       // TODO: 显示错误提示
+      alert(error instanceof Error ? error.message : '获取材料列表失败');
     }
   };
 
   // 初始化加载
   useEffect(() => {
-    fetchMaterials();
-  }, [state.pagination, state.filter]);
+    if (token) { // 只有在有token时才获取数据
+      fetchMaterials();
+    }
+  }, [token, state.pagination, state.filter]);
 
   // 搜索处理
   const handleSearch = (keyword: string) => {
@@ -119,21 +146,37 @@ export default function MaterialsPage() {
     }
 
     try {
+      const headers: HeadersInit = {
+        'Content-Type': 'application/json',
+      };
+
+      if (token) {
+        headers['Authorization'] = `Bearer ${token}`;
+      }
+
       const response = await fetch(`/api/materials/${material.id}`, {
         method: 'DELETE',
+        headers
       });
       
+      if (!response.ok) {
+        if (response.status === 401) {
+          throw new Error('登录已过期，请重新登录');
+        }
+        throw new Error(`HTTP ${response.status}`);
+      }
+
       const result = await response.json();
       
       if (result.success) {
-        // TODO: 显示成功提示
+        alert('删除成功');
         fetchMaterials();
       } else {
         throw new Error(result.error || '删除失败');
       }
     } catch (error) {
       console.error('删除材料失败:', error);
-      // TODO: 显示错误提示
+      alert(error instanceof Error ? error.message : '删除失败');
     }
   };
 
@@ -148,8 +191,14 @@ export default function MaterialsPage() {
     }
   };
 
-  if (state.loading && state.materials.length === 0) {
+  // 如果还在加载认证状态，显示加载页面
+  if (!user && state.loading) {
     return <PageLoading visible={true} tip="加载材料数据中..." />;
+  }
+
+  // 如果未认证，不渲染内容（让 ProtectedRoute 处理重定向）
+  if (!user || !token) {
+    return null;
   }
 
   return (
@@ -248,155 +297,170 @@ export default function MaterialsPage() {
       {/* 材料列表 */}
       <div className="content-card">
         <LocalLoading spinning={state.loading}>
-          <div className="overflow-x-auto">
-            <table className="min-w-full divide-y divide-gray-200">
-              <thead className="bg-gray-50">
-                <tr>
-                  <th 
-                    className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
-                    onClick={() => handleSort('code')}
-                  >
-                    材料编码
-                  </th>
-                  <th 
-                    className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
-                    onClick={() => handleSort('name')}
-                  >
-                    材料名称
-                  </th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    规格
-                  </th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    单位
-                  </th>
-                  <th 
-                    className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
-                    onClick={() => handleSort('currentStock')}
-                  >
-                    当前库存
-                  </th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    库存范围
-                  </th>
-                  <th 
-                    className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
-                    onClick={() => handleSort('price')}
-                  >
-                    单价
-                  </th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    状态
-                  </th>
-                  <th className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
-                    操作
-                  </th>
-                </tr>
-              </thead>
-              <tbody className="bg-white divide-y divide-gray-200">
-                {state.materials.map((material) => {
-                  const stockStatus = getStockStatus(material);
-                  return (
-                    <tr key={material.id} className="hover:bg-gray-50">
-                      <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                        {material.code}
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div>
-                          <div className="text-sm font-medium text-gray-900">{material.name}</div>
-                          {material.description && (
-                            <div className="text-sm text-gray-500">{material.description}</div>
-                          )}
-                        </div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                        {material.specification}
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                        {material.unit}
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <div className="flex items-center gap-2">
-                          <span className="text-sm font-medium text-gray-900">
-                            {material.currentStock}
-                          </span>
-                          {material.currentStock <= material.minStock && (
-                            <AlertIcon size={16} className="text-red-500" />
-                          )}
-                        </div>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                        {material.minStock} - {material.maxStock}
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                        ¥{material.price.toFixed(2)}
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${stockStatus.color}`}>
-                          {stockStatus.text}
-                        </span>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                        <div className="flex items-center justify-end gap-2">
-                          <button
-                            onClick={() => setState(prev => ({ 
-                              ...prev, 
-                              selectedMaterial: material, 
-                              showEditModal: true 
-                            }))}
-                            className="text-blue-600 hover:text-blue-900"
-                          >
-                            <EditIcon size={16} />
-                          </button>
-                          {(user?.role === 'admin' || user?.role === 'manager') && (
-                            <button
-                              onClick={() => handleDelete(material)}
-                              className="text-red-600 hover:text-red-900"
-                            >
-                              <DeleteIcon size={16} />
-                            </button>
-                          )}
-                        </div>
-                      </td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
-          </div>
-
-          {/* 分页 */}
-          {state.total > state.pagination.pageSize && (
-            <div className="mt-6 flex items-center justify-between">
-              <div className="text-sm text-gray-700">
-                显示 {((state.pagination.page - 1) * state.pagination.pageSize) + 1} 到{' '}
-                {Math.min(state.pagination.page * state.pagination.pageSize, state.total)} 条，
-                共 {state.total} 条记录
-              </div>
-              
-              <div className="flex items-center gap-2">
-                <button
-                  onClick={() => handlePageChange(state.pagination.page - 1)}
-                  disabled={state.pagination.page <= 1}
-                  className="btn-secondary disabled:opacity-50 disabled:cursor-not-allowed"
-                >
-                  上一页
-                </button>
-                
-                <span className="text-sm text-gray-700">
-                  第 {state.pagination.page} 页，共{' '}
-                  {Math.ceil(state.total / state.pagination.pageSize)} 页
-                </span>
-                
-                <button
-                  onClick={() => handlePageChange(state.pagination.page + 1)}
-                  disabled={state.pagination.page >= Math.ceil(state.total / state.pagination.pageSize)}
-                  className="btn-secondary disabled:opacity-50 disabled:cursor-not-allowed"
-                >
-                  下一页
-                </button>
+          {state.materials.length === 0 ? (
+            <div className="text-center py-12">
+              <MaterialsIcon size={64} className="text-gray-300 mx-auto mb-4" />
+              <div className="text-gray-500 text-lg mb-2">暂无材料数据</div>
+              <div className="text-gray-400 text-sm">
+                {state.filter.keyword || state.filter.status || state.filter.lowStock
+                  ? '没有找到符合条件的材料'
+                  : '点击上方"新增材料"按钮开始添加材料'
+                }
               </div>
             </div>
+          ) : (
+            <>
+              <div className="overflow-x-auto">
+                <table className="min-w-full divide-y divide-gray-200">
+                  <thead className="bg-gray-50">
+                    <tr>
+                      <th 
+                        className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
+                        onClick={() => handleSort('code')}
+                      >
+                        材料编码
+                      </th>
+                      <th 
+                        className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
+                        onClick={() => handleSort('name')}
+                      >
+                        材料名称
+                      </th>
+                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        规格
+                      </th>
+                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        单位
+                      </th>
+                      <th 
+                        className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
+                        onClick={() => handleSort('currentStock')}
+                      >
+                        当前库存
+                      </th>
+                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        库存范围
+                      </th>
+                      <th 
+                        className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
+                        onClick={() => handleSort('price')}
+                      >
+                        单价
+                      </th>
+                      <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        状态
+                      </th>
+                      <th className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        操作
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody className="bg-white divide-y divide-gray-200">
+                    {state.materials.map((material) => {
+                      const stockStatus = getStockStatus(material);
+                      return (
+                        <tr key={material.id} className="hover:bg-gray-50">
+                          <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                            {material.code}
+                          </td>
+                          <td className="px-6 py-4 whitespace-nowrap">
+                            <div>
+                              <div className="text-sm font-medium text-gray-900">{material.name}</div>
+                              {material.description && (
+                                <div className="text-sm text-gray-500">{material.description}</div>
+                              )}
+                            </div>
+                          </td>
+                          <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                            {material.specification}
+                          </td>
+                          <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                            {material.unit}
+                          </td>
+                          <td className="px-6 py-4 whitespace-nowrap">
+                            <div className="flex items-center gap-2">
+                              <span className="text-sm font-medium text-gray-900">
+                                {material.currentStock}
+                              </span>
+                              {material.currentStock <= material.minStock && (
+                                <AlertIcon size={16} className="text-red-500" />
+                              )}
+                            </div>
+                          </td>
+                          <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                            {material.minStock} - {material.maxStock}
+                          </td>
+                          <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                            ¥{material.price.toFixed(2)}
+                          </td>
+                          <td className="px-6 py-4 whitespace-nowrap">
+                            <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${stockStatus.color}`}>
+                              {stockStatus.text}
+                            </span>
+                          </td>
+                          <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                            <div className="flex items-center justify-end gap-2">
+                              <button
+                                onClick={() => setState(prev => ({ 
+                                  ...prev, 
+                                  selectedMaterial: material, 
+                                  showEditModal: true 
+                                }))}
+                                className="text-blue-600 hover:text-blue-900"
+                              >
+                                <EditIcon size={16} />
+                              </button>
+                              {(user?.role === 'admin' || user?.role === 'manager') && (
+                                <button
+                                  onClick={() => handleDelete(material)}
+                                  className="text-red-600 hover:text-red-900"
+                                >
+                                  <DeleteIcon size={16} />
+                                </button>
+                              )}
+                            </div>
+                          </td>
+                        </tr>
+                      );
+                    })}
+                  </tbody>
+                </table>
+              </div>
+
+              {/* 分页 */}
+              {state.total > state.pagination.pageSize && (
+                <div className="mt-6 flex items-center justify-between">
+                  <div className="text-sm text-gray-700">
+                    显示 {((state.pagination.page - 1) * state.pagination.pageSize) + 1} 到{' '}
+                    {Math.min(state.pagination.page * state.pagination.pageSize, state.total)} 条，
+                    共 {state.total} 条记录
+                  </div>
+                  
+                  <div className="flex items-center gap-2">
+                    <button
+                      onClick={() => handlePageChange(state.pagination.page - 1)}
+                      disabled={state.pagination.page <= 1}
+                      className="btn-secondary disabled:opacity-50 disabled:cursor-not-allowed"
+                    >
+                      上一页
+                    </button>
+                    
+                    <span className="text-sm text-gray-700">
+                      第 {state.pagination.page} 页，共{' '}
+                      {Math.ceil(state.total / state.pagination.pageSize)} 页
+                    </span>
+                    
+                    <button
+                      onClick={() => handlePageChange(state.pagination.page + 1)}
+                      disabled={state.pagination.page >= Math.ceil(state.total / state.pagination.pageSize)}
+                      className="btn-secondary disabled:opacity-50 disabled:cursor-not-allowed"
+                    >
+                      下一页
+                    </button>
+                  </div>
+                </div>
+              )}
+            </>
           )}
         </LocalLoading>
       </div>
