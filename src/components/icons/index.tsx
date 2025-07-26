@@ -552,3 +552,22 @@ export const CalendarIcon = ({ className = "", size = 20 }: IconProps) => (
     />
   </svg>
 );
+
+
+export const CheckIcon = ({ className = "", size = 20 }: IconProps) => (
+  <svg
+    className={className}
+    width={size}
+    height={size}
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M5 13l4 4L19 7"
+    />
+  </svg>
+);
