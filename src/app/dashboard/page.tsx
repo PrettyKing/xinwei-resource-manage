@@ -9,8 +9,7 @@ import {
   SuppliersIcon,
   InboundIcon,
   AlertIcon,
-  TrendUpIcon,
-  TrendDownIcon,
+  TrendingUpIcon,
   CalendarIcon
 } from '@/components/icons';
 import { PageLoading, LocalLoading } from '@/components/Loading';
@@ -192,7 +191,7 @@ export default function DashboardPage() {
           <div className="bg-gray-50 rounded-xl p-6">
             <div className="flex items-center justify-between mb-4">
               <h3 className="text-lg font-semibold text-gray-900">库存总价值</h3>
-              <TrendUpIcon size={20} className="text-green-500" />
+              <TrendingUpIcon size={20} className="text-green-500" />
             </div>
             <div className="text-3xl font-bold text-gray-900 mb-2">
               {formatCurrency(stats.totalValue)}
