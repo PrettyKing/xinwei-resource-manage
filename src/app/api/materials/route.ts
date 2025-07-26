@@ -82,9 +82,10 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    // 验证数值字段
     if (data.minStock < 0 || data.maxStock < 0 || data.price < 0) {
       return NextResponse.json(
-        { success: false, error: '数值不能为负数' },
+        { success: false, error: '库存和价格不能为负数' },
         { status: 400 }
       );
     }
