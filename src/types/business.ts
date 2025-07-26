@@ -46,7 +46,7 @@ export interface MaterialCategory {
 
 // 材料类型
 export interface Material {
-  id: string;
+  _id: string;
   name: string;
   code: string;
   categoryId: string;
@@ -68,6 +68,7 @@ export type InboundStatus = 'draft' | 'pending' | 'approved' | 'rejected' | 'com
 
 // 入库单类型
 export interface InboundOrder {
+  remark: any;
   id: string;
   orderNo: string;
   supplierId: string;
@@ -90,6 +91,7 @@ export interface InboundOrder {
 
 // 入库单明细
 export interface InboundItem {
+  remark: string;
   id: string;
   inboundOrderId: string;
   materialId: string;

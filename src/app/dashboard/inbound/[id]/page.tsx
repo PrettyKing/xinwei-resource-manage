@@ -348,7 +348,7 @@ export default function InboundDetailPage() {
                       <UserIcon size={16} className="text-gray-400" />
                       <span className="text-sm text-gray-600">创建人：</span>
                       <span className="text-sm font-medium">
-                        {state.inbound.submittedBy?.name || '未知'}
+                        {state.inbound.submittedBy || '未知'}
                       </span>
                     </div>
                     <div className="flex items-center gap-2">

@@ -42,13 +42,11 @@ export default function CreateInboundModal({
     form: {
       title: '',
       supplierId: '',
-      remark: '',
       items: [
         {
           materialId: '',
           quantity: 0,
           unitPrice: 0,
-          remark: ''
         }
       ]
     },
@@ -363,19 +361,6 @@ export default function CreateInboundModal({
                   )}
                 </div>
               </div>
-
-              <div className="mt-4">
-                <label className="block text-sm font-medium text-gray-700 mb-1">
-                  备注
-                </label>
-                <textarea
-                  value={state.form.remark}
-                  onChange={(e) => updateField('remark', e.target.value)}
-                  className="input-field"
-                  rows={3}
-                  placeholder="请输入备注信息（可选）"
-                />
-              </div>
             </div>
 
             {/* 入库明细 */}
@@ -426,7 +411,7 @@ export default function CreateInboundModal({
                           >
                             <option value="">请选择材料</option>
                             {state.materials.map((material) => (
-                              <option key={material.id} value={material.id}>
+                              <option key={material._id} value={material._id}>
                                 {material.name} ({material.specification})
                               </option>
                             ))}
@@ -473,13 +458,7 @@ export default function CreateInboundModal({
                           </span>
                         </td>
                         <td className="px-4 py-3">
-                          <input
-                            type="text"
-                            value={item.remark}
-                            onChange={(e) => updateItem(index, 'remark', e.target.value)}
-                            className="input-field w-32"
-                            placeholder="备注"
-                          />
+                          <div>-</div>
                         </td>
                         <td className="px-4 py-3 text-center">
                           <button
