@@ -310,7 +310,12 @@ export class SupplierService {
     return Supplier.find({ status: 'active' })
       .select('name code')
       .sort({ name: 1 })
-      .lean();
+      .lean()
+      .then(suppliers => suppliers.map(s => ({ 
+        id: s._id.toString(), 
+        name: s.name, 
+        code: s.code 
+      })));
   }
 }
 
@@ -489,6 +494,9 @@ export class InboundService {
     const [items, total] = await Promise.all([
       InboundOrder.find(query)
         .populate('supplier')
+        .populate('submittedBy', 'username realName')
+        .populate('approvedBy', 'username realName')
+        .populate('completedBy', 'username realName')
         .sort(sort)
         .skip(skip)
         .limit(pagination.pageSize)
@@ -507,18 +515,34 @@ export class InboundService {
 
   static async getById(id: string): Promise<IInboundOrder | null> {
     await connectDB();
-    return InboundOrder.findById(id)
+    
+    const inbound = await InboundOrder.findById(id)
       .populate('supplier')
+      .populate('submittedBy', 'username realName')
+      .populate('approvedBy', 'username realName')
+      .populate('completedBy', 'username realName')
+      .lean();
+
+    if (!inbound) return null;
+
+    // 获取入库明细
+    const items = await InboundItem.find({ inboundOrderId: id })
       .populate({
-        path: 'items',
+        path: 'materialId',
         populate: {
-          path: 'material',
-          populate: {
-            path: 'category'
-          }
+          path: 'category'
         }
       })
       .lean();
+
+    return {
+      ...inbound,
+      items: items.map(item => ({
+        ...item,
+        material: item.materialId,
+        id: item._id.toString()
+      }))
+    };
   }
 
   static async create(data: CreateInboundForm, userId: string): Promise<IInboundOrder> {
@@ -544,13 +568,20 @@ export class InboundService {
         totalAmount += item.quantity * item.unitPrice;
       }
 
+      // 生成入库单号
+      const now = new Date();
+      const dateStr = now.toISOString().slice(0, 10).replace(/-/g, '');
+      const randomStr = Math.random().toString(36).substr(2, 4).toUpperCase();
+      const orderNo = `IN${dateStr}${randomStr}`;
+
       // 创建入库单
       const inboundOrder = new InboundOrder({
-        supplierId: data.supplierId,
+        orderNo,
+        supplierId: new mongoose.Types.ObjectId(data.supplierId),
         title: data.title,
-        description: data.description,
+        remark: data.remark,
         totalAmount,
-        submittedBy: userId,
+        submittedBy: new mongoose.Types.ObjectId(userId),
         status: 'draft'
       });
 
@@ -558,14 +589,12 @@ export class InboundService {
 
       // 创建入库单明细
       const items = data.items.map(item => ({
-        inboundOrderId: inboundOrder._id.toString(),
-        materialId: item.materialId,
+        inboundOrderId: inboundOrder._id,
+        materialId: new mongoose.Types.ObjectId(item.materialId),
         quantity: item.quantity,
         unitPrice: item.unitPrice,
         totalPrice: item.quantity * item.unitPrice,
-        description: item.description,
-        batchNo: item.batchNo,
-        expiryDate: item.expiryDate,
+        remark: item.remark,
         status: 'pending'
       }));
 
@@ -574,7 +603,7 @@ export class InboundService {
       await session.commitTransaction();
       
       // 返回完整数据
-      return this.getById(inboundOrder._id.toString());
+      return this.getById(inboundOrder._id.toString()) as Promise<IInboundOrder>;
     } catch (error) {
       await session.abortTransaction();
       throw error;
@@ -621,7 +650,7 @@ export class InboundService {
     }
 
     inboundOrder.status = 'approved';
-    inboundOrder.approvedBy = userId;
+    inboundOrder.approvedBy = new mongoose.Types.ObjectId(userId);
     inboundOrder.approvedAt = new Date();
     await inboundOrder.save();
 
@@ -642,7 +671,7 @@ export class InboundService {
 
     inboundOrder.status = 'rejected';
     inboundOrder.rejectedReason = reason;
-    inboundOrder.approvedBy = userId;
+    inboundOrder.approvedBy = new mongoose.Types.ObjectId(userId);
     inboundOrder.approvedAt = new Date();
     await inboundOrder.save();
 
@@ -675,27 +704,12 @@ export class InboundService {
         if (actualQuantity > 0) {
           // 更新材料库存
           await MaterialService.updateStock(
-            item.materialId,
+            item.materialId.toString(),
             actualQuantity,
             'inbound',
             userId,
             id
           );
-
-          // 创建库存批次
-          if (item.batchNo) {
-            const stockBatch = new StockBatch({
-              materialId: item.materialId,
-              batchNo: item.batchNo,
-              quantity: actualQuantity,
-              unitPrice: item.unitPrice,
-              supplierId: inboundOrder.supplierId,
-              inboundOrderId: id,
-              expiryDate: item.expiryDate,
-              status: 'available'
-            });
-            await stockBatch.save({ session });
-          }
         }
 
         // 更新明细状态
@@ -706,7 +720,7 @@ export class InboundService {
 
       // 更新入库单状态
       inboundOrder.status = 'completed';
-      inboundOrder.completedBy = userId;
+      inboundOrder.completedBy = new mongoose.Types.ObjectId(userId);
       inboundOrder.completedAt = new Date();
       await inboundOrder.save({ session });
 
@@ -840,7 +854,7 @@ export class DashboardService {
         type,
         title: inbound.title,
         description,
-        userId: inbound.submittedBy,
+        userId: inbound.submittedBy.toString(),
         userName: '系统用户', // TODO: 从用户表获取真实姓名
         createdAt: inbound.updatedAt
       });
