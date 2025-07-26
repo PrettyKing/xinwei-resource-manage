@@ -3,9 +3,16 @@ export interface User {
   id: string;
   username: string;
   email: string;
+  password?: string; // 只在创建时使用，返回时应该被排除
   role: 'admin' | 'manager' | 'operator';
+  status: 'active' | 'inactive';
+  realName?: string;
+  phone?: string;
+  lastLoginAt?: Date;
   createdAt: Date;
   updatedAt: Date;
+  createdBy?: string;
+  updatedBy?: string;
 }
 
 // 供应商类型
@@ -31,6 +38,7 @@ export interface MaterialCategory {
   description?: string;
   parentId?: string;
   level: number;
+  path: string;
   children?: MaterialCategory[];
 }
 
@@ -197,6 +205,12 @@ export interface SupplierFilter {
   keyword?: string;
 }
 
+export interface UserFilter {
+  role?: 'admin' | 'manager' | 'operator';
+  status?: 'active' | 'inactive';
+  keyword?: string;
+}
+
 // 统计数据类型
 export interface DashboardStats {
   totalMaterials: number;
@@ -282,6 +296,24 @@ export interface CreateInboundItemForm {
   description?: string;
   batchNo?: string;
   expiryDate?: Date;
+}
+
+export interface CreateUserForm {
+  username: string;
+  email: string;
+  password: string;
+  role: 'admin' | 'manager' | 'operator';
+  realName?: string;
+  phone?: string;
+}
+
+export interface UpdateUserForm {
+  email?: string;
+  password?: string;
+  role?: 'admin' | 'manager' | 'operator';
+  status?: 'active' | 'inactive';
+  realName?: string;
+  phone?: string;
 }
 
 // 系统配置类型
