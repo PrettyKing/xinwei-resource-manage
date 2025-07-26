@@ -8,7 +8,9 @@ export interface User {
   status: 'active' | 'inactive';
   realName?: string;
   phone?: string;
-  lastLoginAt?: Date;
+  isActive?: boolean; // 兼容AuthContext中的isActive字段
+  lastLogin?: Date;
+  lastLoginAt?: Date; // 兼容AuthContext中的lastLogin字段
   createdAt: Date;
   updatedAt: Date;
   createdBy?: string;
