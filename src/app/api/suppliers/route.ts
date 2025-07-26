@@ -43,6 +43,15 @@ export async function GET(request: NextRequest) {
       keyword: searchParams.get('keyword') || undefined,
     };
 
+    // 如果只是获取选项列表
+    if (searchParams.get('options') === 'true') {
+      const options = await SupplierService.getOptions();
+      return NextResponse.json({
+        success: true,
+        data: options
+      });
+    }
+
     const result = await SupplierService.getAll(filter, pagination);
     
     return NextResponse.json({
@@ -81,8 +90,7 @@ export async function POST(request: NextRequest) {
     }
 
     // 验证手机号格式
-    const phoneRegex = /^1[3-9]\d{9}$/;
-    if (!phoneRegex.test(data.phone)) {
+    if (!/^1[3-9]\d{9}$/.test(data.phone)) {
       return NextResponse.json(
         { success: false, error: '请输入正确的手机号码' },
         { status: 400 }
@@ -90,14 +98,11 @@ export async function POST(request: NextRequest) {
     }
 
     // 验证邮箱格式（如果提供）
-    if (data.email) {
-      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      if (!emailRegex.test(data.email)) {
-        return NextResponse.json(
-          { success: false, error: '请输入正确的邮箱地址' },
-          { status: 400 }
-        );
-      }
+    if (data.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email)) {
+      return NextResponse.json(
+        { success: false, error: '请输入正确的邮箱地址' },
+        { status: 400 }
+      );
     }
 
     const supplier = await SupplierService.create(data, user.id);
