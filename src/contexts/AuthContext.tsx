@@ -1,17 +1,7 @@
 'use client';
 
 import React, { createContext, useContext, useReducer, useEffect } from 'react';
-
-// 用户状态类型定义
-interface User {
-  id: string;
-  username: string;
-  email: string;
-  role: 'admin' | 'manager' | 'operator';
-  isActive: boolean;
-  lastLogin?: Date;
-  createdAt: Date;
-}
+import { User } from '@/types/business';
 
 interface AuthState {
   user: User | null;
