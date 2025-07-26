@@ -6,21 +6,26 @@ import {
   InboundItem, 
   StockRecord, 
   StockBatch,
+  User,
   IMaterial,
   IMaterialCategory,
   ISupplier,
   IInboundOrder,
   IInboundItem,
   IStockRecord,
-  IStockBatch
+  IStockBatch,
+  IUser
 } from '@/models';
 import { 
   CreateMaterialForm, 
   CreateSupplierForm, 
   CreateInboundForm,
+  CreateUserForm,
+  UpdateUserForm,
   MaterialFilter,
   InboundFilter,
   SupplierFilter,
+  UserFilter,
   PaginationParams,
   PaginatedResponse,
   DashboardStats,
@@ -306,6 +311,148 @@ export class SupplierService {
       .select('name code')
       .sort({ name: 1 })
       .lean();
+  }
+}
+
+export class UserService {
+  static async getAll(filter: UserFilter, pagination: PaginationParams): Promise<PaginatedResponse<IUser>> {
+    await connectDB();
+    
+    const query: any = {};
+    
+    if (filter.role) query.role = filter.role;
+    if (filter.status) query.status = filter.status;
+    if (filter.keyword) {
+      query.$or = [
+        { username: { $regex: filter.keyword, $options: 'i' } },
+        { email: { $regex: filter.keyword, $options: 'i' } },
+        { realName: { $regex: filter.keyword, $options: 'i' } }
+      ];
+    }
+
+    const skip = (pagination.page - 1) * pagination.pageSize;
+    const sort: any = {};
+    if (pagination.sortBy) {
+      sort[pagination.sortBy] = pagination.sortOrder === 'desc' ? -1 : 1;
+    } else {
+      sort.createdAt = -1;
+    }
+
+    const [items, total] = await Promise.all([
+      User.find(query)
+        .select('-password') // 不返回密码字段
+        .sort(sort)
+        .skip(skip)
+        .limit(pagination.pageSize)
+        .lean(),
+      User.countDocuments(query)
+    ]);
+
+    return {
+      items,
+      total,
+      page: pagination.page,
+      pageSize: pagination.pageSize,
+      totalPages: Math.ceil(total / pagination.pageSize)
+    };
+  }
+
+  static async getById(id: string): Promise<IUser | null> {
+    await connectDB();
+    return User.findById(id).select('-password').lean();
+  }
+
+  static async create(data: CreateUserForm, userId: string): Promise<IUser> {
+    await connectDB();
+    
+    // 检查用户名是否唯一
+    const existingUsername = await User.findOne({ username: data.username });
+    if (existingUsername) {
+      throw new Error('用户名已存在');
+    }
+
+    // 检查邮箱是否唯一
+    const existingEmail = await User.findOne({ email: data.email });
+    if (existingEmail) {
+      throw new Error('邮箱已存在');
+    }
+
+    const user = new User({
+      ...data,
+      createdBy: userId
+    });
+
+    await user.save();
+    
+    // 返回时不包含密码
+    const userObj = user.toObject();
+    delete userObj.password;
+    return userObj;
+  }
+
+  static async update(id: string, data: UpdateUserForm, userId: string): Promise<IUser | null> {
+    await connectDB();
+    
+    // 检查邮箱是否唯一（如果要更新邮箱）
+    if (data.email) {
+      const existingEmail = await User.findOne({ email: data.email, _id: { $ne: id } });
+      if (existingEmail) {
+        throw new Error('邮箱已存在');
+      }
+    }
+
+    const user = await User.findByIdAndUpdate(
+      id,
+      { ...data, updatedBy: userId },
+      { new: true, runValidators: true }
+    ).select('-password');
+
+    return user?.toObject() || null;
+  }
+
+  static async delete(id: string): Promise<boolean> {
+    await connectDB();
+    
+    const user = await User.findById(id);
+    if (!user) {
+      throw new Error('用户不存在');
+    }
+
+    // 检查是否是最后一个管理员
+    if (user.role === 'admin') {
+      const adminCount = await User.countDocuments({ role: 'admin', status: 'active' });
+      if (adminCount <= 1) {
+        throw new Error('不能删除最后一个管理员账户');
+      }
+    }
+
+    const result = await User.findByIdAndDelete(id);
+    return !!result;
+  }
+
+  static async updatePassword(id: string, newPassword: string): Promise<boolean> {
+    await connectDB();
+    
+    const user = await User.findById(id);
+    if (!user) {
+      throw new Error('用户不存在');
+    }
+
+    user.password = newPassword;
+    await user.save();
+    return true;
+  }
+
+  static async updateStatus(id: string, status: 'active' | 'inactive', userId: string): Promise<IUser | null> {
+    await connectDB();
+    
+    const user = await User.findByIdAndUpdate(
+      id,
+      { status, updatedBy: userId },
+      { new: true, runValidators: true }
+    ).select('-password');
+
+    return user?.toObject() || null;
   }
 }
 
