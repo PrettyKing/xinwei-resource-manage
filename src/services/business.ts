@@ -165,11 +165,8 @@ export class MaterialService {
   static async updateStock(materialId: string, quantity: number, type: 'inbound' | 'outbound' | 'adjustment', userId: string, referenceId?: string): Promise<void> {
     await connectDB();
     
-    const session = await mongoose.startSession();
-    session.startTransaction();
-
     try {
-      const material = await Material.findById(materialId).session(session);
+      const material = await Material.findById(materialId);
       if (!material) {
         throw new Error('材料不存在');
       }
@@ -183,7 +180,7 @@ export class MaterialService {
 
       // 更新材料库存
       material.currentStock = afterStock;
-      await material.save({ session });
+      await material.save();
 
       // 创建库存记录
       const stockRecord = new StockRecord({
@@ -197,14 +194,9 @@ export class MaterialService {
         operatedBy: userId,
         operatedAt: new Date()
       });
-      await stockRecord.save({ session });
-
-      await session.commitTransaction();
+      await stockRecord.save();
     } catch (error) {
-      await session.abortTransaction();
       throw error;
-    } finally {
-      session.endSession();
     }
   }
 }
@@ -406,12 +398,9 @@ export class InboundService {
   static async create(data: CreateInboundForm, userId: string): Promise<IInboundOrder> {
     await connectDB();
     
-    const session = await mongoose.startSession();
-    session.startTransaction();
-
     try {
       // 验证供应商
-      const supplier = await Supplier.findById(data.supplierId).session(session);
+      const supplier = await Supplier.findById(data.supplierId);
       if (!supplier) {
         throw new Error('供应商不存在');
       }
@@ -419,7 +408,7 @@ export class InboundService {
       // 验证材料并计算总金额
       let totalAmount = 0;
       for (const item of data.items) {
-        const material = await Material.findById(item.materialId).session(session);
+        const material = await Material.findById(item.materialId);
         if (!material) {
           throw new Error(`材料不存在: ${item.materialId}`);
         }
@@ -432,7 +421,7 @@ export class InboundService {
       const randomStr = Math.random().toString(36).substr(2, 4).toUpperCase();
       const orderNo = `IN${dateStr}${randomStr}`;
 
-      // 创建入库单 - 直接使用字符串，Mongoose会自动转换
+      // 创建入库单
       const inboundOrder = new InboundOrder({
         orderNo,
         supplierId: data.supplierId,
@@ -443,9 +432,9 @@ export class InboundService {
         status: 'draft'
       });
 
-      await inboundOrder.save({ session });
+      await inboundOrder.save();
 
-      // 创建入库单明细 - 直接使用字符串
+      // 创建入库单明细
       const items = data.items.map(item => ({
         inboundOrderId: inboundOrder._id,
         materialId: item.materialId,
@@ -456,17 +445,12 @@ export class InboundService {
         status: 'pending'
       }));
 
-      await InboundItem.insertMany(items, { session });
+      await InboundItem.insertMany(items);
 
-      await session.commitTransaction();
-      
       // 返回完整数据
       return this.getById(inboundOrder._id.toString()) as Promise<IInboundOrder>;
     } catch (error) {
-      await session.abortTransaction();
       throw error;
-    } finally {
-      session.endSession();
     }
   }
 
@@ -539,11 +523,8 @@ export class InboundService {
   static async complete(id: string, actualQuantities: Record<string, number>, userId: string): Promise<IInboundOrder | null> {
     await connectDB();
     
-    const session = await mongoose.startSession();
-    session.startTransaction();
-
     try {
-      const inboundOrder = await InboundOrder.findById(id).session(session);
+      const inboundOrder = await InboundOrder.findById(id);
       if (!inboundOrder) {
         throw new Error('入库单不存在');
       }
@@ -553,7 +534,7 @@ export class InboundService {
       }
 
       // 获取入库单明细
-      const items = await InboundItem.find({ inboundOrderId: id }).session(session);
+      const items = await InboundItem.find({ inboundOrderId: id });
       
       // 更新库存和明细
       for (const item of items) {
@@ -573,34 +554,26 @@ export class InboundService {
         // 更新明细状态
         item.actualQuantity = actualQuantity;
         item.status = actualQuantity === item.quantity ? 'completed' : 'partial';
-        await item.save({ session });
+        await item.save();
       }
 
       // 更新入库单状态
       inboundOrder.status = 'completed';
       inboundOrder.completedBy = userId;
       inboundOrder.completedAt = new Date();
-      await inboundOrder.save({ session });
+      await inboundOrder.save();
 
-      await session.commitTransaction();
-      
       return this.getById(id);
     } catch (error) {
-      await session.abortTransaction();
       throw error;
-    } finally {
-      session.endSession();
     }
   }
 
   static async delete(id: string): Promise<boolean> {
     await connectDB();
     
-    const session = await mongoose.startSession();
-    session.startTransaction();
-
     try {
-      const inboundOrder = await InboundOrder.findById(id).session(session);
+      const inboundOrder = await InboundOrder.findById(id);
       if (!inboundOrder) {
         throw new Error('入库单不存在');
       }
@@ -610,18 +583,14 @@ export class InboundService {
       }
 
       // 删除明细
-      await InboundItem.deleteMany({ inboundOrderId: id }, { session });
+      await InboundItem.deleteMany({ inboundOrderId: id });
       
       // 删除入库单
-      await InboundOrder.findByIdAndDelete(id, { session });
+      await InboundOrder.findByIdAndDelete(id);
 
-      await session.commitTransaction();
       return true;
     } catch (error) {
-      await session.abortTransaction();
       throw error;
-    } finally {
-      session.endSession();
     }
   }
 }
