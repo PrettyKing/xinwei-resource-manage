@@ -478,6 +478,25 @@ export const DeleteIcon = ({ className = "", size = 16 }: IconProps) => (
   </svg>
 );
 
+// 保存图标
+export const SaveIcon = ({ className = "", size = 16 }: IconProps) => (
+  <svg
+    className={className}
+    width={size}
+    height={size}
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4"
+    />
+  </svg>
+);
+
 // 下载图标
 export const DownloadIcon = ({ className = "", size = 16 }: IconProps) => (
   <svg
@@ -535,6 +554,7 @@ export const RefreshIcon = ({ className = "", size = 16 }: IconProps) => (
   </svg>
 );
 
+// 日历图标
 export const CalendarIcon = ({ className = "", size = 20 }: IconProps) => (
   <svg
     className={className}
@@ -548,12 +568,12 @@ export const CalendarIcon = ({ className = "", size = 20 }: IconProps) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={2}
-      d="M8 7V4m8 3V4m-8 0h8m-8 0a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V9a2 2 0 00-2-2H8zM4 9h16"
+      d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
     />
   </svg>
 );
 
-
+// 检查图标
 export const CheckIcon = ({ className = "", size = 20 }: IconProps) => (
   <svg
     className={className}
@@ -568,6 +588,44 @@ export const CheckIcon = ({ className = "", size = 20 }: IconProps) => (
       strokeLinejoin="round"
       strokeWidth={2}
       d="M5 13l4 4L19 7"
+    />
+  </svg>
+);
+
+// 时钟图标
+export const ClockIcon = ({ className = "", size = 16 }: IconProps) => (
+  <svg
+    className={className}
+    width={size}
+    height={size}
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+    />
+  </svg>
+);
+
+// 状态图标
+export const StatusIcon = ({ className = "", size = 16 }: IconProps) => (
+  <svg
+    className={className}
+    width={size}
+    height={size}
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
     />
   </svg>
 );
