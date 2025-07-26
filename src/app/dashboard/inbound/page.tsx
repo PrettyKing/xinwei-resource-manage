@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
 import { InboundOrder, InboundFilter, PaginationParams } from '@/types/business';
 import { 
@@ -32,6 +33,7 @@ interface InboundPageState {
 }
 
 export default function InboundPage() {
+  const router = useRouter();
   const { user: currentUser, token } = useAuth();
   const [state, setState] = useState<InboundPageState>({
     inbounds: [],
@@ -161,6 +163,11 @@ export default function InboundPage() {
   // 创建成功后处理
   const handleCreateSuccess = () => {
     fetchInbounds();
+  };
+
+  // 查看详情
+  const handleViewDetail = (inbound: InboundOrder) => {
+    router.push(`/dashboard/inbound/${inbound.id}`);
   };
 
   // 获取状态显示配置
@@ -445,7 +452,7 @@ export default function InboundPage() {
                           <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                             <div className="flex items-center justify-end gap-2">
                               <button
-                                onClick={() => {/* TODO: 查看详情 */}}
+                                onClick={() => handleViewDetail(inbound)}
                                 className="text-blue-600 hover:text-blue-900 p-1 rounded hover:bg-blue-50"
                                 title="查看详情"
                               >
