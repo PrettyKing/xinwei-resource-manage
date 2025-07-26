@@ -34,13 +34,23 @@ import {
 import { connectDB } from '@/lib/db';
 import mongoose from 'mongoose';
 
+// 验证ObjectId格式
+function isValidObjectId(id: string): boolean {
+  return mongoose.Types.ObjectId.isValid(id);
+}
+
 export class MaterialService {
   static async getAll(filter: MaterialFilter, pagination: PaginationParams): Promise<PaginatedResponse<IMaterial>> {
     await connectDB();
     
     const query: any = {};
     
-    if (filter.categoryId) query.categoryId = filter.categoryId;
+    if (filter.categoryId) {
+      if (!isValidObjectId(filter.categoryId)) {
+        throw new Error('无效的分类ID格式');
+      }
+      query.categoryId = filter.categoryId;
+    }
     if (filter.status) query.status = filter.status;
     if (filter.keyword) {
       query.$or = [
@@ -82,11 +92,21 @@ export class MaterialService {
 
   static async getById(id: string): Promise<IMaterial | null> {
     await connectDB();
+    
+    if (!isValidObjectId(id)) {
+      throw new Error('无效的材料ID格式');
+    }
+    
     return Material.findById(id).populate('category').lean();
   }
 
   static async create(data: CreateMaterialForm, userId: string): Promise<IMaterial> {
     await connectDB();
+    
+    // 验证分类ID格式
+    if (!isValidObjectId(data.categoryId)) {
+      throw new Error('无效的分类ID格式');
+    }
     
     // 检查编码是否唯一
     const existingCode = await Material.findOne({ code: data.code });
@@ -113,6 +133,10 @@ export class MaterialService {
   static async update(id: string, data: Partial<CreateMaterialForm>, userId: string): Promise<IMaterial | null> {
     await connectDB();
     
+    if (!isValidObjectId(id)) {
+      throw new Error('无效的材料ID格式');
+    }
+    
     if (data.code) {
       const existingCode = await Material.findOne({ code: data.code, _id: { $ne: id } });
       if (existingCode) {
@@ -121,6 +145,9 @@ export class MaterialService {
     }
 
     if (data.categoryId) {
+      if (!isValidObjectId(data.categoryId)) {
+        throw new Error('无效的分类ID格式');
+      }
       const category = await MaterialCategory.findById(data.categoryId);
       if (!category) {
         throw new Error('材料分类不存在');
@@ -138,6 +165,10 @@ export class MaterialService {
 
   static async delete(id: string): Promise<boolean> {
     await connectDB();
+    
+    if (!isValidObjectId(id)) {
+      throw new Error('无效的材料ID格式');
+    }
     
     // 检查是否有库存
     const material = await Material.findById(id);
@@ -164,6 +195,10 @@ export class MaterialService {
 
   static async updateStock(materialId: string, quantity: number, type: 'inbound' | 'outbound' | 'adjustment', userId: string, referenceId?: string): Promise<void> {
     await connectDB();
+    
+    if (!isValidObjectId(materialId)) {
+      throw new Error('无效的材料ID格式');
+    }
     
     try {
       const material = await Material.findById(materialId);
@@ -198,6 +233,21 @@ export class MaterialService {
     } catch (error) {
       throw error;
     }
+  }
+
+  static async getOptions(): Promise<Array<{ id: string; name: string; code: string; unit: string; price: number }>> {
+    await connectDB();
+    return Material.find({ status: 'active' })
+      .select('name code unit price')
+      .sort({ name: 1 })
+      .lean()
+      .then(materials => materials.map(m => ({ 
+        id: m._id.toString(), 
+        name: m.name, 
+        code: m.code,
+        unit: m.unit,
+        price: m.price
+      })));
   }
 }
 
@@ -244,6 +294,11 @@ export class SupplierService {
 
   static async getById(id: string): Promise<ISupplier | null> {
     await connectDB();
+    
+    if (!isValidObjectId(id)) {
+      throw new Error('无效的供应商ID格式');
+    }
+    
     return Supplier.findById(id).lean();
   }
 
@@ -268,6 +323,10 @@ export class SupplierService {
   static async update(id: string, data: Partial<CreateSupplierForm>, userId: string): Promise<ISupplier | null> {
     await connectDB();
     
+    if (!isValidObjectId(id)) {
+      throw new Error('无效的供应商ID格式');
+    }
+    
     if (data.code) {
       const existingCode = await Supplier.findOne({ code: data.code, _id: { $ne: id } });
       if (existingCode) {
@@ -286,6 +345,10 @@ export class SupplierService {
 
   static async delete(id: string): Promise<boolean> {
     await connectDB();
+    
+    if (!isValidObjectId(id)) {
+      throw new Error('无效的供应商ID格式');
+    }
     
     // 检查是否有关联的入库单
     const relatedInbound = await InboundOrder.findOne({ supplierId: id });
@@ -318,8 +381,18 @@ export class InboundService {
     const query: any = {};
     
     if (filter.status) query.status = filter.status;
-    if (filter.supplierId) query.supplierId = filter.supplierId;
-    if (filter.submittedBy) query.submittedBy = filter.submittedBy;
+    if (filter.supplierId) {
+      if (!isValidObjectId(filter.supplierId)) {
+        throw new Error('无效的供应商ID格式');
+      }
+      query.supplierId = filter.supplierId;
+    }
+    if (filter.submittedBy) {
+      if (!isValidObjectId(filter.submittedBy)) {
+        throw new Error('无效的用户ID格式');
+      }
+      query.submittedBy = filter.submittedBy;
+    }
     if (filter.keyword) {
       query.$or = [
         { orderNo: { $regex: filter.keyword, $options: 'i' } },
@@ -366,6 +439,10 @@ export class InboundService {
   static async getById(id: string): Promise<IInboundOrder | null> {
     await connectDB();
     
+    if (!isValidObjectId(id)) {
+      throw new Error('无效的入库单ID格式');
+    }
+    
     const inbound = await InboundOrder.findById(id)
       .populate('supplier')
       .populate('submittedBy', 'username realName')
@@ -399,6 +476,11 @@ export class InboundService {
     await connectDB();
     
     try {
+      // 验证供应商ID格式
+      if (!isValidObjectId(data.supplierId)) {
+        throw new Error('无效的供应商ID格式');
+      }
+      
       // 验证供应商
       const supplier = await Supplier.findById(data.supplierId);
       if (!supplier) {
@@ -408,6 +490,10 @@ export class InboundService {
       // 验证材料并计算总金额
       let totalAmount = 0;
       for (const item of data.items) {
+        if (!isValidObjectId(item.materialId)) {
+          throw new Error(`无效的材料ID格式: ${item.materialId}`);
+        }
+        
         const material = await Material.findById(item.materialId);
         if (!material) {
           throw new Error(`材料不存在: ${item.materialId}`);
@@ -457,6 +543,10 @@ export class InboundService {
   static async submit(id: string, userId: string): Promise<IInboundOrder | null> {
     await connectDB();
     
+    if (!isValidObjectId(id)) {
+      throw new Error('无效的入库单ID格式');
+    }
+    
     const inboundOrder = await InboundOrder.findById(id);
     if (!inboundOrder) {
       throw new Error('入库单不存在');
@@ -482,6 +572,10 @@ export class InboundService {
   static async approve(id: string, userId: string): Promise<IInboundOrder | null> {
     await connectDB();
     
+    if (!isValidObjectId(id)) {
+      throw new Error('无效的入库单ID格式');
+    }
+    
     const inboundOrder = await InboundOrder.findById(id);
     if (!inboundOrder) {
       throw new Error('入库单不存在');
@@ -501,6 +595,10 @@ export class InboundService {
 
   static async reject(id: string, reason: string, userId: string): Promise<IInboundOrder | null> {
     await connectDB();
+    
+    if (!isValidObjectId(id)) {
+      throw new Error('无效的入库单ID格式');
+    }
     
     const inboundOrder = await InboundOrder.findById(id);
     if (!inboundOrder) {
@@ -522,6 +620,10 @@ export class InboundService {
 
   static async complete(id: string, actualQuantities: Record<string, number>, userId: string): Promise<IInboundOrder | null> {
     await connectDB();
+    
+    if (!isValidObjectId(id)) {
+      throw new Error('无效的入库单ID格式');
+    }
     
     try {
       const inboundOrder = await InboundOrder.findById(id);
@@ -571,6 +673,10 @@ export class InboundService {
 
   static async delete(id: string): Promise<boolean> {
     await connectDB();
+    
+    if (!isValidObjectId(id)) {
+      throw new Error('无效的入库单ID格式');
+    }
     
     try {
       const inboundOrder = await InboundOrder.findById(id);
