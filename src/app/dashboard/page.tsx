@@ -20,7 +20,7 @@ interface DashboardPageState {
 }
 
 export default function DashboardPage() {
-  const { user } = useAuth();
+  const { user, token } = useAuth();
   const [state, setState] = useState<DashboardPageState>({
     stats: null,
     loading: true,
@@ -31,7 +31,26 @@ export default function DashboardPage() {
     setState(prev => ({ ...prev, loading: true }));
     
     try {
-      const response = await fetch('/api/dashboard/stats');
+      const headers: HeadersInit = {
+        'Content-Type': 'application/json',
+      };
+
+      // 添加认证头
+      if (token) {
+        headers['Authorization'] = `Bearer ${token}`;
+      }
+
+      const response = await fetch('/api/dashboard/stats', {
+        headers
+      });
+
+      if (!response.ok) {
+        if (response.status === 401) {
+          throw new Error('登录已过期，请重新登录');
+        }
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+      }
+
       const result = await response.json();
 
       if (result.success) {
@@ -46,14 +65,17 @@ export default function DashboardPage() {
     } catch (error) {
       console.error('获取统计数据失败:', error);
       setState(prev => ({ ...prev, loading: false }));
-      // TODO: 显示错误提示
+      // 显示错误提示
+      alert(error instanceof Error ? error.message : '获取统计数据失败');
     }
   };
 
   // 初始化加载
   useEffect(() => {
-    fetchStats();
-  }, []);
+    if (token) { // 只有在有token时才获取数据
+      fetchStats();
+    }
+  }, [token]);
 
   // 格式化数字
   const formatNumber = (num: number) => {
@@ -99,11 +121,21 @@ export default function DashboardPage() {
     }
   };
 
+  // 如果还在加载认证状态，显示加载页面
+  if (!user && state.loading) {
+    return <PageLoading visible={true} tip="加载仪表盘数据中..." />;
+  }
+
+  // 如果未认证，不渲染内容（让 ProtectedRoute 处理重定向）
+  if (!user || !token) {
+    return null;
+  }
+
+  const stats = state.stats;
   if (state.loading) {
     return <PageLoading visible={true} tip="加载仪表盘数据中..." />;
   }
 
-  const stats = state.stats;
   if (!stats) {
     return (
       <div className="page-container">

@@ -1,19 +1,35 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { MaterialService } from '@/services/business';
 import { CreateMaterialForm } from '@/types/business';
-import { getServerSession } from 'next-auth';
-import { authOptions } from '@/lib/auth';
+import jwt from 'jsonwebtoken';
 
 interface Params {
   id: string;
 }
 
+// 验证 JWT Token
+function verifyToken(request: NextRequest) {
+  const authorization = request.headers.get('authorization');
+  if (!authorization) {
+    throw new Error('缺少认证令牌');
+  }
+
+  const token = authorization.replace('Bearer ', '');
+  if (!token) {
+    throw new Error('无效的认证令牌');
+  }
+
+  try {
+    const decoded = jwt.verify(token, process.env.JWT_SECRET || 'your-secret-key') as any;
+    return decoded;
+  } catch (error) {
+    throw new Error('认证令牌已过期或无效');
+  }
+}
+
 export async function GET(request: NextRequest, { params }: { params: Params }) {
   try {
-    const session = await getServerSession(authOptions);
-    if (!session) {
-      return NextResponse.json({ error: '未授权' }, { status: 401 });
-    }
+    const user = verifyToken(request);
 
     const material = await MaterialService.getById(params.id);
     
@@ -30,6 +46,14 @@ export async function GET(request: NextRequest, { params }: { params: Params }) 
     });
   } catch (error) {
     console.error('获取材料详情失败:', error);
+    
+    if (error instanceof Error && error.message.includes('认证')) {
+      return NextResponse.json(
+        { success: false, error: error.message },
+        { status: 401 }
+      );
+    }
+    
     return NextResponse.json(
       { success: false, error: error instanceof Error ? error.message : '获取材料详情失败' },
       { status: 500 }
@@ -39,10 +63,7 @@ export async function GET(request: NextRequest, { params }: { params: Params }) 
 
 export async function PUT(request: NextRequest, { params }: { params: Params }) {
   try {
-    const session = await getServerSession(authOptions);
-    if (!session) {
-      return NextResponse.json({ error: '未授权' }, { status: 401 });
-    }
+    const user = verifyToken(request);
 
     const data: Partial<CreateMaterialForm> = await request.json();
     
@@ -75,7 +96,7 @@ export async function PUT(request: NextRequest, { params }: { params: Params }) 
       );
     }
 
-    const material = await MaterialService.update(params.id, data, session.user.id);
+    const material = await MaterialService.update(params.id, data, user.id);
     
     if (!material) {
       return NextResponse.json(
@@ -91,6 +112,14 @@ export async function PUT(request: NextRequest, { params }: { params: Params }) 
     });
   } catch (error) {
     console.error('更新材料失败:', error);
+    
+    if (error instanceof Error && error.message.includes('认证')) {
+      return NextResponse.json(
+        { success: false, error: error.message },
+        { status: 401 }
+      );
+    }
+    
     return NextResponse.json(
       { success: false, error: error instanceof Error ? error.message : '更新材料失败' },
       { status: 500 }
@@ -100,13 +129,10 @@ export async function PUT(request: NextRequest, { params }: { params: Params }) 
 
 export async function DELETE(request: NextRequest, { params }: { params: Params }) {
   try {
-    const session = await getServerSession(authOptions);
-    if (!session) {
-      return NextResponse.json({ error: '未授权' }, { status: 401 });
-    }
+    const user = verifyToken(request);
 
     // 检查权限 - 只有管理员可以删除
-    if (session.user.role !== 'admin' && session.user.role !== 'manager') {
+    if (user.role !== 'admin' && user.role !== 'manager') {
       return NextResponse.json(
         { success: false, error: '权限不足' },
         { status: 403 }
@@ -121,6 +147,14 @@ export async function DELETE(request: NextRequest, { params }: { params: Params 
     });
   } catch (error) {
     console.error('删除材料失败:', error);
+    
+    if (error instanceof Error && error.message.includes('认证')) {
+      return NextResponse.json(
+        { success: false, error: error.message },
+        { status: 401 }
+      );
+    }
+    
     return NextResponse.json(
       { success: false, error: error instanceof Error ? error.message : '删除材料失败' },
       { status: 500 }
