@@ -1,15 +1,31 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { InboundService } from '@/services/business';
 import { CreateInboundForm, InboundFilter, PaginationParams } from '@/types/business';
-import { getServerSession } from 'next-auth';
-import { authOptions } from '@/lib/auth';
+import jwt from 'jsonwebtoken';
+
+// 验证 JWT Token
+function verifyToken(request: NextRequest) {
+  const authorization = request.headers.get('authorization');
+  if (!authorization) {
+    throw new Error('缺少认证令牌');
+  }
+
+  const token = authorization.replace('Bearer ', '');
+  if (!token) {
+    throw new Error('无效的认证令牌');
+  }
+
+  try {
+    const decoded = jwt.verify(token, process.env.JWT_SECRET || 'your-secret-key') as any;
+    return decoded;
+  } catch (error) {
+    throw new Error('认证令牌已过期或无效');
+  }
+}
 
 export async function GET(request: NextRequest) {
   try {
-    const session = await getServerSession(authOptions);
-    if (!session) {
-      return NextResponse.json({ error: '未授权' }, { status: 401 });
-    }
+    const user = verifyToken(request);
 
     const { searchParams } = new URL(request.url);
     
@@ -44,6 +60,14 @@ export async function GET(request: NextRequest) {
     });
   } catch (error) {
     console.error('获取入库单列表失败:', error);
+    
+    if (error instanceof Error && error.message.includes('认证')) {
+      return NextResponse.json(
+        { success: false, error: error.message },
+        { status: 401 }
+      );
+    }
+    
     return NextResponse.json(
       { success: false, error: error instanceof Error ? error.message : '获取入库单列表失败' },
       { status: 500 }
@@ -53,10 +77,7 @@ export async function GET(request: NextRequest) {
 
 export async function POST(request: NextRequest) {
   try {
-    const session = await getServerSession(authOptions);
-    if (!session) {
-      return NextResponse.json({ error: '未授权' }, { status: 401 });
-    }
+    const user = verifyToken(request);
 
     const data: CreateInboundForm = await request.json();
     
@@ -79,7 +100,7 @@ export async function POST(request: NextRequest) {
       }
     }
 
-    const inboundOrder = await InboundService.create(data, session.user.id);
+    const inboundOrder = await InboundService.create(data, user.id);
     
     return NextResponse.json({
       success: true,
@@ -88,6 +109,14 @@ export async function POST(request: NextRequest) {
     });
   } catch (error) {
     console.error('创建入库单失败:', error);
+    
+    if (error instanceof Error && error.message.includes('认证')) {
+      return NextResponse.json(
+        { success: false, error: error.message },
+        { status: 401 }
+      );
+    }
+    
     return NextResponse.json(
       { success: false, error: error instanceof Error ? error.message : '创建入库单失败' },
       { status: 500 }
