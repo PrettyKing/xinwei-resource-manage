@@ -104,7 +104,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
       const data = await response.json();
 
-      if (!response.ok) {
+      if (!data.success) {
         throw new Error(data.error || '登录失败');
       }
 
@@ -141,7 +141,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
       const data = await response.json();
 
-      if (!response.ok) {
+      if (!data.success) {
         throw new Error(data.error || '注册失败');
       }
 
@@ -183,11 +183,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         },
       });
 
-      if (!response.ok) {
+      const data = await response.json();
+
+      if (!data.success) {
         throw new Error('认证失败');
       }
 
-      const data = await response.json();
       dispatch({
         type: 'AUTH_SUCCESS',
         payload: {
