@@ -11,9 +11,12 @@ import {
   DeleteIcon,
   FilterIcon,
   ExportIcon,
-  AlertIcon
+  AlertIcon,
+  RefreshIcon
 } from '@/components/icons';
 import { PageLoading, LocalLoading, ButtonLoading } from '@/components/Loading';
+import MaterialModal from '@/components/MaterialModal';
+import DeleteConfirmModal from '@/components/DeleteConfirmModal';
 
 interface MaterialsPageState {
   materials: Material[];
@@ -26,6 +29,7 @@ interface MaterialsPageState {
   showCreateModal: boolean;
   showEditModal: boolean;
   showDeleteModal: boolean;
+  refreshing: boolean;
 }
 
 export default function MaterialsPage() {
@@ -41,11 +45,16 @@ export default function MaterialsPage() {
     showCreateModal: false,
     showEditModal: false,
     showDeleteModal: false,
+    refreshing: false,
   });
 
   // 获取材料列表
-  const fetchMaterials = async () => {
-    setState(prev => ({ ...prev, loading: true }));
+  const fetchMaterials = async (showRefreshing = false) => {
+    setState(prev => ({ 
+      ...prev, 
+      loading: !showRefreshing,
+      refreshing: showRefreshing 
+    }));
     
     try {
       const params = new URLSearchParams();
@@ -85,7 +94,8 @@ export default function MaterialsPage() {
           ...prev,
           materials: result.data.items || [],
           total: result.data.total || 0,
-          loading: false
+          loading: false,
+          refreshing: false
         }));
       } else {
         throw new Error(result.error || '获取材料列表失败');
@@ -95,10 +105,11 @@ export default function MaterialsPage() {
       setState(prev => ({ 
         ...prev, 
         loading: false,
+        refreshing: false,
         materials: [],
         total: 0
       }));
-      // TODO: 显示错误提示
+      // 显示错误提示
       alert(error instanceof Error ? error.message : '获取材料列表失败');
     }
   };
@@ -139,11 +150,14 @@ export default function MaterialsPage() {
     }));
   };
 
+  // 刷新数据
+  const handleRefresh = () => {
+    fetchMaterials(true);
+  };
+
   // 删除材料
-  const handleDelete = async (material: Material) => {
-    if (!window.confirm(`确定要删除材料 "${material.name}" 吗？`)) {
-      return;
-    }
+  const handleDeleteMaterial = async () => {
+    if (!state.selectedMaterial) return;
 
     try {
       const headers: HeadersInit = {
@@ -154,7 +168,7 @@ export default function MaterialsPage() {
         headers['Authorization'] = `Bearer ${token}`;
       }
 
-      const response = await fetch(`/api/materials/${material.id}`, {
+      const response = await fetch(`/api/materials/${state.selectedMaterial.id}`, {
         method: 'DELETE',
         headers
       });
@@ -170,13 +184,14 @@ export default function MaterialsPage() {
       
       if (result.success) {
         alert('删除成功');
+        setState(prev => ({ ...prev, selectedMaterial: null, showDeleteModal: false }));
         fetchMaterials();
       } else {
         throw new Error(result.error || '删除失败');
       }
     } catch (error) {
       console.error('删除材料失败:', error);
-      alert(error instanceof Error ? error.message : '删除失败');
+      throw error; // 重新抛出错误，让模态框处理
     }
   };
 
@@ -189,6 +204,33 @@ export default function MaterialsPage() {
     } else {
       return { status: 'normal', text: '库存正常', color: 'text-blue-600 bg-blue-50' };
     }
+  };
+
+  // 模态框处理函数
+  const handleModalSuccess = () => {
+    fetchMaterials();
+  };
+
+  const openCreateModal = () => {
+    setState(prev => ({ ...prev, showCreateModal: true, selectedMaterial: null }));
+  };
+
+  const openEditModal = (material: Material) => {
+    setState(prev => ({ ...prev, showEditModal: true, selectedMaterial: material }));
+  };
+
+  const openDeleteModal = (material: Material) => {
+    setState(prev => ({ ...prev, showDeleteModal: true, selectedMaterial: material }));
+  };
+
+  const closeModals = () => {
+    setState(prev => ({ 
+      ...prev, 
+      showCreateModal: false, 
+      showEditModal: false, 
+      showDeleteModal: false,
+      selectedMaterial: null 
+    }));
   };
 
   // 如果还在加载认证状态，显示加载页面
@@ -216,7 +258,15 @@ export default function MaterialsPage() {
           
           <div className="flex items-center gap-3">
             <button
-              onClick={() => setState(prev => ({ ...prev, showCreateModal: true }))}
+              onClick={handleRefresh}
+              disabled={state.refreshing}
+              className="btn-secondary flex items-center gap-2"
+            >
+              <RefreshIcon size={16} className={state.refreshing ? 'animate-spin' : ''} />
+              刷新
+            </button>
+            <button
+              onClick={openCreateModal}
               className="btn-primary flex items-center gap-2"
             >
               <PlusIcon size={16} />
@@ -301,12 +351,21 @@ export default function MaterialsPage() {
             <div className="text-center py-12">
               <MaterialsIcon size={64} className="text-gray-300 mx-auto mb-4" />
               <div className="text-gray-500 text-lg mb-2">暂无材料数据</div>
-              <div className="text-gray-400 text-sm">
+              <div className="text-gray-400 text-sm mb-4">
                 {state.filter.keyword || state.filter.status || state.filter.lowStock
                   ? '没有找到符合条件的材料'
                   : '点击上方"新增材料"按钮开始添加材料'
                 }
               </div>
+              {(!state.filter.keyword && !state.filter.status && !state.filter.lowStock) && (
+                <button
+                  onClick={openCreateModal}
+                  className="btn-primary"
+                >
+                  <PlusIcon size={16} className="mr-2" />
+                  新增材料
+                </button>
+              )}
             </div>
           ) : (
             <>
@@ -319,12 +378,22 @@ export default function MaterialsPage() {
                         onClick={() => handleSort('code')}
                       >
                         材料编码
+                        {state.pagination.sortBy === 'code' && (
+                          <span className="ml-1">
+                            {state.pagination.sortOrder === 'asc' ? '↑' : '↓'}
+                          </span>
+                        )}
                       </th>
                       <th 
                         className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider cursor-pointer hover:bg-gray-100"
                         onClick={() => handleSort('name')}
                       >
                         材料名称
+                        {state.pagination.sortBy === 'name' && (
+                          <span className="ml-1">
+                            {state.pagination.sortOrder === 'asc' ? '↑' : '↓'}
+                          </span>
+                        )}
                       </th>
                       <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                         规格
@@ -337,6 +406,11 @@ export default function MaterialsPage() {
                         onClick={() => handleSort('currentStock')}
                       >
                         当前库存
+                        {state.pagination.sortBy === 'currentStock' && (
+                          <span className="ml-1">
+                            {state.pagination.sortOrder === 'asc' ? '↑' : '↓'}
+                          </span>
+                        )}
                       </th>
                       <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                         库存范围
@@ -346,6 +420,11 @@ export default function MaterialsPage() {
                         onClick={() => handleSort('price')}
                       >
                         单价
+                        {state.pagination.sortBy === 'price' && (
+                          <span className="ml-1">
+                            {state.pagination.sortOrder === 'asc' ? '↑' : '↓'}
+                          </span>
+                        )}
                       </th>
                       <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
                         状态
@@ -367,12 +446,16 @@ export default function MaterialsPage() {
                             <div>
                               <div className="text-sm font-medium text-gray-900">{material.name}</div>
                               {material.description && (
-                                <div className="text-sm text-gray-500">{material.description}</div>
+                                <div className="text-sm text-gray-500 truncate max-w-xs">
+                                  {material.description}
+                                </div>
                               )}
                             </div>
                           </td>
                           <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                            {material.specification}
+                            <div className="max-w-xs truncate" title={material.specification}>
+                              {material.specification}
+                            </div>
                           </td>
                           <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                             {material.unit}
@@ -383,7 +466,7 @@ export default function MaterialsPage() {
                                 {material.currentStock}
                               </span>
                               {material.currentStock <= material.minStock && (
-                                <AlertIcon size={16} className="text-red-500" />
+                                <AlertIcon size={16} className="text-red-500" title="库存不足" />
                               )}
                             </div>
                           </td>
@@ -401,19 +484,17 @@ export default function MaterialsPage() {
                           <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                             <div className="flex items-center justify-end gap-2">
                               <button
-                                onClick={() => setState(prev => ({ 
-                                  ...prev, 
-                                  selectedMaterial: material, 
-                                  showEditModal: true 
-                                }))}
-                                className="text-blue-600 hover:text-blue-900"
+                                onClick={() => openEditModal(material)}
+                                className="text-blue-600 hover:text-blue-900 p-1 rounded hover:bg-blue-50"
+                                title="编辑材料"
                               >
                                 <EditIcon size={16} />
                               </button>
                               {(user?.role === 'admin' || user?.role === 'manager') && (
                                 <button
-                                  onClick={() => handleDelete(material)}
-                                  className="text-red-600 hover:text-red-900"
+                                  onClick={() => openDeleteModal(material)}
+                                  className="text-red-600 hover:text-red-900 p-1 rounded hover:bg-red-50"
+                                  title="删除材料"
                                 >
                                   <DeleteIcon size={16} />
                                 </button>
@@ -445,7 +526,7 @@ export default function MaterialsPage() {
                       上一页
                     </button>
                     
-                    <span className="text-sm text-gray-700">
+                    <span className="text-sm text-gray-700 px-4">
                       第 {state.pagination.page} 页，共{' '}
                       {Math.ceil(state.total / state.pagination.pageSize)} 页
                     </span>
@@ -465,7 +546,28 @@ export default function MaterialsPage() {
         </LocalLoading>
       </div>
 
-      {/* TODO: 添加创建/编辑材料的模态框 */}
+      {/* 模态框组件 */}
+      <MaterialModal
+        isOpen={state.showCreateModal}
+        onClose={closeModals}
+        onSuccess={handleModalSuccess}
+        mode="create"
+      />
+
+      <MaterialModal
+        isOpen={state.showEditModal}
+        onClose={closeModals}
+        onSuccess={handleModalSuccess}
+        material={state.selectedMaterial}
+        mode="edit"
+      />
+
+      <DeleteConfirmModal
+        isOpen={state.showDeleteModal}
+        onClose={closeModals}
+        onConfirm={handleDeleteMaterial}
+        material={state.selectedMaterial}
+      />
     </div>
   );
 }
