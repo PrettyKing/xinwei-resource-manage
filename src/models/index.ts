@@ -1,4 +1,4 @@
-import mongoose, { Schema, Document } from 'mongoose';
+import mongoose, { Schema, Document, Types } from 'mongoose';
 import bcrypt from 'bcryptjs';
 
 // 用户模型
@@ -11,8 +11,8 @@ export interface IUser extends Document {
   realName?: string;
   phone?: string;
   lastLoginAt?: Date;
-  createdBy?: string;
-  updatedBy?: string;
+  createdBy?: Types.ObjectId;
+  updatedBy?: Types.ObjectId;
   createdAt: Date;
   updatedAt: Date;
   comparePassword(candidatePassword: string): Promise<boolean>;
@@ -55,8 +55,8 @@ const UserSchema = new Schema<IUser>({
     match: /^1[3-9]\d{9}$/
   },
   lastLoginAt: { type: Date },
-  createdBy: { type: String },
-  updatedBy: { type: String },
+  createdBy: { type: Schema.Types.ObjectId, ref: 'User' },
+  updatedBy: { type: Schema.Types.ObjectId, ref: 'User' },
 }, {
   timestamps: true,
   toJSON: { 
@@ -105,6 +105,8 @@ export interface ISupplier extends Document {
   address: string;
   status: 'active' | 'inactive';
   description?: string;
+  createdBy?: Types.ObjectId;
+  updatedBy?: Types.ObjectId;
   createdAt: Date;
   updatedAt: Date;
 }
@@ -118,6 +120,8 @@ const SupplierSchema = new Schema<ISupplier>({
   address: { type: String, required: true, trim: true },
   status: { type: String, enum: ['active', 'inactive'], default: 'active' },
   description: { type: String, trim: true },
+  createdBy: { type: Schema.Types.ObjectId, ref: 'User' },
+  updatedBy: { type: Schema.Types.ObjectId, ref: 'User' },
 }, {
   timestamps: true,
   toJSON: { virtuals: true },
@@ -136,9 +140,11 @@ export interface IMaterialCategory extends Document {
   name: string;
   code: string;
   description?: string;
-  parentId?: string;
+  parentId?: Types.ObjectId;
   level: number;
   path: string; // 路径，如 "1,2,3"
+  createdBy?: Types.ObjectId;
+  updatedBy?: Types.ObjectId;
   createdAt: Date;
   updatedAt: Date;
 }
@@ -147,9 +153,11 @@ const MaterialCategorySchema = new Schema<IMaterialCategory>({
   name: { type: String, required: true, trim: true },
   code: { type: String, required: true, unique: true, trim: true },
   description: { type: String, trim: true },
-  parentId: { type: String },
+  parentId: { type: Schema.Types.ObjectId, ref: 'MaterialCategory' },
   level: { type: Number, required: true, default: 1 },
   path: { type: String, required: true }, // 存储完整路径
+  createdBy: { type: Schema.Types.ObjectId, ref: 'User' },
+  updatedBy: { type: Schema.Types.ObjectId, ref: 'User' },
 }, {
   timestamps: true,
   toJSON: { virtuals: true },
@@ -167,7 +175,7 @@ export const MaterialCategory = mongoose.models.MaterialCategory ||
 export interface IMaterial extends Document {
   name: string;
   code: string;
-  categoryId: string;
+  categoryId: Types.ObjectId;
   specification: string;
   unit: string;
   description?: string;
@@ -176,14 +184,17 @@ export interface IMaterial extends Document {
   currentStock: number;
   price: number;
   status: 'active' | 'inactive';
+  createdBy?: Types.ObjectId;
+  updatedBy?: Types.ObjectId;
   createdAt: Date;
   updatedAt: Date;
+  category?: IMaterialCategory;
 }
 
 const MaterialSchema = new Schema<IMaterial>({
   name: { type: String, required: true, trim: true },
   code: { type: String, required: true, unique: true, trim: true },
-  categoryId: { type: String, required: true },
+  categoryId: { type: Schema.Types.ObjectId, ref: 'MaterialCategory', required: true },
   specification: { type: String, required: true, trim: true },
   unit: { type: String, required: true, trim: true },
   description: { type: String, trim: true },
@@ -192,6 +203,8 @@ const MaterialSchema = new Schema<IMaterial>({
   currentStock: { type: Number, required: true, default: 0 },
   price: { type: Number, required: true, min: 0 },
   status: { type: String, enum: ['active', 'inactive'], default: 'active' },
+  createdBy: { type: Schema.Types.ObjectId, ref: 'User' },
+  updatedBy: { type: Schema.Types.ObjectId, ref: 'User' },
 }, {
   timestamps: true,
   toJSON: { virtuals: true },
@@ -226,25 +239,26 @@ export const Material = mongoose.models.Material || mongoose.model<IMaterial>('M
 
 // 入库单明细模型
 export interface IInboundItem extends Document {
-  inboundOrderId: string;
-  materialId: string;
+  inboundOrderId: Types.ObjectId;
+  materialId: Types.ObjectId;
   quantity: number;
   unitPrice: number;
   totalPrice: number;
-  description?: string;
+  remark?: string;
   batchNo?: string;
   expiryDate?: Date;
   actualQuantity?: number;
   status: 'pending' | 'partial' | 'completed';
+  material?: IMaterial;
 }
 
 const InboundItemSchema = new Schema<IInboundItem>({
-  inboundOrderId: { type: String, required: true },
-  materialId: { type: String, required: true },
+  inboundOrderId: { type: Schema.Types.ObjectId, ref: 'InboundOrder', required: true },
+  materialId: { type: Schema.Types.ObjectId, ref: 'Material', required: true },
   quantity: { type: Number, required: true, min: 0.01 },
   unitPrice: { type: Number, required: true, min: 0 },
   totalPrice: { type: Number, required: true, min: 0 },
-  description: { type: String, trim: true },
+  remark: { type: String, trim: true },
   batchNo: { type: String, trim: true },
   expiryDate: { type: Date },
   actualQuantity: { type: Number, min: 0, default: 0 },
@@ -271,39 +285,41 @@ export const InboundItem = mongoose.models.InboundItem ||
 // 入库单模型
 export interface IInboundOrder extends Document {
   orderNo: string;
-  supplierId: string;
+  supplierId: Types.ObjectId;
   title: string;
-  description?: string;
+  remark?: string;
   status: 'draft' | 'pending' | 'approved' | 'rejected' | 'completed';
   totalAmount: number;
-  submittedBy: string;
+  submittedBy: Types.ObjectId;
   submittedAt?: Date;
-  approvedBy?: string;
+  approvedBy?: Types.ObjectId;
   approvedAt?: Date;
   rejectedReason?: string;
-  completedBy?: string;
+  completedBy?: Types.ObjectId;
   completedAt?: Date;
   createdAt: Date;
   updatedAt: Date;
+  supplier?: ISupplier;
+  items?: IInboundItem[];
 }
 
 const InboundOrderSchema = new Schema<IInboundOrder>({
   orderNo: { type: String, required: true, unique: true, trim: true },
-  supplierId: { type: String, required: true },
+  supplierId: { type: Schema.Types.ObjectId, ref: 'Supplier', required: true },
   title: { type: String, required: true, trim: true },
-  description: { type: String, trim: true },
+  remark: { type: String, trim: true },
   status: { 
     type: String, 
     enum: ['draft', 'pending', 'approved', 'rejected', 'completed'], 
     default: 'draft' 
   },
   totalAmount: { type: Number, required: true, min: 0, default: 0 },
-  submittedBy: { type: String, required: true },
+  submittedBy: { type: Schema.Types.ObjectId, ref: 'User', required: true },
   submittedAt: { type: Date },
-  approvedBy: { type: String },
+  approvedBy: { type: Schema.Types.ObjectId, ref: 'User' },
   approvedAt: { type: Date },
   rejectedReason: { type: String, trim: true },
-  completedBy: { type: String },
+  completedBy: { type: Schema.Types.ObjectId, ref: 'User' },
   completedAt: { type: Date },
 }, {
   timestamps: true,
@@ -353,28 +369,29 @@ export const InboundOrder = mongoose.models.InboundOrder ||
 
 // 库存记录模型
 export interface IStockRecord extends Document {
-  materialId: string;
+  materialId: Types.ObjectId;
   type: 'inbound' | 'outbound' | 'adjustment';
   quantity: number;
   beforeStock: number;
   afterStock: number;
-  referenceId?: string;
+  referenceId?: Types.ObjectId;
   referenceType?: 'inbound' | 'outbound' | 'adjustment';
   description?: string;
-  operatedBy: string;
+  operatedBy: Types.ObjectId;
   operatedAt: Date;
+  material?: IMaterial;
 }
 
 const StockRecordSchema = new Schema<IStockRecord>({
-  materialId: { type: String, required: true },
+  materialId: { type: Schema.Types.ObjectId, ref: 'Material', required: true },
   type: { type: String, enum: ['inbound', 'outbound', 'adjustment'], required: true },
   quantity: { type: Number, required: true },
   beforeStock: { type: Number, required: true },
   afterStock: { type: Number, required: true },
-  referenceId: { type: String },
+  referenceId: { type: Schema.Types.ObjectId },
   referenceType: { type: String, enum: ['inbound', 'outbound', 'adjustment'] },
   description: { type: String, trim: true },
-  operatedBy: { type: String, required: true },
+  operatedBy: { type: Schema.Types.ObjectId, ref: 'User', required: true },
   operatedAt: { type: Date, required: true, default: Date.now },
 }, {
   timestamps: true,
@@ -398,26 +415,28 @@ export const StockRecord = mongoose.models.StockRecord ||
 
 // 库存批次模型
 export interface IStockBatch extends Document {
-  materialId: string;
+  materialId: Types.ObjectId;
   batchNo: string;
   quantity: number;
   unitPrice: number;
-  supplierId: string;
-  inboundOrderId: string;
+  supplierId: Types.ObjectId;
+  inboundOrderId: Types.ObjectId;
   manufactureDate?: Date;
   expiryDate?: Date;
   status: 'available' | 'reserved' | 'expired';
   createdAt: Date;
   updatedAt: Date;
+  material?: IMaterial;
+  supplier?: ISupplier;
 }
 
 const StockBatchSchema = new Schema<IStockBatch>({
-  materialId: { type: String, required: true },
+  materialId: { type: Schema.Types.ObjectId, ref: 'Material', required: true },
   batchNo: { type: String, required: true, trim: true },
   quantity: { type: Number, required: true, min: 0 },
   unitPrice: { type: Number, required: true, min: 0 },
-  supplierId: { type: String, required: true },
-  inboundOrderId: { type: String, required: true },
+  supplierId: { type: Schema.Types.ObjectId, ref: 'Supplier', required: true },
+  inboundOrderId: { type: Schema.Types.ObjectId, ref: 'InboundOrder', required: true },
   manufactureDate: { type: Date },
   expiryDate: { type: Date },
   status: { type: String, enum: ['available', 'reserved', 'expired'], default: 'available' },
