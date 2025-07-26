@@ -1,4 +1,99 @@
 import mongoose, { Schema, Document } from 'mongoose';
+import bcrypt from 'bcryptjs';
+
+// 用户模型
+export interface IUser extends Document {
+  username: string;
+  email: string;
+  password: string;
+  role: 'admin' | 'manager' | 'operator';
+  status: 'active' | 'inactive';
+  realName?: string;
+  phone?: string;
+  lastLoginAt?: Date;
+  createdBy?: string;
+  updatedBy?: string;
+  createdAt: Date;
+  updatedAt: Date;
+  comparePassword(candidatePassword: string): Promise<boolean>;
+}
+
+const UserSchema = new Schema<IUser>({
+  username: { 
+    type: String, 
+    required: true, 
+    unique: true, 
+    trim: true,
+    minlength: 3,
+    maxlength: 20,
+    match: /^[a-zA-Z0-9_]+$/
+  },
+  email: { 
+    type: String, 
+    required: true, 
+    unique: true, 
+    trim: true, 
+    lowercase: true,
+    match: /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+  },
+  password: { type: String, required: true, minlength: 6 },
+  role: { 
+    type: String, 
+    enum: ['admin', 'manager', 'operator'], 
+    required: true,
+    default: 'operator'
+  },
+  status: { 
+    type: String, 
+    enum: ['active', 'inactive'], 
+    default: 'active' 
+  },
+  realName: { type: String, trim: true },
+  phone: { 
+    type: String, 
+    trim: true,
+    match: /^1[3-9]\d{9}$/
+  },
+  lastLoginAt: { type: Date },
+  createdBy: { type: String },
+  updatedBy: { type: String },
+}, {
+  timestamps: true,
+  toJSON: { 
+    virtuals: true,
+    transform: function(doc, ret) {
+      delete ret.password; // 不返回密码字段
+      return ret;
+    }
+  },
+  toObject: { virtuals: true }
+});
+
+// 创建索引
+UserSchema.index({ username: 1 });
+UserSchema.index({ email: 1 });
+UserSchema.index({ role: 1 });
+UserSchema.index({ status: 1 });
+
+// 密码加密中间件
+UserSchema.pre('save', async function(next) {
+  if (!this.isModified('password')) return next();
+  
+  try {
+    const salt = await bcrypt.genSalt(12);
+    this.password = await bcrypt.hash(this.password, salt);
+    next();
+  } catch (error) {
+    next(error as Error);
+  }
+});
+
+// 密码比较方法
+UserSchema.methods.comparePassword = async function(candidatePassword: string): Promise<boolean> {
+  return bcrypt.compare(candidatePassword, this.password);
+};
+
+export const User = mongoose.models.User || mongoose.model<IUser>('User', UserSchema);
 
 // 供应商模型
 export interface ISupplier extends Document {
