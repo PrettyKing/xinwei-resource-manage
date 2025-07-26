@@ -18,6 +18,7 @@ import {
   ClockIcon
 } from '@/components/icons';
 import { PageLoading, LocalLoading } from '@/components/Loading';
+import CreateInboundModal from '@/components/modals/CreateInboundModal';
 
 interface InboundPageState {
   inbounds: InboundOrder[];
@@ -27,6 +28,7 @@ interface InboundPageState {
   total: number;
   selectedInbound: InboundOrder | null;
   refreshing: boolean;
+  showCreateModal: boolean;
 }
 
 export default function InboundPage() {
@@ -39,6 +41,7 @@ export default function InboundPage() {
     total: 0,
     selectedInbound: null,
     refreshing: false,
+    showCreateModal: false,
   });
 
   // 获取入库单列表
@@ -145,6 +148,21 @@ export default function InboundPage() {
     fetchInbounds(true);
   };
 
+  // 打开创建模态框
+  const handleOpenCreateModal = () => {
+    setState(prev => ({ ...prev, showCreateModal: true }));
+  };
+
+  // 关闭创建模态框
+  const handleCloseCreateModal = () => {
+    setState(prev => ({ ...prev, showCreateModal: false }));
+  };
+
+  // 创建成功后处理
+  const handleCreateSuccess = () => {
+    fetchInbounds();
+  };
+
   // 获取状态显示配置
   const getStatusConfig = (status: string) => {
     switch (status) {
@@ -238,7 +256,7 @@ export default function InboundPage() {
               刷新
             </button>
             <button
-              onClick={() => {/* TODO: 打开创建入库单模态框 */}}
+              onClick={handleOpenCreateModal}
               className="btn-primary flex items-center gap-2"
             >
               <PlusIcon size={16} />
@@ -326,7 +344,7 @@ export default function InboundPage() {
               </div>
               {(!state.filter.keyword && !state.filter.status) && (
                 <button
-                  onClick={() => {/* TODO: 打开创建入库单模态框 */}}
+                  onClick={handleOpenCreateModal}
                   className="btn-primary flex items-center gap-2 mx-auto"
                 >
                   <PlusIcon size={16} />
@@ -497,6 +515,13 @@ export default function InboundPage() {
           )}
         </LocalLoading>
       </div>
+
+      {/* 创建入库单模态框 */}
+      <CreateInboundModal
+        visible={state.showCreateModal}
+        onClose={handleCloseCreateModal}
+        onSuccess={handleCreateSuccess}
+      />
     </div>
   );
 }
