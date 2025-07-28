@@ -72,9 +72,9 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
       label: '供应商管理',
     },
     {
-      key: '/dashboard/reports',
+      key: '/dashboard/statistics',
       icon: <ReportsIcon size={20} />,
-      label: '统计报表',
+      label: '统计分析',
     },
     // 用户管理 - 仅管理员可见
     ...(user?.role === 'admin' ? [{
