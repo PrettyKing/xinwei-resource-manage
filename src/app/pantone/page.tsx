@@ -1,230 +1,201 @@
 'use client'
 
 import React, { useState, useMemo } from 'react'
-import { Search, Copy, Heart, Download, Palette, Grid, List, Filter } from 'lucide-react'
+import { Search, Copy, Heart, Download, Palette, Grid, List, Filter, Database } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 
-// 导入新的色彩数据
+// 导入两个数据源
 import newColorData from '@/data/new-color-175'
+import pantoneData from '@/data/panton-2799'
 
-// 色彩数据接口，基于新的数据结构
-interface PantoneColor {
+// 统一的色彩数据接口
+interface UnifiedPantoneColor {
   code: string
-  creationDate: string
   name: string
+  cn_name: string
   hex: string
-  rgb: {
-    r: number
-    g: number
-    b: number
-  }
-  lab: {
+  rgb: [number, number, number]
+  cmyk?: [number, number, number, number]
+  lab?: {
     l: number
     a: number
     b: number
   }
-  cmyk: null | {
-    c: number
-    m: number
-    y: number
-    k: number
-  }
+  category: string
+  type: 'warm' | 'cool' | 'neutral'
+  source: 'new-175' | 'panton-2799'
+  creationDate?: string
+  year?: number
 }
 
-// 处理数据并添加中文名称和分类
-const processColors = (colors: PantoneColor[]) => {
+// 处理新色彩数据 (175个)
+const processNewColors = (colors: any[]): UnifiedPantoneColor[] => {
   return colors.map(color => {
-    // 根据颜色名称或特征自动分类
-    let category = '其他色彩'
-    let cn_name = color.name
-
-    const name = color.name.toLowerCase()
-    
-    // 简单的分类逻辑
-    if (name.includes('pink') || name.includes('rose') || name.includes('blush') || name.includes('fuchsia')) {
-      category = '粉色系'
-      cn_name = generateChineseName(color.name, 'pink')
-    } else if (name.includes('peach') || name.includes('apricot') || name.includes('coral') || name.includes('melon')) {
-      category = '橙色系'
-      cn_name = generateChineseName(color.name, 'orange')
-    } else if (name.includes('yellow') || name.includes('corn') || name.includes('sun') || name.includes('bee')) {
-      category = '黄色系'
-      cn_name = generateChineseName(color.name, 'yellow')
-    } else if (name.includes('green') || name.includes('lime') || name.includes('mint') || name.includes('leaf')) {
-      category = '绿色系'
-      cn_name = generateChineseName(color.name, 'green')
-    } else if (name.includes('aqua') || name.includes('blue') || name.includes('cyan') || name.includes('ocean') || name.includes('water')) {
-      category = '蓝色系'
-      cn_name = generateChineseName(color.name, 'blue')
-    } else if (name.includes('purple') || name.includes('violet') || name.includes('lavender') || name.includes('lilac')) {
-      category = '紫色系'
-      cn_name = generateChineseName(color.name, 'purple')
-    } else if (name.includes('gray') || name.includes('grey') || name.includes('silver') || name.includes('charcoal') || name.includes('smoke') || name.includes('ash')) {
-      category = '灰色系'
-      cn_name = generateChineseName(color.name, 'gray')
-    } else if (name.includes('black') || name.includes('white') || name.includes('snow') || name.includes('pearl')) {
-      category = '黑白系'
-      cn_name = generateChineseName(color.name, 'blackwhite')
-    }
-
+    const category = categorizeColor(color.name)
     return {
-      ...color,
-      category,
-      cn_name,
-      // 转换 RGB 格式以兼容原有界面
+      code: color.code,
+      name: color.name,
+      cn_name: generateChineseName(color.name, category),
+      hex: color.hex,
       rgb: [color.rgb.r, color.rgb.g, color.rgb.b] as [number, number, number],
-      // 模拟 CMYK 数据（如果为 null）
-      cmyk: color.cmyk ? [color.cmyk.c, color.cmyk.m, color.cmyk.y, color.cmyk.k] as [number, number, number, number] : [0, 0, 0, 0] as [number, number, number, number],
-      type: categorizeColorType(color.name) as 'warm' | 'cool' | 'neutral'
+      lab: color.lab,
+      category,
+      type: categorizeColorType(color.name),
+      source: 'new-175' as const,
+      creationDate: color.creationDate
     }
   })
 }
 
-// 生成中文名称
-const generateChineseName = (englishName: string, colorType: string): string => {
-  const nameMap: { [key: string]: { [key: string]: string } } = {
-    pink: {
-      'Rose Bisque': '玫瑰饼干',
-      'Pinkish Petals': '粉嫩花瓣',
-      'Sweet Taffy': '甜蜜太妃',
-      'Flushing Pink': '红润粉',
-      'Full Blooming Pink': '盛开粉',
-      'Rosy Touch': '玫瑰触感',
-      'Pink Cherub': '粉色小天使',
-      'Poignant Pink': '动人粉',
-      'Pink Taffy': '粉色太妃',
-      'Thinking Pink': '思考粉',
-      'Pink Drink': '粉色饮品',
-      'Rosy Future': '玫瑰未来'
-    },
-    orange: {
-      'Peach Adobe': '桃色土坯',
-      'Dusky Peach': '暮色桃',
-      'Peach Tree': '桃树色',
-      'Peach Smoothie': '桃子奶昔',
-      'Honeyed Apricot': '蜜制杏',
-      'Taste of Peach': '桃味',
-      'Peach Infusion': '桃子浸泡',
-      'Whispering Peach': '低语桃',
-      'Peach Mousse': '桃子慕斯',
-      'Peach Palazzo': '桃色宫殿',
-      'Perfection Peach': '完美桃',
-      'Peach Sorbet': '桃子冰沙',
-      'Melon Ice': '瓜冰',
-      'Persian Melon': '波斯瓜'
-    },
-    yellow: {
-      'Creamed Corn': '奶油玉米',
-      'Corn Confection': '玉米糖果',
-      'Yellow Jasper': '黄色碧玉',
-      'Summer Sun': '夏日阳光',
-      'Buzzing Bees': '嗡嗡蜜蜂',
-      'Corn Kernels': '玉米粒',
-      'Happy Hopes': '快乐希望',
-      'Snow Pear': '雪梨',
-      'Minced Quince': '榅桲碎',
-      'Pear Extract': '梨提取物',
-      'Asian Pear': '亚洲梨',
-      'Citrus Essence': '柑橘精华'
-    },
-    green: {
-      'Scenic Green': '风景绿',
-      'Key Lime Pie': '青柠派',
-      'Veiled Vista': '朦胧远景',
-      'Tender Stem': '嫩茎',
-      'Frosted Lime': '霜青柠',
-      'Spring Leaf': '春叶',
-      'Gremlin Green': '小鬼绿',
-      'Greenish': '绿意',
-      'Serene Green': '宁静绿',
-      'Graciously Green': '优雅绿',
-      'Clean Green': '清洁绿',
-      'Dreamy Green': '梦幻绿',
-      'Breezy Green': '微风绿',
-      'Mentholated': '薄荷味'
-    },
-    blue: {
-      'Dewdrops': '露珠',
-      'Ocean Air': '海洋空气',
-      'Aqua Frost': '水霜',
-      'Cool Caribbean': '清凉加勒比',
-      'Starling Egg': '椋鸟蛋',
-      'Frostbite': '冻伤',
-      'Pool Cabana': '泳池凉亭',
-      'Cyan Sea': '青海',
-      'Dusky Aqua': '暮色水',
-      'Aqua Wash': '水洗',
-      'Rinsing Rivulet': '冲洗小溪',
-      'Aquacade': '水上表演',
-      'Aquarium': '水族箱',
-      'Fluidity': '流动性',
-      'Ocean Current': '洋流',
-      'Blue Finch': '蓝雀',
-      'Sheer Blue': '纯蓝'
-    },
-    purple: {
-      'Lavender Mittens': '薰衣草手套',
-      'Diaphanous Lilac': '透明丁香',
-      'Lilac Clematis': '丁香铁线莲',
-      'Lacy Lilac': '蕾丝丁香',
-      'Lavender Fields': '薰衣草田',
-      'Lavender Icing': '薰衣草糖霜',
-      'Violet Dusk': '紫罗兰黄昏',
-      'English Hyacinth': '英国风信子',
-      'Lavender Oil': '薰衣草油',
-      'Scented Lavender': '香薰衣草',
-      'Lavender Lily': '薰衣草百合',
-      'Quiet Violet': '安静紫罗兰',
-      'Violetta': '小紫罗兰'
-    },
-    gray: {
-      'Stalactite': '钟乳石',
-      'Wispy Clouds': '轻云',
-      'White Down': '白绒',
-      'Snowy Peaks': '雪峰',
-      'Sea Pearl': '海珍珠',
-      'Snowfall': '降雪',
-      'Early Frost': '早霜',
-      'Cumulus Cloud': '积云',
-      'Sweatshirt Gray': '运动衫灰',
-      'Temple Gray': '寺庙灰',
-      'Gray Daze': '灰色迷雾',
-      'Steel Wool': '钢丝绒',
-      'Gray Morning': '灰色晨光',
-      'Cloud Cover': '云层',
-      'Storm Cloud': '暴风云',
-      'Wisdom Gray': '智慧灰'
-    },
-    blackwhite: {
-      'Stalactite': '钟乳石',
-      'Wispy Clouds': '轻云',
-      'White Down': '白绒',
-      'Snowy Peaks': '雪峰',
-      'Snowfall': '降雪'
-    }
+// 处理2799数据
+const processPantoneColors = (data: any): UnifiedPantoneColor[] => {
+  if (!data?.colors || !Array.isArray(data.colors)) {
+    return []
   }
-
-  return nameMap[colorType]?.[englishName] || englishName
+  
+  return data.colors.map((color: any) => {
+    const category = categorizeColor(color.name || '')
+    return {
+      code: color.code || '',
+      name: color.name || '',
+      cn_name: generateChineseName(color.name || '', category),
+      hex: color.hex || '',
+      rgb: color.rgb ? [color.rgb.r || 0, color.rgb.g || 0, color.rgb.b || 0] as [number, number, number] : [0, 0, 0] as [number, number, number],
+      cmyk: color.cmyk ? [color.cmyk.c || 0, color.cmyk.m || 0, color.cmyk.y || 0, color.cmyk.k || 0] as [number, number, number, number] : undefined,
+      lab: color.lab,
+      category,
+      type: categorizeColorType(color.name || ''),
+      source: 'panton-2799' as const,
+      year: color.year
+    }
+  })
 }
 
-// 判断色彩类型
-const categorizeColorType = (name: string): string => {
-  const warmColors = ['red', 'orange', 'yellow', 'pink', 'peach', 'coral', 'rose', 'warm']
-  const coolColors = ['blue', 'green', 'purple', 'violet', 'cyan', 'aqua', 'cool', 'mint']
+// 颜色分类函数
+const categorizeColor = (name: string): string => {
+  const lowerName = name.toLowerCase()
+  
+  if (lowerName.includes('pink') || lowerName.includes('rose') || lowerName.includes('blush') || lowerName.includes('fuchsia') || lowerName.includes('magenta')) {
+    return '粉色系'
+  } else if (lowerName.includes('red') || lowerName.includes('crimson') || lowerName.includes('scarlet') || lowerName.includes('cherry')) {
+    return '红色系'
+  } else if (lowerName.includes('orange') || lowerName.includes('peach') || lowerName.includes('apricot') || lowerName.includes('coral') || lowerName.includes('melon')) {
+    return '橙色系'
+  } else if (lowerName.includes('yellow') || lowerName.includes('corn') || lowerName.includes('sun') || lowerName.includes('bee') || lowerName.includes('gold')) {
+    return '黄色系'
+  } else if (lowerName.includes('green') || lowerName.includes('lime') || lowerName.includes('mint') || lowerName.includes('leaf') || lowerName.includes('forest')) {
+    return '绿色系'
+  } else if (lowerName.includes('blue') || lowerName.includes('cyan') || lowerName.includes('ocean') || lowerName.includes('water') || lowerName.includes('sky')) {
+    return '蓝色系'
+  } else if (lowerName.includes('aqua') || lowerName.includes('turquoise') || lowerName.includes('teal')) {
+    return '青色系'
+  } else if (lowerName.includes('purple') || lowerName.includes('violet') || lowerName.includes('lavender') || lowerName.includes('lilac') || lowerName.includes('plum')) {
+    return '紫色系'
+  } else if (lowerName.includes('brown') || lowerName.includes('coffee') || lowerName.includes('chocolate') || lowerName.includes('tan') || lowerName.includes('bronze')) {
+    return '棕色系'
+  } else if (lowerName.includes('gray') || lowerName.includes('grey') || lowerName.includes('silver') || lowerName.includes('charcoal') || lowerName.includes('smoke') || lowerName.includes('ash')) {
+    return '灰色系'
+  } else if (lowerName.includes('black') || lowerName.includes('white') || lowerName.includes('snow') || lowerName.includes('pearl') || lowerName.includes('ivory')) {
+    return '黑白系'
+  } else if (lowerName.includes('gold') || lowerName.includes('silver') || lowerName.includes('copper') || lowerName.includes('bronze') || lowerName.includes('metallic')) {
+    return '金属色'
+  } else if (lowerName.includes('neon') || lowerName.includes('electric') || lowerName.includes('bright') || lowerName.includes('fluorescent')) {
+    return '霓虹色'
+  }
+  
+  return '其他色彩'
+}
+
+// 色温分类
+const categorizeColorType = (name: string): 'warm' | 'cool' | 'neutral' => {
+  const warmKeywords = ['red', 'orange', 'yellow', 'pink', 'peach', 'coral', 'rose', 'warm', 'gold', 'amber']
+  const coolKeywords = ['blue', 'green', 'purple', 'violet', 'cyan', 'aqua', 'cool', 'mint', 'lavender']
   
   const lowerName = name.toLowerCase()
   
-  if (warmColors.some(color => lowerName.includes(color))) return 'warm'
-  if (coolColors.some(color => lowerName.includes(color))) return 'cool'
+  if (warmKeywords.some(keyword => lowerName.includes(keyword))) return 'warm'
+  if (coolKeywords.some(keyword => lowerName.includes(keyword))) return 'cool'
   return 'neutral'
 }
 
-// 处理颜色数据
-const pantoneColors = processColors(newColorData.colors)
+// 生成中文名称的映射表
+const chineseNameMap: { [key: string]: string } = {
+  // 粉色系
+  'Rose Bisque': '玫瑰饼干', 'Pinkish Petals': '粉嫩花瓣', 'Sweet Taffy': '甜蜜太妃',
+  'Flushing Pink': '红润粉', 'Full Blooming Pink': '盛开粉', 'Rosy Touch': '玫瑰触感',
+  'Pink Cherub': '粉色小天使', 'Poignant Pink': '动人粉', 'Pink Taffy': '粉色太妃',
+  'Thinking Pink': '思考粉', 'Pink Drink': '粉色饮品', 'Rosy Future': '玫瑰未来',
+  
+  // 橙色系
+  'Peach Adobe': '桃色土坯', 'Dusky Peach': '暮色桃', 'Peach Tree': '桃树色',
+  'Peach Smoothie': '桃子奶昔', 'Honeyed Apricot': '蜜制杏', 'Taste of Peach': '桃味',
+  'Peach Infusion': '桃子浸泡', 'Whispering Peach': '低语桃', 'Peach Mousse': '桃子慕斯',
+  
+  // 黄色系
+  'Creamed Corn': '奶油玉米', 'Corn Confection': '玉米糖果', 'Yellow Jasper': '黄色碧玉',
+  'Summer Sun': '夏日阳光', 'Buzzing Bees': '嗡嗡蜜蜂', 'Corn Kernels': '玉米粒',
+  
+  // 绿色系
+  'Scenic Green': '风景绿', 'Key Lime Pie': '青柠派', 'Tender Stem': '嫩茎',
+  'Spring Leaf': '春叶', 'Breezy Green': '微风绿', 'Mentholated': '薄荷味',
+  
+  // 蓝色系
+  'Ocean Air': '海洋空气', 'Aqua Frost': '水霜', 'Cool Caribbean': '清凉加勒比',
+  'Starling Egg': '椋鸟蛋', 'Pool Cabana': '泳池凉亭', 'Ocean Current': '洋流',
+  
+  // 紫色系
+  'Lavender Fields': '薰衣草田', 'English Hyacinth': '英国风信子', 'Quiet Violet': '安静紫罗兰',
+  'Scented Lavender': '香薰衣草', 'Lavender Oil': '薰衣草油', 'Violetta': '小紫罗兰',
+  
+  // 灰色系
+  'Stalactite': '钟乳石', 'Storm Cloud': '暴风云', 'Wisdom Gray': '智慧灰',
+  'Steel Wool': '钢丝绒', 'Gray Morning': '灰色晨光', 'Cloud Cover': '云层'
+}
+
+// 生成中文名称
+const generateChineseName = (englishName: string, category: string): string => {
+  // 优先使用映射表
+  if (chineseNameMap[englishName]) {
+    return chineseNameMap[englishName]
+  }
+  
+  // 如果没有映射，返回原英文名
+  return englishName
+}
+
+// 整合所有数据
+const getAllColors = (): UnifiedPantoneColor[] => {
+  const newColors = processNewColors(newColorData.colors || [])
+  const pantoneColors = processPantoneColors(pantoneData)
+  
+  // 合并数据，去重（优先保留新色彩数据）
+  const codeSet = new Set<string>()
+  const allColors: UnifiedPantoneColor[] = []
+  
+  // 先添加新色彩
+  newColors.forEach(color => {
+    if (color.code && !codeSet.has(color.code)) {
+      codeSet.add(color.code)
+      allColors.push(color)
+    }
+  })
+  
+  // 再添加2799数据中不重复的色彩
+  pantoneColors.forEach(color => {
+    if (color.code && !codeSet.has(color.code)) {
+      codeSet.add(color.code)
+      allColors.push(color)
+    }
+  })
+  
+  return allColors
+}
+
+const allPantoneColors = getAllColors()
 
 interface ColorCardProps {
-  color: any
+  color: UnifiedPantoneColor
   viewMode: 'grid' | 'list'
   isFavorited: boolean
   onToggleFavorite: () => void
@@ -238,20 +209,21 @@ const ColorCard: React.FC<ColorCardProps> = ({
   onToggleFavorite, 
   onCopyHex 
 }) => {
-  const textColor = ['#FFFFFF', '#F7F7F7', '#FFFAFA'].includes(`#${color.hex}`) ? '#000' : '#FFF'
+  const hexWithHash = color.hex.startsWith('#') ? color.hex : `#${color.hex}`
+  const textColor = ['#FFFFFF', '#F7F7F7', '#FFFAFA', '#FEFEFE'].includes(hexWithHash.toUpperCase()) ? '#000' : '#FFF'
   
   if (viewMode === 'list') {
     return (
       <Card className="hover:shadow-lg transition-all duration-300 border-l-4" 
-            style={{ borderLeftColor: `#${color.hex}` }}>
+            style={{ borderLeftColor: hexWithHash }}>
         <CardContent className="p-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
               <div 
                 className="w-16 h-16 rounded-lg shadow-md flex items-center justify-center text-sm font-medium"
-                style={{ backgroundColor: `#${color.hex}`, color: textColor }}
+                style={{ backgroundColor: hexWithHash, color: textColor }}
               >
-                #{color.hex}
+                {hexWithHash}
               </div>
               <div>
                 <h3 className="font-semibold text-gray-900">{color.cn_name}</h3>
@@ -260,12 +232,30 @@ const ColorCard: React.FC<ColorCardProps> = ({
                 <p className="text-xs text-gray-500">
                   RGB({color.rgb.join(', ')})
                 </p>
-                <p className="text-xs text-gray-500">
-                  LAB({color.lab.l.toFixed(1)}, {color.lab.a.toFixed(1)}, {color.lab.b.toFixed(1)})
-                </p>
-                <p className="text-xs text-gray-400">
-                  创建于: {new Date(color.creationDate).toLocaleDateString()}
-                </p>
+                {color.cmyk && (
+                  <p className="text-xs text-gray-500">
+                    CMYK({color.cmyk.join(', ')})
+                  </p>
+                )}
+                {color.lab && (
+                  <p className="text-xs text-gray-500">
+                    LAB({color.lab.l.toFixed(1)}, {color.lab.a.toFixed(1)}, {color.lab.b.toFixed(1)})
+                  </p>
+                )}
+                <div className="flex items-center gap-2 mt-1">
+                  <span className={`text-xs px-2 py-1 rounded-full ${ 
+                    color.source === 'new-175' 
+                      ? 'bg-green-100 text-green-700' 
+                      : 'bg-blue-100 text-blue-700'
+                  }`}>
+                    {color.source === 'new-175' ? '新175色' : '经典系列'}
+                  </span>
+                  {color.year && (
+                    <span className="text-xs text-blue-600 font-medium">
+                      {color.year}年度色彩
+                    </span>
+                  )}
+                </div>
               </div>
             </div>
             <div className="flex items-center space-x-2">
@@ -297,14 +287,23 @@ const ColorCard: React.FC<ColorCardProps> = ({
       <CardContent className="p-0">
         <div 
           className="h-32 rounded-t-lg flex items-center justify-center text-sm font-medium relative overflow-hidden"
-          style={{ backgroundColor: `#${color.hex}`, color: textColor }}
+          style={{ backgroundColor: hexWithHash, color: textColor }}
         >
           <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-10 transition-opacity duration-300" />
           <span className="relative z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            #{color.hex}
+            {hexWithHash}
           </span>
-          <div className="absolute top-2 right-2 bg-white/90 text-xs px-2 py-1 rounded-full text-gray-800 font-medium">
-            2024
+          <div className="absolute top-2 right-2 flex gap-1">
+            {color.source === 'new-175' && (
+              <div className="bg-green-500/90 text-white text-xs px-2 py-1 rounded-full font-medium">
+                NEW
+              </div>
+            )}
+            {color.year && (
+              <div className="bg-blue-500/90 text-white text-xs px-2 py-1 rounded-full font-medium">
+                {color.year}
+              </div>
+            )}
           </div>
         </div>
         <div className="p-4">
@@ -314,7 +313,11 @@ const ColorCard: React.FC<ColorCardProps> = ({
           <div className="flex items-center justify-between">
             <div className="text-xs text-gray-500">
               <div>RGB({color.rgb.join(', ')})</div>
-              <div>LAB({color.lab.l.toFixed(0)}, {color.lab.a.toFixed(0)}, {color.lab.b.toFixed(0)})</div>
+              {color.lab ? (
+                <div>LAB({color.lab.l.toFixed(0)}, {color.lab.a.toFixed(0)}, {color.lab.b.toFixed(0)})</div>
+              ) : color.cmyk ? (
+                <div>CMYK({color.cmyk.join(', ')})</div>
+              ) : null}
             </div>
             <div className="flex space-x-1">
               <Button
@@ -344,23 +347,38 @@ const ColorCard: React.FC<ColorCardProps> = ({
 export default function PantoneColorPage() {
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedCategory, setSelectedCategory] = useState('全部分类')
+  const [selectedSource, setSelectedSource] = useState('全部来源')
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid')
   const [favorites, setFavorites] = useState<Set<string>>(new Set())
   const [copiedColor, setCopiedColor] = useState<string | null>(null)
 
   // 获取所有分类
   const categories = useMemo(() => {
-    const allCategories = Array.from(new Set(pantoneColors.map(color => color.category)))
+    const allCategories = Array.from(new Set(allPantoneColors.map(color => color.category)))
     return ['全部分类', ...allCategories.sort()]
+  }, [])
+
+  // 获取数据源选项
+  const sources = useMemo(() => {
+    return ['全部来源', '新175色', '经典系列']
   }, [])
 
   // 过滤颜色
   const filteredColors = useMemo(() => {
-    let colors = pantoneColors
+    let colors = allPantoneColors
     
     // 按分类筛选
     if (selectedCategory !== '全部分类') {
       colors = colors.filter(color => color.category === selectedCategory)
+    }
+    
+    // 按数据源筛选
+    if (selectedSource !== '全部来源') {
+      if (selectedSource === '新175色') {
+        colors = colors.filter(color => color.source === 'new-175')
+      } else if (selectedSource === '经典系列') {
+        colors = colors.filter(color => color.source === 'panton-2799')
+      }
     }
     
     // 按搜索词筛选
@@ -376,7 +394,14 @@ export default function PantoneColorPage() {
     }
     
     return colors
-  }, [searchTerm, selectedCategory])
+  }, [searchTerm, selectedCategory, selectedSource])
+
+  // 统计信息
+  const stats = useMemo(() => {
+    const newColorsCount = allPantoneColors.filter(c => c.source === 'new-175').length
+    const classicColorsCount = allPantoneColors.filter(c => c.source === 'panton-2799').length
+    return { newColorsCount, classicColorsCount, total: allPantoneColors.length }
+  }, [])
 
   // 复制颜色值
   const copyToClipboard = (text: string) => {
@@ -404,10 +429,13 @@ export default function PantoneColorPage() {
       code: color.code,
       hex: color.hex,
       rgb: color.rgb,
+      cmyk: color.cmyk,
       lab: color.lab,
       category: color.category,
       type: color.type,
-      creationDate: color.creationDate
+      source: color.source,
+      creationDate: color.creationDate,
+      year: color.year
     }))
     const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' })
     const url = URL.createObjectURL(blob)
@@ -430,7 +458,11 @@ export default function PantoneColorPage() {
               </div>
               <div>
                 <h1 className="text-2xl font-bold text-gray-900">潘通色卡</h1>
-                <p className="text-sm text-gray-600">PANTONE® FHI Paper TPG New 175 • {pantoneColors.length}个色彩</p>
+                <p className="text-sm text-gray-600">
+                  专业色彩标准参考 • 共{stats.total}个色彩 
+                  <span className="ml-2 text-green-600">新175色: {stats.newColorsCount}</span>
+                  <span className="ml-2 text-blue-600">经典系列: {stats.classicColorsCount}</span>
+                </p>
               </div>
             </div>
             <div className="flex items-center space-x-3">
@@ -492,6 +524,18 @@ export default function PantoneColorPage() {
                   </option>
                 ))}
               </select>
+              <Database className="h-4 w-4 text-gray-500" />
+              <select
+                value={selectedSource}
+                onChange={(e) => setSelectedSource(e.target.value)}
+                className="px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+              >
+                {sources.map(source => (
+                  <option key={source} value={source}>
+                    {source}
+                  </option>
+                ))}
+              </select>
             </div>
           </div>
 
@@ -515,12 +559,12 @@ export default function PantoneColorPage() {
         }`}>
           {filteredColors.map((color) => (
             <ColorCard
-              key={color.code}
+              key={`${color.source}-${color.code}`}
               color={color}
               viewMode={viewMode}
               isFavorited={favorites.has(color.code)}
               onToggleFavorite={() => toggleFavorite(color.code)}
-              onCopyHex={() => copyToClipboard(`#${color.hex}`)}
+              onCopyHex={() => copyToClipboard(color.hex.startsWith('#') ? color.hex : `#${color.hex}`)}
             />
           ))}
         </div>
