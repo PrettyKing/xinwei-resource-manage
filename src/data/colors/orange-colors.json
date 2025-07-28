@@ -1,0 +1,130 @@
+[
+  {
+    "code": "PANTONE 14-1064 TPG",
+    "name": "Tangerine Tango",
+    "hex": "#DD4124",
+    "rgb": [221, 65, 36],
+    "cmyk": [0, 71, 84, 13],
+    "category": "橙色系",
+    "type": "warm",
+    "year": 2012,
+    "description": "2012年度代表色，橘红探戈色，充满活力和戏剧性"
+  },
+  {
+    "code": "PANTONE 15-1247 TPG",
+    "name": "Nectarine",
+    "hex": "#F6A192",
+    "rgb": [246, 161, 146],
+    "cmyk": [0, 35, 41, 4],
+    "category": "橙色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 16-1448 TPG",
+    "name": "Papaya",
+    "hex": "#FF9933",
+    "rgb": [255, 153, 51],
+    "cmyk": [0, 40, 80, 0],
+    "category": "橙色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 15-1142 TPG",
+    "name": "Peach Echo",
+    "hex": "#F7786B",
+    "rgb": [247, 120, 107],
+    "cmyk": [0, 51, 57, 3],
+    "category": "橙色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 17-1350 TPG",
+    "name": "Turmeric",
+    "hex": "#FE840E",
+    "rgb": [254, 132, 14],
+    "cmyk": [0, 48, 94, 0],
+    "category": "橙色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 14-1050 TPG",
+    "name": "Cantaloupe",
+    "hex": "#FF9F80",
+    "rgb": [255, 159, 128],
+    "cmyk": [0, 38, 50, 0],
+    "category": "橙色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 15-1263 TPG",
+    "name": "Apricot",
+    "hex": "#FBB862",
+    "rgb": [251, 184, 98],
+    "cmyk": [0, 27, 61, 2],
+    "category": "橙色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 17-1330 TPG",
+    "name": "Burnt Orange",
+    "hex": "#CC5500",
+    "rgb": [204, 85, 0],
+    "cmyk": [0, 58, 100, 20],
+    "category": "橙色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 16-1546 TPG",
+    "name": "Coral Reef",
+    "hex": "#FF7F50",
+    "rgb": [255, 127, 80],
+    "cmyk": [0, 50, 69, 0],
+    "category": "橙色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 15-1050 TPG",
+    "name": "Peach",
+    "hex": "#FFCBA4",
+    "rgb": [255, 203, 164],
+    "cmyk": [0, 20, 36, 0],
+    "category": "橙色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 16-1260 TPG",
+    "name": "Orange Peel",
+    "hex": "#FF9500",
+    "rgb": [255, 149, 0],
+    "cmyk": [0, 42, 100, 0],
+    "category": "橙色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 17-1456 TPG",
+    "name": "Coral",
+    "hex": "#F5989D",
+    "rgb": [245, 152, 157],
+    "cmyk": [0, 38, 36, 4],
+    "category": "橙色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 15-1530 TPG",
+    "name": "Mandarin Orange",
+    "hex": "#FF8C00",
+    "rgb": [255, 140, 0],
+    "cmyk": [0, 45, 100, 0],
+    "category": "橙色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 16-1449 TPG",
+    "name": "Sunset Orange",
+    "hex": "#FF8C69",
+    "rgb": [255, 140, 105],
+    "cmyk": [0, 45, 59, 0],
+    "category": "橙色系",
+    "type": "warm"
+  }
+]

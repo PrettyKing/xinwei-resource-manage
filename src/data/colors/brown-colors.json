@@ -1,0 +1,130 @@
+[
+  {
+    "code": "PANTONE 18-1142 TPG",
+    "name": "Cognac",
+    "hex": "#9E4624",
+    "rgb": [158, 70, 36],
+    "cmyk": [0, 56, 77, 38],
+    "category": "棕色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 19-1317 TPG",
+    "name": "Chocolate",
+    "hex": "#7B3F00",
+    "rgb": [123, 63, 0],
+    "cmyk": [0, 49, 100, 52],
+    "category": "棕色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 17-1044 TPG",
+    "name": "Camel",
+    "hex": "#C19A6B",
+    "rgb": [193, 154, 107],
+    "cmyk": [0, 20, 45, 24],
+    "category": "棕色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 18-1142 TPG",
+    "name": "Rust",
+    "hex": "#B7410E",
+    "rgb": [183, 65, 14],
+    "cmyk": [0, 64, 92, 28],
+    "category": "棕色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 16-1318 TPG",
+    "name": "Tan",
+    "hex": "#D2B48C",
+    "rgb": [210, 180, 140],
+    "cmyk": [0, 14, 33, 18],
+    "category": "棕色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 18-1142 TPG",
+    "name": "Sienna",
+    "hex": "#A0522D",
+    "rgb": [160, 82, 45],
+    "cmyk": [0, 49, 72, 37],
+    "category": "棕色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 19-1020 TPG",
+    "name": "Mahogany",
+    "hex": "#C04000",
+    "rgb": [192, 64, 0],
+    "cmyk": [0, 67, 100, 25],
+    "category": "棕色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 18-1142 TPG",
+    "name": "Terracotta",
+    "hex": "#E2725B",
+    "rgb": [226, 114, 91],
+    "cmyk": [0, 50, 60, 11],
+    "category": "棕色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 17-1230 TPG",
+    "name": "Coffee",
+    "hex": "#6F4E37",
+    "rgb": [111, 78, 55],
+    "cmyk": [0, 30, 50, 56],
+    "category": "棕色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 18-1018 TPG",
+    "name": "Chestnut",
+    "hex": "#954535",
+    "rgb": [149, 69, 53],
+    "cmyk": [0, 54, 64, 42],
+    "category": "棕色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 16-1328 TPG",
+    "name": "Sand",
+    "hex": "#C2B280",
+    "rgb": [194, 178, 128],
+    "cmyk": [0, 8, 34, 24],
+    "category": "棕色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 18-1438 TPG",
+    "name": "Marsala",
+    "hex": "#955251",
+    "rgb": [149, 82, 81],
+    "cmyk": [0, 45, 46, 42],
+    "category": "棕色系",
+    "type": "warm",
+    "year": 2015,
+    "description": "2015年度代表色，酒红色，优雅而富有层次感"
+  },
+  {
+    "code": "PANTONE 17-1547 TPG",
+    "name": "Cinnamon",
+    "hex": "#D2691E",
+    "rgb": [210, 105, 30],
+    "cmyk": [0, 50, 86, 18],
+    "category": "棕色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 19-1557 TPG",
+    "name": "Espresso",
+    "hex": "#3C1A1A",
+    "rgb": [60, 26, 26],
+    "cmyk": [0, 57, 57, 76],
+    "category": "棕色系",
+    "type": "warm"
+  }
+]
