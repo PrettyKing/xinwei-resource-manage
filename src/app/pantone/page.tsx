@@ -35,7 +35,7 @@ interface PantoneColor {
 }
 
 // 合并所有色彩数据
-const pantoneColors: PantoneColor[] = [
+const pantoneColors: any[] = [
   ...yearlyColors,
   ...redColors,
   ...pinkColors,
