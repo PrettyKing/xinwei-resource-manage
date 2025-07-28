@@ -62,6 +62,7 @@ const UserSchema = new Schema<IUser>({
   toJSON: { 
     virtuals: true,
     transform: function(doc, ret) {
+      // @ts-ignore
       delete ret.password; // 不返回密码字段
       return ret;
     }
