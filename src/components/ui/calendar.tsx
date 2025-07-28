@@ -1,65 +1,148 @@
 "use client"
 
 import * as React from "react"
-import { DayPicker } from "react-day-picker"
-
 import { cn } from "@/lib/utils"
 import { buttonVariants } from "@/components/ui/button"
 
-export type CalendarProps = React.ComponentProps<typeof DayPicker>
+export interface CalendarProps {
+  mode?: "single"
+  selected?: Date
+  onSelect?: (date: Date | undefined) => void
+  className?: string
+  initialFocus?: boolean
+}
 
 function Calendar({
   className,
-  classNames,
-  showOutsideDays = true,
+  selected,
+  onSelect,
+  mode = "single",
+  initialFocus,
   ...props
 }: CalendarProps) {
+  const [currentDate, setCurrentDate] = React.useState(new Date())
+  
+  const today = new Date()
+  const year = currentDate.getFullYear()
+  const month = currentDate.getMonth()
+  
+  const firstDayOfMonth = new Date(year, month, 1)
+  const lastDayOfMonth = new Date(year, month + 1, 0)
+  const firstDayOfWeek = firstDayOfMonth.getDay()
+  const daysInMonth = lastDayOfMonth.getDate()
+  
+  const monthNames = [
+    "一月", "二月", "三月", "四月", "五月", "六月",
+    "七月", "八月", "九月", "十月", "十一月", "十二月"
+  ]
+  
+  const weekDays = ["日", "一", "二", "三", "四", "五", "六"]
+  
+  const days = []
+  
+  // 添加空白日期
+  for (let i = 0; i < firstDayOfWeek; i++) {
+    days.push(null)
+  }
+  
+  // 添加当月日期
+  for (let day = 1; day <= daysInMonth; day++) {
+    days.push(new Date(year, month, day))
+  }
+  
+  const goToPreviousMonth = () => {
+    setCurrentDate(new Date(year, month - 1, 1))
+  }
+  
+  const goToNextMonth = () => {
+    setCurrentDate(new Date(year, month + 1, 1))
+  }
+  
+  const handleDateClick = (date: Date) => {
+    if (onSelect) {
+      onSelect(date)
+    }
+  }
+  
+  const isSelected = (date: Date) => {
+    if (!selected) return false
+    return date.toDateString() === selected.toDateString()
+  }
+  
+  const isToday = (date: Date) => {
+    return date.toDateString() === today.toDateString()
+  }
+  
   return (
-    <DayPicker
-      showOutsideDays={showOutsideDays}
-      className={cn("p-3", className)}
-      classNames={{
-        months: "flex flex-col sm:flex-row space-y-4 sm:space-x-4 sm:space-y-0",
-        month: "space-y-4",
-        caption: "flex justify-center pt-1 relative items-center",
-        caption_label: "text-sm font-medium",
-        nav: "space-x-1 flex items-center",
-        nav_button: cn(
-          buttonVariants({ variant: "outline" }),
-          "h-7 w-7 bg-transparent p-0 opacity-50 hover:opacity-100"
-        ),
-        nav_button_previous: "absolute left-1",
-        nav_button_next: "absolute right-1",
-        table: "w-full border-collapse space-y-1",
-        head_row: "flex",
-        head_cell:
-          "text-muted-foreground rounded-md w-9 font-normal text-[0.8rem]",
-        row: "flex w-full mt-2",
-        cell: "h-9 w-9 text-center text-sm p-0 relative [&:has([aria-selected].day-range-end)]:rounded-r-md [&:has([aria-selected].day-outside)]:bg-accent/50 [&:has([aria-selected])]:bg-accent first:[&:has([aria-selected])]:rounded-l-md last:[&:has([aria-selected])]:rounded-r-md focus-within:relative focus-within:z-20",
-        day: cn(
-          buttonVariants({ variant: "ghost" }),
-          "h-9 w-9 p-0 font-normal aria-selected:opacity-100"
-        ),
-        day_range_end: "day-range-end",
-        day_selected:
-          "bg-primary text-primary-foreground hover:bg-primary hover:text-primary-foreground focus:bg-primary focus:text-primary-foreground",
-        day_today: "bg-accent text-accent-foreground",
-        day_outside:
-          "day-outside text-muted-foreground opacity-50 aria-selected:bg-accent/50 aria-selected:text-muted-foreground aria-selected:opacity-30",
-        day_disabled: "text-muted-foreground opacity-50",
-        day_range_middle:
-          "aria-selected:bg-accent aria-selected:text-accent-foreground",
-        day_hidden: "invisible",
-        ...classNames,
-      }}
-      components={{
-        IconLeft: ({ ...props }) => <ChevronLeft className="h-4 w-4" />,
-        IconRight: ({ ...props }) => <ChevronRight className="h-4 w-4" />,
-      }}
-      {...props}
-    />
+    <div className={cn("p-3", className)} {...props}>
+      <div className="space-y-4">
+        {/* 头部 */}
+        <div className="flex justify-center pt-1 relative items-center">
+          <button
+            onClick={goToPreviousMonth}
+            className={cn(
+              buttonVariants({ variant: "outline" }),
+              "h-7 w-7 bg-transparent p-0 opacity-50 hover:opacity-100 absolute left-1"
+            )}
+          >
+            <ChevronLeft className="h-4 w-4" />
+          </button>
+          <div className="text-sm font-medium">
+            {year}年{monthNames[month]}
+          </div>
+          <button
+            onClick={goToNextMonth}
+            className={cn(
+              buttonVariants({ variant: "outline" }),
+              "h-7 w-7 bg-transparent p-0 opacity-50 hover:opacity-100 absolute right-1"
+            )}
+          >
+            <ChevronRight className="h-4 w-4" />
+          </button>
+        </div>
+        
+        {/* 星期标题 */}
+        <div className="flex">
+          {weekDays.map((day) => (
+            <div
+              key={day}
+              className="text-muted-foreground rounded-md w-9 font-normal text-[0.8rem] flex items-center justify-center"
+            >
+              {day}
+            </div>
+          ))}
+        </div>
+        
+        {/* 日期网格 */}
+        <div className="grid grid-cols-7 gap-1">
+          {days.map((date, index) => {
+            if (!date) {
+              return <div key={index} className="h-9 w-9" />
+            }
+            
+            return (
+              <button
+                key={date.getTime()}
+                onClick={() => handleDateClick(date)}
+                className={cn(
+                  buttonVariants({ variant: "ghost" }),
+                  "h-9 w-9 p-0 font-normal",
+                  isSelected(date) &&
+                    "bg-primary text-primary-foreground hover:bg-primary hover:text-primary-foreground",
+                  isToday(date) && !isSelected(date) &&
+                    "bg-accent text-accent-foreground"
+                )}
+              >
+                {date.getDate()}
+              </button>
+            )
+          })}
+        </div>
+      </div>
+    </div>
   )
 }
+
 Calendar.displayName = "Calendar"
 
 export { Calendar }
