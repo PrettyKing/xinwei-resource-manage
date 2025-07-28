@@ -1,0 +1,137 @@
+[
+  {
+    "code": "PANTONE 18-1664 TPG",
+    "name": "Tango Red",
+    "hex": "#E2492F",
+    "rgb": [226, 73, 47],
+    "cmyk": [0, 68, 79, 11],
+    "category": "红色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 19-1664 TPG",
+    "name": "Racing Red",
+    "hex": "#C8102E",
+    "rgb": [200, 16, 46],
+    "cmyk": [0, 92, 77, 22],
+    "category": "红色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 18-1763 TPG",
+    "name": "Scarlet",
+    "hex": "#BB2649",
+    "rgb": [187, 38, 73],
+    "cmyk": [0, 80, 61, 27],
+    "category": "红色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 19-1557 TPG",
+    "name": "Chili Pepper",
+    "hex": "#9B1B30",
+    "rgb": [155, 27, 48],
+    "cmyk": [0, 83, 69, 39],
+    "category": "红色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 18-1142 TPG",
+    "name": "Flame",
+    "hex": "#E25822",
+    "rgb": [226, 88, 34],
+    "cmyk": [0, 61, 85, 11],
+    "category": "红色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 17-1456 TPG",
+    "name": "Coral",
+    "hex": "#F5989D",
+    "rgb": [245, 152, 157],
+    "cmyk": [0, 38, 36, 4],
+    "category": "红色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 18-1661 TPG",
+    "name": "Hibiscus",
+    "hex": "#B83A4B",
+    "rgb": [184, 58, 75],
+    "cmyk": [0, 68, 59, 28],
+    "category": "红色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 19-1862 TPG",
+    "name": "Burgundy",
+    "hex": "#943A61",
+    "rgb": [148, 58, 97],
+    "cmyk": [0, 61, 34, 42],
+    "category": "红色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 18-1549 TPG",
+    "name": "Crimson",
+    "hex": "#DC143C",
+    "rgb": [220, 20, 60],
+    "cmyk": [0, 91, 73, 14],
+    "category": "红色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 19-1557 TPG",
+    "name": "Maroon",
+    "hex": "#800000",
+    "rgb": [128, 0, 0],
+    "cmyk": [0, 100, 100, 50],
+    "category": "红色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 18-1664 TPG",
+    "name": "Fire Red",
+    "hex": "#FF2500",
+    "rgb": [255, 37, 0],
+    "cmyk": [0, 85, 100, 0],
+    "category": "红色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 19-1557 TPG",
+    "name": "Dark Red",
+    "hex": "#8B0000",
+    "rgb": [139, 0, 0],
+    "cmyk": [0, 100, 100, 45],
+    "category": "红色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 17-1564 TPG",
+    "name": "Cherry Red",
+    "hex": "#DE3163",
+    "rgb": [222, 49, 99],
+    "cmyk": [0, 78, 55, 13],
+    "category": "红色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 18-1763 TPG",
+    "name": "Ruby Red",
+    "hex": "#E0115F",
+    "rgb": [224, 17, 95],
+    "cmyk": [0, 92, 58, 12],
+    "category": "红色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 19-1664 TPG",
+    "name": "Cardinal Red",
+    "hex": "#C41E3A",
+    "rgb": [196, 30, 58],
+    "cmyk": [0, 85, 70, 23],
+    "category": "红色系",
+    "type": "warm"
+  }
+]
