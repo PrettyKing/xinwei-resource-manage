@@ -17,6 +17,7 @@ import {
   SearchIcon,
   BellIcon
 } from '@/components/icons';
+import { Palette } from 'lucide-react';
 import { PageLoading } from '@/components/Loading';
 
 interface DashboardLayoutProps {
@@ -75,6 +76,11 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
       key: '/dashboard/statistics',
       icon: <ReportsIcon size={20} />,
       label: '统计分析',
+    },
+    {
+      key: '/pantone',
+      icon: <Palette size={20} />,
+      label: '潘通色卡',
     },
     // 用户管理 - 仅管理员可见
     ...(user?.role === 'admin' ? [{
