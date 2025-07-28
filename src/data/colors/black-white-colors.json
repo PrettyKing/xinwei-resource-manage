@@ -1,0 +1,74 @@
+[
+  {
+    "code": "PANTONE 19-0303 TPG",
+    "name": "Black",
+    "hex": "#000000",
+    "rgb": [0, 0, 0],
+    "cmyk": [0, 0, 0, 100],
+    "category": "黑白系",
+    "type": "neutral"
+  },
+  {
+    "code": "PANTONE 11-4001 TPG",
+    "name": "Bright White",
+    "hex": "#FFFFFF",
+    "rgb": [255, 255, 255],
+    "cmyk": [0, 0, 0, 0],
+    "category": "黑白系",
+    "type": "neutral"
+  },
+  {
+    "code": "PANTONE 11-0601 TPG",
+    "name": "Ivory",
+    "hex": "#FFFFF0",
+    "rgb": [255, 255, 240],
+    "cmyk": [0, 0, 6, 0],
+    "category": "黑白系",
+    "type": "neutral"
+  },
+  {
+    "code": "PANTONE 12-0104 TPG",
+    "name": "Cream",
+    "hex": "#F5F5DC",
+    "rgb": [245, 245, 220],
+    "cmyk": [0, 0, 10, 4],
+    "category": "黑白系",
+    "type": "neutral"
+  },
+  {
+    "code": "PANTONE 11-4800 TPG",
+    "name": "Off White",
+    "hex": "#FAF0E6",
+    "rgb": [250, 240, 230],
+    "cmyk": [0, 4, 8, 2],
+    "category": "黑白系",
+    "type": "neutral"
+  },
+  {
+    "code": "PANTONE 11-0602 TPG",
+    "name": "Antique White",
+    "hex": "#FAEBD7",
+    "rgb": [250, 235, 215],
+    "cmyk": [0, 6, 14, 2],
+    "category": "黑白系",
+    "type": "neutral"
+  },
+  {
+    "code": "PANTONE 18-1142 TPG",
+    "name": "Jet Black",
+    "hex": "#343434",
+    "rgb": [52, 52, 52],
+    "cmyk": [0, 0, 0, 80],
+    "category": "黑白系",
+    "type": "neutral"
+  },
+  {
+    "code": "PANTONE 12-5403 TPG",
+    "name": "Snow White",
+    "hex": "#FFFAFA",
+    "rgb": [255, 250, 250],
+    "cmyk": [0, 2, 2, 0],
+    "category": "黑白系",
+    "type": "neutral"
+  }
+]

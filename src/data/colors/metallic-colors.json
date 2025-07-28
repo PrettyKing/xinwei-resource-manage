@@ -1,0 +1,74 @@
+[
+  {
+    "code": "PANTONE 10127 C",
+    "name": "Gold",
+    "hex": "#FFD700",
+    "rgb": [255, 215, 0],
+    "cmyk": [0, 16, 100, 0],
+    "category": "金属色",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 877 C",
+    "name": "Silver",
+    "hex": "#C0C0C0",
+    "rgb": [192, 192, 192],
+    "cmyk": [0, 0, 0, 25],
+    "category": "金属色",
+    "type": "neutral"
+  },
+  {
+    "code": "PANTONE 876 C",
+    "name": "Copper",
+    "hex": "#B87333",
+    "rgb": [184, 115, 51],
+    "cmyk": [0, 38, 72, 28],
+    "category": "金属色",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 8003 C",
+    "name": "Rose Gold",
+    "hex": "#E8B4B8",
+    "rgb": [232, 180, 184],
+    "cmyk": [0, 22, 21, 9],
+    "category": "金属色",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 875 C",
+    "name": "Metallic Gold",
+    "hex": "#D4AF37",
+    "rgb": [212, 175, 55],
+    "cmyk": [0, 17, 74, 17],
+    "category": "金属色",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 8062 C",
+    "name": "Bronze",
+    "hex": "#CD7F32",
+    "rgb": [205, 127, 50],
+    "cmyk": [0, 38, 76, 20],
+    "category": "金属色",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 8001 C",
+    "name": "Platinum",
+    "hex": "#E5E4E2",
+    "rgb": [229, 228, 226],
+    "cmyk": [0, 0, 1, 10],
+    "category": "金属色",
+    "type": "neutral"
+  },
+  {
+    "code": "PANTONE 8023 C",
+    "name": "Pewter",
+    "hex": "#96A8A1",
+    "rgb": [150, 168, 161],
+    "cmyk": [11, 0, 4, 34],
+    "category": "金属色",
+    "type": "neutral"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "code": "PANTONE 805 C",
+    "name": "Neon Pink",
+    "hex": "#FF1493",
+    "rgb": [255, 20, 147],
+    "cmyk": [0, 92, 42, 0],
+    "category": "霜虹色",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 802 C",
+    "name": "Neon Green",
+    "hex": "#39FF14",
+    "rgb": [57, 255, 20],
+    "cmyk": [78, 0, 92, 0],
+    "category": "霜虹色",
+    "type": "cool"
+  },
+  {
+    "code": "PANTONE 803 C",
+    "name": "Neon Yellow",
+    "hex": "#FFFF00",
+    "rgb": [255, 255, 0],
+    "cmyk": [0, 0, 100, 0],
+    "category": "霜虹色",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 804 C",
+    "name": "Neon Blue",
+    "hex": "#1B03A3",
+    "rgb": [27, 3, 163],
+    "cmyk": [83, 98, 0, 36],
+    "category": "霜虹色",
+    "type": "cool"
+  },
+  {
+    "code": "PANTONE 806 C",
+    "name": "Neon Orange",
+    "hex": "#FF6600",
+    "rgb": [255, 102, 0],
+    "cmyk": [0, 60, 100, 0],
+    "category": "霜虹色",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 807 C",
+    "name": "Electric Lime",
+    "hex": "#CCFF00",
+    "rgb": [204, 255, 0],
+    "cmyk": [20, 0, 100, 0],
+    "category": "霜虹色",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 808 C",
+    "name": "Cyber Yellow",
+    "hex": "#FFD300",
+    "rgb": [255, 211, 0],
+    "cmyk": [0, 17, 100, 0],
+    "category": "霜虹色",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 809 C",
+    "name": "Electric Purple",
+    "hex": "#BF00FF",
+    "rgb": [191, 0, 255],
+    "cmyk": [25, 100, 0, 0],
+    "category": "霜虹色",
+    "type": "cool"
+  }
+]

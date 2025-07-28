@@ -1,0 +1,92 @@
+[
+  {
+    "code": "PANTONE 13-2010 TPG",
+    "name": "Baby Pink",
+    "hex": "#F4C2C2",
+    "rgb": [244, 194, 194],
+    "cmyk": [0, 20, 20, 4],
+    "category": "粉彩色",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 12-0736 TPG",
+    "name": "Butter Yellow",
+    "hex": "#FFFFE0",
+    "rgb": [255, 255, 224],
+    "cmyk": [0, 0, 12, 0],
+    "category": "粉彩色",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 14-4318 TPG",
+    "name": "Baby Blue",
+    "hex": "#89CFF0",
+    "rgb": [137, 207, 240],
+    "cmyk": [43, 14, 0, 6],
+    "category": "粉彩色",
+    "type": "cool"
+  },
+  {
+    "code": "PANTONE 13-0220 TPG",
+    "name": "Mint Green",
+    "hex": "#98FB98",
+    "rgb": [152, 251, 152],
+    "cmyk": [39, 0, 39, 2],
+    "category": "粉彩色",
+    "type": "cool"
+  },
+  {
+    "code": "PANTONE 14-3207 TPG",
+    "name": "Lavender Mist",
+    "hex": "#E6E6FA",
+    "rgb": [230, 230, 250],
+    "cmyk": [8, 8, 0, 2],
+    "category": "粉彩色",
+    "type": "cool"
+  },
+  {
+    "code": "PANTONE 12-1304 TPG",
+    "name": "Peach Cream",
+    "hex": "#FFCCCB",
+    "rgb": [255, 204, 203],
+    "cmyk": [0, 20, 20, 0],
+    "category": "粉彩色",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 13-4111 TPG",
+    "name": "Powder Blue",
+    "hex": "#B0E0E6",
+    "rgb": [176, 224, 230],
+    "cmyk": [23, 3, 0, 10],
+    "category": "粉彩色",
+    "type": "cool"
+  },
+  {
+    "code": "PANTONE 12-0643 TPG",
+    "name": "Lemon Chiffon",
+    "hex": "#FFFACD",
+    "rgb": [255, 250, 205],
+    "cmyk": [0, 2, 20, 0],
+    "category": "粉彩色",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 13-3405 TPG",
+    "name": "Thistle",
+    "hex": "#D8BFD8",
+    "rgb": [216, 191, 216],
+    "cmyk": [0, 12, 0, 15],
+    "category": "粉彩色",
+    "type": "cool"
+  },
+  {
+    "code": "PANTONE 12-5403 TPG",
+    "name": "Honeydew",
+    "hex": "#F0FFF0",
+    "rgb": [240, 255, 240],
+    "cmyk": [6, 0, 6, 0],
+    "category": "粉彩色",
+    "type": "cool"
+  }
+]
