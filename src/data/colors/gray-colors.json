@@ -2,6 +2,7 @@
   {
     "code": "PANTONE 17-1210 TPG",
     "name": "Warm Gray",
+    "cn_name": "暖灰色",
     "hex": "#A0A0A0",
     "rgb": [160, 160, 160],
     "cmyk": [0, 0, 0, 37],
@@ -11,6 +12,7 @@
   {
     "code": "PANTONE 18-1210 TPG",
     "name": "Cool Gray",
+    "cn_name": "冷灰色",
     "hex": "#808080",
     "rgb": [128, 128, 128],
     "cmyk": [0, 0, 0, 50],
@@ -20,6 +22,7 @@
   {
     "code": "PANTONE 19-4007 TPG",
     "name": "Eclipse",
+    "cn_name": "日蚀灰",
     "hex": "#343148",
     "rgb": [52, 49, 72],
     "cmyk": [28, 32, 0, 72],
@@ -29,6 +32,7 @@
   {
     "code": "PANTONE 16-4402 TPG",
     "name": "Silver",
+    "cn_name": "银色",
     "hex": "#C0C0C0",
     "rgb": [192, 192, 192],
     "cmyk": [0, 0, 0, 25],
@@ -38,6 +42,7 @@
   {
     "code": "PANTONE 14-4002 TPG",
     "name": "Light Gray",
+    "cn_name": "浅灰色",
     "hex": "#D3D3D3",
     "rgb": [211, 211, 211],
     "cmyk": [0, 0, 0, 17],
@@ -47,6 +52,7 @@
   {
     "code": "PANTONE 18-1210 TPG",
     "name": "Charcoal",
+    "cn_name": "木炭灰",
     "hex": "#36454F",
     "rgb": [54, 69, 79],
     "cmyk": [32, 13, 0, 69],
@@ -56,6 +62,7 @@
   {
     "code": "PANTONE 17-1210 TPG",
     "name": "Stone Gray",
+    "cn_name": "石灰色",
     "hex": "#918A84",
     "rgb": [145, 138, 132],
     "cmyk": [0, 5, 9, 43],
@@ -65,6 +72,7 @@
   {
     "code": "PANTONE 15-4101 TPG",
     "name": "Dove Gray",
+    "cn_name": "鸽灰色",
     "hex": "#6D6875",
     "rgb": [109, 104, 117],
     "cmyk": [7, 11, 0, 54],
@@ -74,6 +82,7 @@
   {
     "code": "PANTONE 16-3802 TPG",
     "name": "Ash Gray",
+    "cn_name": "灰烬色",
     "hex": "#B2BEB5",
     "rgb": [178, 190, 181],
     "cmyk": [6, 0, 5, 25],
@@ -83,6 +92,7 @@
   {
     "code": "PANTONE 14-4318 TPG",
     "name": "Slate Gray",
+    "cn_name": "石板灰",
     "hex": "#708090",
     "rgb": [112, 128, 144],
     "cmyk": [22, 11, 0, 44],
