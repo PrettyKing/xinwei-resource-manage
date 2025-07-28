@@ -88,5 +88,23 @@
     "cmyk": [23, 3, 0, 10],
     "category": "蓝色系",
     "type": "cool"
+  },
+  {
+    "code": "PANTONE 19-4049 TPG",
+    "name": "Midnight Blue",
+    "hex": "#191970",
+    "rgb": [25, 25, 112],
+    "cmyk": [78, 78, 0, 56],
+    "category": "蓝色系",
+    "type": "cool"
+  },
+  {
+    "code": "PANTONE 17-4432 TPG",
+    "name": "Steel Blue",
+    "hex": "#4682B4",
+    "rgb": [70, 130, 180],
+    "cmyk": [61, 28, 0, 29],
+    "category": "蓝色系",
+    "type": "cool"
   }
 ]
