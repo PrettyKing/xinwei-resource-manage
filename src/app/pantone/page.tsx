@@ -4,58 +4,56 @@ import React, { useState, useEffect, useMemo } from 'react'
 import { Search, Copy, Heart, Download, Palette, Grid, List, Filter } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
-// 潘通色彩数据 (2024年最新色卡)
-const pantoneColors = [
-  // 2024 Color of the Year - Peach Fuzz
-  { code: 'PANTONE 13-1023 TPG', name: 'Peach Fuzz', hex: '#FFBE98', rgb: [255, 190, 152], category: '2024', type: 'warm' },
-  
-  // 经典色彩
-  { code: 'PANTONE 18-1763 TPG', name: 'Viva Magenta', hex: '#BB2649', rgb: [187, 38, 73], category: '2023', type: 'warm' },
-  { code: 'PANTONE 17-3938 TPG', name: 'Very Peri', hex: '#6667AB', rgb: [102, 103, 171], category: '2022', type: 'cool' },
-  { code: 'PANTONE 17-5104 TPG', name: 'Ultimate Gray', hex: '#939597', rgb: [147, 149, 151], category: '2021', type: 'neutral' },
-  { code: 'PANTONE 19-4052 TPG', name: 'Classic Blue', hex: '#0F4C75', rgb: [15, 76, 117], category: '2020', type: 'cool' },
-  
-  // 红色系列
-  { code: 'PANTONE 18-1664 TPG', name: 'Tango Red', hex: '#E2492F', rgb: [226, 73, 47], category: 'reds', type: 'warm' },
-  { code: 'PANTONE 18-1763 TPG', name: 'Scarlet', hex: '#BB2649', rgb: [187, 38, 73], category: 'reds', type: 'warm' },
-  { code: 'PANTONE 19-1664 TPG', name: 'Racing Red', hex: '#C8102E', rgb: [200, 16, 46], category: 'reds', type: 'warm' },
-  { code: 'PANTONE 18-1142 TPG', name: 'Flame', hex: '#E25822', rgb: [226, 88, 34], category: 'reds', type: 'warm' },
-  
-  // 蓝色系列
-  { code: 'PANTONE 19-4052 TPG', name: 'Classic Blue', hex: '#0F4C75', rgb: [15, 76, 117], category: 'blues', type: 'cool' },
-  { code: 'PANTONE 18-4043 TPG', name: 'Stellar', hex: '#0072CE', rgb: [0, 114, 206], category: 'blues', type: 'cool' },
-  { code: 'PANTONE 17-4041 TPG', name: 'Cerulean', hex: '#9BB7D4', rgb: [155, 183, 212], category: 'blues', type: 'cool' },
-  { code: 'PANTONE 15-4020 TPG', name: 'Powder Blue', hex: '#B6D7FF', rgb: [182, 215, 255], category: 'blues', type: 'cool' },
-  
-  // 绿色系列
-  { code: 'PANTONE 17-5641 TPG', name: 'Emerald', hex: '#009B77', rgb: [0, 155, 119], category: 'greens', type: 'cool' },
-  { code: 'PANTONE 15-0343 TPG', name: 'Greenery', hex: '#88B04B', rgb: [136, 176, 75], category: 'greens', type: 'cool' },
-  { code: 'PANTONE 18-5633 TPG', name: 'Forest Green', hex: '#355E3B', rgb: [53, 94, 59], category: 'greens', type: 'cool' },
-  { code: 'PANTONE 14-0123 TPG', name: 'Lime Punch', hex: '#D2E823', rgb: [210, 232, 35], category: 'greens', type: 'warm' },
-  
-  // 紫色系列
-  { code: 'PANTONE 18-3838 TPG', name: 'Ultra Violet', hex: '#5F4B8C', rgb: [95, 75, 140], category: 'purples', type: 'cool' },
-  { code: 'PANTONE 17-3834 TPG', name: 'Radiant Orchid', hex: '#B565A7', rgb: [181, 101, 167], category: 'purples', type: 'warm' },
-  { code: 'PANTONE 17-3938 TPG', name: 'Very Peri', hex: '#6667AB', rgb: [102, 103, 171], category: 'purples', type: 'cool' },
-  { code: 'PANTONE 19-3336 TPG', name: 'Royal Purple', hex: '#663399', rgb: [102, 51, 153], category: 'purples', type: 'cool' },
-  
-  // 橙色/黄色系列
-  { code: 'PANTONE 15-1264 TPG', name: 'Living Coral', hex: '#FF6F61', rgb: [255, 111, 97], category: 'oranges', type: 'warm' },
-  { code: 'PANTONE 14-1064 TPG', name: 'Tangerine Tango', hex: '#DD4124', rgb: [221, 65, 36], category: 'oranges', type: 'warm' },
-  { code: 'PANTONE 13-0859 TPG', name: 'Illuminating', hex: '#F5DF4D', rgb: [245, 223, 77], category: 'yellows', type: 'warm' },
-  { code: 'PANTONE 12-0736 TPG', name: 'Mimosa', hex: '#EFC050', rgb: [239, 192, 80], category: 'yellows', type: 'warm' },
-  
-  // 中性色系列
-  { code: 'PANTONE 17-1210 TPG', name: 'Warm Gray', hex: '#A0A0A0', rgb: [160, 160, 160], category: 'neutrals', type: 'neutral' },
-  { code: 'PANTONE 18-1142 TPG', name: 'Cognac', hex: '#9E4624', rgb: [158, 70, 36], category: 'neutrals', type: 'warm' },
-  { code: 'PANTONE 19-4007 TPG', name: 'Eclipse', hex: '#343148', rgb: [52, 49, 72], category: 'neutrals', type: 'neutral' },
-  { code: 'PANTONE 11-4001 TPG', name: 'Bright White', hex: '#F7F7F7', rgb: [247, 247, 247], category: 'neutrals', type: 'neutral' },
+// 导入色彩数据
+import yearlyColors from '@/data/colors/yearly-colors.json'
+import redColors from '@/data/colors/red-colors.json'
+import pinkColors from '@/data/colors/pink-colors.json'
+import orangeColors from '@/data/colors/orange-colors.json'
+import yellowColors from '@/data/colors/yellow-colors.json'
+import greenColors from '@/data/colors/green-colors.json'
+import blueColors from '@/data/colors/blue-colors.json'
+import purpleColors from '@/data/colors/purple-colors.json'
+import brownColors from '@/data/colors/brown-colors.json'
+import grayColors from '@/data/colors/gray-colors.json'
+import blackWhiteColors from '@/data/colors/black-white-colors.json'
+import metallicColors from '@/data/colors/metallic-colors.json'
+import neonColors from '@/data/colors/neon-colors.json'
+import pastelColors from '@/data/colors/pastel-colors.json'
+
+// 色彩数据接口
+interface PantoneColor {
+  code: string
+  name: string
+  hex: string
+  rgb: [number, number, number]
+  cmyk: [number, number, number, number]
+  category: string
+  type: 'warm' | 'cool' | 'neutral'
+  year?: number
+  description?: string
+}
+
+// 合并所有色彩数据
+const pantoneColors: PantoneColor[] = [
+  ...yearlyColors,
+  ...redColors,
+  ...pinkColors,
+  ...orangeColors,
+  ...yellowColors,
+  ...greenColors,
+  ...blueColors,
+  ...purpleColors,
+  ...brownColors,
+  ...grayColors,
+  ...blackWhiteColors,
+  ...metallicColors,
+  ...neonColors,
+  ...pastelColors
 ]
 
 interface ColorCardProps {
-  color: typeof pantoneColors[0]
+  color: PantoneColor
   viewMode: 'grid' | 'list'
   isFavorited: boolean
   onToggleFavorite: () => void
@@ -69,7 +67,7 @@ const ColorCard: React.FC<ColorCardProps> = ({
   onToggleFavorite, 
   onCopyHex 
 }) => {
-  const textColor = color.hex === '#F7F7F7' || color.type === 'warm' && color.hex.includes('FF') ? '#000' : '#FFF'
+  const textColor = color.hex === '#FFFFFF' || color.hex === '#F7F7F7' || color.hex === '#FFFAFA' ? '#000' : '#FFF'
   
   if (viewMode === 'list') {
     return (
@@ -90,6 +88,19 @@ const ColorCard: React.FC<ColorCardProps> = ({
                 <p className="text-xs text-gray-500">
                   RGB({color.rgb.join(', ')})
                 </p>
+                <p className="text-xs text-gray-500">
+                  CMYK({color.cmyk.join(', ')})
+                </p>
+                {color.year && (
+                  <p className="text-xs text-blue-600 font-medium">
+                    {color.year}年度色彩
+                  </p>
+                )}
+                {color.description && (
+                  <p className="text-xs text-gray-400 mt-1 max-w-md">
+                    {color.description}
+                  </p>
+                )}
               </div>
             </div>
             <div className="flex items-center space-x-2">
@@ -127,14 +138,20 @@ const ColorCard: React.FC<ColorCardProps> = ({
           <span className="relative z-10 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             {color.hex}
           </span>
+          {color.year && (
+            <div className="absolute top-2 right-2 bg-white/90 text-xs px-2 py-1 rounded-full text-gray-800 font-medium">
+              {color.year}
+            </div>
+          )}
         </div>
         <div className="p-4">
           <h3 className="font-semibold text-gray-900 truncate">{color.name}</h3>
           <p className="text-sm text-gray-600 mb-2">{color.code}</p>
           <div className="flex items-center justify-between">
-            <span className="text-xs text-gray-500">
-              RGB({color.rgb.join(', ')})
-            </span>
+            <div className="text-xs text-gray-500">
+              <div>RGB({color.rgb.join(', ')})</div>
+              <div>CMYK({color.cmyk.join(', ')})</div>
+            </div>
             <div className="flex space-x-1">
               <Button
                 variant="ghost"
@@ -162,26 +179,53 @@ const ColorCard: React.FC<ColorCardProps> = ({
 
 export default function PantoneColorPage() {
   const [searchTerm, setSearchTerm] = useState('')
-  const [selectedCategory, setSelectedCategory] = useState('all')
+  const [selectedCategory, setSelectedCategory] = useState('全部分类')
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid')
   const [favorites, setFavorites] = useState<Set<string>>(new Set())
   const [copiedColor, setCopiedColor] = useState<string | null>(null)
 
   // 获取所有分类
   const categories = useMemo(() => {
-    const cats = [...new Set(pantoneColors.map(color => color.category))]
-    return ['all', ...cats.sort()]
+    return [
+      '全部分类',
+      '年度色彩',
+      '红色系',
+      '粉色系', 
+      '橙色系',
+      '黄色系',
+      '绿色系',
+      '蓝色系',
+      '紫色系',
+      '棕色系',
+      '灰色系',
+      '黑白系',
+      '金属色',
+      '霓虹色',
+      '粉彩色'
+    ]
   }, [])
 
   // 过滤颜色
   const filteredColors = useMemo(() => {
-    return pantoneColors.filter(color => {
-      const matchesSearch = color.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                           color.code.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                           color.hex.toLowerCase().includes(searchTerm.toLowerCase())
-      const matchesCategory = selectedCategory === 'all' || color.category === selectedCategory
-      return matchesSearch && matchesCategory
-    })
+    let colors = pantoneColors
+    
+    // 按分类筛选
+    if (selectedCategory !== '全部分类') {
+      colors = colors.filter(color => color.category === selectedCategory)
+    }
+    
+    // 按搜索词筛选
+    if (searchTerm) {
+      const term = searchTerm.toLowerCase()
+      colors = colors.filter(color => 
+        color.name.toLowerCase().includes(term) ||
+        color.code.toLowerCase().includes(term) ||
+        color.hex.toLowerCase().includes(term) ||
+        color.category.toLowerCase().includes(term)
+      )
+    }
+    
+    return colors
   }, [searchTerm, selectedCategory])
 
   // 复制颜色值
@@ -208,13 +252,18 @@ export default function PantoneColorPage() {
       name: color.name,
       code: color.code,
       hex: color.hex,
-      rgb: color.rgb
+      rgb: color.rgb,
+      cmyk: color.cmyk,
+      category: color.category,
+      type: color.type,
+      year: color.year,
+      description: color.description
     }))
     const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' })
     const url = URL.createObjectURL(blob)
     const a = document.createElement('a')
     a.href = url
-    a.download = 'pantone-colors.json'
+    a.download = `pantone-colors-${selectedCategory}-${new Date().toISOString().slice(0, 10)}.json`
     a.click()
     URL.revokeObjectURL(url)
   }
@@ -231,7 +280,7 @@ export default function PantoneColorPage() {
               </div>
               <div>
                 <h1 className="text-2xl font-bold text-gray-900">潘通色卡</h1>
-                <p className="text-sm text-gray-600">2024年最新色彩标准参考</p>
+                <p className="text-sm text-gray-600">专业色彩标准参考 • {pantoneColors.length}个色彩</p>
               </div>
             </div>
             <div className="flex items-center space-x-3">
@@ -289,15 +338,7 @@ export default function PantoneColorPage() {
               >
                 {categories.map(category => (
                   <option key={category} value={category}>
-                    {category === 'all' ? '全部分类' : 
-                     category === 'reds' ? '红色系' :
-                     category === 'blues' ? '蓝色系' :
-                     category === 'greens' ? '绿色系' :
-                     category === 'purples' ? '紫色系' :
-                     category === 'oranges' ? '橙色系' :
-                     category === 'yellows' ? '黄色系' :
-                     category === 'neutrals' ? '中性色' :
-                     category}
+                    {category}
                   </option>
                 ))}
               </select>
