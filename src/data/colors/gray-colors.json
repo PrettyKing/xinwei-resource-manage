@@ -1,0 +1,92 @@
+[
+  {
+    "code": "PANTONE 17-1210 TPG",
+    "name": "Warm Gray",
+    "hex": "#A0A0A0",
+    "rgb": [160, 160, 160],
+    "cmyk": [0, 0, 0, 37],
+    "category": "灰色系",
+    "type": "neutral"
+  },
+  {
+    "code": "PANTONE 18-1210 TPG",
+    "name": "Cool Gray",
+    "hex": "#808080",
+    "rgb": [128, 128, 128],
+    "cmyk": [0, 0, 0, 50],
+    "category": "灰色系",
+    "type": "neutral"
+  },
+  {
+    "code": "PANTONE 19-4007 TPG",
+    "name": "Eclipse",
+    "hex": "#343148",
+    "rgb": [52, 49, 72],
+    "cmyk": [28, 32, 0, 72],
+    "category": "灰色系",
+    "type": "neutral"
+  },
+  {
+    "code": "PANTONE 16-4402 TPG",
+    "name": "Silver",
+    "hex": "#C0C0C0",
+    "rgb": [192, 192, 192],
+    "cmyk": [0, 0, 0, 25],
+    "category": "灰色系",
+    "type": "neutral"
+  },
+  {
+    "code": "PANTONE 14-4002 TPG",
+    "name": "Light Gray",
+    "hex": "#D3D3D3",
+    "rgb": [211, 211, 211],
+    "cmyk": [0, 0, 0, 17],
+    "category": "灰色系",
+    "type": "neutral"
+  },
+  {
+    "code": "PANTONE 18-1210 TPG",
+    "name": "Charcoal",
+    "hex": "#36454F",
+    "rgb": [54, 69, 79],
+    "cmyk": [32, 13, 0, 69],
+    "category": "灰色系",
+    "type": "neutral"
+  },
+  {
+    "code": "PANTONE 17-1210 TPG",
+    "name": "Stone Gray",
+    "hex": "#918A84",
+    "rgb": [145, 138, 132],
+    "cmyk": [0, 5, 9, 43],
+    "category": "灰色系",
+    "type": "neutral"
+  },
+  {
+    "code": "PANTONE 15-4101 TPG",
+    "name": "Dove Gray",
+    "hex": "#6D6875",
+    "rgb": [109, 104, 117],
+    "cmyk": [7, 11, 0, 54],
+    "category": "灰色系",
+    "type": "neutral"
+  },
+  {
+    "code": "PANTONE 16-3802 TPG",
+    "name": "Ash Gray",
+    "hex": "#B2BEB5",
+    "rgb": [178, 190, 181],
+    "cmyk": [6, 0, 5, 25],
+    "category": "灰色系",
+    "type": "neutral"
+  },
+  {
+    "code": "PANTONE 14-4318 TPG",
+    "name": "Slate Gray",
+    "hex": "#708090",
+    "rgb": [112, 128, 144],
+    "cmyk": [22, 11, 0, 44],
+    "category": "灰色系",
+    "type": "neutral"
+  }
+]
