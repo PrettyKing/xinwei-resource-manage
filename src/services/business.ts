@@ -796,3 +796,221 @@ export class DashboardService {
     return activities.slice(0, 5);
   }
 }
+
+
+export class UserService {
+  static async getAll(filter: UserFilter, pagination: PaginationParams): Promise<PaginatedResponse<IUser>> {
+    await connectDB();
+    
+    const query: any = {};
+    
+    if (filter.role) query.role = filter.role;
+    if (filter.status) query.status = filter.status;
+    if (filter.keyword) {
+      query.$or = [
+        { username: { $regex: filter.keyword, $options: 'i' } },
+        { realName: { $regex: filter.keyword, $options: 'i' } }
+      ];
+    }
+
+    const skip = (pagination.page - 1) * pagination.pageSize;
+    const sort: any = {};
+    if (pagination.sortBy) {
+      sort[pagination.sortBy] = pagination.sortOrder === 'desc' ? -1 : 1;
+    } else {
+      sort.updatedAt = -1;
+    }
+
+    const [items, total] = await Promise.all([
+      User.find(query)
+        .sort(sort)
+        .skip(skip)
+        .limit(pagination.pageSize)
+        .lean(),
+      User.countDocuments(query)
+    ]);
+
+    return {
+      items,
+      total,
+      page: pagination.page,
+      pageSize: pagination.pageSize,
+      totalPages: Math.ceil(total / pagination.pageSize)
+    } as any;
+  }
+
+  static async create(data: CreateUserForm, createdBy: string): Promise<IUser> {
+    await connectDB();
+    
+    // 检查用户名是否唯一
+    const existingUser = await User.findOne({ username: data.username });
+    if (existingUser) {
+      throw new Error('用户名已存在');
+    }
+
+    const user = new User({
+      ...data,
+      createdBy
+    });
+
+    await user.save();
+    return user.toObject();
+  }
+
+  static async update(id: string, data: UpdateUserForm, updatedBy: string): Promise<IUser | null> {
+    await connectDB();
+    
+    if (!isValidObjectId(id)) {
+      throw new Error('无效的用户ID格式');
+    }
+    
+    if (data.realName) {
+      const existingUser = await User.findOne({
+        realName: data.realName,
+        _id: { $ne: id }
+      });
+      if (existingUser) {
+        throw new Error('用户名已存在');
+      }
+    }
+    const user = await User.findByIdAndUpdate(
+      id,
+      { ...data, updatedBy },
+      { new: true, runValidators: true }
+    );
+    return user?.toObject() || null;
+  }
+  static async delete(id: string): Promise<boolean> {
+    await connectDB();
+    
+    if (!isValidObjectId(id)) {
+      throw new Error('无效的用户ID格式');
+    }
+    
+    // 检查是否是管理员
+    const user = await User.findById(id);
+    if (!user) {
+      throw new Error('用户不存在');
+    }
+
+    if (user.role === 'admin') {
+      throw new Error('不能删除管理员用户');
+    }
+
+    await User.findByIdAndDelete(id);
+    return true;
+  }
+  static async getOptions(): Promise<Array<{ id: string; username: string; realName: string }>> {
+    await connectDB();
+    return User.find({ status: 'active' })
+      .select('username realName')
+      .sort({ username: 1 })
+      .lean()
+      .then(users => users.map((u:any) => ({ 
+        id: u._id.toString(), 
+        username: u.username, 
+        realName: u.realName 
+      })));
+  }
+  static async changePassword(userId: string, oldPassword: string, newPassword: string): Promise<void> {
+    await connectDB();
+    
+    if (!isValidObjectId(userId)) {
+      throw new Error('无效的用户ID格式');
+    }
+    
+    const user = await User.findById(userId);
+    if (!user) {
+      throw new Error('用户不存在');
+    }
+
+    const isMatch = await user.comparePassword(oldPassword);
+    if (!isMatch) {
+      throw new Error('旧密码不正确');
+    }
+
+    user.password = newPassword;
+    await user.save();
+  }
+  static async resetPassword(userId: string, newPassword: string): Promise<void> {
+    await connectDB();
+    
+    if (!isValidObjectId(userId)) {
+      throw new Error('无效的用户ID格式');
+    }
+    
+    const user = await User.findById(userId);
+    if (!user) {
+      throw new Error('用户不存在');
+    }
+
+    user.password = newPassword;
+    await user.save();
+  }
+  static async getUserRole(userId: string): Promise<string> {
+    await connectDB();
+    
+    if (!isValidObjectId(userId)) {
+      throw new Error('无效的用户ID格式');
+    }
+    
+    const user = await User.findById(userId);
+    if (!user) {
+      throw new Error('用户不存在');
+    }
+
+    return user.role;
+  }
+  static async getUserPermissions(userId: string): Promise<string[]> {
+    await connectDB();
+    
+    if (!isValidObjectId(userId)) {
+      throw new Error('无效的用户ID格式');
+    }
+    
+    const user = await User.findById(userId);
+    if (!user) {
+      throw new Error('用户不存在');
+    }
+
+    // 根据角色返回权限
+    switch (user.role) {
+      case 'admin':
+        return ['manage_users', 'manage_materials', 'manage_suppliers', 'manage_inbounds', 'view_reports'];
+      case 'manager':
+        return ['manage_materials', 'manage_suppliers', 'manage_inbounds', 'view_reports'];
+      case 'operator':
+        return ['manage_inbounds', 'view_reports'];
+      default:
+        return [];
+    }
+  }
+  static async getUserDisplayName(userId: string): Promise<string> {
+    await connectDB();
+    
+    if (!isValidObjectId(userId)) {
+      throw new Error('无效的用户ID格式');
+    }
+    
+    const user = await User.findById(userId);
+    if (!user) {
+      throw new Error('用户不存在');
+    }
+
+    return user.realName || user.username;
+  }
+  static async getUserAvatar(userId: string): Promise<string> {
+    await connectDB();
+    
+    if (!isValidObjectId(userId)) {
+      throw new Error('无效的用户ID格式');
+    }
+    
+    const user = await User.findById(userId);
+    if (!user) {
+      throw new Error('用户不存在');
+    }
+
+    return user.avatar || '/default-avatar.png'; // 返回默认头像路径
+  }
+}
