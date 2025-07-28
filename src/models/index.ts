@@ -62,19 +62,12 @@ const UserSchema = new Schema<IUser>({
   toJSON: { 
     virtuals: true,
     transform: function(doc, ret) {
-      // @ts-ignore
       delete ret.password; // 不返回密码字段
       return ret;
     }
   },
   toObject: { virtuals: true }
 });
-
-// 创建索引
-UserSchema.index({ username: 1 });
-UserSchema.index({ email: 1 });
-UserSchema.index({ role: 1 });
-UserSchema.index({ status: 1 });
 
 // 密码加密中间件
 UserSchema.pre('save', async function(next) {
@@ -129,11 +122,6 @@ const SupplierSchema = new Schema<ISupplier>({
   toObject: { virtuals: true }
 });
 
-// 创建索引
-SupplierSchema.index({ code: 1 });
-SupplierSchema.index({ name: 'text', contactPerson: 'text' });
-SupplierSchema.index({ status: 1 });
-
 export const Supplier = mongoose.models.Supplier || mongoose.model<ISupplier>('Supplier', SupplierSchema);
 
 // 材料分类模型
@@ -164,10 +152,6 @@ const MaterialCategorySchema = new Schema<IMaterialCategory>({
   toJSON: { virtuals: true },
   toObject: { virtuals: true }
 });
-
-MaterialCategorySchema.index({ code: 1 });
-MaterialCategorySchema.index({ parentId: 1 });
-MaterialCategorySchema.index({ level: 1 });
 
 export const MaterialCategory = mongoose.models.MaterialCategory || 
   mongoose.model<IMaterialCategory>('MaterialCategory', MaterialCategorySchema);
@@ -220,13 +204,6 @@ MaterialSchema.virtual('category', {
   justOne: true
 });
 
-// 创建索引
-MaterialSchema.index({ code: 1 });
-MaterialSchema.index({ categoryId: 1 });
-MaterialSchema.index({ name: 'text', specification: 'text' });
-MaterialSchema.index({ status: 1 });
-MaterialSchema.index({ currentStock: 1, minStock: 1 }); // 用于库存预警
-
 // 验证 maxStock >= minStock
 MaterialSchema.pre('save', function(next) {
   if (this.maxStock < this.minStock) {
@@ -276,9 +253,6 @@ InboundItemSchema.virtual('material', {
   foreignField: '_id',
   justOne: true
 });
-
-InboundItemSchema.index({ inboundOrderId: 1 });
-InboundItemSchema.index({ materialId: 1 });
 
 export const InboundItem = mongoose.models.InboundItem || 
   mongoose.model<IInboundItem>('InboundItem', InboundItemSchema);
@@ -342,13 +316,6 @@ InboundOrderSchema.virtual('items', {
   foreignField: 'inboundOrderId'
 });
 
-// 创建索引
-InboundOrderSchema.index({ orderNo: 1 });
-InboundOrderSchema.index({ supplierId: 1 });
-InboundOrderSchema.index({ status: 1 });
-InboundOrderSchema.index({ submittedBy: 1 });
-InboundOrderSchema.index({ submittedAt: -1 });
-
 // 自动生成订单号
 InboundOrderSchema.pre('save', async function(next) {
   if (this.isNew && !this.orderNo) {
@@ -407,10 +374,6 @@ StockRecordSchema.virtual('material', {
   justOne: true
 });
 
-StockRecordSchema.index({ materialId: 1, operatedAt: -1 });
-StockRecordSchema.index({ type: 1 });
-StockRecordSchema.index({ operatedAt: -1 });
-
 export const StockRecord = mongoose.models.StockRecord || 
   mongoose.model<IStockRecord>('StockRecord', StockRecordSchema);
 
@@ -461,9 +424,8 @@ StockBatchSchema.virtual('supplier', {
   justOne: true
 });
 
+// 为批次创建复合唯一索引
 StockBatchSchema.index({ materialId: 1, batchNo: 1 }, { unique: true });
-StockBatchSchema.index({ expiryDate: 1 });
-StockBatchSchema.index({ status: 1 });
 
 export const StockBatch = mongoose.models.StockBatch || 
   mongoose.model<IStockBatch>('StockBatch', StockBatchSchema);
