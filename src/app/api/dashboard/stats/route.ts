@@ -25,7 +25,7 @@ function verifyToken(request: NextRequest) {
 export async function GET(request: NextRequest) {
   try {
     const user = verifyToken(request);
-
+    
     const stats = await DashboardService.getStats();
     
     return NextResponse.json({
@@ -33,7 +33,7 @@ export async function GET(request: NextRequest) {
       data: stats
     });
   } catch (error) {
-    console.error('获取仪表盘统计数据失败:', error);
+    console.error('获取统计数据失败:', error);
     
     if (error instanceof Error && error.message.includes('认证')) {
       return NextResponse.json(
