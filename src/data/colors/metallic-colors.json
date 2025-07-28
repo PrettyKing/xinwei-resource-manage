@@ -2,6 +2,7 @@
   {
     "code": "PANTONE 10127 C",
     "name": "Gold",
+    "cn_name": "黄金色",
     "hex": "#FFD700",
     "rgb": [255, 215, 0],
     "cmyk": [0, 16, 100, 0],
@@ -11,6 +12,7 @@
   {
     "code": "PANTONE 877 C",
     "name": "Silver",
+    "cn_name": "银色",
     "hex": "#C0C0C0",
     "rgb": [192, 192, 192],
     "cmyk": [0, 0, 0, 25],
@@ -20,6 +22,7 @@
   {
     "code": "PANTONE 876 C",
     "name": "Copper",
+    "cn_name": "紫铜色",
     "hex": "#B87333",
     "rgb": [184, 115, 51],
     "cmyk": [0, 38, 72, 28],
@@ -29,6 +32,7 @@
   {
     "code": "PANTONE 8003 C",
     "name": "Rose Gold",
+    "cn_name": "玫瑰金",
     "hex": "#E8B4B8",
     "rgb": [232, 180, 184],
     "cmyk": [0, 22, 21, 9],
@@ -38,6 +42,7 @@
   {
     "code": "PANTONE 875 C",
     "name": "Metallic Gold",
+    "cn_name": "金属金",
     "hex": "#D4AF37",
     "rgb": [212, 175, 55],
     "cmyk": [0, 17, 74, 17],
@@ -47,6 +52,7 @@
   {
     "code": "PANTONE 8062 C",
     "name": "Bronze",
+    "cn_name": "青铜色",
     "hex": "#CD7F32",
     "rgb": [205, 127, 50],
     "cmyk": [0, 38, 76, 20],
@@ -56,6 +62,7 @@
   {
     "code": "PANTONE 8001 C",
     "name": "Platinum",
+    "cn_name": "铂金色",
     "hex": "#E5E4E2",
     "rgb": [229, 228, 226],
     "cmyk": [0, 0, 1, 10],
@@ -65,6 +72,7 @@
   {
     "code": "PANTONE 8023 C",
     "name": "Pewter",
+    "cn_name": "锡腊色",
     "hex": "#96A8A1",
     "rgb": [150, 168, 161],
     "cmyk": [11, 0, 4, 34],
