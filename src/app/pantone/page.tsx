@@ -25,6 +25,7 @@ import pastelColors from '@/data/colors/pastel-colors.json'
 interface PantoneColor {
   code: string
   name: string
+  cn_name: string
   hex: string
   rgb: [number, number, number]
   cmyk: [number, number, number, number]
@@ -35,7 +36,7 @@ interface PantoneColor {
 }
 
 // 合并所有色彩数据
-const pantoneColors: any[] = [
+const pantoneColors: PantoneColor[] = [
   ...yearlyColors,
   ...redColors,
   ...pinkColors,
@@ -83,8 +84,9 @@ const ColorCard: React.FC<ColorCardProps> = ({
                 {color.hex}
               </div>
               <div>
-                <h3 className="font-semibold text-gray-900">{color.name}</h3>
-                <p className="text-sm text-gray-600">{color.code}</p>
+                <h3 className="font-semibold text-gray-900">{color.cn_name || color.name}</h3>
+                <p className="text-sm text-gray-600">{color.name}</p>
+                <p className="text-xs text-gray-500">{color.code}</p>
                 <p className="text-xs text-gray-500">
                   RGB({color.rgb.join(', ')})
                 </p>
@@ -145,8 +147,9 @@ const ColorCard: React.FC<ColorCardProps> = ({
           )}
         </div>
         <div className="p-4">
-          <h3 className="font-semibold text-gray-900 truncate">{color.name}</h3>
-          <p className="text-sm text-gray-600 mb-2">{color.code}</p>
+          <h3 className="font-semibold text-gray-900 truncate">{color.cn_name || color.name}</h3>
+          <p className="text-sm text-gray-600 mb-1">{color.name}</p>
+          <p className="text-xs text-gray-500 mb-2">{color.code}</p>
           <div className="flex items-center justify-between">
             <div className="text-xs text-gray-500">
               <div>RGB({color.rgb.join(', ')})</div>
@@ -219,6 +222,7 @@ export default function PantoneColorPage() {
       const term = searchTerm.toLowerCase()
       colors = colors.filter(color => 
         color.name.toLowerCase().includes(term) ||
+        (color.cn_name && color.cn_name.toLowerCase().includes(term)) ||
         color.code.toLowerCase().includes(term) ||
         color.hex.toLowerCase().includes(term) ||
         color.category.toLowerCase().includes(term)
@@ -250,6 +254,7 @@ export default function PantoneColorPage() {
   const exportColors = () => {
     const data = filteredColors.map(color => ({
       name: color.name,
+      cn_name: color.cn_name,
       code: color.code,
       hex: color.hex,
       rgb: color.rgb,
