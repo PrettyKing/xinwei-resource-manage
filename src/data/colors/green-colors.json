@@ -1,0 +1,92 @@
+[
+  {
+    "code": "PANTONE 16-6340 TPG",
+    "name": "Kelly Green",
+    "hex": "#4CBB17",
+    "rgb": [76, 187, 23],
+    "cmyk": [59, 0, 88, 27],
+    "category": "绿色系",
+    "type": "cool"
+  },
+  {
+    "code": "PANTONE 17-6153 TPG",
+    "name": "Jade",
+    "hex": "#00A86B",
+    "rgb": [0, 168, 107],
+    "cmyk": [100, 0, 36, 34],
+    "category": "绿色系",
+    "type": "cool"
+  },
+  {
+    "code": "PANTONE 15-5711 TPG",
+    "name": "Mint",
+    "hex": "#98FB98",
+    "rgb": [152, 251, 152],
+    "cmyk": [39, 0, 39, 2],
+    "category": "绿色系",
+    "type": "cool"
+  },
+  {
+    "code": "PANTONE 18-6022 TPG",
+    "name": "Hunter Green",
+    "hex": "#355E3B",
+    "rgb": [53, 94, 59],
+    "cmyk": [44, 0, 37, 63],
+    "category": "绿色系",
+    "type": "cool"
+  },
+  {
+    "code": "PANTONE 17-5938 TPG",
+    "name": "Teal",
+    "hex": "#008080",
+    "rgb": [0, 128, 128],
+    "cmyk": [100, 0, 0, 50],
+    "category": "绿色系",
+    "type": "cool"
+  },
+  {
+    "code": "PANTONE 16-5938 TPG",
+    "name": "Seafoam",
+    "hex": "#93E9BE",
+    "rgb": [147, 233, 190],
+    "cmyk": [37, 0, 18, 9],
+    "category": "绿色系",
+    "type": "cool"
+  },
+  {
+    "code": "PANTONE 17-6030 TPG",
+    "name": "Pine Green",
+    "hex": "#01796F",
+    "rgb": [1, 121, 111],
+    "cmyk": [99, 0, 8, 53],
+    "category": "绿色系",
+    "type": "cool"
+  },
+  {
+    "code": "PANTONE 15-6432 TPG",
+    "name": "Sage Green",
+    "hex": "#9CAF88",
+    "rgb": [156, 175, 136],
+    "cmyk": [11, 0, 22, 31],
+    "category": "绿色系",
+    "type": "cool"
+  },
+  {
+    "code": "PANTONE 16-6127 TPG",
+    "name": "Spring Green",
+    "hex": "#00FF7F",
+    "rgb": [0, 255, 127],
+    "cmyk": [100, 0, 50, 0],
+    "category": "绿色系",
+    "type": "cool"
+  },
+  {
+    "code": "PANTONE 18-5845 TPG",
+    "name": "Bottle Green",
+    "hex": "#006A4E",
+    "rgb": [0, 106, 78],
+    "cmyk": [100, 0, 26, 58],
+    "category": "绿色系",
+    "type": "cool"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "code": "PANTONE 12-0736 TPG",
+    "name": "Mimosa",
+    "hex": "#EFC050",
+    "rgb": [239, 192, 80],
+    "cmyk": [0, 20, 67, 6],
+    "category": "黄色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 14-0756 TPG",
+    "name": "Buttercup",
+    "hex": "#F2D649",
+    "rgb": [242, 214, 73],
+    "cmyk": [0, 12, 70, 5],
+    "category": "黄色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 12-0642 TPG",
+    "name": "Lemon Zest",
+    "hex": "#FFF700",
+    "rgb": [255, 247, 0],
+    "cmyk": [0, 3, 100, 0],
+    "category": "黄色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 13-0947 TPG",
+    "name": "Mustard Yellow",
+    "hex": "#FFDB58",
+    "rgb": [255, 219, 88],
+    "cmyk": [0, 14, 65, 0],
+    "category": "黄色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 11-0618 TPG",
+    "name": "Pale Yellow",
+    "hex": "#FFF5B4",
+    "rgb": [255, 245, 180],
+    "cmyk": [0, 4, 29, 0],
+    "category": "黄色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 14-0848 TPG",
+    "name": "Canary Yellow",
+    "hex": "#FFEF00",
+    "rgb": [255, 239, 0],
+    "cmyk": [0, 6, 100, 0],
+    "category": "黄色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 13-0746 TPG",
+    "name": "Golden Yellow",
+    "hex": "#FFD700",
+    "rgb": [255, 215, 0],
+    "cmyk": [0, 16, 100, 0],
+    "category": "黄色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 12-0752 TPG",
+    "name": "Banana Yellow",
+    "hex": "#FFF44F",
+    "rgb": [255, 244, 79],
+    "cmyk": [0, 4, 69, 0],
+    "category": "黄色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 13-0859 TPG",
+    "name": "Sunshine Yellow",
+    "hex": "#FFD801",
+    "rgb": [255, 216, 1],
+    "cmyk": [0, 15, 100, 0],
+    "category": "黄色系",
+    "type": "warm"
+  },
+  {
+    "code": "PANTONE 12-0743 TPG",
+    "name": "Lemon Cream",
+    "hex": "#FFFACD",
+    "rgb": [255, 250, 205],
+    "cmyk": [0, 2, 20, 0],
+    "category": "黄色系",
+    "type": "warm"
+  }
+]
