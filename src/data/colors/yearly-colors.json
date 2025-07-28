@@ -2,6 +2,7 @@
   {
     "code": "PANTONE 13-1023 TPG",
     "name": "Peach Fuzz",
+    "cn_name": "蜜桃绒",
     "hex": "#FFBE98",
     "rgb": [255, 190, 152],
     "cmyk": [0, 25, 40, 0],
@@ -13,6 +14,7 @@
   {
     "code": "PANTONE 18-1763 TPG",
     "name": "Viva Magenta",
+    "cn_name": "万岁洋红",
     "hex": "#BB2649",
     "rgb": [187, 38, 73],
     "cmyk": [0, 80, 61, 27],
@@ -24,6 +26,7 @@
   {
     "code": "PANTONE 17-3938 TPG",
     "name": "Very Peri",
+    "cn_name": "长春花蓝",
     "hex": "#6667AB",
     "rgb": [102, 103, 171],
     "cmyk": [40, 40, 0, 33],
@@ -35,6 +38,7 @@
   {
     "code": "PANTONE 17-5104 TPG",
     "name": "Ultimate Gray",
+    "cn_name": "极致灰",
     "hex": "#939597",
     "rgb": [147, 149, 151],
     "cmyk": [0, 0, 0, 41],
@@ -46,6 +50,7 @@
   {
     "code": "PANTONE 13-0859 TPG",
     "name": "Illuminating",
+    "cn_name": "亮丽黄",
     "hex": "#F5DF4D",
     "rgb": [245, 223, 77],
     "cmyk": [0, 9, 69, 4],
@@ -57,6 +62,7 @@
   {
     "code": "PANTONE 19-4052 TPG",
     "name": "Classic Blue",
+    "cn_name": "经典蓝",
     "hex": "#0F4C75",
     "rgb": [15, 76, 117],
     "cmyk": [87, 35, 0, 54],
@@ -68,6 +74,7 @@
   {
     "code": "PANTONE 16-1546 TPG",
     "name": "Living Coral",
+    "cn_name": "活珊瑚橘",
     "hex": "#FF6F61",
     "rgb": [255, 111, 97],
     "cmyk": [0, 56, 62, 0],
@@ -79,6 +86,7 @@
   {
     "code": "PANTONE 18-3838 TPG",
     "name": "Ultra Violet",
+    "cn_name": "紫外光色",
     "hex": "#5F4B8C",
     "rgb": [95, 75, 140],
     "cmyk": [32, 46, 0, 45],
@@ -90,6 +98,7 @@
   {
     "code": "PANTONE 15-0343 TPG",
     "name": "Greenery",
+    "cn_name": "草木绿",
     "hex": "#88B04B",
     "rgb": [136, 176, 75],
     "cmyk": [23, 0, 57, 31],
@@ -101,6 +110,7 @@
   {
     "code": "PANTONE 16-3520 TPG",
     "name": "Rose Quartz",
+    "cn_name": "粉晶",
     "hex": "#F7CAC9",
     "rgb": [247, 202, 201],
     "cmyk": [0, 18, 19, 3],
@@ -112,6 +122,7 @@
   {
     "code": "PANTONE 15-3919 TPG",
     "name": "Serenity",
+    "cn_name": "静谧蓝",
     "hex": "#91A3B0",
     "rgb": [145, 163, 176],
     "cmyk": [18, 7, 0, 31],
@@ -123,6 +134,7 @@
   {
     "code": "PANTONE 18-1438 TPG",
     "name": "Marsala",
+    "cn_name": "玛莎拉酒红",
     "hex": "#955251",
     "rgb": [149, 82, 81],
     "cmyk": [0, 45, 46, 42],
@@ -134,6 +146,7 @@
   {
     "code": "PANTONE 17-3834 TPG",
     "name": "Radiant Orchid",
+    "cn_name": "璀璨兰花紫",
     "hex": "#B565A7",
     "rgb": [181, 101, 167],
     "cmyk": [0, 44, 8, 29],
@@ -145,6 +158,7 @@
   {
     "code": "PANTONE 17-5641 TPG",
     "name": "Emerald",
+    "cn_name": "翡翠绿",
     "hex": "#009B77",
     "rgb": [0, 155, 119],
     "cmyk": [100, 0, 23, 39],
@@ -156,6 +170,7 @@
   {
     "code": "PANTONE 14-1064 TPG",
     "name": "Tangerine Tango",
+    "cn_name": "橘红探戈",
     "hex": "#DD4124",
     "rgb": [221, 65, 36],
     "cmyk": [0, 71, 84, 13],
