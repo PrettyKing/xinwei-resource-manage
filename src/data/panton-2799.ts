@@ -17,7 +17,8 @@ export default {
         "a": 12.06,
         "b": -36.05
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "非常小"
     },
     {
       "code": "12-1505 TPG",
@@ -34,7 +35,8 @@ export default {
         "a": 7.9,
         "b": 5.05
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玫瑰浓汤"
     },
     {
       "code": "12-2400 TPG",
@@ -51,7 +53,8 @@ export default {
         "a": 5.93,
         "b": 3.88
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色的花瓣"
     },
     {
       "code": "11-1400 TPG",
@@ -68,7 +71,8 @@ export default {
         "a": 7.47,
         "b": 0.7
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玫瑰上的雨滴"
     },
     {
       "code": "12-2900 TPG",
@@ -85,7 +89,8 @@ export default {
         "a": 10.52,
         "b": -2.02
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "甜塔夫"
     },
     {
       "code": "13-2930 TPG",
@@ -102,7 +107,8 @@ export default {
         "a": 10.4,
         "b": -2.68
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "凌晨"
     },
     {
       "code": "13-2705 TPG",
@@ -119,7 +125,8 @@ export default {
         "a": 17.44,
         "b": -1.39
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冲洗粉红色"
     },
     {
       "code": "14-2609 TPG",
@@ -136,7 +143,8 @@ export default {
         "a": 25.24,
         "b": -6.48
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "盛开的粉红色"
     },
     {
       "code": "13-2009 TPG",
@@ -153,7 +161,8 @@ export default {
         "a": 20.28,
         "b": 6.42
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玫瑰色的触摸"
     },
     {
       "code": "13-2016 TPG",
@@ -170,7 +179,8 @@ export default {
         "a": 27.88,
         "b": 4.07
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色的天使"
     },
     {
       "code": "14-1715 TPG",
@@ -187,7 +197,8 @@ export default {
         "a": 28.27,
         "b": 6.24
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "凄美的粉红色"
     },
     {
       "code": "14-1816 TPG",
@@ -204,7 +215,8 @@ export default {
         "a": 31.91,
         "b": 5.32
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色的太妃糖"
     },
     {
       "code": "15-2122 TPG",
@@ -221,7 +233,8 @@ export default {
         "a": 39.26,
         "b": 4.12
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "思考粉红色"
     },
     {
       "code": "14-2216 TPG",
@@ -238,7 +251,8 @@ export default {
         "a": 39.1,
         "b": 2.21
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色饮料"
     },
     {
       "code": "15-1910 TPG",
@@ -255,7 +269,8 @@ export default {
         "a": 48.08,
         "b": 7.39
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玫瑰色的未来"
     },
     {
       "code": "13-1218 TPG",
@@ -272,7 +287,8 @@ export default {
         "a": 16.86,
         "b": 17.07
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃子Adobe"
     },
     {
       "code": "13-1418 TPG",
@@ -289,7 +305,8 @@ export default {
         "a": 18.33,
         "b": 16.19
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "昏暗的桃子"
     },
     {
       "code": "13-1330 TPG",
@@ -306,7 +323,8 @@ export default {
         "a": 23.17,
         "b": 21.43
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃树"
     },
     {
       "code": "14-1320 TPG",
@@ -323,7 +341,8 @@ export default {
         "a": 29.35,
         "b": 20.62
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃冰沙"
     },
     {
       "code": "14-1430 TPG",
@@ -340,7 +359,8 @@ export default {
         "a": 27.21,
         "b": 21.02
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "亲爱的杏子"
     },
     {
       "code": "14-1417 TPG",
@@ -357,7 +377,8 @@ export default {
         "a": 27.8,
         "b": 22.65
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃子的味道"
     },
     {
       "code": "14-1602 TPG",
@@ -374,7 +395,8 @@ export default {
         "a": 27.11,
         "b": 18.92
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃子输液"
     },
     {
       "code": "12-1015 TPG",
@@ -391,7 +413,8 @@ export default {
         "a": 12.69,
         "b": 13.4
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "窃窃私语的桃子"
     },
     {
       "code": "12-1121 TPG",
@@ -408,7 +431,8 @@ export default {
         "a": 13.96,
         "b": 18.05
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃慕斯"
     },
     {
       "code": "13-1307 TPG",
@@ -425,7 +449,8 @@ export default {
         "a": 23.69,
         "b": 20.48
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃palazzo"
     },
     {
       "code": "14-1440 TPG",
@@ -442,7 +467,8 @@ export default {
         "a": 30.0,
         "b": 29.52
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "完美的桃子"
     },
     {
       "code": "14-1431 TPG",
@@ -459,7 +485,8 @@ export default {
         "a": 31.78,
         "b": 31.12
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃冰冰"
     },
     {
       "code": "14-1242 TPG",
@@ -476,7 +503,8 @@ export default {
         "a": 31.17,
         "b": 36.18
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "瓜冰"
     },
     {
       "code": "15-1232 TPG",
@@ -493,7 +521,8 @@ export default {
         "a": 29.65,
         "b": 43.28
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "波斯瓜"
     },
     {
       "code": "12-0730 TPG",
@@ -510,7 +539,8 @@ export default {
         "a": 1.49,
         "b": 34.51
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "奶油玉米"
     },
     {
       "code": "12-0640 TPG",
@@ -527,7 +557,8 @@ export default {
         "a": -3.13,
         "b": 47.91
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玉米糖果"
     },
     {
       "code": "12-0719 TPG",
@@ -544,7 +575,8 @@ export default {
         "a": -8.7,
         "b": 59.11
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄色碧玉"
     },
     {
       "code": "12-0650 TPG",
@@ -561,7 +593,8 @@ export default {
         "a": -7.85,
         "b": 78.43
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "夏日"
     },
     {
       "code": "12-0743 TPG",
@@ -578,7 +611,8 @@ export default {
         "a": -8.91,
         "b": 45.94
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "嗡嗡作响的蜜蜂"
     },
     {
       "code": "12-0723 TPG",
@@ -595,7 +629,8 @@ export default {
         "a": -5.17,
         "b": 41.35
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玉米内核"
     },
     {
       "code": "12-0618 TPG",
@@ -612,7 +647,8 @@ export default {
         "a": -3.08,
         "b": 26.54
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "快乐的希望"
     },
     {
       "code": "12-0745 TPG",
@@ -629,7 +665,8 @@ export default {
         "a": -10.85,
         "b": 34.09
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "雪梨"
     },
     {
       "code": "12-0550 TPG",
@@ -646,7 +683,8 @@ export default {
         "a": -15.53,
         "b": 50.13
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "切碎的木瓜"
     },
     {
       "code": "12-0641 TPG",
@@ -663,7 +701,8 @@ export default {
         "a": -14.59,
         "b": 51.81
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "梨提取物"
     },
     {
       "code": "12-0430 TPG",
@@ -680,7 +719,8 @@ export default {
         "a": -16.32,
         "b": 40.56
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "亚洲梨"
     },
     {
       "code": "12-0540 TPG",
@@ -697,7 +737,8 @@ export default {
         "a": -10.0,
         "b": 26.63
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色"
     },
     {
       "code": "12-0549 TPG",
@@ -714,7 +755,8 @@ export default {
         "a": -20.27,
         "b": 51.69
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柑橘本质"
     },
     {
       "code": "14-0440 TPG",
@@ -731,7 +773,8 @@ export default {
         "a": -11.86,
         "b": 53.62
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "大叶石灰"
     },
     {
       "code": "12-0230 TPG",
@@ -748,7 +791,8 @@ export default {
         "a": -17.42,
         "b": 16.5
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "风景秀丽的绿色"
     },
     {
       "code": "13-0216 TPG",
@@ -765,7 +809,8 @@ export default {
         "a": -23.68,
         "b": 25.52
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "钥匙石灰派"
     },
     {
       "code": "12-6000 TPG",
@@ -782,7 +827,8 @@ export default {
         "a": -14.17,
         "b": 9.24
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "面纱的远景"
     },
     {
       "code": "12-0107 TPG",
@@ -799,7 +845,8 @@ export default {
         "a": -14.78,
         "b": 8.53
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "嫩茎"
     },
     {
       "code": "13-6226 TPG",
@@ -816,7 +863,8 @@ export default {
         "a": -21.22,
         "b": 17.19
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "磨砂石灰"
     },
     {
       "code": "14-0225 TPG",
@@ -833,7 +881,8 @@ export default {
         "a": -25.28,
         "b": 20.67
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "春叶"
     },
     {
       "code": "14-0120 TPG",
@@ -850,7 +899,8 @@ export default {
         "a": -26.62,
         "b": 16.9
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Gremlin Green"
     },
     {
       "code": "12-5806 TPG",
@@ -867,7 +917,8 @@ export default {
         "a": -14.1,
         "b": 4.68
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色"
     },
     {
       "code": "14-5710 TPG",
@@ -884,7 +935,8 @@ export default {
         "a": -19.38,
         "b": 3.74
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "宁静的绿色"
     },
     {
       "code": "13-6010 TPG",
@@ -901,7 +953,8 @@ export default {
         "a": -21.39,
         "b": 3.48
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "亲切的绿色"
     },
     {
       "code": "13-5615 TPG",
@@ -918,7 +971,8 @@ export default {
         "a": -26.2,
         "b": 5.03
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "干净的绿色"
     },
     {
       "code": "13-5710 TPG",
@@ -935,7 +989,8 @@ export default {
         "a": -28.65,
         "b": 6.15
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "梦幻绿"
     },
     {
       "code": "14-5828 TPG",
@@ -952,7 +1007,8 @@ export default {
         "a": -38.82,
         "b": 9.13
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "微风绿"
     },
     {
       "code": "15-5810 TPG",
@@ -969,7 +1025,8 @@ export default {
         "a": -37.78,
         "b": 9.0
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薄荷"
     },
     {
       "code": "13-5612 TPG",
@@ -986,7 +1043,8 @@ export default {
         "a": -23.14,
         "b": -0.67
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "碎屑"
     },
     {
       "code": "13-5512 TPG",
@@ -1003,7 +1061,8 @@ export default {
         "a": -18.09,
         "b": -1.89
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海洋空气"
     },
     {
       "code": "13-5320 TPG",
@@ -1020,7 +1079,8 @@ export default {
         "a": -22.23,
         "b": -2.99
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Aqua Frost"
     },
     {
       "code": "14-5618 TPG",
@@ -1037,7 +1097,8 @@ export default {
         "a": -25.92,
         "b": -1.62
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "酷加勒比"
     },
     {
       "code": "14-5612 TPG",
@@ -1054,7 +1115,8 @@ export default {
         "a": -23.59,
         "b": -2.23
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Starling Egg"
     },
     {
       "code": "14-5412 TPG",
@@ -1071,7 +1133,8 @@ export default {
         "a": -20.97,
         "b": -3.53
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冻疮"
     },
     {
       "code": "14-5419 TPG",
@@ -1088,7 +1151,8 @@ export default {
         "a": -28.15,
         "b": -3.17
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "游泳池小屋"
     },
     {
       "code": "14-5520 TPG",
@@ -1105,7 +1169,8 @@ export default {
         "a": -24.98,
         "b": -6.39
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "青色"
     },
     {
       "code": "14-5320 TPG",
@@ -1122,7 +1187,8 @@ export default {
         "a": -30.1,
         "b": -8.47
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "昏暗的水上"
     },
     {
       "code": "14-5125 TPG",
@@ -1139,7 +1205,8 @@ export default {
         "a": -37.06,
         "b": -8.82
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水洗"
     },
     {
       "code": "14-4912 TPG",
@@ -1156,7 +1223,8 @@ export default {
         "a": -33.71,
         "b": -10.16
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冲洗铆钉"
     },
     {
       "code": "14-5117 TPG",
@@ -1173,7 +1241,8 @@ export default {
         "a": -23.36,
         "b": -8.77
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水上"
     },
     {
       "code": "15-5220 TPG",
@@ -1190,7 +1259,8 @@ export default {
         "a": -29.5,
         "b": -7.24
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水族馆"
     },
     {
       "code": "15-4912 TPG",
@@ -1207,7 +1277,8 @@ export default {
         "a": -26.04,
         "b": -11.23
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "流动性"
     },
     {
       "code": "12-5211 TPG",
@@ -1224,7 +1295,8 @@ export default {
         "a": -7.14,
         "b": -6.48
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "有色水上"
     },
     {
       "code": "14-4716 TPG",
@@ -1241,7 +1313,8 @@ export default {
         "a": -16.7,
         "b": -11.15
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "纯池塘"
     },
     {
       "code": "14-4714 TPG",
@@ -1258,7 +1331,8 @@ export default {
         "a": -22.78,
         "b": -15.6
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "潮汐"
     },
     {
       "code": "15-4512 TPG",
@@ -1275,7 +1349,8 @@ export default {
         "a": -22.74,
         "b": -14.5
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水标志"
     },
     {
       "code": "15-4719 TPG",
@@ -1292,7 +1367,8 @@ export default {
         "a": -21.97,
         "b": -14.4
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沿海水域"
     },
     {
       "code": "13-4520 TPG",
@@ -1309,7 +1385,8 @@ export default {
         "a": -14.58,
         "b": -17.66
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海流"
     },
     {
       "code": "14-4509 TPG",
@@ -1326,7 +1403,8 @@ export default {
         "a": -12.53,
         "b": -17.07
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冷却蒸气"
     },
     {
       "code": "13-4016 TPG",
@@ -1343,7 +1421,8 @@ export default {
         "a": -2.58,
         "b": -13.17
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝雀"
     },
     {
       "code": "14-4111 TPG",
@@ -1360,7 +1439,8 @@ export default {
         "a": -1.94,
         "b": -11.36
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "纯蓝色"
     },
     {
       "code": "14-4015 TPG",
@@ -1377,7 +1457,8 @@ export default {
         "a": -3.81,
         "b": -16.73
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "漂浮的蓝色"
     },
     {
       "code": "14-4130 TPG",
@@ -1394,7 +1475,8 @@ export default {
         "a": -5.24,
         "b": -20.4
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色霜"
     },
     {
       "code": "15-3926 TPG",
@@ -1411,7 +1493,8 @@ export default {
         "a": -3.24,
         "b": -23.35
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "北极星之星"
     },
     {
       "code": "15-3931 TPG",
@@ -1428,7 +1511,8 @@ export default {
         "a": -2.2,
         "b": -21.4
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Fairview蓝色"
     },
     {
       "code": "16-4039 TPG",
@@ -1445,7 +1529,8 @@ export default {
         "a": -0.6,
         "b": -29.27
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "山蓝鸟"
     },
     {
       "code": "13-4005 TPG",
@@ -1462,7 +1547,8 @@ export default {
         "a": 3.94,
         "b": -4.67
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薰衣草手套"
     },
     {
       "code": "13-3905 TPG",
@@ -1479,7 +1565,8 @@ export default {
         "a": 3.4,
         "b": -5.25
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "diaphanous Lilac"
     },
     {
       "code": "14-3915 TPG",
@@ -1496,7 +1583,8 @@ export default {
         "a": 4.47,
         "b": -12.08
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡紫色"
     },
     {
       "code": "14-3926 TPG",
@@ -1513,7 +1601,8 @@ export default {
         "a": 5.16,
         "b": -16.65
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "花边丁香"
     },
     {
       "code": "14-3935 TPG",
@@ -1530,7 +1619,8 @@ export default {
         "a": 4.91,
         "b": -18.78
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薰衣草田"
     },
     {
       "code": "14-3813 TPG",
@@ -1547,7 +1637,8 @@ export default {
         "a": 4.43,
         "b": -12.62
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "女王的花圈"
     },
     {
       "code": "16-3928 TPG",
@@ -1564,7 +1655,8 @@ export default {
         "a": 4.53,
         "b": -14.96
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薰衣草糖霜"
     },
     {
       "code": "14-3610 TPG",
@@ -1581,7 +1673,8 @@ export default {
         "a": 12.65,
         "b": -10.96
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫罗兰黄昏"
     },
     {
       "code": "14-3715 TPG",
@@ -1598,7 +1691,8 @@ export default {
         "a": 11.01,
         "b": -12.26
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "英语风信子"
     },
     {
       "code": "15-3615 TPG",
@@ -1615,7 +1709,8 @@ export default {
         "a": 16.73,
         "b": -16.14
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薰衣草油"
     },
     {
       "code": "14-3512 TPG",
@@ -1632,7 +1727,8 @@ export default {
         "a": 14.09,
         "b": -13.8
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "香味薰衣草"
     },
     {
       "code": "15-3530 TPG",
@@ -1649,7 +1745,8 @@ export default {
         "a": 11.58,
         "b": -9.94
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薰衣草百合"
     },
     {
       "code": "16-3610 TPG",
@@ -1666,7 +1763,8 @@ export default {
         "a": 11.44,
         "b": -10.68
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "安静的紫罗兰色"
     },
     {
       "code": "16-3615 TPG",
@@ -1683,7 +1781,8 @@ export default {
         "a": 9.93,
         "b": -11.27
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Violetta"
     },
     {
       "code": "11-4101 TPG",
@@ -1700,7 +1799,8 @@ export default {
         "a": -0.3,
         "b": 1.18
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "钟乳石"
     },
     {
       "code": "11-3900 TPG",
@@ -1717,7 +1817,8 @@ export default {
         "a": -0.04,
         "b": 0.66
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡淡的云"
     },
     {
       "code": "12-0508 TPG",
@@ -1734,7 +1835,8 @@ export default {
         "a": -0.13,
         "b": 3.83
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "白色"
     },
     {
       "code": "12-0003 TPG",
@@ -1751,7 +1853,8 @@ export default {
         "a": 1.72,
         "b": 3.82
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "雪峰"
     },
     {
       "code": "12-0705 TPG",
@@ -1768,7 +1871,8 @@ export default {
         "a": 1.85,
         "b": 6.93
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海珍珠"
     },
     {
       "code": "11-0002 TPG",
@@ -1785,7 +1889,8 @@ export default {
         "a": 2.01,
         "b": 4.21
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "降雪"
     },
     {
       "code": "12-1306 TPG",
@@ -1802,7 +1907,8 @@ export default {
         "a": 2.94,
         "b": 7.46
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "新斯科舍省"
     },
     {
       "code": "12-4001 TPG",
@@ -1819,7 +1925,8 @@ export default {
         "a": 1.42,
         "b": 3.7
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "早期的霜冻"
     },
     {
       "code": "14-0207 TPG",
@@ -1836,7 +1943,8 @@ export default {
         "a": 1.3,
         "b": 3.1
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "积云云"
     },
     {
       "code": "15-4401 TPG",
@@ -1853,7 +1961,8 @@ export default {
         "a": 2.53,
         "b": 2.53
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "运动衫灰色"
     },
     {
       "code": "13-0005 TPG",
@@ -1870,7 +1979,8 @@ export default {
         "a": 2.7,
         "b": 1.53
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "神庙灰色"
     },
     {
       "code": "14-3700 TPG",
@@ -1887,7 +1997,8 @@ export default {
         "a": 3.99,
         "b": 1.39
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰色发呆"
     },
     {
       "code": "14-0702 TPG",
@@ -1904,7 +2015,8 @@ export default {
         "a": 3.12,
         "b": 3.18
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "难以理解"
     },
     {
       "code": "16-3710 TPG",
@@ -1921,7 +2033,8 @@ export default {
         "a": 3.44,
         "b": 3.79
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "碎石"
     },
     {
       "code": "14-3802 TPG",
@@ -1938,7 +2051,8 @@ export default {
         "a": 2.81,
         "b": 0.97
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "钢羊毛"
     },
     {
       "code": "14-4109 TPG",
@@ -1955,7 +2069,8 @@ export default {
         "a": 2.85,
         "b": -0.84
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "雪花石膏灰色"
     },
     {
       "code": "14-4116 TPG",
@@ -1972,7 +2087,8 @@ export default {
         "a": 2.3,
         "b": 0.25
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰色早晨"
     },
     {
       "code": "16-1523 TPG",
@@ -1989,7 +2105,8 @@ export default {
         "a": 2.74,
         "b": 0.04
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "云盖"
     },
     {
       "code": "16-3804 TPG",
@@ -2006,7 +2123,8 @@ export default {
         "a": 2.62,
         "b": -1.23
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "吸收"
     },
     {
       "code": "16-2901 TPG",
@@ -2023,7 +2141,8 @@ export default {
         "a": 2.31,
         "b": -2.03
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海豚"
     },
     {
       "code": "17-0400 TPG",
@@ -2040,7 +2159,8 @@ export default {
         "a": 3.59,
         "b": 0.41
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "智慧灰色"
     },
     {
       "code": "17-3927 TPG",
@@ -2057,7 +2177,8 @@ export default {
         "a": 3.34,
         "b": -2.16
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "风暴云"
     },
     {
       "code": "17-2501 TPG",
@@ -2074,7 +2195,8 @@ export default {
         "a": 4.09,
         "b": -0.43
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "磁铁矿"
     },
     {
       "code": "18-3801 TPG",
@@ -2091,7 +2213,8 @@ export default {
         "a": 3.63,
         "b": -0.13
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄铁矿"
     },
     {
       "code": "18-0407 TPG",
@@ -2108,7 +2231,8 @@ export default {
         "a": 3.47,
         "b": 0.72
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "有机灰色"
     },
     {
       "code": "18-3709 TPG",
@@ -2125,7 +2249,8 @@ export default {
         "a": 4.45,
         "b": 0.18
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "地下"
     },
     {
       "code": "18-3901 TPG",
@@ -2142,7 +2267,8 @@ export default {
         "a": 2.83,
         "b": -0.43
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "轮胎胎面"
     },
     {
       "code": "19-0914 TPG",
@@ -2159,7 +2285,8 @@ export default {
         "a": 3.27,
         "b": 0.25
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "严肃"
     },
     {
       "code": "16-1503 TPG",
@@ -2176,7 +2303,8 @@ export default {
         "a": 1.08,
         "b": -0.33
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "雾蒙蒙"
     },
     {
       "code": "16-1502 TPG",
@@ -2193,7 +2321,8 @@ export default {
         "a": 1.57,
         "b": -0.2
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "石膏"
     },
     {
       "code": "17-1504 TPG",
@@ -2210,7 +2339,8 @@ export default {
         "a": 1.37,
         "b": -1.01
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰色轮廓"
     },
     {
       "code": "18-1611 TPG",
@@ -2227,7 +2357,8 @@ export default {
         "a": 2.25,
         "b": 1.29
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "悬崖灰色"
     },
     {
       "code": "17-5800 TPG",
@@ -2244,7 +2375,8 @@ export default {
         "a": 2.14,
         "b": 1.9
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "赤铁矿"
     },
     {
       "code": "18-0307 TPG",
@@ -2261,7 +2393,8 @@ export default {
         "a": 1.86,
         "b": 2.53
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "漆黑的夜晚"
     },
     {
       "code": "18-1408 TPG",
@@ -2278,7 +2411,8 @@ export default {
         "a": 0.69,
         "b": 2.47
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "安山岩"
     },
     {
       "code": "18-4012 TPG",
@@ -2295,7 +2429,8 @@ export default {
         "a": 2.31,
         "b": -1.76
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰色迷宫"
     },
     {
       "code": "18-3914 TPG",
@@ -2312,7 +2447,8 @@ export default {
         "a": 3.07,
         "b": -0.1
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深色核心"
     },
     {
       "code": "19-0610 TPG",
@@ -2329,7 +2465,8 @@ export default {
         "a": 2.73,
         "b": 0.71
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "地下墓穴"
     },
     {
       "code": "19-3904 TPG",
@@ -2346,7 +2483,8 @@ export default {
         "a": 2.0,
         "b": -1.14
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "碳副本"
     },
     {
       "code": "19-4002 TPG",
@@ -2363,7 +2501,8 @@ export default {
         "a": 1.85,
         "b": -2.09
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "迷彩灰色"
     },
     {
       "code": "19-3913 TPG",
@@ -2380,7 +2519,8 @@ export default {
         "a": 1.28,
         "b": -3.28
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑洞"
     },
     {
       "code": "19-1011 TPG",
@@ -2397,7 +2537,8 @@ export default {
         "a": 2.78,
         "b": -2.64
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑海"
     },
     {
       "code": "15-5212 TPG",
@@ -2414,7 +2555,8 @@ export default {
         "a": 0.95,
         "b": -2.75
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "城市景观"
     },
     {
       "code": "16-0005 TPG",
@@ -2431,7 +2573,8 @@ export default {
         "a": 1.23,
         "b": -3.0
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "满月"
     },
     {
       "code": "17-4017 TPG",
@@ -2448,7 +2591,8 @@ export default {
         "a": 0.71,
         "b": -4.44
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鲍鱼壳"
     },
     {
       "code": "18-3924 TPG",
@@ -2465,7 +2609,8 @@ export default {
         "a": 1.76,
         "b": -6.92
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "北极印章"
     },
     {
       "code": "18-4021 TPG",
@@ -2482,7 +2627,8 @@ export default {
         "a": 0.31,
         "b": -5.72
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "烧灰"
     },
     {
       "code": "19-3820 TPG",
@@ -2499,7 +2645,8 @@ export default {
         "a": 0.54,
         "b": -5.78
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑猫"
     },
     {
       "code": "19-4103 TPG",
@@ -2516,7 +2663,8 @@ export default {
         "a": 0.0,
         "b": -7.31
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "轮廓"
     },
     {
       "code": "14-4309 TPG",
@@ -2533,7 +2681,8 @@ export default {
         "a": -0.52,
         "b": -3.72
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "秘密空间"
     },
     {
       "code": "14-4205 TPG",
@@ -2550,7 +2699,8 @@ export default {
         "a": -0.3,
         "b": -3.21
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "大教堂尖顶"
     },
     {
       "code": "18-4705 TPG",
@@ -2567,7 +2717,8 @@ export default {
         "a": -0.36,
         "b": -2.06
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "石山"
     },
     {
       "code": "18-4205 TPG",
@@ -2584,7 +2735,8 @@ export default {
         "a": -1.51,
         "b": -6.13
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰色的带状疱疹"
     },
     {
       "code": "18-4319 TPG",
@@ -2601,7 +2753,8 @@ export default {
         "a": -0.62,
         "b": -7.27
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "岩石轮辋"
     },
     {
       "code": "19-4209 TPG",
@@ -2618,7 +2771,8 @@ export default {
         "a": -0.16,
         "b": -4.41
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "谜"
     },
     {
       "code": "19-4310 TPG",
@@ -2635,7 +2789,8 @@ export default {
         "a": -0.53,
         "b": -4.2
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰鲸"
     },
     {
       "code": "14-4605 TPG",
@@ -2652,7 +2807,8 @@ export default {
         "a": -0.01,
         "b": 1.48
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "追踪灰色"
     },
     {
       "code": "14-4216 TPG",
@@ -2669,7 +2825,8 @@ export default {
         "a": -0.55,
         "b": -0.61
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "季风雾"
     },
     {
       "code": "16-4705 TPG",
@@ -2686,7 +2843,8 @@ export default {
         "a": 0.51,
         "b": -0.46
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰色的幻想"
     },
     {
       "code": "17-5103 TPG",
@@ -2703,7 +2861,8 @@ export default {
         "a": 0.61,
         "b": -0.04
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "配置文件灰色"
     },
     {
       "code": "18-4602 TPG",
@@ -2720,7 +2879,8 @@ export default {
         "a": -0.59,
         "b": -0.43
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰质"
     },
     {
       "code": "18-5103 TPG",
@@ -2737,7 +2897,8 @@ export default {
         "a": 0.82,
         "b": 0.07
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "氧化铁"
     },
     {
       "code": "19-0503 TPG",
@@ -2754,7 +2915,8 @@ export default {
         "a": 0.82,
         "b": 0.07
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沥青"
     },
     {
       "code": "16-4803 TPG",
@@ -2771,7 +2933,8 @@ export default {
         "a": -1.22,
         "b": 3.52
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Debonair Gray"
     },
     {
       "code": "17-4005 TPG",
@@ -2788,7 +2951,8 @@ export default {
         "a": 0.14,
         "b": 2.16
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "地狱"
     },
     {
       "code": "18-4331 TPG",
@@ -2805,7 +2969,8 @@ export default {
         "a": 0.01,
         "b": 1.97
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "雾"
     },
     {
       "code": "18-0205 TPG",
@@ -2822,7 +2987,8 @@ export default {
         "a": 0.97,
         "b": 2.99
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰色天鹅绒"
     },
     {
       "code": "19-0507 TPG",
@@ -2839,7 +3005,8 @@ export default {
         "a": -0.41,
         "b": 1.18
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灯黑色"
     },
     {
       "code": "19-0505 TPG",
@@ -2856,7 +3023,8 @@ export default {
         "a": -1.49,
         "b": 2.49
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "优雅"
     },
     {
       "code": "19-4001 TPG",
@@ -2873,7 +3041,8 @@ export default {
         "a": -0.54,
         "b": 0.23
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深洞穴"
     },
     {
       "code": "18-4007 TPG",
@@ -2890,7 +3059,8 @@ export default {
         "a": 2.26,
         "b": -1.74
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "难以理解"
     },
     {
       "code": "19-3914 TPG",
@@ -2907,7 +3077,8 @@ export default {
         "a": 2.92,
         "b": -1.15
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "煤烟"
     },
     {
       "code": "19-5303 TPG",
@@ -2924,7 +3095,8 @@ export default {
         "a": -0.46,
         "b": -1.41
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "聪明的乌鸦"
     },
     {
       "code": "19-4100 TPG",
@@ -2941,7 +3113,8 @@ export default {
         "a": 0.78,
         "b": -1.37
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "打印机的墨水"
     },
     {
       "code": "19-4204 TPG",
@@ -2958,7 +3131,8 @@ export default {
         "a": -1.01,
         "b": -3.11
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "无底坑"
     },
     {
       "code": "19-4000 TPG",
@@ -2975,7 +3149,8 @@ export default {
         "a": -0.78,
         "b": -2.38
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Affenpinscher"
     },
     {
       "code": "19-4206 TPG",
@@ -2992,7 +3167,8 @@ export default {
         "a": 0.0,
         "b": -2.02
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑色长袍"
     },
     {
       "code": "11-4001 TPG",
@@ -3009,7 +3185,8 @@ export default {
         "a": -0.0145482318381074,
         "b": -0.779270472060234
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "辉煌的白色"
     },
     {
       "code": "11-0601 TPG",
@@ -3026,7 +3203,8 @@ export default {
         "a": -0.640354380666175,
         "b": 0.0752667497857074
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "明亮的白色"
     },
     {
       "code": "11-0700 TPG",
@@ -3043,7 +3221,8 @@ export default {
         "a": -0.264148307136447,
         "b": -0.398734651984967
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "卢克特·怀特（Lucent White）"
     },
     {
       "code": "11-4800 TPG",
@@ -3060,7 +3239,8 @@ export default {
         "a": 0.0858334350293255,
         "b": 0.780453616296573
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Blanc de Blanc"
     },
     {
       "code": "11-4201 TPG",
@@ -3077,7 +3257,8 @@ export default {
         "a": 0.250380743634648,
         "b": 1.75495671627908
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "云舞者"
     },
     {
       "code": "11-0608 TPG",
@@ -3094,7 +3275,8 @@ export default {
         "a": -0.124591353964143,
         "b": 4.27000253006291
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "椰奶"
     },
     {
       "code": "11-4801 TPG",
@@ -3111,7 +3293,8 @@ export default {
         "a": -0.100080622430831,
         "b": 6.33479779696584
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "豆腐"
     },
     {
       "code": "11-0607 TPG",
@@ -3128,7 +3311,8 @@ export default {
         "a": 0.519176014185219,
         "b": 4.13839463489221
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "糖散布"
     },
     {
       "code": "11-1001 TPG",
@@ -3145,7 +3329,8 @@ export default {
         "a": 0.841926286429318,
         "b": 2.5005014307067
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "白色alyssum"
     },
     {
       "code": "11-0602 TPG",
@@ -3162,7 +3347,8 @@ export default {
         "a": -0.0713914987106046,
         "b": 3.51554941782355
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "白雪公主"
     },
     {
       "code": "11-4202 TPG",
@@ -3179,7 +3365,8 @@ export default {
         "a": -0.456669265085308,
         "b": 2.44746348927289
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "星白"
     },
     {
       "code": "11-4300 TPG",
@@ -3196,7 +3383,8 @@ export default {
         "a": -0.530745729621085,
         "b": 5.10972310214968
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "棉花糖"
     },
     {
       "code": "11-4302 TPG",
@@ -3213,7 +3401,8 @@ export default {
         "a": -1.09101286960256,
         "b": 6.56846409080454
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Cannoli奶油"
     },
     {
       "code": "11-0103 TPG",
@@ -3230,7 +3419,8 @@ export default {
         "a": -0.447723371903075,
         "b": 5.71444955586558
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "白生"
     },
     {
       "code": "11-0104 TPG",
@@ -3247,7 +3437,8 @@ export default {
         "a": 0.121877873380638,
         "b": 7.90706199251283
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "香草冰"
     },
     {
       "code": "11-0606 TPG",
@@ -3264,7 +3455,8 @@ export default {
         "a": -0.317859850809177,
         "b": 7.72001761695473
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "原始"
     },
     {
       "code": "11-0701 TPG",
@@ -3281,7 +3473,8 @@ export default {
         "a": 1.37424997232122,
         "b": 5.92517894554849
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "耳语白色"
     },
     {
       "code": "12-0601 TPG",
@@ -3298,7 +3491,8 @@ export default {
         "a": 1.76310179774908,
         "b": 8.47210706594037
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蛋酒"
     },
     {
       "code": "11-0604 TPG",
@@ -3315,7 +3509,8 @@ export default {
         "a": 0.704031775174696,
         "b": 5.64195909224432
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "gardenia"
     },
     {
       "code": "11-0605 TPG",
@@ -3332,7 +3527,8 @@ export default {
         "a": 1.58525094341011,
         "b": 4.73200915574881
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "急流"
     },
     {
       "code": "13-0905 TPG",
@@ -3349,7 +3545,8 @@ export default {
         "a": 1.41011878489294,
         "b": 8.72157182532449
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桦木"
     },
     {
       "code": "11-0105 TPG",
@@ -3366,7 +3563,8 @@ export default {
         "a": -0.124121392434784,
         "b": 10.414506748887
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "古董白"
     },
     {
       "code": "12-0703 TPG",
@@ -3383,7 +3581,8 @@ export default {
         "a": -0.073620901904381,
         "b": 13.0442242093547
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "种子pear"
     },
     {
       "code": "12-0000 TPG",
@@ -3400,7 +3599,8 @@ export default {
         "a": 1.71868275305676,
         "b": 10.30476565353
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "白天鹅"
     },
     {
       "code": "12-0304 TPG",
@@ -3417,7 +3617,8 @@ export default {
         "a": 1.42181680905318,
         "b": 9.74546623106891
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Whitecap灰色"
     },
     {
       "code": "13-0908 TPG",
@@ -3434,7 +3635,8 @@ export default {
         "a": 2.02423931137063,
         "b": 12.308556339665
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "羊皮纸"
     },
     {
       "code": "13-1006 TPG",
@@ -3451,7 +3653,8 @@ export default {
         "a": 2.16280287232029,
         "b": 14.8810979326942
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "奶油布鲁利"
     },
     {
       "code": "12-0709 TPG",
@@ -3468,7 +3671,8 @@ export default {
         "a": 5.31840616864354,
         "b": 15.0496944759436
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "澳洲坚果"
     },
     {
       "code": "11-0110 TPG",
@@ -3485,7 +3689,8 @@ export default {
         "a": 2.31079590435646,
         "b": 12.0556363268247
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "奶油"
     },
     {
       "code": "11-0907 TPG",
@@ -3502,7 +3707,8 @@ export default {
         "a": 2.58198706504986,
         "b": 11.3360203261088
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "珍珠象牙"
     },
     {
       "code": "12-0704 TPG",
@@ -3519,7 +3725,8 @@ export default {
         "a": 3.01099394664128,
         "b": 12.2811996732773
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "白烟"
     },
     {
       "code": "11-0809 TPG",
@@ -3536,7 +3743,8 @@ export default {
         "a": 3.6101986476601,
         "b": 12.3556125320244
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "ECRU"
     },
     {
       "code": "12-0710 TPG",
@@ -3553,7 +3761,8 @@ export default {
         "a": 2.92648983862531,
         "b": 15.7451015668387
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "脆饼"
     },
     {
       "code": "12-0605 TPG",
@@ -3570,7 +3779,8 @@ export default {
         "a": 1.17601951610435,
         "b": 13.4995240409518
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "安哥拉"
     },
     {
       "code": "13-1008 TPG",
@@ -3587,7 +3797,8 @@ export default {
         "a": 3.00249957308601,
         "b": 14.5099685903028
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "漂白的沙子"
     },
     {
       "code": "13-1104 TPG",
@@ -3604,7 +3815,8 @@ export default {
         "a": 4.65278717907158,
         "b": 11.0130863404023
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "纯粹的幸福"
     },
     {
       "code": "12-1404 TPG",
@@ -3621,7 +3833,8 @@ export default {
         "a": 4.13359413550329,
         "b": 9.5161358428324
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色的色调"
     },
     {
       "code": "13-1107 TPG",
@@ -3638,7 +3851,8 @@ export default {
         "a": 4.49853198420697,
         "b": 9.35539976274324
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "耳语粉红色"
     },
     {
       "code": "13-1106 TPG",
@@ -3655,7 +3869,8 @@ export default {
         "a": 3.52109488911728,
         "b": 11.7147622247791
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沙美元"
     },
     {
       "code": "13-1308 TPG",
@@ -3672,7 +3887,8 @@ export default {
         "a": 4.04672314255716,
         "b": 12.8939081374617
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "巴西沙"
     },
     {
       "code": "12-1403 TPG",
@@ -3689,7 +3905,8 @@ export default {
         "a": 3.36242653583663,
         "b": 12.0703331629918
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "木薯"
     },
     {
       "code": "13-0907 TPG",
@@ -3706,7 +3923,8 @@ export default {
         "a": 1.87768906248875,
         "b": 11.7094441649735
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沙壳"
     },
     {
       "code": "13-0404 TPG",
@@ -3723,7 +3941,8 @@ export default {
         "a": 2.09836527955654,
         "b": 8.55920049450867
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "古老的卷轴"
     },
     {
       "code": "13-0401 TPG",
@@ -3740,7 +3959,8 @@ export default {
         "a": 0.685633661149598,
         "b": 9.36295641289226
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "麦片"
     },
     {
       "code": "13-0003 TPG",
@@ -3757,7 +3977,8 @@ export default {
         "a": 2.49193367220635,
         "b": 6.50313386664354
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "燕麦牛奶"
     },
     {
       "code": "13-0400 TPG",
@@ -3774,7 +3995,8 @@ export default {
         "a": 2.71313813090757,
         "b": 8.31639404261662
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "法式橡木"
     },
     {
       "code": "14-0002 TPG",
@@ -3791,7 +4013,8 @@ export default {
         "a": 1.03222079853382,
         "b": 5.95494737501781
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "浮石"
     },
     {
       "code": "13-5304 TPG",
@@ -3808,7 +4031,8 @@ export default {
         "a": 2.2237653484965,
         "b": 7.38603307961738
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "雨天"
     },
     {
       "code": "13-0000 TPG",
@@ -3825,7 +4049,8 @@ export default {
         "a": 1.37256999340812,
         "b": 5.2991545437693
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "月光"
     },
     {
       "code": "12-0105 TPG",
@@ -3842,7 +4067,8 @@ export default {
         "a": 0.643732673393738,
         "b": 10.3353180013025
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "骨白色"
     },
     {
       "code": "13-0607 TPG",
@@ -3859,7 +4085,8 @@ export default {
         "a": 1.57977419582067,
         "b": 11.3015414191648
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "多雾路段"
     },
     {
       "code": "14-1107 TPG",
@@ -3876,7 +4103,8 @@ export default {
         "a": 2.35537435966987,
         "b": 10.6730827004857
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "牡蛎灰色"
     },
     {
       "code": "14-1106 TPG",
@@ -3893,7 +4121,8 @@ export default {
         "a": 0.913392808202573,
         "b": 8.81139313654458
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "peyote"
     },
     {
       "code": "15-1305 TPG",
@@ -3910,7 +4139,8 @@ export default {
         "a": 3.38592335221416,
         "b": 9.98130885044515
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "羽毛灰色"
     },
     {
       "code": "15-1306 TPG",
@@ -3927,7 +4157,8 @@ export default {
         "a": 4.45172597155469,
         "b": 9.83645082844107
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "牛津晒黑"
     },
     {
       "code": "15-1304 TPG",
@@ -3944,7 +4175,8 @@ export default {
         "a": 3.47909024237747,
         "b": 11.2539674080862
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "腐殖质"
     },
     {
       "code": "12-4302 TPG",
@@ -3961,7 +4193,8 @@ export default {
         "a": -0.832915236207044,
         "b": 2.93194542491018
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蒸发灰色"
     },
     {
       "code": "12-4300 TPG",
@@ -3978,7 +4211,8 @@ export default {
         "a": -0.108794344810759,
         "b": 3.46049169383351
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "白色的玛瑙"
     },
     {
       "code": "13-4403 TPG",
@@ -3995,7 +4229,8 @@ export default {
         "a": -0.952544988028825,
         "b": 6.0112140861744
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "银桦树"
     },
     {
       "code": "12-4301 TPG",
@@ -4012,7 +4247,8 @@ export default {
         "a": 1.2098892228169,
         "b": 10.1905698786933
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杏仁牛奶"
     },
     {
       "code": "14-0105 TPG",
@@ -4029,7 +4265,8 @@ export default {
         "a": -1.49207505924642,
         "b": 11.7786104756455
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰蒙蒙"
     },
     {
       "code": "14-6305 TPG",
@@ -4046,7 +4283,8 @@ export default {
         "a": 0.925790926248171,
         "b": 8.18217251280056
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鹈"
     },
     {
       "code": "16-1105 TPG",
@@ -4063,7 +4301,8 @@ export default {
         "a": 2.83660082715348,
         "b": 9.64739054170574
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "广场灰褐色"
     },
     {
       "code": "12-5201 TPG",
@@ -4080,7 +4319,8 @@ export default {
         "a": -2.01332394323456,
         "b": 6.17740210091928
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冰柱"
     },
     {
       "code": "12-0404 TPG",
@@ -4097,7 +4337,8 @@ export default {
         "a": 0.245524355692583,
         "b": 6.0260530773699
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "浅灰色"
     },
     {
       "code": "12-6204 TPG",
@@ -4114,7 +4355,8 @@ export default {
         "a": -0.951084028968097,
         "b": 7.48365613287374
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "银绿"
     },
     {
       "code": "14-6308 TPG",
@@ -4131,7 +4373,8 @@ export default {
         "a": -2.12468296493623,
         "b": 10.1511719942151
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "苜蓿"
     },
     {
       "code": "15-6410 TPG",
@@ -4148,7 +4391,8 @@ export default {
         "a": -2.54182813144233,
         "b": 11.0918606326705
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "莫斯·格雷"
     },
     {
       "code": "15-6307 TPG",
@@ -4165,7 +4409,8 @@ export default {
         "a": -1.42238439922093,
         "b": 7.24968492447879
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玛瑙灰色"
     },
     {
       "code": "14-6408 TPG",
@@ -4182,7 +4427,8 @@ export default {
         "a": -2.40681384607844,
         "b": 8.103763852695
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "修道院石"
     },
     {
       "code": "12-5202 TPG",
@@ -4199,7 +4445,8 @@ export default {
         "a": 0.526472074996787,
         "b": 9.04893891700078
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "斑鸠"
     },
     {
       "code": "12-0104 TPG",
@@ -4216,7 +4463,8 @@ export default {
         "a": -0.780259078027035,
         "b": 10.6821671019761
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "白芦笋"
     },
     {
       "code": "12-0110 TPG",
@@ -4233,7 +4481,8 @@ export default {
         "a": 0.568019819106813,
         "b": 12.5805464193858
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "开心果壳"
     },
     {
       "code": "14-0108 TPG",
@@ -4250,7 +4499,8 @@ export default {
         "a": 1.56427563870887,
         "b": 12.5028949649549
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "城堡墙"
     },
     {
       "code": "14-0210 TPG",
@@ -4267,7 +4517,8 @@ export default {
         "a": 0.221405711470668,
         "b": 13.2360609253614
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "潮汐泡沫"
     },
     {
       "code": "15-0513 TPG",
@@ -4284,7 +4535,8 @@ export default {
         "a": -1.15789447500159,
         "b": 13.3052484876093
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桉树"
     },
     {
       "code": "15-0309 TPG",
@@ -4301,7 +4553,8 @@ export default {
         "a": 1.00109553361244,
         "b": 10.9155370623727
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "喷绿色"
     },
     {
       "code": "12-0311 TPG",
@@ -4318,7 +4571,8 @@ export default {
         "a": -2.03867640227451,
         "b": 13.8033663139246
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "芦笋绿"
     },
     {
       "code": "13-1007 TPG",
@@ -4335,7 +4589,8 @@ export default {
         "a": -0.164941934000795,
         "b": 15.1704257020473
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "牡蛎白"
     },
     {
       "code": "13-0611 TPG",
@@ -4352,7 +4607,8 @@ export default {
         "a": -1.7591366643131,
         "b": 15.6130857699315
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蛾"
     },
     {
       "code": "14-0615 TPG",
@@ -4369,7 +4625,8 @@ export default {
         "a": -2.36403173854727,
         "b": 17.8466481881935
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色阴霾"
     },
     {
       "code": "15-1115 TPG",
@@ -4386,7 +4643,8 @@ export default {
         "a": 2.65346389968307,
         "b": 13.7302068172878
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑麦的田地"
     },
     {
       "code": "17-1107 TPG",
@@ -4403,7 +4661,8 @@ export default {
         "a": -0.0654708376834345,
         "b": 10.7185492628833
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "塞内卡岩"
     },
     {
       "code": "17-0510 TPG",
@@ -4420,7 +4679,8 @@ export default {
         "a": -0.619063590112046,
         "b": 10.1361652987725
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "银鼠"
     },
     {
       "code": "13-0513 TPG",
@@ -4437,7 +4697,8 @@ export default {
         "a": -0.022661092636489,
         "b": 14.4706477337175
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冷冻露水"
     },
     {
       "code": "13-0711 TPG",
@@ -4454,7 +4715,8 @@ export default {
         "a": -0.919008360698026,
         "b": 15.3847044841082
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "油灰"
     },
     {
       "code": "13-1105 TPG",
@@ -4471,7 +4733,8 @@ export default {
         "a": 2.24710141715145,
         "b": 13.7365027018435
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "糙米"
     },
     {
       "code": "16-1119 TPG",
@@ -4488,7 +4751,8 @@ export default {
         "a": 1.80463477424753,
         "b": 13.4470571379536
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柠檬胡椒"
     },
     {
       "code": "17-1108 TPG",
@@ -4505,7 +4769,8 @@ export default {
         "a": 2.67744037357226,
         "b": 9.77751173723471
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冬季树枝"
     },
     {
       "code": "17-1113 TPG",
@@ -4522,7 +4787,8 @@ export default {
         "a": 2.62334467752257,
         "b": 12.1115709103689
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "香菜"
     },
     {
       "code": "17-1118 TPG",
@@ -4539,7 +4805,8 @@ export default {
         "a": 2.49042855021137,
         "b": 15.0884532300458
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "铅灰色"
     },
     {
       "code": "15-1116 TPG",
@@ -4556,7 +4823,8 @@ export default {
         "a": 4.98690400122342,
         "b": 15.5063139830913
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "野生动物园"
     },
     {
       "code": "16-1010 TPG",
@@ -4573,7 +4841,8 @@ export default {
         "a": 3.64808991196536,
         "b": 18.3537092714243
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "香"
     },
     {
       "code": "15-1114 TPG",
@@ -4590,7 +4859,8 @@ export default {
         "a": 5.22646002112159,
         "b": 16.0878918670818
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "石灰华"
     },
     {
       "code": "16-1315 TPG",
@@ -4607,7 +4877,8 @@ export default {
         "a": 6.03859213756835,
         "b": 16.9233998489582
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玉米虫"
     },
     {
       "code": "17-1022 TPG",
@@ -4624,7 +4895,8 @@ export default {
         "a": 1.42308088309562,
         "b": 18.190980727457
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海带"
     },
     {
       "code": "17-1115 TPG",
@@ -4641,7 +4913,8 @@ export default {
         "a": 5.2191086562895,
         "b": 16.1908169030263
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "石化橡木"
     },
     {
       "code": "17-1314 TPG",
@@ -4658,7 +4931,8 @@ export default {
         "a": 5.97196261424471,
         "b": 14.0278668933195
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "棕褐色色"
     },
     {
       "code": "14-1108 TPG",
@@ -4675,7 +4949,8 @@ export default {
         "a": 3.54105687993805,
         "b": 15.8074512160027
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "木灰"
     },
     {
       "code": "15-1218 TPG",
@@ -4692,7 +4967,8 @@ export default {
         "a": 5.04253913789032,
         "b": 18.3326062689286
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Semolina"
     },
     {
       "code": "14-1112 TPG",
@@ -4709,7 +4985,8 @@ export default {
         "a": 5.34386296521394,
         "b": 18.8497732810547
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "卵石"
     },
     {
       "code": "14-1208 TPG",
@@ -4726,7 +5003,8 @@ export default {
         "a": 5.10343088050608,
         "b": 16.7305206351727
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "爱尔兰面霜"
     },
     {
       "code": "16-1213 TPG",
@@ -4743,7 +5021,8 @@ export default {
         "a": 5.83106199774558,
         "b": 12.0972000165058
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "萨凡纳·谭"
     },
     {
       "code": "17-1112 TPG",
@@ -4760,7 +5039,8 @@ export default {
         "a": 3.8002232190984,
         "b": 9.6684684123352
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "风化的柚木"
     },
     {
       "code": "17-1312 TPG",
@@ -4777,7 +5057,8 @@ export default {
         "a": 5.55204428190109,
         "b": 11.5172899913841
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "银貂"
     },
     {
       "code": "14-1014 TPG",
@@ -4794,7 +5075,8 @@ export default {
         "a": 2.05065760104151,
         "b": 16.3289583599783
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "碎石"
     },
     {
       "code": "15-1217 TPG",
@@ -4811,7 +5093,8 @@ export default {
         "a": 1.89111338020453,
         "b": 19.8282523540043
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "莫哈韦沙漠"
     },
     {
       "code": "15-1216 TPG",
@@ -4828,7 +5111,8 @@ export default {
         "a": 3.85880983444681,
         "b": 16.9015569212233
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "苍白的卡其色"
     },
     {
       "code": "15-1307 TPG",
@@ -4845,7 +5129,8 @@ export default {
         "a": 4.27146881274676,
         "b": 13.1471484583293
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "白胡椒"
     },
     {
       "code": "16-1101 TPG",
@@ -4862,7 +5147,8 @@ export default {
         "a": 2.61361500091722,
         "b": 12.2640811683058
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "风衣"
     },
     {
       "code": "16-1104 TPG",
@@ -4879,7 +5165,8 @@ export default {
         "a": 3.90235237582115,
         "b": 10.2941261808579
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "陶器"
     },
     {
       "code": "17-1109 TPG",
@@ -4896,7 +5183,8 @@ export default {
         "a": 0.670063274852417,
         "b": 13.5806345165068
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "龙猫"
     },
     {
       "code": "14-1110 TPG",
@@ -4913,7 +5201,8 @@ export default {
         "a": 2.5836736322829,
         "b": 20.9990511702477
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "博尔德"
     },
     {
       "code": "14-1116 TPG",
@@ -4930,7 +5219,8 @@ export default {
         "a": 5.13115267881503,
         "b": 22.1021995236353
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杏仁泡"
     },
     {
       "code": "15-1119 TPG",
@@ -4947,7 +5237,8 @@ export default {
         "a": 3.06672694705662,
         "b": 23.661039519557
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "陶斯·塔皮（Taos Taupe）"
     },
     {
       "code": "16-0924 TPG",
@@ -4964,7 +5255,8 @@ export default {
         "a": 7.75822657750763,
         "b": 22.5582010084883
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "羊角面包"
     },
     {
       "code": "16-0920 TPG",
@@ -4981,7 +5273,8 @@ export default {
         "a": 7.11824696179364,
         "b": 20.7249611723085
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "凝乳和乳清"
     },
     {
       "code": "16-1120 TPG",
@@ -4998,7 +5291,8 @@ export default {
         "a": 5.56074972519355,
         "b": 21.0200843178045
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海星"
     },
     {
       "code": "16-1324 TPG",
@@ -5015,7 +5309,8 @@ export default {
         "a": 8.35924821598621,
         "b": 25.9864555870926
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "云雀"
     },
     {
       "code": "13-1009 TPG",
@@ -5032,7 +5327,8 @@ export default {
         "a": 2.51089322410042,
         "b": 19.1009249018493
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "比斯科蒂"
     },
     {
       "code": "13-1016 TPG",
@@ -5049,7 +5345,8 @@ export default {
         "a": 6.68137404605701,
         "b": 20.9336866211601
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "小麦"
     },
     {
       "code": "13-1011 TPG",
@@ -5066,7 +5363,8 @@ export default {
         "a": 6.54775523671008,
         "b": 16.5382396850712
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "象牙霜"
     },
     {
       "code": "14-1118 TPG",
@@ -5083,7 +5381,8 @@ export default {
         "a": 6.43728096577562,
         "b": 21.8792942599756
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "浅褐色的"
     },
     {
       "code": "15-1214 TPG",
@@ -5100,7 +5399,8 @@ export default {
         "a": 6.49271807399004,
         "b": 18.3525703587423
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "温暖的沙子"
     },
     {
       "code": "15-1020 TPG",
@@ -5117,7 +5417,8 @@ export default {
         "a": 8.04753676871101,
         "b": 17.6572898052011
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "生姜根"
     },
     {
       "code": "17-1320 TPG",
@@ -5134,7 +5435,8 @@ export default {
         "a": 7.53077416644626,
         "b": 19.4491723282339
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "单宁"
     },
     {
       "code": "12-0811 TPG",
@@ -5151,7 +5453,8 @@ export default {
         "a": 6.09305094405277,
         "b": 18.3302821738302
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黎明"
     },
     {
       "code": "13-1010 TPG",
@@ -5168,7 +5471,8 @@ export default {
         "a": 5.10357591830968,
         "b": 18.4915634738177
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰沙"
     },
     {
       "code": "14-1120 TPG",
@@ -5185,7 +5489,8 @@ export default {
         "a": 8.96652787026969,
         "b": 22.6215578112065
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杏幻觉"
     },
     {
       "code": "13-1013 TPG",
@@ -5202,7 +5507,8 @@ export default {
         "a": 8.8368284521802,
         "b": 20.0730497171442
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Appleblossom"
     },
     {
       "code": "14-1119 TPG",
@@ -5219,7 +5525,8 @@ export default {
         "a": 7.77003237286988,
         "b": 24.3127904209322
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冬小麦"
     },
     {
       "code": "13-1015 TPG",
@@ -5236,7 +5543,8 @@ export default {
         "a": 6.83757414507646,
         "b": 22.8085904806969
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蜜桃"
     },
     {
       "code": "13-1014 TPG",
@@ -5253,7 +5561,8 @@ export default {
         "a": 7.2349876565086,
         "b": 21.995525181854
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "醇厚的buff"
     },
     {
       "code": "12-1009 TPG",
@@ -5270,7 +5579,8 @@ export default {
         "a": 7.90845694954206,
         "b": 13.5287865075582
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "香草奶油"
     },
     {
       "code": "12-1006 TPG",
@@ -5287,7 +5597,8 @@ export default {
         "a": 4.32080655411315,
         "b": 12.2261876771786
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "珍珠母"
     },
     {
       "code": "12-1008 TPG",
@@ -5304,7 +5615,8 @@ export default {
         "a": 6.68135627126643,
         "b": 14.4976933207373
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "亚麻布"
     },
     {
       "code": "12-0912 TPG",
@@ -5321,7 +5633,8 @@ export default {
         "a": 9.74392809698876,
         "b": 20.9293066168838
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "嫩桃"
     },
     {
       "code": "12-0911 TPG",
@@ -5338,7 +5651,8 @@ export default {
         "a": 8.64248797778844,
         "b": 18.4544295651782
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃塔菲"
     },
     {
       "code": "12-1011 TPG",
@@ -5355,7 +5669,8 @@ export default {
         "a": 9.99299405707815,
         "b": 18.1934327413835
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃泥"
     },
     {
       "code": "12-0913 TPG",
@@ -5372,7 +5687,8 @@ export default {
         "a": 10.4385495372264,
         "b": 19.7889919815809
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "艾尔桑"
     },
     {
       "code": "12-1007 TPG",
@@ -5389,7 +5705,8 @@ export default {
         "a": 6.29583628324581,
         "b": 13.9881266452299
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柔和的玫瑰棕褐色"
     },
     {
       "code": "12-0807 TPG",
@@ -5406,7 +5723,8 @@ export default {
         "a": 6.68258038871672,
         "b": 15.0625468072179
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "太阳之吻"
     },
     {
       "code": "12-1005 TPG",
@@ -5423,7 +5741,8 @@ export default {
         "a": 4.97567455652431,
         "b": 14.492871368496
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "新颖的桃子"
     },
     {
       "code": "14-1210 TPG",
@@ -5440,7 +5759,8 @@ export default {
         "a": 4.74302079926486,
         "b": 15.0878782420205
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "转移沙子"
     },
     {
       "code": "14-1217 TPG",
@@ -5457,7 +5777,8 @@ export default {
         "a": 11.0359339532657,
         "b": 20.2752006110025
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "琥珀色"
     },
     {
       "code": "14-1213 TPG",
@@ -5474,7 +5795,8 @@ export default {
         "a": 10.0256316829875,
         "b": 17.2167592055313
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "烤杏仁"
     },
     {
       "code": "14-1315 TPG",
@@ -5491,7 +5813,8 @@ export default {
         "a": 9.80263692702527,
         "b": 19.2944300701694
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "榛子"
     },
     {
       "code": "14-1209 TPG",
@@ -5508,7 +5831,8 @@ export default {
         "a": 5.02366028382484,
         "b": 13.5671489493911
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "烟灰色"
     },
     {
       "code": "14-0708 TPG",
@@ -5525,7 +5849,8 @@ export default {
         "a": 4.39637168000862,
         "b": 10.605981067577
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水泥"
     },
     {
       "code": "14-1212 TPG",
@@ -5542,7 +5867,8 @@ export default {
         "a": 7.3614571304631,
         "b": 15.4268126803736
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Frappé"
     },
     {
       "code": "15-1215 TPG",
@@ -5559,7 +5885,8 @@ export default {
         "a": 7.67940424827512,
         "b": 15.243451472604
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "芝麻"
     },
     {
       "code": "16-1212 TPG",
@@ -5576,7 +5903,8 @@ export default {
         "a": 6.732171177812,
         "b": 13.7970817059574
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "游牧民族"
     },
     {
       "code": "15-1314 TPG",
@@ -5593,7 +5921,8 @@ export default {
         "a": 7.14453468232856,
         "b": 16.9610751110395
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "古巴沙"
     },
     {
       "code": "15-1213 TPG",
@@ -5610,7 +5939,8 @@ export default {
         "a": 9.76245967317807,
         "b": 17.9064348950937
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蜜饯生姜"
     },
     {
       "code": "15-1309 TPG",
@@ -5627,7 +5957,8 @@ export default {
         "a": 5.31382675314751,
         "b": 11.7287936164755
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "月光"
     },
     {
       "code": "16-1210 TPG",
@@ -5644,7 +5975,8 @@ export default {
         "a": 7.31123736054823,
         "b": 10.3604184094863
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡灰褐色"
     },
     {
       "code": "15-1308 TPG",
@@ -5661,7 +5993,8 @@ export default {
         "a": 3.76435973809264,
         "b": 12.2811583745478
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "做金"
     },
     {
       "code": "16-1310 TPG",
@@ -5678,7 +6011,8 @@ export default {
         "a": 7.08773336558688,
         "b": 15.4695997862051
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "自然的"
     },
     {
       "code": "16-1318 TPG",
@@ -5695,7 +6029,8 @@ export default {
         "a": 7.31543583975286,
         "b": 13.5502040088259
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "温暖的灰褐色"
     },
     {
       "code": "17-1319 TPG",
@@ -5712,7 +6047,8 @@ export default {
         "a": 6.60371391510223,
         "b": 14.432616652743
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "安福拉"
     },
     {
       "code": "17-1316 TPG",
@@ -5729,7 +6065,8 @@ export default {
         "a": 7.21276553167627,
         "b": 10.8545291716368
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Portabella"
     },
     {
       "code": "16-1412 TPG",
@@ -5746,7 +6083,8 @@ export default {
         "a": 8.63610798707559,
         "b": 10.3335006690541
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰泥"
     },
     {
       "code": "16-1415 TPG",
@@ -5763,7 +6101,8 @@ export default {
         "a": 9.73511876767591,
         "b": 12.9179868939069
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杏仁"
     },
     {
       "code": "16-1414 TPG",
@@ -5780,7 +6119,8 @@ export default {
         "a": 6.85770117327178,
         "b": 13.7789632629315
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Chanterelle"
     },
     {
       "code": "17-1418 TPG",
@@ -5797,7 +6137,8 @@ export default {
         "a": 6.72604424786083,
         "b": 11.2727294657062
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "生姜的快照"
     },
     {
       "code": "17-1321 TPG",
@@ -5814,7 +6155,8 @@ export default {
         "a": 7.71223046245284,
         "b": 13.8032188510643
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "伍兹莫克"
     },
     {
       "code": "17-1417 TPG",
@@ -5831,7 +6173,8 @@ export default {
         "a": 9.73390869059032,
         "b": 14.2152799109015
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海狸毛皮"
     },
     {
       "code": "18-1321 TPG",
@@ -5848,7 +6191,8 @@ export default {
         "a": 9.65186515392247,
         "b": 12.1058479341036
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "布朗尼"
     },
     {
       "code": "13-0403 TPG",
@@ -5865,7 +6209,8 @@ export default {
         "a": 4.36666551980053,
         "b": 6.27498055692488
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰色早晨"
     },
     {
       "code": "14-1305 TPG",
@@ -5882,7 +6227,8 @@ export default {
         "a": 5.44981771153791,
         "b": 7.96804963726674
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蘑菇"
     },
     {
       "code": "16-0806 TPG",
@@ -5899,7 +6245,8 @@ export default {
         "a": 5.69070750320549,
         "b": 6.25224555523649
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "山羊"
     },
     {
       "code": "15-1506 TPG",
@@ -5916,7 +6263,8 @@ export default {
         "a": 6.5080818982759,
         "b": 5.59259364665483
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "以太"
     },
     {
       "code": "17-0807 TPG",
@@ -5933,7 +6281,8 @@ export default {
         "a": 6.10419236629389,
         "b": 8.90012194946426
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "山步道"
     },
     {
       "code": "17-1412 TPG",
@@ -5950,7 +6299,8 @@ export default {
         "a": 6.42690556482128,
         "b": 7.25368292368664
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "无叶的树"
     },
     {
       "code": "18-1312 TPG",
@@ -5967,7 +6317,8 @@ export default {
         "a": 7.11446589558923,
         "b": 6.2734418368278
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰褐色"
     },
     {
       "code": "12-1406 TPG",
@@ -5984,7 +6335,8 @@ export default {
         "a": 5.2238367385492,
         "b": 7.98395845914259
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杏仁桃"
     },
     {
       "code": "13-3801 TPG",
@@ -6001,7 +6353,8 @@ export default {
         "a": 3.73241594444979,
         "b": 6.06311365092838
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水晶灰色"
     },
     {
       "code": "16-1211 TPG",
@@ -6018,7 +6371,8 @@ export default {
         "a": 5.94404140350391,
         "b": 7.73758220876897
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "摩卡蛋白酥皮"
     },
     {
       "code": "17-0808 TPG",
@@ -6035,7 +6389,8 @@ export default {
         "a": 6.32494869646677,
         "b": 8.52994547192967
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰褐色"
     },
     {
       "code": "17-1506 TPG",
@@ -6052,7 +6407,8 @@ export default {
         "a": 4.12351163655794,
         "b": 4.50031618565223
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "煤渣"
     },
     {
       "code": "17-1212 TPG",
@@ -6069,7 +6425,8 @@ export default {
         "a": 3.35644541944291,
         "b": 7.3371022155523
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "真菌"
     },
     {
       "code": "17-1409 TPG",
@@ -6086,7 +6443,8 @@ export default {
         "a": 6.77229267742552,
         "b": 8.02691143506231
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "布朗扁豆"
     },
     {
       "code": "15-4504 TPG",
@@ -6103,7 +6461,8 @@ export default {
         "a": 3.00852423715159,
         "b": 4.68159206834375
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鼻云"
     },
     {
       "code": "16-1406 TPG",
@@ -6120,7 +6479,8 @@ export default {
         "a": 4.32186676695523,
         "b": 4.93787895772102
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "气氛"
     },
     {
       "code": "16-3800 TPG",
@@ -6137,7 +6497,8 @@ export default {
         "a": 3.44754498144728,
         "b": 2.80300754301734
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "卫星"
     },
     {
       "code": "17-1210 TPG",
@@ -6154,7 +6515,8 @@ export default {
         "a": 1.68408212436161,
         "b": 6.37242008298673
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "月亮岩"
     },
     {
       "code": "18-1210 TPG",
@@ -6171,7 +6533,8 @@ export default {
         "a": 3.06084148929536,
         "b": 3.64277659324046
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "浮木"
     },
     {
       "code": "17-1410 TPG",
@@ -6188,7 +6551,8 @@ export default {
         "a": 4.46377695279487,
         "b": 9.50389924556134
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "松树皮"
     },
     {
       "code": "18-1306 TPG",
@@ -6205,7 +6569,8 @@ export default {
         "a": 4.47484184170016,
         "b": 4.14297609588159
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "铁"
     },
     {
       "code": "16-1102 TPG",
@@ -6222,7 +6587,8 @@ export default {
         "a": 1.57196712483332,
         "b": 7.59399883913205
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "岛化石"
     },
     {
       "code": "16-1106 TPG",
@@ -6239,7 +6605,8 @@ export default {
         "a": 4.92710680528652,
         "b": 10.101861087044
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "tuffet"
     },
     {
       "code": "17-1009 TPG",
@@ -6256,7 +6623,8 @@ export default {
         "a": 5.18055044310833,
         "b": 11.1898914032906
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沙丘"
     },
     {
       "code": "17-1311 TPG",
@@ -6273,7 +6641,8 @@ export default {
         "a": 3.58055898672116,
         "b": 8.21158704115816
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沙漠灰褐色"
     },
     {
       "code": "18-1017 TPG",
@@ -6290,7 +6659,8 @@ export default {
         "a": 6.38198964924014,
         "b": 9.85917275581649
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "驯鹿"
     },
     {
       "code": "18-1015 TPG",
@@ -6307,7 +6677,8 @@ export default {
         "a": 3.70834253162072,
         "b": 10.3806962029311
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "狗屎"
     },
     {
       "code": "19-0916 TPG",
@@ -6324,7 +6695,8 @@ export default {
         "a": 5.61988303638075,
         "b": 7.7095530095473
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "雨鼓"
     },
     {
       "code": "16-1407 TPG",
@@ -6341,7 +6713,8 @@ export default {
         "a": 4.30263906250111,
         "b": 7.78458869050154
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鹅卵石"
     },
     {
       "code": "16-1109 TPG",
@@ -6358,7 +6731,8 @@ export default {
         "a": 3.87093005367622,
         "b": 9.98686345645245
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "格雷格"
     },
     {
       "code": "17-0909 TPG",
@@ -6375,7 +6749,8 @@ export default {
         "a": 3.25281600436195,
         "b": 9.70811594852938
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "化石"
     },
     {
       "code": "18-1016 TPG",
@@ -6392,7 +6767,8 @@ export default {
         "a": 2.63425683718652,
         "b": 10.6231157403584
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "幼兽"
     },
     {
       "code": "19-0809 TPG",
@@ -6409,7 +6785,8 @@ export default {
         "a": 2.74719118538297,
         "b": 8.44038302656597
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "巧克力片"
     },
     {
       "code": "19-0808 TPG",
@@ -6426,7 +6803,8 @@ export default {
         "a": 3.28373356337913,
         "b": 5.62695141384008
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "莫雷尔"
     },
     {
       "code": "18-1304 TPG",
@@ -6443,7 +6821,8 @@ export default {
         "a": 4.14175249470849,
         "b": 4.11230280200262
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鹘"
     },
     {
       "code": "16-0906 TPG",
@@ -6460,7 +6839,8 @@ export default {
         "a": 3.0043404036611,
         "b": 8.43122711800233
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "只是灰褐色"
     },
     {
       "code": "17-1105 TPG",
@@ -6477,7 +6857,8 @@ export default {
         "a": 3.35357825162724,
         "b": 8.2935101520744
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "烤腰果"
     },
     {
       "code": "17-1310 TPG",
@@ -6494,7 +6875,8 @@ export default {
         "a": 1.60208254114497,
         "b": 10.7716138706492
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "木材狼"
     },
     {
       "code": "18-0513 TPG",
@@ -6511,7 +6893,8 @@ export default {
         "a": 2.35817122584392,
         "b": 6.06749060028718
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蹦极绳"
     },
     {
       "code": "19-0822 TPG",
@@ -6528,7 +6911,8 @@ export default {
         "a": 0.217179913132831,
         "b": 5.66525361164005
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柏油碎石"
     },
     {
       "code": "19-0810 TPG",
@@ -6545,7 +6929,8 @@ export default {
         "a": 0.993772002361171,
         "b": 5.90738835035498
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "棕色棕色"
     },
     {
       "code": "19-0823 TPG",
@@ -6562,7 +6947,8 @@ export default {
         "a": 3.65747154585688,
         "b": 6.77678861088365
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鳄鱼"
     },
     {
       "code": "16-1103 TPG",
@@ -6579,7 +6965,8 @@ export default {
         "a": 2.47998772355529,
         "b": 8.20510402551855
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "纯净的羊绒"
     },
     {
       "code": "16-0205 TPG",
@@ -6596,7 +6983,8 @@ export default {
         "a": 1.87857714074713,
         "b": 7.37960333121299
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "古董卡其色"
     },
     {
       "code": "18-1110 TPG",
@@ -6613,7 +7001,8 @@ export default {
         "a": 3.03109725896739,
         "b": 7.03562300110887
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "布林德尔"
     },
     {
       "code": "18-1108 TPG",
@@ -6630,7 +7019,8 @@ export default {
         "a": 2.04565112862803,
         "b": 6.73353701957065
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "倒下的岩石"
     },
     {
       "code": "19-0820 TPG",
@@ -6647,7 +7037,8 @@ export default {
         "a": 1.87217234593906,
         "b": 7.72759670644609
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "食堂"
     },
     {
       "code": "18-1112 TPG",
@@ -6664,7 +7055,8 @@ export default {
         "a": 2.88000103986641,
         "b": 9.03093151441973
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "核桃"
     },
     {
       "code": "18-0615 TPG",
@@ -6681,7 +7073,8 @@ export default {
         "a": 2.53911246469313,
         "b": 8.54244053700332
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "石灰"
     },
     {
       "code": "14-4500 TPG",
@@ -6698,7 +7091,8 @@ export default {
         "a": -0.158414969190501,
         "b": 4.4455201664938
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Moonstruck"
     },
     {
       "code": "15-4502 TPG",
@@ -6715,7 +7109,8 @@ export default {
         "a": 2.67624580357606,
         "b": 4.88170847581446
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "银云"
     },
     {
       "code": "14-4501 TPG",
@@ -6732,7 +7127,8 @@ export default {
         "a": 0.723196347659938,
         "b": 7.07469634398157
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "一线希望"
     },
     {
       "code": "14-0000 TPG",
@@ -6749,7 +7145,8 @@ export default {
         "a": 1.66939479349887,
         "b": 4.87828391560552
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "银灰"
     },
     {
       "code": "15-4503 TPG",
@@ -6766,7 +7163,8 @@ export default {
         "a": 3.23371823022345,
         "b": 5.38693263145482
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "格雷城堡"
     },
     {
       "code": "16-1305 TPG",
@@ -6783,7 +7181,8 @@ export default {
         "a": 1.76145462210248,
         "b": 5.92701711581338
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "细绳"
     },
     {
       "code": "16-1107 TPG",
@@ -6800,7 +7199,8 @@ export default {
         "a": 2.35551740716311,
         "b": 8.6882983933082
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "铝"
     },
     {
       "code": "13-0002 TPG",
@@ -6817,7 +7217,8 @@ export default {
         "a": 1.96535005765996,
         "b": 3.27732217896797
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "白沙"
     },
     {
       "code": "14-4002 TPG",
@@ -6834,7 +7235,8 @@ export default {
         "a": 1.73264076246399,
         "b": 1.34387828991402
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Wind Chime"
     },
     {
       "code": "15-0703 TPG",
@@ -6851,7 +7253,8 @@ export default {
         "a": 3.26751068417369,
         "b": 0.413843815874593
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玫瑰的骨灰"
     },
     {
       "code": "15-3800 TPG",
@@ -6868,7 +7271,8 @@ export default {
         "a": 3.19622429293631,
         "b": 2.22313694214216
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海豚"
     },
     {
       "code": "16-3801 TPG",
@@ -6885,7 +7289,8 @@ export default {
         "a": 2.78530585562697,
         "b": 0.682158488553641
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Opal Gray"
     },
     {
       "code": "16-3802 TPG",
@@ -6902,7 +7307,8 @@ export default {
         "a": 2.38583408107956,
         "b": 1.30636673512556
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰"
     },
     {
       "code": "17-1508 TPG",
@@ -6919,7 +7325,8 @@ export default {
         "a": 1.1606367780978,
         "b": 1.76334325712133
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沉默的风暴"
     },
     {
       "code": "15-0000 TPG",
@@ -6936,7 +7343,8 @@ export default {
         "a": 1.86082475492083,
         "b": 3.98713530881696
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鸽子"
     },
     {
       "code": "16-5803 TPG",
@@ -6953,7 +7361,8 @@ export default {
         "a": -0.0530907959980786,
         "b": 2.28374831475919
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "弗林特灰色"
     },
     {
       "code": "17-0000 TPG",
@@ -6970,7 +7379,8 @@ export default {
         "a": -0.016024059580011,
         "b": -1.26252105059383
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "弗罗斯特灰色"
     },
     {
       "code": "17-1502 TPG",
@@ -6987,7 +7397,8 @@ export default {
         "a": 0.877994693910866,
         "b": -0.425434406009995
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Cloudburst"
     },
     {
       "code": "17-1500 TPG",
@@ -7004,7 +7415,8 @@ export default {
         "a": 0.893508523294617,
         "b": 1.71406206620464
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "尖锐的灰色"
     },
     {
       "code": "18-0403 TPG",
@@ -7021,7 +7433,8 @@ export default {
         "a": 0.618157549062304,
         "b": 1.32313752528423
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深鸥灰色"
     },
     {
       "code": "18-0601 TPG",
@@ -7038,7 +7451,8 @@ export default {
         "a": -0.138650896820025,
         "b": 0.264939264659136
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "木炭灰色"
     },
     {
       "code": "14-4203 TPG",
@@ -7055,7 +7469,8 @@ export default {
         "a": 0.901645197943057,
         "b": 0.621095399342653
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蒸气蓝色"
     },
     {
       "code": "16-4703 TPG",
@@ -7072,7 +7487,8 @@ export default {
         "a": -0.52152385534332,
         "b": 0.72858898938768
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鬼灰色"
     },
     {
       "code": "16-4402 TPG",
@@ -7089,7 +7505,8 @@ export default {
         "a": 0.730231737580522,
         "b": 1.95229938433552
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "细雨"
     },
     {
       "code": "16-4400 TPG",
@@ -7106,7 +7523,8 @@ export default {
         "a": 2.09639216713148,
         "b": 2.83068538218725
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "哀悼鸽子"
     },
     {
       "code": "17-0207 TPG",
@@ -7123,7 +7541,8 @@ export default {
         "a": 1.91411980621953,
         "b": 3.91204763017432
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "岩脊"
     },
     {
       "code": "17-0205 TPG",
@@ -7140,7 +7559,8 @@ export default {
         "a": 0.518603896459358,
         "b": 2.88207082802223
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "大象皮肤"
     },
     {
       "code": "17-5102 TPG",
@@ -7157,7 +7577,8 @@ export default {
         "a": -1.61266376076352,
         "b": -1.50496849945052
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "格里芬"
     },
     {
       "code": "12-4306 TPG",
@@ -7174,7 +7595,8 @@ export default {
         "a": -1.63710111731313,
         "b": 1.25754436662953
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "几乎没有蓝色"
     },
     {
       "code": "13-4303 TPG",
@@ -7191,7 +7613,8 @@ export default {
         "a": -1.40905284554754,
         "b": 0.346591913101824
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黎明蓝色"
     },
     {
       "code": "15-4703 TPG",
@@ -7208,7 +7631,8 @@ export default {
         "a": -1.73316914783972,
         "b": 0.274265170856292
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "幻影灰色"
     },
     {
       "code": "16-4702 TPG",
@@ -7225,7 +7649,8 @@ export default {
         "a": -1.02840551698236,
         "b": 0.478535853329709
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "石灰石"
     },
     {
       "code": "18-4105 TPG",
@@ -7242,7 +7667,8 @@ export default {
         "a": -0.0921330342772975,
         "b": 1.67185265876988
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "月亮雾"
     },
     {
       "code": "17-1501 TPG",
@@ -7259,7 +7685,8 @@ export default {
         "a": -0.939358231190512,
         "b": -0.437075351143812
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "野鸽子"
     },
     {
       "code": "18-0510 TPG",
@@ -7276,7 +7703,8 @@ export default {
         "a": -3.10291274023022,
         "b": 1.898464725547
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓖麻是灰色的"
     },
     {
       "code": "12-4705 TPG",
@@ -7293,7 +7721,8 @@ export default {
         "a": -3.85666718080457,
         "b": 1.2826450084239
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色腮红"
     },
     {
       "code": "13-4305 TPG",
@@ -7310,7 +7739,8 @@ export default {
         "a": -1.96222849089284,
         "b": 2.80820529833259
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "雾露"
     },
     {
       "code": "14-4804 TPG",
@@ -7327,7 +7757,8 @@ export default {
         "a": -4.08793585882977,
         "b": 1.79434844315614
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝狐"
     },
     {
       "code": "15-4003 TPG",
@@ -7344,7 +7775,8 @@ export default {
         "a": -3.6548812398689,
         "b": 0.959481222066394
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "风暴灰色"
     },
     {
       "code": "17-4402 TPG",
@@ -7361,7 +7793,8 @@ export default {
         "a": -2.3079391508472,
         "b": -0.0490843819888731
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "中性灰色"
     },
     {
       "code": "18-5105 TPG",
@@ -7378,7 +7811,8 @@ export default {
         "a": -3.40027900461282,
         "b": -1.31256938866977
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "塞多纳圣人"
     },
     {
       "code": "18-0306 TPG",
@@ -7395,7 +7829,8 @@ export default {
         "a": -1.47349042234118,
         "b": 0.930335264348103
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "青铜"
     },
     {
       "code": "11-4601 TPG",
@@ -7412,7 +7847,8 @@ export default {
         "a": -1.70751867457708,
         "b": -0.479657401724465
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "有点蓝色"
     },
     {
       "code": "13-4201 TPG",
@@ -7429,7 +7865,8 @@ export default {
         "a": -0.250584711634083,
         "b": -0.8578987818888
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "牡蛎蘑菇"
     },
     {
       "code": "15-4101 TPG",
@@ -7446,7 +7883,8 @@ export default {
         "a": -2.46809248755125,
         "b": -2.13398114760244
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "高层"
     },
     {
       "code": "15-4305 TPG",
@@ -7463,7 +7901,8 @@ export default {
         "a": -2.94692247554884,
         "b": -4.229548317947
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "采石场"
     },
     {
       "code": "17-4405 TPG",
@@ -7480,7 +7919,8 @@ export default {
         "a": -3.04411477719124,
         "b": -2.90129578237839
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "纪念碑"
     },
     {
       "code": "17-3914 TPG",
@@ -7497,7 +7937,8 @@ export default {
         "a": 0.826205098987787,
         "b": -1.31771229283599
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鲨鱼皮"
     },
     {
       "code": "18-0202 TPG",
@@ -7514,7 +7955,8 @@ export default {
         "a": 0.194939923019555,
         "b": -2.35372352245999
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "熔岩烟"
     },
     {
       "code": "13-4108 TPG",
@@ -7531,7 +7973,8 @@ export default {
         "a": 0.718955157874013,
         "b": -0.948368198842608
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Nimbus云"
     },
     {
       "code": "14-4104 TPG",
@@ -7548,7 +7991,8 @@ export default {
         "a": -1.0235595944168,
         "b": -0.0470614807660308
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "北滴"
     },
     {
       "code": "17-5104 TPG",
@@ -7565,7 +8009,8 @@ export default {
         "a": -0.245702703555783,
         "b": -1.85425749738617
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "终极灰色"
     },
     {
       "code": "16-3917 TPG",
@@ -7582,7 +8027,8 @@ export default {
         "a": 0.741695671347631,
         "b": -1.99123001150585
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "凿石"
     },
     {
       "code": "15-4304 TPG",
@@ -7599,7 +8045,8 @@ export default {
         "a": -0.271814308120122,
         "b": -5.00101758590992
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "天气"
     },
     {
       "code": "18-4017 TPG",
@@ -7616,7 +8063,8 @@ export default {
         "a": 0.835436754414554,
         "b": -2.71300409383741
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "猫头鹰"
     },
     {
       "code": "18-4004 TPG",
@@ -7633,7 +8081,8 @@ export default {
         "a": 0.572335575307614,
         "b": -2.70878683428399
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "罂粟籽"
     },
     {
       "code": "14-4201 TPG",
@@ -7650,7 +8099,8 @@ export default {
         "a": -0.356451307715389,
         "b": -1.0193733931638
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "月球岩"
     },
     {
       "code": "14-4102 TPG",
@@ -7667,7 +8117,8 @@ export default {
         "a": -1.46459709058877,
         "b": -1.07156251166103
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冰川灰色"
     },
     {
       "code": "13-4104 TPG",
@@ -7684,7 +8135,8 @@ export default {
         "a": 0.209212205824483,
         "b": 0.25519331544599
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "南极洲"
     },
     {
       "code": "14-4103 TPG",
@@ -7701,7 +8153,8 @@ export default {
         "a": -1.54853145051492,
         "b": 0.39127588863439
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰色紫色"
     },
     {
       "code": "14-4107 TPG",
@@ -7718,7 +8171,8 @@ export default {
         "a": 0.316546154314645,
         "b": -1.0670557033027
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "安静的灰色"
     },
     {
       "code": "14-4105 TPG",
@@ -7735,7 +8189,8 @@ export default {
         "a": 0.361845833529051,
         "b": -3.06692601175755
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "微芯片"
     },
     {
       "code": "14-4202 TPG",
@@ -7752,7 +8207,8 @@ export default {
         "a": -0.444015349215787,
         "b": -1.92059620365725
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "港口雾"
     },
     {
       "code": "16-3850 TPG",
@@ -7769,7 +8225,8 @@ export default {
         "a": 1.30894454664021,
         "b": -2.55253918193492
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "银壁灯"
     },
     {
       "code": "16-5102 TPG",
@@ -7786,7 +8243,8 @@ export default {
         "a": 1.0682647930742,
         "b": -0.783471429744664
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "正式灰色"
     },
     {
       "code": "16-3915 TPG",
@@ -7803,7 +8261,8 @@ export default {
         "a": -0.315059614564184,
         "b": -1.93170281645636
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "合金"
     },
     {
       "code": "17-3913 TPG",
@@ -7820,7 +8279,8 @@ export default {
         "a": 1.31293634395219,
         "b": -3.92601703772213
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "飞涨"
     },
     {
       "code": "17-3911 TPG",
@@ -7837,7 +8297,8 @@ export default {
         "a": 2.26610244873371,
         "b": -1.80324085023646
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "银丝"
     },
     {
       "code": "18-4006 TPG",
@@ -7854,7 +8315,8 @@ export default {
         "a": 0.596638279522332,
         "b": -2.78595359230367
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "安静的阴影"
     },
     {
       "code": "18-3907 TPG",
@@ -7871,7 +8333,8 @@ export default {
         "a": 2.57277322923644,
         "b": -2.59473534437216
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "龙卷风"
     },
     {
       "code": "16-5101 TPG",
@@ -7888,7 +8351,8 @@ export default {
         "a": 1.46658525478155,
         "b": 0.524834937167906
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "潮湿的天气"
     },
     {
       "code": "17-4014 TPG",
@@ -7905,7 +8369,8 @@ export default {
         "a": 1.10260099494308,
         "b": -1.08607748556029
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "钛"
     },
     {
       "code": "18-5102 TPG",
@@ -7922,7 +8387,8 @@ export default {
         "a": 2.18954653518944,
         "b": 0.691191657003021
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "拉丝镍"
     },
     {
       "code": "17-4013 TPG",
@@ -7939,7 +8405,8 @@ export default {
         "a": 1.5747912544849,
         "b": -0.476040971669955
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰色鹅毛笔"
     },
     {
       "code": "18-4005 TPG",
@@ -7956,7 +8423,8 @@ export default {
         "a": -0.665194574192729,
         "b": -2.220211132186
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "钢灰色"
     },
     {
       "code": "18-4016 TPG",
@@ -7973,7 +8441,8 @@ export default {
         "a": 0.976633072536814,
         "b": 0.677431043413868
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "十二月的天空"
     },
     {
       "code": "18-4010 TPG",
@@ -7990,7 +8459,8 @@ export default {
         "a": 1.68356688432142,
         "b": -1.78379791348915
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "城市天际线"
     },
     {
       "code": "16-3803 TPG",
@@ -8007,7 +8477,8 @@ export default {
         "a": 3.1776128964987,
         "b": -2.25755320395844
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鸥灰色"
     },
     {
       "code": "17-2601 TPG",
@@ -8024,7 +8495,8 @@ export default {
         "a": 4.0804058441366,
         "b": -0.800275485902624
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "锌"
     },
     {
       "code": "17-3802 TPG",
@@ -8041,7 +8513,8 @@ export default {
         "a": 2.41996797517829,
         "b": -2.53631920936213
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鸥"
     },
     {
       "code": "17-1503 TPG",
@@ -8058,7 +8531,8 @@ export default {
         "a": 2.9165244329335,
         "b": -1.68076913124369
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "风暴前线"
     },
     {
       "code": "18-3908 TPG",
@@ -8075,7 +8549,8 @@ export default {
         "a": 3.47551601590285,
         "b": -2.15927457363281
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "火山玻璃"
     },
     {
       "code": "19-3803 TPG",
@@ -8092,7 +8567,8 @@ export default {
         "a": 1.25676110113149,
         "b": -0.818663559853405
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "李子小猫"
     },
     {
       "code": "18-3906 TPG",
@@ -8109,7 +8585,8 @@ export default {
         "a": 3.5748327599924,
         "b": -3.38367395902105
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "林荫大道"
     },
     {
       "code": "16-0000 TPG",
@@ -8126,7 +8603,8 @@ export default {
         "a": 1.48702545126167,
         "b": 1.96754626836
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "帕洛玛"
     },
     {
       "code": "17-4016 TPG",
@@ -8143,7 +8621,8 @@ export default {
         "a": 1.88039543482016,
         "b": 0.466831977926119
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰色法兰绒"
     },
     {
       "code": "18-4015 TPG",
@@ -8160,7 +8639,8 @@ export default {
         "a": 1.65215918262057,
         "b": -1.69610918282552
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "模仿鸟"
     },
     {
       "code": "18-0503 TPG",
@@ -8177,7 +8657,8 @@ export default {
         "a": -0.521206828381582,
         "b": 0.201648229253903
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "石像鬼"
     },
     {
       "code": "18-5203 TPG",
@@ -8194,7 +8675,8 @@ export default {
         "a": -0.579584261592492,
         "b": -0.701083010226
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "锡"
     },
     {
       "code": "18-5206 TPG",
@@ -8211,7 +8693,8 @@ export default {
         "a": 1.31171495532581,
         "b": -1.13202615024065
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "雷雨"
     },
     {
       "code": "19-3906 TPG",
@@ -8228,7 +8711,8 @@ export default {
         "a": -1.85626744019615,
         "b": -1.93654753334979
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑暗的阴影"
     },
     {
       "code": "19-4405 TPG",
@@ -8245,7 +8729,8 @@ export default {
         "a": -2.21745335393675,
         "b": -2.09991633941765
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "森林河"
     },
     {
       "code": "19-5002 TPG",
@@ -8262,7 +8747,8 @@ export default {
         "a": -1.54923241561308,
         "b": -2.40599884871642
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "林地灰色"
     },
     {
       "code": "19-5005 TPG",
@@ -8279,7 +8765,8 @@ export default {
         "a": -0.943444790743347,
         "b": 0.278388193894452
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "未探索"
     },
     {
       "code": "19-4406 TPG",
@@ -8296,7 +8783,8 @@ export default {
         "a": 0.419264563821964,
         "b": -2.0914491469129
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑沙"
     },
     {
       "code": "19-1100 TPG",
@@ -8313,7 +8801,8 @@ export default {
         "a": 1.93748750658349,
         "b": -0.448178155747914
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "布里斯托尔黑色"
     },
     {
       "code": "19-3912 TPG",
@@ -8330,7 +8819,8 @@ export default {
         "a": -0.92230519570069,
         "b": -0.288011734285043
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "火山灰"
     },
     {
       "code": "19-0205 TPG",
@@ -8347,7 +8837,8 @@ export default {
         "a": 0.532993437262125,
         "b": -1.96473200218581
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑色牡蛎"
     },
     {
       "code": "18-0000 TPG",
@@ -8364,7 +8855,8 @@ export default {
         "a": -0.341363494657687,
         "b": -1.40194857627809
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "烟熏珍珠"
     },
     {
       "code": "18-0201 TPG",
@@ -8381,7 +8873,8 @@ export default {
         "a": -1.24157054297316,
         "b": -2.60238593308538
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "卡斯特勒克"
     },
     {
       "code": "18-5204 TPG",
@@ -8398,7 +8891,8 @@ export default {
         "a": 1.72534062899565,
         "b": -0.0136700301891279
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "花岗岩灰色"
     },
     {
       "code": "18-5210 TPG",
@@ -8415,7 +8909,8 @@ export default {
         "a": 2.92375135120351,
         "b": -0.0261404338901539
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "埃菲尔铁塔"
     },
     {
       "code": "19-3910 TPG",
@@ -8432,7 +8927,8 @@ export default {
         "a": -1.05519986184796,
         "b": -3.11430462809249
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "铁门"
     },
     {
       "code": "19-0201 TPG",
@@ -8449,7 +8945,8 @@ export default {
         "a": 0.621683888027719,
         "b": -2.57151311444846
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沥青"
     },
     {
       "code": "19-3901 TPG",
@@ -8466,7 +8963,8 @@ export default {
         "a": 1.62696493604472,
         "b": -2.93200387432982
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "磁铁"
     },
     {
       "code": "19-3905 TPG",
@@ -8483,7 +8981,8 @@ export default {
         "a": 2.31134295364221,
         "b": -1.64124690619347
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "兔子"
     },
     {
       "code": "18-3905 TPG",
@@ -8500,7 +8999,8 @@ export default {
         "a": 2.37721562929294,
         "b": -3.90728902605186
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Excalibur"
     },
     {
       "code": "19-3903 TPG",
@@ -8517,7 +9017,8 @@ export default {
         "a": 2.69122330839922,
         "b": -1.09130571247329
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "页岩"
     },
     {
       "code": "19-3900 TPG",
@@ -8534,7 +9035,8 @@ export default {
         "a": 2.92495956450489,
         "b": -1.17750915544316
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "路面"
     },
     {
       "code": "19-3908 TPG",
@@ -8551,7 +9053,8 @@ export default {
         "a": 1.54785644822125,
         "b": -3.50971192012023
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "九铁"
     },
     {
       "code": "19-4104 TPG",
@@ -8568,7 +9071,8 @@ export default {
         "a": -0.772560847079551,
         "b": -4.01784344320614
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "乌木"
     },
     {
       "code": "19-3918 TPG",
@@ -8585,7 +9089,8 @@ export default {
         "a": 1.59418536434708,
         "b": -4.46723718594179
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "潜望镜"
     },
     {
       "code": "19-0203 TPG",
@@ -8602,7 +9107,8 @@ export default {
         "a": 1.26245542615283,
         "b": -2.48617420306035
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰色细条纹"
     },
     {
       "code": "19-3907 TPG",
@@ -8619,7 +9125,8 @@ export default {
         "a": 1.02951705367435,
         "b": -1.49587918413089
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "锻铁"
     },
     {
       "code": "19-3917 TPG",
@@ -8636,7 +9143,8 @@ export default {
         "a": 1.41761920417313,
         "b": -2.56162797125336
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "变黑的珍珠"
     },
     {
       "code": "19-3902 TPG",
@@ -8653,7 +9161,8 @@ export default {
         "a": 1.88888124099371,
         "b": -2.29964514267579
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑曜石"
     },
     {
       "code": "19-4205 TPG",
@@ -8670,7 +9179,8 @@ export default {
         "a": 0.0331681885401836,
         "b": -2.32022231579954
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "幻影"
     },
     {
       "code": "19-4007 TPG",
@@ -8687,7 +9197,8 @@ export default {
         "a": -0.291105730181873,
         "b": -2.75944807665418
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "无烟煤"
     },
     {
       "code": "19-0303 TPG",
@@ -8704,7 +9215,8 @@ export default {
         "a": -0.530709861683548,
         "b": -2.48279083691949
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "乌黑"
     },
     {
       "code": "19-3911 TPG",
@@ -8721,7 +9233,8 @@ export default {
         "a": 0.0672424636923297,
         "b": -2.63445792073425
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑美"
     },
     {
       "code": "19-4003 TPG",
@@ -8738,7 +9251,8 @@ export default {
         "a": 1.85161944341494,
         "b": -2.47875970160045
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑色的玛瑙"
     },
     {
       "code": "19-4004 TPG",
@@ -8755,7 +9269,8 @@ export default {
         "a": 0.365996311795763,
         "b": -1.21731478643524
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "踢踏鞋"
     },
     {
       "code": "19-4005 TPG",
@@ -8772,7 +9287,8 @@ export default {
         "a": -1.272444019705,
         "b": -2.25329420768525
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "拉伸豪华轿车"
     },
     {
       "code": "19-4006 TPG",
@@ -8789,7 +9305,8 @@ export default {
         "a": -0.350558743409224,
         "b": -1.66522388384418
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鱼子酱"
     },
     {
       "code": "19-4008 TPG",
@@ -8806,7 +9323,8 @@ export default {
         "a": 1.68668225448829,
         "b": -0.689068305218066
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "陨石"
     },
     {
       "code": "19-4203 TPG",
@@ -8823,7 +9341,8 @@ export default {
         "a": -0.328790118596434,
         "b": -1.8697706621886
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "无月的夜晚"
     },
     {
       "code": "19-0405 TPG",
@@ -8840,7 +9359,8 @@ export default {
         "a": -0.475789296250084,
         "b": 1.79965356558116
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "贝鲁加"
     },
     {
       "code": "19-0608 TPG",
@@ -8857,7 +9377,8 @@ export default {
         "a": 0.276842420646212,
         "b": 3.17740766845346
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑橄榄"
     },
     {
       "code": "19-0000 TPG",
@@ -8874,7 +9395,8 @@ export default {
         "a": -0.222134033064258,
         "b": -0.273084715247929
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "乌鸦"
     },
     {
       "code": "19-0506 TPG",
@@ -8891,7 +9413,8 @@ export default {
         "a": -1.3538698569176,
         "b": 2.02467388633204
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑色墨水"
     },
     {
       "code": "19-0508 TPG",
@@ -8908,7 +9431,8 @@ export default {
         "a": -0.375854136119652,
         "b": 0.859028079443491
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "泥炭"
     },
     {
       "code": "19-4305 TPG",
@@ -8925,7 +9449,8 @@ export default {
         "a": -1.48240185916085,
         "b": -0.434556212289006
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海盗黑色"
     },
     {
       "code": "19-5708 TPG",
@@ -8942,7 +9467,8 @@ export default {
         "a": -2.20735280099787,
         "b": -1.35949974246458
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "喷气机"
     },
     {
       "code": "19-0812 TPG",
@@ -8959,7 +9485,8 @@ export default {
         "a": 1.64426375607843,
         "b": 3.38646953167847
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "土耳其咖啡"
     },
     {
       "code": "19-0814 TPG",
@@ -8976,7 +9503,8 @@ export default {
         "a": 3.38077996205963,
         "b": 6.27845825979896
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "板岩黑色"
     },
     {
       "code": "19-0614 TPG",
@@ -8993,7 +9521,8 @@ export default {
         "a": 1.97257363662817,
         "b": 5.43050627344452
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鹪"
     },
     {
       "code": "19-0712 TPG",
@@ -9010,7 +9539,8 @@ export default {
         "a": 2.9735116189554,
         "b": 4.2729243424823
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "demitasse"
     },
     {
       "code": "19-0910 TPG",
@@ -9027,7 +9557,8 @@ export default {
         "a": 3.390715153721,
         "b": 2.47933636542502
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "覆盖物"
     },
     {
       "code": "19-1102 TPG",
@@ -9044,7 +9575,8 @@ export default {
         "a": 1.06764883655019,
         "b": 0.093929787274627
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "甘草"
     },
     {
       "code": "19-1103 TPG",
@@ -9061,7 +9593,8 @@ export default {
         "a": 3.29916607602462,
         "b": -0.442642848582442
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "浓缩咖啡"
     },
     {
       "code": "19-1015 TPG",
@@ -9078,7 +9611,8 @@ export default {
         "a": 3.87356647143605,
         "b": 4.24662417837759
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "布雷肯"
     },
     {
       "code": "19-0912 TPG",
@@ -9095,7 +9629,8 @@ export default {
         "a": 3.69481607834174,
         "b": 4.96906092417205
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "巧克力棕色"
     },
     {
       "code": "19-0840 TPG",
@@ -9112,7 +9647,8 @@ export default {
         "a": 2.99002869298079,
         "b": 3.2778690519525
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Delicioso"
     },
     {
       "code": "19-1016 TPG",
@@ -9129,7 +9665,8 @@ export default {
         "a": 4.0879235040597,
         "b": 3.97680973010612
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "爪哇"
     },
     {
       "code": "19-0915 TPG",
@@ -9146,7 +9683,8 @@ export default {
         "a": 3.25340442669667,
         "b": 2.25847470405429
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "咖啡豆"
     },
     {
       "code": "19-1106 TPG",
@@ -9163,7 +9701,8 @@ export default {
         "a": 5.3193428371886,
         "b": 2.69727843985038
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "痣"
     },
     {
       "code": "19-1101 TPG",
@@ -9180,7 +9719,8 @@ export default {
         "a": 1.72978513651303,
         "b": 0.649814270378912
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "天黑后"
     },
     {
       "code": "19-1213 TPG",
@@ -9197,7 +9737,8 @@ export default {
         "a": 6.3153842943405,
         "b": 4.94206952551095
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "购物袋"
     },
     {
       "code": "19-1012 TPG",
@@ -9214,7 +9755,8 @@ export default {
         "a": 7.04413033699719,
         "b": 4.81664946475289
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "法国烤"
     },
     {
       "code": "19-1314 TPG",
@@ -9231,7 +9773,8 @@ export default {
         "a": 4.56419234951455,
         "b": 2.42156573378154
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "密封棕色"
     },
     {
       "code": "19-1109 TPG",
@@ -9248,7 +9791,8 @@ export default {
         "a": 3.77390248724871,
         "b": 1.67472575698104
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "巧克力蛋糕"
     },
     {
       "code": "19-1111 TPG",
@@ -9265,7 +9809,8 @@ export default {
         "a": 3.63302580061761,
         "b": 1.77156550835363
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑咖啡"
     },
     {
       "code": "19-1018 TPG",
@@ -9282,7 +9827,8 @@ export default {
         "a": 4.09471391322017,
         "b": 1.43788094450009
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Ganache"
     },
     {
       "code": "19-3909 TPG",
@@ -9299,7 +9845,8 @@ export default {
         "a": 3.85949855206574,
         "b": -1.59975321747794
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑豆"
     },
     {
       "code": "19-1118 TPG",
@@ -9316,7 +9863,8 @@ export default {
         "a": 6.03769006810789,
         "b": 6.60943590424012
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "板栗"
     },
     {
       "code": "19-1234 TPG",
@@ -9333,7 +9881,8 @@ export default {
         "a": 9.96114743107943,
         "b": 8.2886666461219
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "洛矶路"
     },
     {
       "code": "19-1420 TPG",
@@ -9350,7 +9899,8 @@ export default {
         "a": 8.38755302389865,
         "b": 4.86717476272085
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深桃花心木"
     },
     {
       "code": "19-1518 TPG",
@@ -9367,7 +9917,8 @@ export default {
         "a": 8.03701603131826,
         "b": 3.15567547877545
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "puce"
     },
     {
       "code": "19-1215 TPG",
@@ -9384,7 +9935,8 @@ export default {
         "a": 8.39813030521566,
         "b": 6.63138638606208
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "剃光的巧克力"
     },
     {
       "code": "19-1419 TPG",
@@ -9401,7 +9953,8 @@ export default {
         "a": 7.52127366953301,
         "b": 5.31951541161483
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "菊苣咖啡"
     },
     {
       "code": "19-1110 TPG",
@@ -9418,7 +9971,8 @@ export default {
         "a": 5.82807041478353,
         "b": 1.82582596523271
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "巧克力李子"
     },
     {
       "code": "19-1224 TPG",
@@ -9435,7 +9989,8 @@ export default {
         "a": 8.03482062118399,
         "b": 8.69748754139072
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "火锅软糖"
     },
     {
       "code": "19-1233 TPG",
@@ -9452,7 +10007,8 @@ export default {
         "a": 11.7116261761469,
         "b": 10.995713227079
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "提拉米苏"
     },
     {
       "code": "19-1214 TPG",
@@ -9469,7 +10025,8 @@ export default {
         "a": 10.4378548053818,
         "b": 8.50628668379722
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "巧克力实验室"
     },
     {
       "code": "19-1235 TPG",
@@ -9486,7 +10043,8 @@ export default {
         "a": 11.5041658934563,
         "b": 8.89556862942545
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑发"
     },
     {
       "code": "19-1218 TPG",
@@ -9503,7 +10061,8 @@ export default {
         "a": 7.18489430836736,
         "b": 7.37182310970829
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "盆栽土壤"
     },
     {
       "code": "19-1432 TPG",
@@ -9520,7 +10079,8 @@ export default {
         "a": 10.1228729801281,
         "b": 7.46627814140582
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "巧克力软糖"
     },
     {
       "code": "19-1322 TPG",
@@ -9537,7 +10097,8 @@ export default {
         "a": 9.61765844918974,
         "b": 4.05162920623577
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "棕色石头"
     },
     {
       "code": "19-1217 TPG",
@@ -9554,7 +10115,8 @@ export default {
         "a": 9.23857780447485,
         "b": 9.82786362310789
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "野马"
     },
     {
       "code": "19-1430 TPG",
@@ -9571,7 +10133,8 @@ export default {
         "a": 14.2390991682227,
         "b": 10.1870376726075
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "貂"
     },
     {
       "code": "19-1228 TPG",
@@ -9588,7 +10151,8 @@ export default {
         "a": 14.1020875377645,
         "b": 10.3174374988198
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "根啤酒"
     },
     {
       "code": "19-1220 TPG",
@@ -9605,7 +10169,8 @@ export default {
         "a": 12.30418998925,
         "b": 9.79416003873996
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "卡布奇诺咖啡"
     },
     {
       "code": "19-1431 TPG",
@@ -9622,7 +10187,8 @@ export default {
         "a": 13.3339783991004,
         "b": 8.06108218616872
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Fudgesickle"
     },
     {
       "code": "19-1321 TPG",
@@ -9639,7 +10205,8 @@ export default {
         "a": 13.2846657645777,
         "b": 5.97314071273375
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "朗姆酒葡萄干"
     },
     {
       "code": "19-1317 TPG",
@@ -9656,7 +10223,8 @@ export default {
         "a": 10.6686736559719,
         "b": 3.87429564255567
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "苦巧克力"
     },
     {
       "code": "19-1436 TPG",
@@ -9673,7 +10241,8 @@ export default {
         "a": 15.2327603775897,
         "b": 10.1096048325471
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "肉桂"
     },
     {
       "code": "19-1320 TPG",
@@ -9690,7 +10259,8 @@ export default {
         "a": 18.0842496731334,
         "b": 9.4776208505114
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑貂"
     },
     {
       "code": "19-1334 TPG",
@@ -9707,7 +10277,8 @@ export default {
         "a": 22.7969955402806,
         "b": 14.0072774981276
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "指甲花"
     },
     {
       "code": "19-1429 TPG",
@@ -9724,7 +10295,8 @@ export default {
         "a": 21.6950247975624,
         "b": 14.3941859884243
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "烟熏辣椒粉"
     },
     {
       "code": "19-1337 TPG",
@@ -9741,7 +10313,8 @@ export default {
         "a": 26.1218861815577,
         "b": 12.9911135139993
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "开了砖"
     },
     {
       "code": "19-1331 TPG",
@@ -9758,7 +10331,8 @@ export default {
         "a": 20.888157859085,
         "b": 8.7876041789332
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Madder Brown"
     },
     {
       "code": "19-1325 TPG",
@@ -9775,7 +10349,8 @@ export default {
         "a": 17.2391037643796,
         "b": 8.24321766013685
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "热巧克力"
     },
     {
       "code": "18-1336 TPG",
@@ -9792,7 +10367,8 @@ export default {
         "a": 21.1330405769802,
         "b": 15.9619864298119
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "铜棕色"
     },
     {
       "code": "18-1433 TPG",
@@ -9809,7 +10385,8 @@ export default {
         "a": 23.0565715389653,
         "b": 17.3523610526857
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "酸辣酱"
     },
     {
       "code": "18-1425 TPG",
@@ -9826,7 +10403,8 @@ export default {
         "a": 21.8002922867352,
         "b": 11.64872127892
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃花心木"
     },
     {
       "code": "18-1541 TPG",
@@ -9843,7 +10421,8 @@ export default {
         "a": 22.3727854004245,
         "b": 14.8735969909228
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "白兰地·布朗（Brandy Brown）"
     },
     {
       "code": "19-1338 TPG",
@@ -9860,7 +10439,8 @@ export default {
         "a": 23.9919002870057,
         "b": 10.3555055221244
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Russet Brown"
     },
     {
       "code": "18-1325 TPG",
@@ -9877,7 +10457,8 @@ export default {
         "a": 24.4914382666656,
         "b": 11.710787064251
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "五香苹果"
     },
     {
       "code": "19-1435 TPG",
@@ -9894,7 +10475,8 @@ export default {
         "a": 19.3452162548724,
         "b": 12.3289848063179
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "樱桃红木"
     },
     {
       "code": "18-1432 TPG",
@@ -9911,7 +10493,8 @@ export default {
         "a": 27.5116510445824,
         "b": 18.0532798935259
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "红木Burl"
     },
     {
       "code": "18-1243 TPG",
@@ -9928,7 +10511,8 @@ export default {
         "a": 20.7547359471205,
         "b": 18.1596097642689
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "帝国黄玉"
     },
     {
       "code": "18-1341 TPG",
@@ -9945,7 +10529,8 @@ export default {
         "a": 22.8082052860003,
         "b": 17.3679671808942
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "枫糖浆"
     },
     {
       "code": "18-1323 TPG",
@@ -9962,7 +10547,8 @@ export default {
         "a": 26.365359337873,
         "b": 13.3077556873844
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "白兰地暴雪者"
     },
     {
       "code": "19-1541 TPG",
@@ -9979,7 +10565,8 @@ export default {
         "a": 25.2040429320463,
         "b": 16.3250661567907
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "烤usset"
     },
     {
       "code": "19-1428 TPG",
@@ -9996,7 +10583,8 @@ export default {
         "a": 17.5800462586853,
         "b": 13.9932917330784
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "褐色"
     },
     {
       "code": "19-1242 TPG",
@@ -10013,7 +10601,8 @@ export default {
         "a": 16.732287107375,
         "b": 16.7292719333588
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "剑桥布朗"
     },
     {
       "code": "18-1346 TPG",
@@ -10030,7 +10619,8 @@ export default {
         "a": 34.1028892105452,
         "b": 22.1662545794338
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "布鲁斯凯塔"
     },
     {
       "code": "18-1350 TPG",
@@ -10047,7 +10637,8 @@ export default {
         "a": 32.1233617168621,
         "b": 21.5368533115742
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "烧砖"
     },
     {
       "code": "18-1438 TPG",
@@ -10064,7 +10655,8 @@ export default {
         "a": 27.344178611231,
         "b": 12.7684190905621
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "马萨拉"
     },
     {
       "code": "18-1531 TPG",
@@ -10081,7 +10673,8 @@ export default {
         "a": 29.0861691970423,
         "b": 15.0847869524437
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "谷仓红"
     },
     {
       "code": "18-1442 TPG",
@@ -10098,7 +10691,8 @@ export default {
         "a": 31.2872015629485,
         "b": 16.9962313114777
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "红色ocher"
     },
     {
       "code": "18-1440 TPG",
@@ -10115,7 +10709,8 @@ export default {
         "a": 33.8116887255512,
         "b": 19.4496209324594
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "辣椒油"
     },
     {
       "code": "19-1540 TPG",
@@ -10132,7 +10727,8 @@ export default {
         "a": 25.5074122725268,
         "b": 14.6538824885538
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "燃烧的指甲花"
     },
     {
       "code": "18-1443 TPG",
@@ -10149,7 +10745,8 @@ export default {
         "a": 29.3758595553318,
         "b": 18.5391128567265
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "红木"
     },
     {
       "code": "18-1434 TPG",
@@ -10166,7 +10763,8 @@ export default {
         "a": 29.0238127794934,
         "b": 17.4721664654868
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "伊特鲁里亚红色"
     },
     {
       "code": "18-1441 TPG",
@@ -10183,7 +10781,8 @@ export default {
         "a": 28.1266764406378,
         "b": 21.782806671018
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "烤粘土"
     },
     {
       "code": "18-1343 TPG",
@@ -10200,7 +10799,8 @@ export default {
         "a": 25.3781269272257,
         "b": 18.8047952646702
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "奥本"
     },
     {
       "code": "19-1245 TPG",
@@ -10217,7 +10817,8 @@ export default {
         "a": 25.5421453178089,
         "b": 17.7196811285597
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "阿拉伯香料"
     },
     {
       "code": "19-1333 TPG",
@@ -10234,7 +10835,8 @@ export default {
         "a": 20.3373589548692,
         "b": 16.4108600020181
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "红杉"
     },
     {
       "code": "19-1230 TPG",
@@ -10251,7 +10853,8 @@ export default {
         "a": 13.1144155457564,
         "b": 13.0059947627121
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "男修道士布朗"
     },
     {
       "code": "18-1239 TPG",
@@ -10268,7 +10871,8 @@ export default {
         "a": 22.5643936491011,
         "b": 23.4026368506747
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "塞拉"
     },
     {
       "code": "18-1140 TPG",
@@ -10285,7 +10889,8 @@ export default {
         "a": 19.3706710680532,
         "b": 20.1123934653436
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "摩卡族"
     },
     {
       "code": "17-1142 TPG",
@@ -10302,7 +10907,8 @@ export default {
         "a": 18.7272188726644,
         "b": 20.500863223906
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "摩洛哥坚果油"
     },
     {
       "code": "18-1242 TPG",
@@ -10319,7 +10925,8 @@ export default {
         "a": 19.3537268631754,
         "b": 17.8699706116787
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "棕色铜绿"
     },
     {
       "code": "18-1230 TPG",
@@ -10336,7 +10943,8 @@ export default {
         "a": 20.8152967633018,
         "b": 18.6355928080207
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "椰子壳"
     },
     {
       "code": "18-1238 TPG",
@@ -10353,7 +10961,8 @@ export default {
         "a": 19.3448761584892,
         "b": 16.2776926463948
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "质朴的棕色"
     },
     {
       "code": "19-1241 TPG",
@@ -10370,7 +10979,8 @@ export default {
         "a": 16.9683394883579,
         "b": 15.9066279510626
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "乌龟壳"
     },
     {
       "code": "17-1422 TPG",
@@ -10387,7 +10997,8 @@ export default {
         "a": 10.9307613165383,
         "b": 13.5688495045074
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "原始的Umber"
     },
     {
       "code": "18-1320 TPG",
@@ -10404,7 +11015,8 @@ export default {
         "a": 13.6290937042776,
         "b": 12.3192580590243
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "丁香"
     },
     {
       "code": "18-1229 TPG",
@@ -10421,7 +11033,8 @@ export default {
         "a": 13.5873051674018,
         "b": 14.3608052297733
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "角色棕色"
     },
     {
       "code": "18-1235 TPG",
@@ -10438,7 +11051,8 @@ export default {
         "a": 17.1719199199548,
         "b": 15.1600052881874
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "俄罗斯"
     },
     {
       "code": "18-1421 TPG",
@@ -10455,7 +11069,8 @@ export default {
         "a": 13.635729043957,
         "b": 10.741526091518
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "波罗的海琥珀"
     },
     {
       "code": "18-1314 TPG",
@@ -10472,7 +11087,8 @@ export default {
         "a": 9.39241126029972,
         "b": 10.5094217589935
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "橡子"
     },
     {
       "code": "18-1326 TPG",
@@ -10489,7 +11105,8 @@ export default {
         "a": 11.9272918782788,
         "b": 9.52581395139859
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "肉豆蔻"
     },
     {
       "code": "18-1124 TPG",
@@ -10506,7 +11123,8 @@ export default {
         "a": 9.18397214524444,
         "b": 12.9764302002846
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鹧鸪"
     },
     {
       "code": "18-1033 TPG",
@@ -10523,7 +11141,8 @@ export default {
         "a": 9.92917070023469,
         "b": 17.8976077469311
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "腊肠犬"
     },
     {
       "code": "18-1031 TPG",
@@ -10540,7 +11159,8 @@ export default {
         "a": 10.296576836841,
         "b": 18.3720692497864
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "奶糖"
     },
     {
       "code": "18-1027 TPG",
@@ -10557,7 +11177,8 @@ export default {
         "a": 8.04021514084188,
         "b": 13.0493785214663
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "野牛"
     },
     {
       "code": "18-1222 TPG",
@@ -10574,7 +11195,8 @@ export default {
         "a": 8.77985025046346,
         "b": 11.034528725309
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "可可棕色"
     },
     {
       "code": "19-1121 TPG",
@@ -10591,7 +11213,8 @@ export default {
         "a": 7.2187042873583,
         "b": 8.94166055833777
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "松果"
     },
     {
       "code": "19-1116 TPG",
@@ -10608,7 +11231,8 @@ export default {
         "a": 5.39814106890713,
         "b": 8.46704755180378
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "汽车"
     },
     {
       "code": "18-1019 TPG",
@@ -10625,7 +11249,8 @@ export default {
         "a": 9.76167409416595,
         "b": 14.4539159718146
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "可口可乐"
     },
     {
       "code": "18-1028 TPG",
@@ -10642,7 +11267,8 @@ export default {
         "a": 10.9391856878079,
         "b": 16.2174617776626
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "皇帝"
     },
     {
       "code": "18-1307 TPG",
@@ -10659,7 +11285,8 @@ export default {
         "a": 6.4184658422487,
         "b": 5.6247633877292
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "咖啡石英"
     },
     {
       "code": "19-1119 TPG",
@@ -10676,7 +11303,8 @@ export default {
         "a": 7.21456727039704,
         "b": 10.1855537910188
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "可可"
     },
     {
       "code": "19-1223 TPG",
@@ -10693,7 +11321,8 @@ export default {
         "a": 13.2043404023329,
         "b": 11.4210683480514
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "布朗市中心"
     },
     {
       "code": "19-1216 TPG",
@@ -10710,7 +11339,8 @@ export default {
         "a": 7.35537952853149,
         "b": 4.48703787420631
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "巧克力马提尼"
     },
     {
       "code": "19-0913 TPG",
@@ -10727,7 +11357,8 @@ export default {
         "a": 5.84673224886462,
         "b": 4.29282330352879
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "热软糖"
     },
     {
       "code": "17-1322 TPG",
@@ -10744,7 +11375,8 @@ export default {
         "a": 11.2221509156682,
         "b": 17.8408371485016
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "驴子"
     },
     {
       "code": "17-1044 TPG",
@@ -10761,7 +11393,8 @@ export default {
         "a": 12.0796448212513,
         "b": 24.0140625834583
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "花栗鼠"
     },
     {
       "code": "17-1327 TPG",
@@ -10778,7 +11411,8 @@ export default {
         "a": 9.8261867469171,
         "b": 21.4560604211975
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "烟草棕色"
     },
     {
       "code": "18-1030 TPG",
@@ -10795,7 +11429,8 @@ export default {
         "a": 11.4582086591604,
         "b": 17.7690048270101
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "画眉"
     },
     {
       "code": "18-1024 TPG",
@@ -10812,7 +11447,8 @@ export default {
         "a": 12.6943273554379,
         "b": 20.5658968061173
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "nuthatch"
     },
     {
       "code": "18-1137 TPG",
@@ -10829,7 +11465,8 @@ export default {
         "a": 13.3454488553066,
         "b": 16.5206094275622
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "生皮"
     },
     {
       "code": "19-1227 TPG",
@@ -10846,7 +11483,8 @@ export default {
         "a": 14.3339548430453,
         "b": 15.5208787027084
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "栗色马"
     },
     {
       "code": "17-1324 TPG",
@@ -10863,7 +11501,8 @@ export default {
         "a": 11.7008392439332,
         "b": 18.0687034433636
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "肉桂漩涡"
     },
     {
       "code": "17-1318 TPG",
@@ -10880,7 +11519,8 @@ export default {
         "a": 9.68559232961525,
         "b": 14.1520355420252
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "affogat"
     },
     {
       "code": "17-1317 TPG",
@@ -10897,7 +11537,8 @@ export default {
         "a": 10.9435579428418,
         "b": 11.6022862738046
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "fresco"
     },
     {
       "code": "18-1324 TPG",
@@ -10914,7 +11555,8 @@ export default {
         "a": 11.1424660275956,
         "b": 12.0543352609735
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "巧克力麦芽"
     },
     {
       "code": "18-1125 TPG",
@@ -10931,7 +11573,8 @@ export default {
         "a": 12.3192211323078,
         "b": 14.3209495873478
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "山核桃派"
     },
     {
       "code": "18-1130 TPG",
@@ -10948,7 +11591,8 @@ export default {
         "a": 11.2695702102999,
         "b": 12.4300941683407
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "可可nibs"
     },
     {
       "code": "18-1232 TPG",
@@ -10965,7 +11609,8 @@ export default {
         "a": 11.3120254051108,
         "b": 12.8671412885802
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "软淤泥"
     },
     {
       "code": "17-1223 TPG",
@@ -10982,7 +11627,8 @@ export default {
         "a": 9.67044918638976,
         "b": 17.0801405097633
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "果仁糖"
     },
     {
       "code": "16-1323 TPG",
@@ -10999,7 +11645,8 @@ export default {
         "a": 13.258823905549,
         "b": 18.8597356185423
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杏仁饼"
     },
     {
       "code": "17-1225 TPG",
@@ -11016,7 +11663,8 @@ export default {
         "a": 13.2013667130839,
         "b": 19.3442698349169
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄褐色桦木"
     },
     {
       "code": "17-1226 TPG",
@@ -11033,7 +11681,8 @@ export default {
         "a": 12.1944546183781,
         "b": 18.2865135612674
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄褐色的布朗"
     },
     {
       "code": "17-1328 TPG",
@@ -11050,7 +11699,8 @@ export default {
         "a": 11.8748729204472,
         "b": 24.7350117713335
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "坦嗪"
     },
     {
       "code": "17-1221 TPG",
@@ -11067,7 +11717,8 @@ export default {
         "a": 14.5290642408318,
         "b": 20.1914034272448
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "MacChiato"
     },
     {
       "code": "17-1330 TPG",
@@ -11084,7 +11735,8 @@ export default {
         "a": 13.6022682290224,
         "b": 23.7692009500768
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "狮子"
     },
     {
       "code": "16-1317 TPG",
@@ -11101,7 +11753,8 @@ export default {
         "a": 8.68422744426417,
         "b": 15.1303709634596
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "刷子"
     },
     {
       "code": "16-1320 TPG",
@@ -11118,7 +11771,8 @@ export default {
         "a": 11.1110749493367,
         "b": 14.8648235154969
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "牛轧糖"
     },
     {
       "code": "16-1221 TPG",
@@ -11135,7 +11789,8 @@ export default {
         "a": 9.73614810668849,
         "b": 15.6778323740863
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "罗巴克"
     },
     {
       "code": "17-1224 TPG",
@@ -11152,7 +11807,8 @@ export default {
         "a": 14.6986534825688,
         "b": 20.5779309685191
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "骆驼"
     },
     {
       "code": "17-1227 TPG",
@@ -11169,7 +11825,8 @@ export default {
         "a": 12.8358007422374,
         "b": 17.7203888350198
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "咖啡馆"
     },
     {
       "code": "17-1230 TPG",
@@ -11186,7 +11843,8 @@ export default {
         "a": 14.4654343423771,
         "b": 17.9553985609009
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "摩卡慕斯"
     },
     {
       "code": "18-1422 TPG",
@@ -11203,7 +11861,8 @@ export default {
         "a": 13.4485723541193,
         "b": 10.7178349423176
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Myristica"
     },
     {
       "code": "13-1108 TPG",
@@ -11220,7 +11879,8 @@ export default {
         "a": 8.45158187698458,
         "b": 13.4694144606575
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "奶油棕褐色"
     },
     {
       "code": "14-1314 TPG",
@@ -11237,7 +11897,8 @@ export default {
         "a": 12.2885299518308,
         "b": 15.6720051674138
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "西班牙别墅"
     },
     {
       "code": "15-1317 TPG",
@@ -11254,7 +11915,8 @@ export default {
         "a": 10.9637327123729,
         "b": 17.9340742367133
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Sirocco"
     },
     {
       "code": "15-1316 TPG",
@@ -11271,7 +11933,8 @@ export default {
         "a": 11.6708013158084,
         "b": 16.9849333331781
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "枫糖"
     },
     {
       "code": "16-1219 TPG",
@@ -11288,7 +11951,8 @@ export default {
         "a": 12.5354671183299,
         "b": 16.1384553886928
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "托斯卡纳"
     },
     {
       "code": "16-1220 TPG",
@@ -11305,7 +11969,8 @@ export default {
         "a": 15.2184790875109,
         "b": 18.3394204810893
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "咖啡杯"
     },
     {
       "code": "16-1422 TPG",
@@ -11322,7 +11987,8 @@ export default {
         "a": 16.1597831582115,
         "b": 18.6062292152721
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "软木"
     },
     {
       "code": "13-1405 TPG",
@@ -11339,7 +12005,8 @@ export default {
         "a": 5.04877327618058,
         "b": 8.59170440800563
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "壳"
     },
     {
       "code": "12-1206 TPG",
@@ -11356,7 +12023,8 @@ export default {
         "a": 7.08456027121918,
         "b": 9.21838232543839
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "银色牡丹"
     },
     {
       "code": "14-1309 TPG",
@@ -11373,7 +12041,8 @@ export default {
         "a": 10.6887066678308,
         "b": 7.81861104773576
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃鞭子"
     },
     {
       "code": "14-1310 TPG",
@@ -11390,7 +12059,8 @@ export default {
         "a": 10.5288973957742,
         "b": 11.8828582397026
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "客串玫瑰"
     },
     {
       "code": "14-1307 TPG",
@@ -11407,7 +12077,8 @@ export default {
         "a": 8.62046593707233,
         "b": 10.9653081384052
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玫瑰尘"
     },
     {
       "code": "15-1315 TPG",
@@ -11424,7 +12095,8 @@ export default {
         "a": 8.97279028736603,
         "b": 15.5581789219244
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "橄榄球棕褐色"
     },
     {
       "code": "15-1511 TPG",
@@ -11441,7 +12113,8 @@ export default {
         "a": 10.8280948988049,
         "b": 13.4517690752892
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃花心木玫瑰"
     },
     {
       "code": "11-1006 TPG",
@@ -11458,7 +12131,8 @@ export default {
         "a": 2.26193362631244,
         "b": 2.61824248922016
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "略带粉红色"
     },
     {
       "code": "11-1007 TPG",
@@ -11475,7 +12149,8 @@ export default {
         "a": 4.23788008696102,
         "b": 3.4108768990031
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "椰子奶油"
     },
     {
       "code": "11-2309 TPG",
@@ -11492,7 +12167,8 @@ export default {
         "a": 4.8357402934045,
         "b": 3.74338818529705
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "花瓣粉红色"
     },
     {
       "code": "12-2103 TPG",
@@ -11509,7 +12185,8 @@ export default {
         "a": 4.05105771741104,
         "b": 2.94578613508574
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "几乎是淡紫色"
     },
     {
       "code": "11-0603 TPG",
@@ -11526,7 +12203,8 @@ export default {
         "a": 2.49971413149275,
         "b": 4.45640802333618
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柔和的羊皮纸"
     },
     {
       "code": "12-1105 TPG",
@@ -11543,7 +12221,8 @@ export default {
         "a": 6.62337847497207,
         "b": 7.43727742853706
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "莎莎·罗莎（Salsa Rosa）"
     },
     {
       "code": "11-1305 TPG",
@@ -11560,7 +12239,8 @@ export default {
         "a": 5.64444755300386,
         "b": 6.8824721337728
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "天使之翼"
     },
     {
       "code": "11-1302 TPG",
@@ -11577,7 +12257,8 @@ export default {
         "a": 1.92113268164912,
         "b": 5.12066629068402
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海盐"
     },
     {
       "code": "12-1106 TPG",
@@ -11594,7 +12275,8 @@ export default {
         "a": 2.62398788087376,
         "b": 7.23190457307927
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "纯粹的粉红色"
     },
     {
       "code": "11-1306 TPG",
@@ -11611,7 +12293,8 @@ export default {
         "a": 4.77093966033615,
         "b": 6.77909634191041
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "奶油粉红色"
     },
     {
       "code": "11-1005 TPG",
@@ -11628,7 +12311,8 @@ export default {
         "a": 2.40929569507853,
         "b": 4.11787482017196
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "新娘脸红"
     },
     {
       "code": "12-1108 TPG",
@@ -11645,7 +12329,8 @@ export default {
         "a": 3.17738186772587,
         "b": 8.58209727079733
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "露"
     },
     {
       "code": "12-2901 TPG",
@@ -11662,7 +12347,8 @@ export default {
         "a": 6.60751536894716,
         "b": 7.11002651590495
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "morganite"
     },
     {
       "code": "13-1504 TPG",
@@ -11679,7 +12365,8 @@ export default {
         "a": 8.68594876791606,
         "b": 7.4092114446318
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃红色"
     },
     {
       "code": "11-1404 TPG",
@@ -11696,7 +12383,8 @@ export default {
         "a": 3.29167828847066,
         "b": 6.64935088086438
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉扑"
     },
     {
       "code": "12-1107 TPG",
@@ -11713,7 +12401,8 @@ export default {
         "a": 6.63303401866372,
         "b": 10.4153509513266
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃尘"
     },
     {
       "code": "12-1209 TPG",
@@ -11730,7 +12419,8 @@ export default {
         "a": 7.12195599140869,
         "b": 10.0363865468646
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柔软的粉红色"
     },
     {
       "code": "12-1110 TPG",
@@ -11747,7 +12437,8 @@ export default {
         "a": 8.80697302285455,
         "b": 12.8999168996438
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "奶油"
     },
     {
       "code": "12-1010 TPG",
@@ -11764,7 +12455,8 @@ export default {
         "a": 11.2830500357673,
         "b": 13.1791105363204
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "扇贝外壳"
     },
     {
       "code": "13-1404 TPG",
@@ -11781,7 +12473,8 @@ export default {
         "a": 10.4650196893954,
         "b": 10.8692795103481
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "苍白的狗木"
     },
     {
       "code": "12-1207 TPG",
@@ -11798,7 +12491,8 @@ export default {
         "a": 12.4324546697965,
         "b": 9.95895044063106
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "珍珠脸红"
     },
     {
       "code": "13-1406 TPG",
@@ -11815,7 +12509,8 @@ export default {
         "a": 10.0641869522231,
         "b": 9.37646247295478
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "云粉红色"
     },
     {
       "code": "13-1407 TPG",
@@ -11832,7 +12527,8 @@ export default {
         "a": 11.3631761118331,
         "b": 8.56850555096675
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "克里奥尔粉红色"
     },
     {
       "code": "13-1208 TPG",
@@ -11849,7 +12545,8 @@ export default {
         "a": 14.3070463284838,
         "b": 11.4246910501067
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃红色敏锐"
     },
     {
       "code": "14-1312 TPG",
@@ -11866,7 +12563,8 @@ export default {
         "a": 13.6062594452426,
         "b": 12.5437135521582
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃粉"
     },
     {
       "code": "14-1311 TPG",
@@ -11883,7 +12581,8 @@ export default {
         "a": 13.5140781165983,
         "b": 12.6745140984578
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "晚上沙子"
     },
     {
       "code": "14-1313 TPG",
@@ -11900,7 +12599,8 @@ export default {
         "a": 14.285116253163,
         "b": 15.2615547020756
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玫瑰云"
     },
     {
       "code": "14-1316 TPG",
@@ -11917,7 +12617,8 @@ export default {
         "a": 18.6871647286054,
         "b": 16.0409583900188
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "尘土飞扬的粉红色"
     },
     {
       "code": "13-1109 TPG",
@@ -11934,7 +12635,8 @@ export default {
         "a": 11.2795733173711,
         "b": 16.7766091645108
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "浓汤"
     },
     {
       "code": "13-1114 TPG",
@@ -11951,7 +12653,8 @@ export default {
         "a": 13.8880137524007,
         "b": 20.8388133626426
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "贝里尼"
     },
     {
       "code": "15-1319 TPG",
@@ -11968,7 +12671,8 @@ export default {
         "a": 16.301027823353,
         "b": 20.8672395082269
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "几乎杏子"
     },
     {
       "code": "14-1220 TPG",
@@ -11985,7 +12689,8 @@ export default {
         "a": 18.3144415641665,
         "b": 25.3568186782803
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃牛轧糖"
     },
     {
       "code": "15-1318 TPG",
@@ -12002,7 +12707,8 @@ export default {
         "a": 15.9183462996702,
         "b": 20.4276663397424
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色的沙子"
     },
     {
       "code": "15-1322 TPG",
@@ -12019,7 +12725,8 @@ export default {
         "a": 17.425196533025,
         "b": 21.8493270770451
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "尘土飞扬的珊瑚"
     },
     {
       "code": "16-1330 TPG",
@@ -12036,7 +12743,8 @@ export default {
         "a": 21.8124729348667,
         "b": 18.1878082970863
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柔和的粘土"
     },
     {
       "code": "12-0813 TPG",
@@ -12053,7 +12761,8 @@ export default {
         "a": 6.59734034398668,
         "b": 21.2514154284825
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "秋天的金发"
     },
     {
       "code": "13-1024 TPG",
@@ -12070,7 +12779,8 @@ export default {
         "a": 9.49332595243763,
         "b": 30.261538289738
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "buff"
     },
     {
       "code": "13-1018 TPG",
@@ -12087,7 +12797,8 @@ export default {
         "a": 9.65643646280223,
         "b": 28.9786845612375
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沙漠灰尘"
     },
     {
       "code": "12-0921 TPG",
@@ -12104,7 +12815,8 @@ export default {
         "a": 10.7551621801281,
         "b": 29.7602398619543
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金稻草"
     },
     {
       "code": "14-1127 TPG",
@@ -12121,7 +12833,8 @@ export default {
         "a": 12.082537061262,
         "b": 29.4681696510982
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沙漠雾"
     },
     {
       "code": "14-1122 TPG",
@@ -12138,7 +12851,8 @@ export default {
         "a": 9.74064096435201,
         "b": 25.3463224240952
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "羊皮"
     },
     {
       "code": "16-1333 TPG",
@@ -12155,7 +12869,8 @@ export default {
         "a": 11.5509446233805,
         "b": 26.9481856342411
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "母鹿"
     },
     {
       "code": "15-1125 TPG",
@@ -12172,7 +12887,8 @@ export default {
         "a": 12.4660627552641,
         "b": 24.7156312708478
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "猪"
     },
     {
       "code": "15-1220 TPG",
@@ -12189,7 +12905,8 @@ export default {
         "a": 9.96709681948144,
         "b": 22.3089154280169
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "拿铁"
     },
     {
       "code": "15-1231 TPG",
@@ -12206,7 +12923,8 @@ export default {
         "a": 14.5185025482406,
         "b": 32.1115888031879
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黏土"
     },
     {
       "code": "16-1341 TPG",
@@ -12223,7 +12941,8 @@ export default {
         "a": 16.2635295088338,
         "b": 29.4605410849824
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄油"
     },
     {
       "code": "15-1425 TPG",
@@ -12240,7 +12959,8 @@ export default {
         "a": 16.3796075897314,
         "b": 27.2441905608981
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "胡芦巴"
     },
     {
       "code": "15-1430 TPG",
@@ -12257,7 +12977,8 @@ export default {
         "a": 16.8582316603282,
         "b": 28.6795786881811
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "糕点壳"
     },
     {
       "code": "16-1438 TPG",
@@ -12274,7 +12995,8 @@ export default {
         "a": 19.2034701781539,
         "b": 29.6539276759238
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Meerkat"
     },
     {
       "code": "15-1225 TPG",
@@ -12291,7 +13013,8 @@ export default {
         "a": 8.63237121973687,
         "b": 26.638192753882
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沙"
     },
     {
       "code": "16-1331 TPG",
@@ -12308,7 +13031,8 @@ export default {
         "a": 15.7582568660381,
         "b": 25.6004196758738
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "烤面包"
     },
     {
       "code": "16-1336 TPG",
@@ -12325,7 +13049,8 @@ export default {
         "a": 14.6118908914304,
         "b": 28.985679863164
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "饼干"
     },
     {
       "code": "16-1235 TPG",
@@ -12342,7 +13067,8 @@ export default {
         "a": 15.542237251188,
         "b": 26.5270464020895
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沙暴"
     },
     {
       "code": "16-1432 TPG",
@@ -12359,7 +13085,8 @@ export default {
         "a": 15.8777603327174,
         "b": 28.7838583618585
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杏仁"
     },
     {
       "code": "17-1134 TPG",
@@ -12376,7 +13103,8 @@ export default {
         "a": 12.9279940806067,
         "b": 25.9361850588229
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "红糖"
     },
     {
       "code": "17-1137 TPG",
@@ -12393,7 +13121,8 @@ export default {
         "a": 16.1958330385331,
         "b": 29.2073540347978
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "腰果"
     },
     {
       "code": "17-1336 TPG",
@@ -12410,7 +13139,8 @@ export default {
         "a": 18.5898613967159,
         "b": 28.1795403677361
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "麸"
     },
     {
       "code": "17-1340 TPG",
@@ -12427,7 +13157,8 @@ export default {
         "a": 23.1276697669695,
         "b": 30.0089637098343
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Adobe"
     },
     {
       "code": "18-1154 TPG",
@@ -12444,7 +13175,8 @@ export default {
         "a": 19.6447024546976,
         "b": 29.1282534714571
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "釉生姜"
     },
     {
       "code": "17-1052 TPG",
@@ -12461,7 +13193,8 @@ export default {
         "a": 21.1207974727243,
         "b": 33.0212674802507
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "烤山核桃"
     },
     {
       "code": "18-1155 TPG",
@@ -12478,7 +13211,8 @@ export default {
         "a": 20.5706531333102,
         "b": 29.6490642681339
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "糖杏仁"
     },
     {
       "code": "18-1142 TPG",
@@ -12495,7 +13229,8 @@ export default {
         "a": 21.738908488307,
         "b": 28.8770159596428
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "皮革棕色"
     },
     {
       "code": "18-1148 TPG",
@@ -12512,7 +13247,8 @@ export default {
         "a": 18.6029028808378,
         "b": 25.5042264805491
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "焦糖咖啡馆"
     },
     {
       "code": "15-1327 TPG",
@@ -12529,7 +13265,8 @@ export default {
         "a": 21.9564940813159,
         "b": 27.7702734020472
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃花"
     },
     {
       "code": "16-1327 TPG",
@@ -12546,7 +13283,8 @@ export default {
         "a": 20.5635265905088,
         "b": 26.4198804014588
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "烤坚果"
     },
     {
       "code": "16-1332 TPG",
@@ -12563,7 +13301,8 @@ export default {
         "a": 23.9241324040479,
         "b": 27.9832558103688
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "野鸡"
     },
     {
       "code": "17-1430 TPG",
@@ -12580,7 +13319,8 @@ export default {
         "a": 17.8066914150042,
         "b": 23.8415309809658
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "山核桃布朗"
     },
     {
       "code": "16-1429 TPG",
@@ -12597,7 +13337,8 @@ export default {
         "a": 24.7933047011988,
         "b": 26.1655735894271
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "晒斑"
     },
     {
       "code": "17-1147 TPG",
@@ -12614,7 +13355,8 @@ export default {
         "a": 22.6668754531721,
         "b": 24.6177909826879
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "琥珀色"
     },
     {
       "code": "17-1143 TPG",
@@ -12631,7 +13373,8 @@ export default {
         "a": 19.8276953400037,
         "b": 27.7404270720244
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "榛"
     },
     {
       "code": "16-1328 TPG",
@@ -12648,7 +13391,8 @@ export default {
         "a": 20.8828278710432,
         "b": 26.0967114062147
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "砂岩"
     },
     {
       "code": "16-1439 TPG",
@@ -12665,7 +13409,8 @@ export default {
         "a": 27.1754139546009,
         "b": 33.8266002064838
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "焦糖"
     },
     {
       "code": "17-1436 TPG",
@@ -12682,7 +13427,8 @@ export default {
         "a": 27.3593270413422,
         "b": 27.168752776662
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "生锡纳"
     },
     {
       "code": "17-1347 TPG",
@@ -12699,7 +13445,8 @@ export default {
         "a": 28.828375411978,
         "b": 26.2496140603317
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "秋叶"
     },
     {
       "code": "18-1250 TPG",
@@ -12716,7 +13463,8 @@ export default {
         "a": 29.702113470656,
         "b": 29.1278892166637
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "孟买布朗"
     },
     {
       "code": "17-1342 TPG",
@@ -12733,7 +13481,8 @@ export default {
         "a": 29.1553159539599,
         "b": 33.2398297803634
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "秋季"
     },
     {
       "code": "18-1246 TPG",
@@ -12750,7 +13499,8 @@ export default {
         "a": 27.16229213194,
         "b": 30.9059166864196
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Umber"
     },
     {
       "code": "18-1450 TPG",
@@ -12767,7 +13517,8 @@ export default {
         "a": 37.155431882321,
         "b": 28.8747935657935
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "麦加橙"
     },
     {
       "code": "18-1451 TPG",
@@ -12784,7 +13535,8 @@ export default {
         "a": 33.9366193159504,
         "b": 25.639674564127
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "秋天的釉"
     },
     {
       "code": "18-1340 TPG",
@@ -12801,7 +13553,8 @@ export default {
         "a": 34.4922988220347,
         "b": 31.8132938311556
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "波特的粘土"
     },
     {
       "code": "18-1345 TPG",
@@ -12818,7 +13571,8 @@ export default {
         "a": 31.6732077722485,
         "b": 31.2240199343673
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "肉桂棒"
     },
     {
       "code": "18-1355 TPG",
@@ -12835,7 +13589,8 @@ export default {
         "a": 40.6426795397239,
         "b": 31.6569725545499
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Rooibos茶"
     },
     {
       "code": "19-1250 TPG",
@@ -12852,7 +13607,8 @@ export default {
         "a": 31.1192452132349,
         "b": 22.9532889709305
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "picante"
     },
     {
       "code": "18-1244 TPG",
@@ -12869,7 +13625,8 @@ export default {
         "a": 22.4011865613096,
         "b": 22.8014695612562
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "姜饼"
     },
     {
       "code": "17-1540 TPG",
@@ -12886,7 +13643,8 @@ export default {
         "a": 35.1394434970395,
         "b": 24.9035885669465
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杏白兰地"
     },
     {
       "code": "17-1532 TPG",
@@ -12903,7 +13661,8 @@ export default {
         "a": 27.4476347211522,
         "b": 19.3694978880247
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "阿拉贡"
     },
     {
       "code": "18-1535 TPG",
@@ -12920,7 +13679,8 @@ export default {
         "a": 33.9201319389885,
         "b": 24.4542495252958
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "生姜香料"
     },
     {
       "code": "18-1444 TPG",
@@ -12937,7 +13697,8 @@ export default {
         "a": 33.4784084475834,
         "b": 18.2876140978998
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Tandoori香料"
     },
     {
       "code": "18-1540 TPG",
@@ -12954,7 +13715,8 @@ export default {
         "a": 33.6810561664934,
         "b": 18.6309028776812
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "辰砂"
     },
     {
       "code": "18-1547 TPG",
@@ -12971,7 +13733,8 @@ export default {
         "a": 39.5251485544856,
         "b": 23.8489936627981
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Bossa Nova"
     },
     {
       "code": "18-1449 TPG",
@@ -12988,7 +13751,8 @@ export default {
         "a": 34.9507225366236,
         "b": 19.6370042200948
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "番茄酱"
     },
     {
       "code": "16-1520 TPG",
@@ -13005,7 +13769,8 @@ export default {
         "a": 29.8431956962395,
         "b": 15.4478257003077
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "龙虾贵族"
     },
     {
       "code": "16-1329 TPG",
@@ -13022,7 +13787,8 @@ export default {
         "a": 30.6114255440137,
         "b": 23.1107052119079
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "珊瑚雾"
     },
     {
       "code": "16-1431 TPG",
@@ -13039,7 +13805,8 @@ export default {
         "a": 29.1555760693799,
         "b": 19.704072633209
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "峡谷粘土"
     },
     {
       "code": "16-1624 TPG",
@@ -13056,7 +13823,8 @@ export default {
         "a": 37.4878763903538,
         "b": 18.5401832135595
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Lantana"
     },
     {
       "code": "18-1629 TPG",
@@ -13073,7 +13841,8 @@ export default {
         "a": 35.9595802736576,
         "b": 15.6099800714229
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "褪色的玫瑰"
     },
     {
       "code": "18-1630 TPG",
@@ -13090,7 +13859,8 @@ export default {
         "a": 31.9338203441611,
         "b": 14.0536476705092
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "尘土飞扬的雪松"
     },
     {
       "code": "18-1648 TPG",
@@ -13107,7 +13877,8 @@ export default {
         "a": 43.0161728421653,
         "b": 19.6363009624373
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "烤苹果"
     },
     {
       "code": "14-1318 TPG",
@@ -13124,7 +13895,8 @@ export default {
         "a": 22.8950908069914,
         "b": 17.8485444697276
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "珊瑚粉红色"
     },
     {
       "code": "15-1523 TPG",
@@ -13141,7 +13913,8 @@ export default {
         "a": 25.9657432612107,
         "b": 20.245805745335
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "虾"
     },
     {
       "code": "17-1341 TPG",
@@ -13158,7 +13931,8 @@ export default {
         "a": 33.9141009203476,
         "b": 23.6598364637898
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄褐色的橙色"
     },
     {
       "code": "16-1532 TPG",
@@ -13175,7 +13949,8 @@ export default {
         "a": 35.2713245685876,
         "b": 23.8926844991119
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "狂欢"
     },
     {
       "code": "16-1526 TPG",
@@ -13192,7 +13967,8 @@ export default {
         "a": 30.8135054308203,
         "b": 18.4740506301981
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Terra Cotta"
     },
     {
       "code": "17-1544 TPG",
@@ -13209,7 +13985,8 @@ export default {
         "a": 40.8784620512625,
         "b": 26.2542966058761
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "烧伤的西耶纳"
     },
     {
       "code": "18-1536 TPG",
@@ -13226,7 +14003,8 @@ export default {
         "a": 35.2833825658075,
         "b": 21.0275764088816
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "辣酱"
     },
     {
       "code": "15-1333 TPG",
@@ -13243,7 +14021,8 @@ export default {
         "a": 29.3940700599462,
         "b": 27.352964549578
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "峡谷日落"
     },
     {
       "code": "16-1340 TPG",
@@ -13260,7 +14039,8 @@ export default {
         "a": 29.7044251898704,
         "b": 30.480942575765
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "白兰地瓜"
     },
     {
       "code": "16-1435 TPG",
@@ -13277,7 +14057,8 @@ export default {
         "a": 33.4279709004785,
         "b": 29.8954773982466
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玛瑙"
     },
     {
       "code": "15-1429 TPG",
@@ -13294,7 +14075,8 @@ export default {
         "a": 33.6350376574499,
         "b": 30.1519764863682
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰尘的粘土"
     },
     {
       "code": "16-1441 TPG",
@@ -13311,7 +14093,8 @@ export default {
         "a": 38.6497189357501,
         "b": 32.710022113981
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "阿拉伯式"
     },
     {
       "code": "16-1440 TPG",
@@ -13328,7 +14111,8 @@ export default {
         "a": 37.171590060721,
         "b": 27.9567956303839
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Langoustino"
     },
     {
       "code": "17-1446 TPG",
@@ -13345,7 +14129,8 @@ export default {
         "a": 34.6334359535109,
         "b": 26.5695981564127
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "芒果"
     },
     {
       "code": "15-1520 TPG",
@@ -13362,7 +14147,8 @@ export default {
         "a": 33.0459815970255,
         "b": 23.1121160233161
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "盛开的大丽花"
     },
     {
       "code": "16-1529 TPG",
@@ -13379,7 +14165,8 @@ export default {
         "a": 39.5005562367677,
         "b": 22.3460636213717
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "燃烧的珊瑚"
     },
     {
       "code": "16-1345 TPG",
@@ -13396,7 +14183,8 @@ export default {
         "a": 30.7637754681627,
         "b": 29.4583423864411
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "阳光烘烤"
     },
     {
       "code": "17-1345 TPG",
@@ -13413,7 +14201,8 @@ export default {
         "a": 37.910999440689,
         "b": 31.4550081895809
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "香料路线"
     },
     {
       "code": "17-1444 TPG",
@@ -13430,7 +14219,8 @@ export default {
         "a": 40.5215620444864,
         "b": 29.0586537345417
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "姜"
     },
     {
       "code": "16-1450 TPG",
@@ -13447,7 +14237,8 @@ export default {
         "a": 44.0511000539575,
         "b": 35.8692348227212
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "火烈鸟"
     },
     {
       "code": "18-1354 TPG",
@@ -13464,7 +14255,8 @@ export default {
         "a": 39.818059987627,
         "b": 29.0310770583407
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "燃烧的ocher"
     },
     {
       "code": "15-1433 TPG",
@@ -13481,7 +14273,8 @@ export default {
         "a": 34.9419255852891,
         "b": 29.2797602102441
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "木瓜打"
     },
     {
       "code": "14-1228 TPG",
@@ -13498,7 +14291,8 @@ export default {
         "a": 26.1296992179009,
         "b": 25.5879972330882
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃花蜜"
     },
     {
       "code": "15-1331 TPG",
@@ -13515,7 +14309,8 @@ export default {
         "a": 31.0754502831206,
         "b": 32.3175309343281
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "珊瑚礁"
     },
     {
       "code": "15-1530 TPG",
@@ -13532,7 +14327,8 @@ export default {
         "a": 37.8980927713297,
         "b": 26.4496785609806
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃红色"
     },
     {
       "code": "15-1340 TPG",
@@ -13549,7 +14345,8 @@ export default {
         "a": 36.0704685058086,
         "b": 36.0629925524758
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "镉橙"
     },
     {
       "code": "15-1239 TPG",
@@ -13566,7 +14363,8 @@ export default {
         "a": 34.9647587005078,
         "b": 36.1306657661645
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "哈密瓜"
     },
     {
       "code": "16-1442 TPG",
@@ -13583,7 +14381,8 @@ export default {
         "a": 41.6361751167329,
         "b": 36.8742211440297
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "瓜"
     },
     {
       "code": "12-0915 TPG",
@@ -13600,7 +14399,8 @@ export default {
         "a": 13.4952329851553,
         "b": 18.2658836339718
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "苍白的桃子"
     },
     {
       "code": "12-0917 TPG",
@@ -13617,7 +14417,8 @@ export default {
         "a": 13.0251065973525,
         "b": 23.5582857328895
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "漂白的杏子"
     },
     {
       "code": "14-1219 TPG",
@@ -13634,7 +14435,8 @@ export default {
         "a": 20.2546350285183,
         "b": 19.7838443834225
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃冻"
     },
     {
       "code": "13-1021 TPG",
@@ -13651,7 +14453,8 @@ export default {
         "a": 20.0529150427907,
         "b": 24.1236986499229
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "草原日落"
     },
     {
       "code": "14-1323 TPG",
@@ -13668,7 +14471,8 @@ export default {
         "a": 26.8371420197206,
         "b": 22.2611484442891
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "三文鱼"
     },
     {
       "code": "14-1227 TPG",
@@ -13685,7 +14489,8 @@ export default {
         "a": 23.8046264423272,
         "b": 30.0613557325418
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃"
     },
     {
       "code": "15-1334 TPG",
@@ -13702,7 +14507,8 @@ export default {
         "a": 30.2515461306332,
         "b": 31.4764194526285
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "壳珊瑚"
     },
     {
       "code": "13-1023 TPG",
@@ -13719,7 +14525,8 @@ export default {
         "a": 20.2939978993059,
         "b": 31.8192152257368
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃子绒毛"
     },
     {
       "code": "14-1225 TPG",
@@ -13736,7 +14543,8 @@ export default {
         "a": 17.6527814580273,
         "b": 27.9158894256258
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沙滩"
     },
     {
       "code": "14-1230 TPG",
@@ -13753,7 +14561,8 @@ export default {
         "a": 24.1859379159188,
         "b": 32.0580382578685
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杏水"
     },
     {
       "code": "14-1231 TPG",
@@ -13770,7 +14579,8 @@ export default {
         "a": 25.9949096335664,
         "b": 38.805278459638
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃子皮匠"
     },
     {
       "code": "14-1241 TPG",
@@ -13787,7 +14597,8 @@ export default {
         "a": 26.9165653185485,
         "b": 36.3411970030905
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "橙色雪纺"
     },
     {
       "code": "14-1135 TPG",
@@ -13804,7 +14615,8 @@ export default {
         "a": 26.2026050017078,
         "b": 38.6690166015546
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鲑鱼爱好"
     },
     {
       "code": "14-1139 TPG",
@@ -13821,7 +14633,8 @@ export default {
         "a": 27.0640090785649,
         "b": 44.0170342877652
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "南瓜"
     },
     {
       "code": "13-1026 TPG",
@@ -13838,7 +14651,8 @@ export default {
         "a": 13.7606599114005,
         "b": 24.3951550805821
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Creampuff"
     },
     {
       "code": "13-1020 TPG",
@@ -13855,7 +14669,8 @@ export default {
         "a": 18.4485168188654,
         "b": 28.9034435036055
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杏冰"
     },
     {
       "code": "13-1022 TPG",
@@ -13872,7 +14687,8 @@ export default {
         "a": 14.6340307369327,
         "b": 27.6661159665707
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "焦糖奶油"
     },
     {
       "code": "13-1125 TPG",
@@ -13889,7 +14705,8 @@ export default {
         "a": 20.3276667990745,
         "b": 27.7320893316289
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃石英"
     },
     {
       "code": "14-1224 TPG",
@@ -13906,7 +14723,8 @@ export default {
         "a": 23.6864411059121,
         "b": 28.2292631889299
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "珊瑚沙"
     },
     {
       "code": "16-1338 TPG",
@@ -13923,7 +14741,8 @@ export default {
         "a": 29.5841889500216,
         "b": 37.6887011030294
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "铜棕褐色"
     },
     {
       "code": "16-1337 TPG",
@@ -13940,7 +14759,8 @@ export default {
         "a": 29.762057936673,
         "b": 37.1802758443352
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "珊瑚金"
     },
     {
       "code": "13-1017 TPG",
@@ -13957,7 +14777,8 @@ export default {
         "a": 11.9026508613367,
         "b": 23.2478954721333
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杏仁奶油"
     },
     {
       "code": "13-1019 TPG",
@@ -13974,7 +14795,8 @@ export default {
         "a": 15.3331873604082,
         "b": 28.8634809290533
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "奶油腮红"
     },
     {
       "code": "14-1133 TPG",
@@ -13991,7 +14813,8 @@ export default {
         "a": 21.9441040260032,
         "b": 38.5634156773421
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杏花蜜"
     },
     {
       "code": "15-1234 TPG",
@@ -14008,7 +14831,8 @@ export default {
         "a": 21.3504217110823,
         "b": 37.8057655570049
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄金地球"
     },
     {
       "code": "15-1237 TPG",
@@ -14025,7 +14849,8 @@ export default {
         "a": 23.0805137819168,
         "b": 40.7696374659948
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杏晒黑"
     },
     {
       "code": "16-1346 TPG",
@@ -14042,7 +14867,8 @@ export default {
         "a": 27.1554037295052,
         "b": 41.8907722665795
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金och"
     },
     {
       "code": "16-1443 TPG",
@@ -14059,7 +14885,8 @@ export default {
         "a": 28.9881247305795,
         "b": 40.7689806043973
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杏子爱好"
     },
     {
       "code": "16-1347 TPG",
@@ -14076,7 +14903,8 @@ export default {
         "a": 30.2979842594305,
         "b": 40.3872311362397
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃子焦糖"
     },
     {
       "code": "16-1348 TPG",
@@ -14093,7 +14921,8 @@ export default {
         "a": 29.5269146684536,
         "b": 38.3562612863202
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "番茄霜"
     },
     {
       "code": "18-1248 TPG",
@@ -14110,7 +14939,8 @@ export default {
         "a": 34.4506163883385,
         "b": 32.5047447281027
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "锈"
     },
     {
       "code": "16-1448 TPG",
@@ -14127,7 +14957,8 @@ export default {
         "a": 37.0188200350541,
         "b": 45.3899675738888
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "橙色橙色"
     },
     {
       "code": "16-1449 TPG",
@@ -14144,7 +14975,8 @@ export default {
         "a": 36.3610020923135,
         "b": 40.0838192694435
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金色的火焰"
     },
     {
       "code": "17-1353 TPG",
@@ -14161,7 +14993,8 @@ export default {
         "a": 34.2235567738405,
         "b": 38.4674486673237
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杏橙"
     },
     {
       "code": "16-1260 TPG",
@@ -14178,7 +15011,8 @@ export default {
         "a": 40.3111853748941,
         "b": 44.9764723504809
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "收获南瓜"
     },
     {
       "code": "15-1242 TPG",
@@ -14195,7 +15029,8 @@ export default {
         "a": 31.7158942784379,
         "b": 43.2985985498965
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "甜瓜"
     },
     {
       "code": "16-1350 TPG",
@@ -14212,7 +15047,8 @@ export default {
         "a": 35.9213860846585,
         "b": 48.1761530556308
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "安伯格洛"
     },
     {
       "code": "16-1253 TPG",
@@ -14229,7 +15065,8 @@ export default {
         "a": 34.7817409189332,
         "b": 49.0955761809132
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "橙色och"
     },
     {
       "code": "16-1454 TPG",
@@ -14246,7 +15083,8 @@ export default {
         "a": 39.7866500429231,
         "b": 45.7899249773624
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "贾法橙"
     },
     {
       "code": "17-1145 TPG",
@@ -14263,7 +15101,8 @@ export default {
         "a": 35.3819480666892,
         "b": 49.3194567371327
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "秋季枫树"
     },
     {
       "code": "17-1140 TPG",
@@ -14280,7 +15119,8 @@ export default {
         "a": 33.2702341028214,
         "b": 48.6159900880839
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "果酱"
     },
     {
       "code": "18-1249 TPG",
@@ -14297,7 +15137,8 @@ export default {
         "a": 33.7614966736018,
         "b": 42.5005980696596
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "夏威夷日落"
     },
     {
       "code": "15-1245 TPG",
@@ -14314,7 +15155,8 @@ export default {
         "a": 32.1175514754201,
         "b": 46.8542304920571
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "模拟橙色"
     },
     {
       "code": "15-1243 TPG",
@@ -14331,7 +15173,8 @@ export default {
         "a": 35.5644526882457,
         "b": 46.8071035564703
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "木瓜"
     },
     {
       "code": "15-1247 TPG",
@@ -14348,7 +15191,8 @@ export default {
         "a": 35.0416317110197,
         "b": 47.0853706306498
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柑橘"
     },
     {
       "code": "16-1257 TPG",
@@ -14365,7 +15209,8 @@ export default {
         "a": 38.5770266422267,
         "b": 54.8572057333082
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "太阳橙色"
     },
     {
       "code": "15-1150 TPG",
@@ -14382,7 +15227,8 @@ export default {
         "a": 31.5532421418868,
         "b": 61.5393106317368
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑切达"
     },
     {
       "code": "16-1164 TPG",
@@ -14399,7 +15245,8 @@ export default {
         "a": 36.9589745308465,
         "b": 60.1136573456014
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "橙胡椒"
     },
     {
       "code": "16-1255 TPG",
@@ -14416,7 +15263,8 @@ export default {
         "a": 39.2406446024883,
         "b": 59.0487909930154
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "俄罗斯橙色"
     },
     {
       "code": "15-1160 TPG",
@@ -14433,7 +15281,8 @@ export default {
         "a": 34.535332796836,
         "b": 59.2354559651914
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "炽热的橙色"
     },
     {
       "code": "15-1153 TPG",
@@ -14450,7 +15299,8 @@ export default {
         "a": 29.6969835199886,
         "b": 60.7221420241028
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杏"
     },
     {
       "code": "15-1151 TPG",
@@ -14467,7 +15317,8 @@ export default {
         "a": 29.3226818718581,
         "b": 56.1649526508222
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冰岛罂粟"
     },
     {
       "code": "15-1157 TPG",
@@ -14484,7 +15335,8 @@ export default {
         "a": 37.3556207598805,
         "b": 65.9562715783267
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "火焰橙"
     },
     {
       "code": "15-1164 TPG",
@@ -14501,7 +15353,8 @@ export default {
         "a": 41.8466287494294,
         "b": 74.9088866568598
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "明亮的万寿菊"
     },
     {
       "code": "15-1262 TPG",
@@ -14518,7 +15371,8 @@ export default {
         "a": 43.4239990473964,
         "b": 71.0104228238719
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "胡萝卜卷"
     },
     {
       "code": "15-1263 TPG",
@@ -14535,7 +15389,8 @@ export default {
         "a": 45.5721504456364,
         "b": 70.9887122566832
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "秋天的荣耀"
     },
     {
       "code": "15-1264 TPG",
@@ -14552,7 +15407,8 @@ export default {
         "a": 46.089748573696,
         "b": 68.5582790673589
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "姜黄"
     },
     {
       "code": "15-1335 TPG",
@@ -14569,7 +15425,8 @@ export default {
         "a": 47.8543115255473,
         "b": 68.4238175795507
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Tangelo"
     },
     {
       "code": "17-1350 TPG",
@@ -14586,7 +15443,8 @@ export default {
         "a": 50.6276572851679,
         "b": 69.2093194084677
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Oriole"
     },
     {
       "code": "16-1364 TPG",
@@ -14603,7 +15461,8 @@ export default {
         "a": 53.2484421530467,
         "b": 59.5825739422568
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "充满活力的橙色"
     },
     {
       "code": "16-1356 TPG",
@@ -14620,7 +15479,8 @@ export default {
         "a": 45.3520949139545,
         "b": 59.8499115204326
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柿子橙"
     },
     {
       "code": "16-1358 TPG",
@@ -14637,7 +15497,8 @@ export default {
         "a": 53.3555862418565,
         "b": 60.7528269748007
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "橙色老虎"
     },
     {
       "code": "17-1349 TPG",
@@ -14654,7 +15515,8 @@ export default {
         "a": 44.9331567699613,
         "b": 56.3167596113648
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "旺盛"
     },
     {
       "code": "16-1343 TPG",
@@ -14671,7 +15533,8 @@ export default {
         "a": 37.9963102424913,
         "b": 47.056493127556
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "秋日落"
     },
     {
       "code": "16-1344 TPG",
@@ -14688,7 +15551,8 @@ export default {
         "a": 38.9029879622239,
         "b": 40.0761158802367
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "尘土飞扬的橙色"
     },
     {
       "code": "16-1359 TPG",
@@ -14705,7 +15569,8 @@ export default {
         "a": 45.1772478717057,
         "b": 58.7015440744926
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "橙皮"
     },
     {
       "code": "17-1360 TPG",
@@ -14722,7 +15587,8 @@ export default {
         "a": 44.1698561210205,
         "b": 49.0672913718303
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Celosia橙色"
     },
     {
       "code": "16-1459 TPG",
@@ -14739,7 +15605,8 @@ export default {
         "a": 47.4215393758606,
         "b": 47.3955353476208
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "普通话橙"
     },
     {
       "code": "16-1462 TPG",
@@ -14756,7 +15623,8 @@ export default {
         "a": 51.1119501907258,
         "b": 54.1170021990387
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄金罂粟"
     },
     {
       "code": "16-1453 TPG",
@@ -14773,7 +15641,8 @@ export default {
         "a": 54.7044331722716,
         "b": 51.7066789732629
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "异国橙色"
     },
     {
       "code": "16-1357 TPG",
@@ -14790,7 +15659,8 @@ export default {
         "a": 45.1578506437766,
         "b": 52.8204555900636
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "天堂鸟"
     },
     {
       "code": "16-1360 TPG",
@@ -14807,7 +15677,8 @@ export default {
         "a": 47.1446992868562,
         "b": 49.4051595595074
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "油桃"
     },
     {
       "code": "16-1349 TPG",
@@ -14824,7 +15695,8 @@ export default {
         "a": 46.225518997639,
         "b": 47.1826441982621
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "珊瑚玫瑰"
     },
     {
       "code": "16-1361 TPG",
@@ -14841,7 +15713,8 @@ export default {
         "a": 51.9184432084016,
         "b": 52.3895540725506
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "胡萝卜"
     },
     {
       "code": "17-1361 TPG",
@@ -14858,7 +15731,8 @@ export default {
         "a": 58.3969475480371,
         "b": 53.9797690339337
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "猩红色的宜必思"
     },
     {
       "code": "16-1363 TPG",
@@ -14875,7 +15749,8 @@ export default {
         "a": 52.0749666699218,
         "b": 53.7287706921431
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海雀的账单"
     },
     {
       "code": "16-1460 TPG",
@@ -14892,7 +15767,8 @@ export default {
         "a": 54.7088138890296,
         "b": 52.0719293350424
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "龙火"
     },
     {
       "code": "16-1362 TPG",
@@ -14909,7 +15785,8 @@ export default {
         "a": 56.959985090316,
         "b": 53.4691671969804
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "朱红色的橙色"
     },
     {
       "code": "16-1452 TPG",
@@ -14926,7 +15803,8 @@ export default {
         "a": 49.7370742551821,
         "b": 45.5556193659935
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鞭炮"
     },
     {
       "code": "17-1452 TPG",
@@ -14943,7 +15821,8 @@ export default {
         "a": 45.5014854764155,
         "b": 38.7996671040187
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "锦鲤"
     },
     {
       "code": "17-1462 TPG",
@@ -14960,7 +15839,8 @@ export default {
         "a": 61.1159100677013,
         "b": 52.4660916434444
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "火焰"
     },
     {
       "code": "17-1461 TPG",
@@ -14977,7 +15857,8 @@ export default {
         "a": 53.9766955872743,
         "b": 47.9797377939128
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "橙色"
     },
     {
       "code": "17-1464 TPG",
@@ -14994,7 +15875,8 @@ export default {
         "a": 58.1809460461056,
         "b": 54.6884444455426
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "红橙色"
     },
     {
       "code": "17-1463 TPG",
@@ -15011,7 +15893,8 @@ export default {
         "a": 59.1014877929627,
         "b": 50.035501186371
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Tangerine Tango"
     },
     {
       "code": "17-1456 TPG",
@@ -15028,7 +15911,8 @@ export default {
         "a": 50.3657558620136,
         "b": 39.8301327863986
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "虎里"
     },
     {
       "code": "17-1450 TPG",
@@ -15045,7 +15929,8 @@ export default {
         "a": 46.2449915550629,
         "b": 31.403232777159
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "夏季图"
     },
     {
       "code": "18-1448 TPG",
@@ -15062,7 +15947,8 @@ export default {
         "a": 41.954002859681,
         "b": 28.5516849543583
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "辣椒"
     },
     {
       "code": "18-1447 TPG",
@@ -15079,7 +15965,8 @@ export default {
         "a": 39.542530174157,
         "b": 30.7308552777661
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "橙色生锈"
     },
     {
       "code": "17-1553 TPG",
@@ -15096,7 +15983,8 @@ export default {
         "a": 48.6453814105046,
         "b": 28.5562855477341
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "辣椒"
     },
     {
       "code": "18-1454 TPG",
@@ -15113,7 +16001,8 @@ export default {
         "a": 47.0734383231411,
         "b": 32.5731054624019
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "红色粘土"
     },
     {
       "code": "17-1449 TPG",
@@ -15130,7 +16019,8 @@ export default {
         "a": 47.1237571800353,
         "b": 38.1084274524232
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "南瓜泥"
     },
     {
       "code": "18-1445 TPG",
@@ -15147,7 +16037,8 @@ export default {
         "a": 56.1751143641118,
         "b": 42.5828104661725
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "辣橙"
     },
     {
       "code": "17-1558 TPG",
@@ -15164,7 +16055,8 @@ export default {
         "a": 59.2852501281049,
         "b": 37.5565731998568
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "手榴弹"
     },
     {
       "code": "18-1561 TPG",
@@ -15181,7 +16073,8 @@ export default {
         "a": 60.0787874622555,
         "b": 42.710401201094
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Orange.com"
     },
     {
       "code": "17-1563 TPG",
@@ -15198,7 +16091,8 @@ export default {
         "a": 63.2604064092302,
         "b": 46.1632619103783
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "圣女果"
     },
     {
       "code": "17-1564 TPG",
@@ -15215,7 +16109,8 @@ export default {
         "a": 59.2987298002555,
         "b": 39.5618688483455
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "嘉年华"
     },
     {
       "code": "18-1564 TPG",
@@ -15232,7 +16127,8 @@ export default {
         "a": 55.4911508077985,
         "b": 40.3562933123413
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "庞氏"
     },
     {
       "code": "18-1550 TPG",
@@ -15249,7 +16145,8 @@ export default {
         "a": 50.0270401911317,
         "b": 27.5736398895821
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Aurora Red"
     },
     {
       "code": "16-1544 TPG",
@@ -15266,7 +16163,8 @@ export default {
         "a": 48.7857476648451,
         "b": 31.2892054995739
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柿子"
     },
     {
       "code": "16-1541 TPG",
@@ -15283,7 +16181,8 @@ export default {
         "a": 51.015718764488,
         "b": 35.5785447761941
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "茶花"
     },
     {
       "code": "17-1547 TPG",
@@ -15300,7 +16199,8 @@ export default {
         "a": 50.1364385039098,
         "b": 30.7709500389265
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Emberglow"
     },
     {
       "code": "16-1451 TPG",
@@ -15317,7 +16217,8 @@ export default {
         "a": 56.262690856567,
         "b": 44.2175744869954
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "nasturtium"
     },
     {
       "code": "17-1562 TPG",
@@ -15334,7 +16235,8 @@ export default {
         "a": 59.1329268442637,
         "b": 44.2695074280885
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "普通话红"
     },
     {
       "code": "18-1664 TPG",
@@ -15351,7 +16253,8 @@ export default {
         "a": 62.9739657563583,
         "b": 36.7287958941415
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "火红"
     },
     {
       "code": "18-1549 TPG",
@@ -15368,7 +16271,8 @@ export default {
         "a": 54.901560932459,
         "b": 33.4257901578974
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "英勇的罂粟"
     },
     {
       "code": "16-1543 TPG",
@@ -15385,7 +16289,8 @@ export default {
         "a": 49.1815399419778,
         "b": 34.6040531151841
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "融合珊瑚"
     },
     {
       "code": "16-1548 TPG",
@@ -15402,7 +16307,8 @@ export default {
         "a": 48.1238436699697,
         "b": 29.7650370150319
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃回声"
     },
     {
       "code": "16-1539 TPG",
@@ -15419,7 +16325,8 @@ export default {
         "a": 47.7211613478504,
         "b": 29.9716339507593
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "珊瑚"
     },
     {
       "code": "16-1542 TPG",
@@ -15436,7 +16343,8 @@ export default {
         "a": 48.443041682712,
         "b": 34.5854092321354
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "新鲜的鲑鱼"
     },
     {
       "code": "16-1545 TPG",
@@ -15453,7 +16361,8 @@ export default {
         "a": 49.7427019507071,
         "b": 32.2021315512768
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "珊瑚石英"
     },
     {
       "code": "16-1546 TPG",
@@ -15470,7 +16379,8 @@ export default {
         "a": 52.8726586053144,
         "b": 34.1556886771941
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "活珊瑚"
     },
     {
       "code": "17-1656 TPG",
@@ -15487,7 +16397,8 @@ export default {
         "a": 58.1766636129588,
         "b": 34.2110798610648
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "热珊瑚"
     },
     {
       "code": "15-1435 TPG",
@@ -15504,7 +16415,8 @@ export default {
         "a": 41.4305882258357,
         "b": 26.6679310154179
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沙漠花"
     },
     {
       "code": "16-1641 TPG",
@@ -15521,7 +16433,8 @@ export default {
         "a": 50.5159205898361,
         "b": 24.5122998159727
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "乔治亚州桃子"
     },
     {
       "code": "16-1640 TPG",
@@ -15538,7 +16451,8 @@ export default {
         "a": 54.7066273737921,
         "b": 25.8730461154999
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "糖珊瑚"
     },
     {
       "code": "17-1647 TPG",
@@ -15555,7 +16469,8 @@ export default {
         "a": 54.129871743516,
         "b": 24.9509615605009
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杜巴里"
     },
     {
       "code": "17-1643 TPG",
@@ -15572,7 +16487,8 @@ export default {
         "a": 48.817026285344,
         "b": 22.9037005191936
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "瓷玫瑰"
     },
     {
       "code": "17-1644 TPG",
@@ -15589,7 +16505,8 @@ export default {
         "a": 46.4836408831521,
         "b": 21.7718989800306
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "加香料的珊瑚"
     },
     {
       "code": "17-1545 TPG",
@@ -15606,7 +16523,8 @@ export default {
         "a": 43.9562271548528,
         "b": 19.8579969049871
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蔓越莓"
     },
     {
       "code": "16-1632 TPG",
@@ -15623,7 +16541,8 @@ export default {
         "a": 45.8654738001119,
         "b": 20.8408102291622
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "贝壳粉红色"
     },
     {
       "code": "18-1649 TPG",
@@ -15640,7 +16559,8 @@ export default {
         "a": 50.8533382045067,
         "b": 24.1745483300727
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深海珊瑚"
     },
     {
       "code": "17-1635 TPG",
@@ -15657,7 +16577,8 @@ export default {
         "a": 51.5900915740108,
         "b": 21.6258484839807
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沙龙玫瑰"
     },
     {
       "code": "18-1651 TPG",
@@ -15674,7 +16595,8 @@ export default {
         "a": 56.262056449602,
         "b": 27.5496659963877
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "辣椒"
     },
     {
       "code": "17-1654 TPG",
@@ -15691,7 +16613,8 @@ export default {
         "a": 58.0397079972307,
         "b": 26.1477806556755
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "一品红"
     },
     {
       "code": "17-1641 TPG",
@@ -15708,7 +16631,8 @@ export default {
         "a": 45.7819820203437,
         "b": 18.0892392023775
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "菊花"
     },
     {
       "code": "18-1643 TPG",
@@ -15725,7 +16649,8 @@ export default {
         "a": 41.2721220111069,
         "b": 15.6361146758594
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "红衣主教"
     },
     {
       "code": "18-1661 TPG",
@@ -15742,7 +16667,8 @@ export default {
         "a": 53.6931928137037,
         "b": 21.6912079805545
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "番茄泥"
     },
     {
       "code": "17-1663 TPG",
@@ -15759,7 +16685,8 @@ export default {
         "a": 60.6639733592558,
         "b": 28.608725511593
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "苦乐参半"
     },
     {
       "code": "18-1652 TPG",
@@ -15776,7 +16703,8 @@ export default {
         "a": 52.9990533235555,
         "b": 22.6714402105003
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "洛可可红"
     },
     {
       "code": "18-1660 TPG",
@@ -15793,7 +16721,8 @@ export default {
         "a": 62.194126990736,
         "b": 31.1123013607154
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "番茄"
     },
     {
       "code": "18-1762 TPG",
@@ -15810,7 +16739,8 @@ export default {
         "a": 61.2324559155873,
         "b": 29.030683239533
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "芙蓉"
     },
     {
       "code": "19-1760 TPG",
@@ -15827,7 +16757,8 @@ export default {
         "a": 52.9289434953932,
         "b": 20.4054125787284
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "猩红"
     },
     {
       "code": "18-1764 TPG",
@@ -15844,7 +16775,8 @@ export default {
         "a": 59.6313118163379,
         "b": 23.7834584662062
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "棒糖"
     },
     {
       "code": "18-1763 TPG",
@@ -15861,7 +16793,8 @@ export default {
         "a": 63.0270508696223,
         "b": 34.7476643069933
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "高风险红色"
     },
     {
       "code": "18-1555 TPG",
@@ -15878,7 +16811,8 @@ export default {
         "a": 53.7499642310668,
         "b": 33.206838549639
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "熔岩"
     },
     {
       "code": "18-1657 TPG",
@@ -15895,7 +16829,8 @@ export default {
         "a": 54.2600024864058,
         "b": 24.6274980713111
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "莎莎"
     },
     {
       "code": "18-1551 TPG",
@@ -15912,7 +16847,8 @@ export default {
         "a": 55.1517535012653,
         "b": 30.6249668994178
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "光环橙"
     },
     {
       "code": "18-1659 TPG",
@@ -15929,7 +16865,8 @@ export default {
         "a": 57.0051294012039,
         "b": 28.2839420624858
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Goji Berry"
     },
     {
       "code": "18-1658 TPG",
@@ -15946,7 +16883,8 @@ export default {
         "a": 44.6041824783769,
         "b": 21.543814006569
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "庞贝红"
     },
     {
       "code": "19-1758 TPG",
@@ -15963,7 +16901,8 @@ export default {
         "a": 52.2142655200379,
         "b": 23.9520096665172
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "高红色"
     },
     {
       "code": "18-1559 TPG",
@@ -15980,7 +16919,8 @@ export default {
         "a": 60.7320107311338,
         "b": 41.0699575569144
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "红色警报"
     },
     {
       "code": "18-1563 TPG",
@@ -15997,7 +16937,8 @@ export default {
         "a": 56.6234094579988,
         "b": 30.9543300412675
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Rubicondo"
     },
     {
       "code": "18-1453 TPG",
@@ -16014,7 +16955,8 @@ export default {
         "a": 45.7289826089871,
         "b": 28.2716882536882
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "火旋转"
     },
     {
       "code": "18-1553 TPG",
@@ -16031,7 +16973,8 @@ export default {
         "a": 55.9549083362182,
         "b": 31.5234521384245
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "肾上腺素冲"
     },
     {
       "code": "19-1756 TPG",
@@ -16048,7 +16991,8 @@ export default {
         "a": 54.7572714451248,
         "b": 24.9492746128043
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "城市红色"
     },
     {
       "code": "18-1552 TPG",
@@ -16065,7 +17009,8 @@ export default {
         "a": 45.7971138493983,
         "b": 24.0012200527676
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "熔岩瀑布"
     },
     {
       "code": "19-1755 TPG",
@@ -16082,7 +17027,8 @@ export default {
         "a": 49.6298827329827,
         "b": 23.0740636260604
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "马术红色"
     },
     {
       "code": "18-1662 TPG",
@@ -16099,7 +17045,8 @@ export default {
         "a": 61.8371393545397,
         "b": 35.4878425214348
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "火焰猩红色"
     },
     {
       "code": "17-1664 TPG",
@@ -16116,7 +17063,8 @@ export default {
         "a": 61.7545019291059,
         "b": 32.4647536690051
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "罂粟红"
     },
     {
       "code": "19-1763 TPG",
@@ -16133,7 +17081,8 @@ export default {
         "a": 59.776197318429,
         "b": 28.6078729933623
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "赛车红色"
     },
     {
       "code": "18-1663 TPG",
@@ -16150,7 +17099,8 @@ export default {
         "a": 59.2894702173648,
         "b": 27.6380650719122
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "中国红"
     },
     {
       "code": "19-1664 TPG",
@@ -16167,7 +17117,8 @@ export default {
         "a": 57.7125822295622,
         "b": 26.3756846491695
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "真红色"
     },
     {
       "code": "19-1663 TPG",
@@ -16184,7 +17135,8 @@ export default {
         "a": 55.7091753944109,
         "b": 25.3002865405826
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "色带红色"
     },
     {
       "code": "19-1662 TPG",
@@ -16201,7 +17153,8 @@ export default {
         "a": 50.6330581917027,
         "b": 24.5817392267938
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桑巴"
     },
     {
       "code": "18-1653 TPG",
@@ -16218,7 +17171,8 @@ export default {
         "a": 60.5089225554996,
         "b": 25.3683012020807
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Toreador"
     },
     {
       "code": "18-1761 TPG",
@@ -16235,7 +17189,8 @@ export default {
         "a": 58.2868077463679,
         "b": 20.2669043178506
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "滑雪巡逻"
     },
     {
       "code": "19-1764 TPG",
@@ -16252,7 +17207,8 @@ export default {
         "a": 54.3321073266332,
         "b": 20.4475530716184
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "口红红色"
     },
     {
       "code": "18-1654 TPG",
@@ -16269,7 +17225,8 @@ export default {
         "a": 59.5024758478796,
         "b": 25.786800018858
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "刑事"
     },
     {
       "code": "19-1762 TPG",
@@ -16286,7 +17243,8 @@ export default {
         "a": 54.6169726408425,
         "b": 17.5082818352804
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "赤红"
     },
     {
       "code": "18-1759 TPG",
@@ -16303,7 +17261,8 @@ export default {
         "a": 55.0871315772058,
         "b": 19.3232871050137
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "墨西哥红色"
     },
     {
       "code": "19-1862 TPG",
@@ -16320,7 +17279,8 @@ export default {
         "a": 46.4541242846111,
         "b": 17.6200121984206
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "小丑红"
     },
     {
       "code": "18-1655 TPG",
@@ -16337,7 +17297,8 @@ export default {
         "a": 56.7735609294631,
         "b": 26.8189713420745
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "火星红"
     },
     {
       "code": "19-1757 TPG",
@@ -16354,7 +17315,8 @@ export default {
         "a": 56.9835325691556,
         "b": 26.755110834178
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "巴巴多斯·樱桃"
     },
     {
       "code": "19-1559 TPG",
@@ -16371,7 +17333,8 @@ export default {
         "a": 46.4518408794923,
         "b": 20.8003107857524
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "猩红色的圣人"
     },
     {
       "code": "19-1761 TPG",
@@ -16388,7 +17351,8 @@ export default {
         "a": 56.8877037196333,
         "b": 23.4347263057556
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "探戈红"
     },
     {
       "code": "19-1759 TPG",
@@ -16405,7 +17369,8 @@ export default {
         "a": 43.8391860341129,
         "b": 15.8497391356476
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "美国美"
     },
     {
       "code": "19-1863 TPG",
@@ -16422,7 +17387,8 @@ export default {
         "a": 47.5996296383633,
         "b": 17.0993086341862
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "小型摩托车"
     },
     {
       "code": "19-1557 TPG",
@@ -16439,7 +17405,8 @@ export default {
         "a": 46.1666335536823,
         "b": 20.5373509932831
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "辣椒"
     },
     {
       "code": "19-1554 TPG",
@@ -16456,7 +17423,8 @@ export default {
         "a": 47.9203332741906,
         "b": 20.8858514594393
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "精明的红色"
     },
     {
       "code": "19-1657 TPG",
@@ -16473,7 +17441,8 @@ export default {
         "a": 41.3056883839247,
         "b": 15.6186482845259
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "卡兰达红"
     },
     {
       "code": "19-1875 TPG",
@@ -16490,7 +17459,8 @@ export default {
         "a": 44.4446322278128,
         "b": 19.1610536333782
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "胆大了"
     },
     {
       "code": "19-1558 TPG",
@@ -16507,7 +17477,8 @@ export default {
         "a": 48.5212385829802,
         "b": 18.9392236161421
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "猩红色的微笑"
     },
     {
       "code": "19-1537 TPG",
@@ -16524,7 +17495,8 @@ export default {
         "a": 33.7285292248203,
         "b": 14.2936402238846
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "酒厂"
     },
     {
       "code": "19-1653 TPG",
@@ -16541,7 +17513,8 @@ export default {
         "a": 42.420513521978,
         "b": 18.4398781686738
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "有节奏的红色"
     },
     {
       "code": "19-1527 TPG",
@@ -16558,7 +17531,8 @@ export default {
         "a": 22.8896506447015,
         "b": 7.80499298297201
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "新栗色"
     },
     {
       "code": "19-1650 TPG",
@@ -16575,7 +17549,8 @@ export default {
         "a": 31.5053155735511,
         "b": 10.3558732132431
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "骑自行车的红色"
     },
     {
       "code": "19-1652 TPG",
@@ -16592,7 +17567,8 @@ export default {
         "a": 33.1110957261712,
         "b": 10.0264275239952
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "大黄"
     },
     {
       "code": "19-1534 TPG",
@@ -16609,7 +17585,8 @@ export default {
         "a": 30.9893430922472,
         "b": 11.5151426385783
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Merlot"
     },
     {
       "code": "19-1555 TPG",
@@ -16626,7 +17603,8 @@ export default {
         "a": 38.8037463137704,
         "b": 16.7994928552685
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "红色大丽花"
     },
     {
       "code": "19-1531 TPG",
@@ -16643,7 +17621,8 @@ export default {
         "a": 33.2395130649988,
         "b": 12.4939071578219
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "晒干的番茄"
     },
     {
       "code": "19-1535 TPG",
@@ -16660,7 +17639,8 @@ export default {
         "a": 29.504309954118,
         "b": 12.3260365893942
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "西拉"
     },
     {
       "code": "19-1327 TPG",
@@ -16677,7 +17657,8 @@ export default {
         "a": 17.1763814612795,
         "b": 6.55085478291859
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "安道尔"
     },
     {
       "code": "19-1629 TPG",
@@ -16694,7 +17675,8 @@ export default {
         "a": 26.6870694151075,
         "b": 9.3350406211705
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "红宝石酒"
     },
     {
       "code": "19-1536 TPG",
@@ -16711,7 +17693,8 @@ export default {
         "a": 29.4504983411125,
         "b": 11.3632866190384
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "红梨"
     },
     {
       "code": "19-1934 TPG",
@@ -16728,7 +17711,8 @@ export default {
         "a": 30.5699987297403,
         "b": 8.38897367347347
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "藏红"
     },
     {
       "code": "19-1726 TPG",
@@ -16745,7 +17729,8 @@ export default {
         "a": 23.0364115012043,
         "b": 4.97785789737969
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "科尔多瓦"
     },
     {
       "code": "19-1724 TPG",
@@ -16762,7 +17747,8 @@ export default {
         "a": 26.4191746542508,
         "b": 7.1932581134887
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "赤霞珠"
     },
     {
       "code": "19-1525 TPG",
@@ -16779,7 +17765,8 @@ export default {
         "a": 18.9622221053798,
         "b": 5.97574079119017
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "港口"
     },
     {
       "code": "19-1521 TPG",
@@ -16796,7 +17783,8 @@ export default {
         "a": 13.5849738452083,
         "b": 3.21314090037642
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "红色桃花心木"
     },
     {
       "code": "19-1533 TPG",
@@ -16813,7 +17801,8 @@ export default {
         "a": 25.5615974169689,
         "b": 11.0333098079181
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "牛皮"
     },
     {
       "code": "19-1530 TPG",
@@ -16830,7 +17819,8 @@ export default {
         "a": 29.4062093479938,
         "b": 8.82364511137466
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "燃烧的俄罗斯"
     },
     {
       "code": "19-1524 TPG",
@@ -16847,7 +17837,8 @@ export default {
         "a": 19.971714884116,
         "b": 6.41802385549675
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "牛布红"
     },
     {
       "code": "19-1930 TPG",
@@ -16864,7 +17855,8 @@ export default {
         "a": 27.3261390906404,
         "b": 6.89351379504402
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "石榴"
     },
     {
       "code": "19-1522 TPG",
@@ -16881,7 +17873,8 @@ export default {
         "a": 18.8951228273513,
         "b": 4.29519697649177
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Zinfandel"
     },
     {
       "code": "19-1725 TPG",
@@ -16898,7 +17891,8 @@ export default {
         "a": 23.5700618875535,
         "b": 5.09417621079696
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄褐色港口"
     },
     {
       "code": "19-1526 TPG",
@@ -16915,7 +17909,8 @@ export default {
         "a": 17.4997622977826,
         "b": 4.11375933453789
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "巧克力松露"
     },
     {
       "code": "18-1631 TPG",
@@ -16932,7 +17927,8 @@ export default {
         "a": 34.8527903432265,
         "b": 8.49980811864768
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "地球红"
     },
     {
       "code": "19-1543 TPG",
@@ -16949,7 +17945,8 @@ export default {
         "a": 33.0165122616408,
         "b": 12.9698842148699
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "砖红"
     },
     {
       "code": "19-1532 TPG",
@@ -16966,7 +17963,8 @@ export default {
         "a": 29.553929443038,
         "b": 12.9677617536134
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玫瑰木"
     },
     {
       "code": "19-1656 TPG",
@@ -16983,7 +17981,8 @@ export default {
         "a": 40.3086782829926,
         "b": 15.2082448008345
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "里约红"
     },
     {
       "code": "19-1655 TPG",
@@ -17000,7 +17999,8 @@ export default {
         "a": 39.1928070021921,
         "b": 14.5896526054525
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "石榴石"
     },
     {
       "code": "19-1840 TPG",
@@ -17017,7 +18017,8 @@ export default {
         "a": 41.362686239186,
         "b": 12.4222800797438
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深紫色"
     },
     {
       "code": "19-1940 TPG",
@@ -17034,7 +18035,8 @@ export default {
         "a": 34.110343754035,
         "b": 9.1842306678873
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "伦巴红"
     },
     {
       "code": "16-1617 TPG",
@@ -17051,7 +18053,8 @@ export default {
         "a": 30.2872777625905,
         "b": 9.48412144336239
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "毛弗洛"
     },
     {
       "code": "17-1927 TPG",
@@ -17068,7 +18071,8 @@ export default {
         "a": 42.5939473894844,
         "b": 12.1562384209846
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沙漠玫瑰"
     },
     {
       "code": "17-1929 TPG",
@@ -17085,7 +18089,8 @@ export default {
         "a": 45.0321955278414,
         "b": 7.19906834456974
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "狂喜升起"
     },
     {
       "code": "18-1634 TPG",
@@ -17102,7 +18107,8 @@ export default {
         "a": 38.1017791627569,
         "b": 10.3966157857568
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "巴洛克玫瑰"
     },
     {
       "code": "18-1635 TPG",
@@ -17119,7 +18125,8 @@ export default {
         "a": 38.5449735169164,
         "b": 10.5291924508001
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "石板玫瑰"
     },
     {
       "code": "17-1633 TPG",
@@ -17136,7 +18143,8 @@ export default {
         "a": 42.9547736183881,
         "b": 12.1205474975048
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "霍莉·贝里（Holly Berry）"
     },
     {
       "code": "18-1633 TPG",
@@ -17153,7 +18161,8 @@ export default {
         "a": 40.3698406776071,
         "b": 12.4705979288408
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "石榴石玫瑰"
     },
     {
       "code": "14-1911 TPG",
@@ -17170,7 +18179,8 @@ export default {
         "a": 27.3899525529742,
         "b": 3.64542192784787
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "糖果粉红色"
     },
     {
       "code": "15-1816 TPG",
@@ -17187,7 +18197,8 @@ export default {
         "a": 31.9744988174575,
         "b": 6.46724648984283
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "牡丹"
     },
     {
       "code": "14-1714 TPG",
@@ -17204,7 +18215,8 @@ export default {
         "a": 27.1281616908042,
         "b": 9.90506594943072
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "石英粉红色"
     },
     {
       "code": "15-1717 TPG",
@@ -17221,7 +18233,8 @@ export default {
         "a": 30.1857828230758,
         "b": 10.1303478756025
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色的糖霜"
     },
     {
       "code": "15-1821 TPG",
@@ -17238,7 +18251,8 @@ export default {
         "a": 36.9124873914572,
         "b": 12.3907522493766
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "火烈鸟粉红色"
     },
     {
       "code": "15-1624 TPG",
@@ -17255,7 +18269,8 @@ export default {
         "a": 43.0500902336022,
         "b": 15.0314514771444
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海螺外壳"
     },
     {
       "code": "15-1626 TPG",
@@ -17272,7 +18287,8 @@ export default {
         "a": 45.0866209646205,
         "b": 17.5503929552223
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鲑鱼玫瑰"
     },
     {
       "code": "15-1611 TPG",
@@ -17289,7 +18305,8 @@ export default {
         "a": 20.3868291673143,
         "b": 7.86428400017469
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "新娘玫瑰"
     },
     {
       "code": "15-1614 TPG",
@@ -17306,7 +18323,8 @@ export default {
         "a": 23.7947396282601,
         "b": 5.5460079680546
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玫瑰优雅"
     },
     {
       "code": "16-1610 TPG",
@@ -17323,7 +18341,8 @@ export default {
         "a": 27.6702317394109,
         "b": 7.63314179058912
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "白兰地杏子"
     },
     {
       "code": "16-1720 TPG",
@@ -17340,7 +18359,8 @@ export default {
         "a": 37.6745221007919,
         "b": 13.1438382660111
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "草莓冰"
     },
     {
       "code": "16-1626 TPG",
@@ -17357,7 +18377,8 @@ export default {
         "a": 39.10516880647,
         "b": 15.1959153754395
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃花"
     },
     {
       "code": "16-1620 TPG",
@@ -17374,7 +18395,8 @@ export default {
         "a": 45.2003996221532,
         "b": 15.421931286905
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "茶玫瑰"
     },
     {
       "code": "17-1537 TPG",
@@ -17391,7 +18413,8 @@ export default {
         "a": 36.6018772211712,
         "b": 14.9941754767117
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "矿物红色"
     },
     {
       "code": "15-1415 TPG",
@@ -17408,7 +18431,8 @@ export default {
         "a": 21.1088538665165,
         "b": 13.0112340119073
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "珊瑚云"
     },
     {
       "code": "16-1511 TPG",
@@ -17425,7 +18449,8 @@ export default {
         "a": 22.5372157642971,
         "b": 10.4294770910409
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "罗斯谭"
     },
     {
       "code": "17-1718 TPG",
@@ -17442,7 +18467,8 @@ export default {
         "a": 24.9013546997648,
         "b": 6.97295655684262
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "尘土飞扬的玫瑰"
     },
     {
       "code": "17-1514 TPG",
@@ -17459,7 +18485,8 @@ export default {
         "a": 20.2764290594302,
         "b": 8.10464794797856
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰玫瑰"
     },
     {
       "code": "17-1424 TPG",
@@ -17476,7 +18503,8 @@ export default {
         "a": 26.5700606923607,
         "b": 14.9488165965424
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "砖灰尘"
     },
     {
       "code": "17-1518 TPG",
@@ -17493,7 +18521,8 @@ export default {
         "a": 22.0904001075189,
         "b": 10.0854947979203
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "老玫瑰"
     },
     {
       "code": "17-1520 TPG",
@@ -17510,7 +18539,8 @@ export default {
         "a": 26.1350223547351,
         "b": 12.83886642046
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "峡谷玫瑰"
     },
     {
       "code": "14-1506 TPG",
@@ -17527,7 +18557,8 @@ export default {
         "a": 10.4778998609597,
         "b": 8.33152139268376
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玫瑰烟"
     },
     {
       "code": "14-1803 TPG",
@@ -17544,7 +18575,8 @@ export default {
         "a": 10.3355610338272,
         "b": 6.09268065926447
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "棕褐色玫瑰"
     },
     {
       "code": "15-1512 TPG",
@@ -17561,7 +18593,8 @@ export default {
         "a": 14.0418636222005,
         "b": 9.65943367095221
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "迷雾玫瑰"
     },
     {
       "code": "15-1516 TPG",
@@ -17578,7 +18611,8 @@ export default {
         "a": 19.0148183771003,
         "b": 12.5556147728892
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃米色"
     },
     {
       "code": "16-1516 TPG",
@@ -17595,7 +18629,8 @@ export default {
         "a": 20.9195615964001,
         "b": 12.5171669943668
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "客串布朗"
     },
     {
       "code": "18-1435 TPG",
@@ -17612,7 +18647,8 @@ export default {
         "a": 22.439567763312,
         "b": 10.35373147912
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "枯萎的玫瑰"
     },
     {
       "code": "18-1426 TPG",
@@ -17629,7 +18665,8 @@ export default {
         "a": 23.2873806368832,
         "b": 8.33153682229429
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "苹果黄油"
     },
     {
       "code": "15-1515 TPG",
@@ -17646,7 +18683,8 @@ export default {
         "a": 19.6107031232138,
         "b": 11.9033221542795
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柔和的玫瑰"
     },
     {
       "code": "16-1518 TPG",
@@ -17663,7 +18701,8 @@ export default {
         "a": 25.9420218688317,
         "b": 13.5375419090264
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玫瑰花结"
     },
     {
       "code": "16-1522 TPG",
@@ -17680,7 +18719,8 @@ export default {
         "a": 23.9217023569325,
         "b": 15.4116455787121
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "罗斯黎明"
     },
     {
       "code": "17-1524 TPG",
@@ -17697,7 +18737,8 @@ export default {
         "a": 25.4335325662751,
         "b": 14.3281410567522
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沙漠沙"
     },
     {
       "code": "18-1436 TPG",
@@ -17714,7 +18755,8 @@ export default {
         "a": 25.3357161431932,
         "b": 14.2406725059892
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "轻桃花心木"
     },
     {
       "code": "17-1525 TPG",
@@ -17731,7 +18773,8 @@ export default {
         "a": 21.4695742742296,
         "b": 14.8359689862821
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "雪松木"
     },
     {
       "code": "17-1516 TPG",
@@ -17748,7 +18791,8 @@ export default {
         "a": 14.7806936801685,
         "b": 8.09324150165791
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "伯伍德"
     },
     {
       "code": "14-1418 TPG",
@@ -17765,7 +18809,8 @@ export default {
         "a": 22.0583814512584,
         "b": 15.9964341162333
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃子梅尔巴"
     },
     {
       "code": "13-1318 TPG",
@@ -17782,7 +18827,8 @@ export default {
         "a": 20.3259108117007,
         "b": 18.3490387985162
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "热带桃子"
     },
     {
       "code": "14-1419 TPG",
@@ -17799,7 +18845,8 @@ export default {
         "a": 24.4902114095802,
         "b": 17.5465688303994
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃珍珠"
     },
     {
       "code": "14-1420 TPG",
@@ -17816,7 +18863,8 @@ export default {
         "a": 27.4049441357179,
         "b": 16.4847315416545
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杏腮红"
     },
     {
       "code": "14-1324 TPG",
@@ -17833,7 +18881,8 @@ export default {
         "a": 27.2313483903372,
         "b": 17.5542006525792
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃芽"
     },
     {
       "code": "15-1423 TPG",
@@ -17850,7 +18899,8 @@ export default {
         "a": 34.7570674611786,
         "b": 21.9955221475886
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃琥珀"
     },
     {
       "code": "15-1621 TPG",
@@ -17867,7 +18917,8 @@ export default {
         "a": 33.3983615346814,
         "b": 15.1426527618384
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "烛光桃子"
     },
     {
       "code": "13-1513 TPG",
@@ -17884,7 +18935,8 @@ export default {
         "a": 19.477082358816,
         "b": 9.51896281261648
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "散布粉红色"
     },
     {
       "code": "13-1310 TPG",
@@ -17901,7 +18953,8 @@ export default {
         "a": 18.5655420138826,
         "b": 9.14413656700406
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "英国玫瑰"
     },
     {
       "code": "13-1510 TPG",
@@ -17918,7 +18971,8 @@ export default {
         "a": 21.3104639553775,
         "b": 13.2506366817855
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "凤仙花粉红色"
     },
     {
       "code": "14-1511 TPG",
@@ -17935,7 +18989,8 @@ export default {
         "a": 20.3498548812864,
         "b": 8.13091383918565
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色"
     },
     {
       "code": "14-1513 TPG",
@@ -17952,7 +19007,8 @@ export default {
         "a": 23.793812082562,
         "b": 12.2401417860457
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "开花"
     },
     {
       "code": "14-1521 TPG",
@@ -17969,7 +19025,8 @@ export default {
         "a": 29.5899841923821,
         "b": 15.4589929895952
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃子N'Cream"
     },
     {
       "code": "16-1434 TPG",
@@ -17986,7 +19043,8 @@ export default {
         "a": 28.8713737425602,
         "b": 15.8278677595843
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "珊瑚杏仁"
     },
     {
       "code": "13-2005 TPG",
@@ -18003,7 +19061,8 @@ export default {
         "a": 18.4839065038981,
         "b": 7.15563429875243
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "草莓奶油"
     },
     {
       "code": "13-2003 TPG",
@@ -18020,7 +19079,8 @@ export default {
         "a": 19.4281587147057,
         "b": 7.98094291026923
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "脸红的玫瑰"
     },
     {
       "code": "12-1708 TPG",
@@ -18037,7 +19097,8 @@ export default {
         "a": 19.6872943041035,
         "b": 6.73309709774657
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水晶玫瑰"
     },
     {
       "code": "14-1910 TPG",
@@ -18054,7 +19115,8 @@ export default {
         "a": 23.3597614596035,
         "b": 4.18090957400223
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "挠痒痒的粉红色"
     },
     {
       "code": "13-1716 TPG",
@@ -18071,7 +19133,8 @@ export default {
         "a": 26.660371203225,
         "b": 12.6181529546393
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "苍白的玫瑰花结"
     },
     {
       "code": "16-1615 TPG",
@@ -18088,7 +19151,8 @@ export default {
         "a": 38.5327532847687,
         "b": 11.7142343264654
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "火烈鸟羽流"
     },
     {
       "code": "15-1919 TPG",
@@ -18105,7 +19169,8 @@ export default {
         "a": 39.0802339652794,
         "b": 10.139113338967
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黛安特斯"
     },
     {
       "code": "13-1501 TPG",
@@ -18122,7 +19187,8 @@ export default {
         "a": 10.6579803949851,
         "b": 6.73045838759341
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Mangano方解石"
     },
     {
       "code": "12-1212 TPG",
@@ -18139,7 +19205,8 @@ export default {
         "a": 14.5188473971468,
         "b": 8.61186213148606
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "面纱玫瑰"
     },
     {
       "code": "13-1408 TPG",
@@ -18156,7 +19223,8 @@ export default {
         "a": 15.6776833481987,
         "b": 9.82450875493512
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Chintz玫瑰"
     },
     {
       "code": "13-1409 TPG",
@@ -18173,7 +19241,8 @@ export default {
         "a": 16.7751716038116,
         "b": 9.59786438532881
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "贝壳粉红色"
     },
     {
       "code": "13-1511 TPG",
@@ -18190,7 +19259,8 @@ export default {
         "a": 14.8768880034348,
         "b": 9.64013270942197
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色盐"
     },
     {
       "code": "13-1520 TPG",
@@ -18207,7 +19277,8 @@ export default {
         "a": 15.9986006396525,
         "b": 6.65280570203717
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玫瑰石英"
     },
     {
       "code": "15-1712 TPG",
@@ -18224,7 +19295,8 @@ export default {
         "a": 34.0706382851085,
         "b": 14.1844250840642
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "murex壳"
     },
     {
       "code": "12-1303 TPG",
@@ -18241,7 +19313,8 @@ export default {
         "a": 7.1334065623595,
         "b": 1.40300412575358
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "卡利亚里亚"
     },
     {
       "code": "12-1304 TPG",
@@ -18258,7 +19331,8 @@ export default {
         "a": 8.4735027704872,
         "b": 5.96619170256341
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "珍珠"
     },
     {
       "code": "12-1706 TPG",
@@ -18275,7 +19349,8 @@ export default {
         "a": 12.8131051538283,
         "b": 4.58653729367526
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色的狗木"
     },
     {
       "code": "13-2004 TPG",
@@ -18292,7 +19367,8 @@ export default {
         "a": 12.3987892304104,
         "b": 3.99906109181178
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "花香"
     },
     {
       "code": "14-1907 TPG",
@@ -18309,7 +19385,8 @@ export default {
         "a": 16.3825173525174,
         "b": 5.56613585475669
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃红色"
     },
     {
       "code": "14-1508 TPG",
@@ -18326,7 +19403,8 @@ export default {
         "a": 14.8379777940524,
         "b": 7.06340028946495
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "银色粉红色"
     },
     {
       "code": "14-1904 TPG",
@@ -18343,7 +19421,8 @@ export default {
         "a": 23.8964650621601,
         "b": 5.16144799754128
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色海豚"
     },
     {
       "code": "11-2409 TPG",
@@ -18360,7 +19439,8 @@ export default {
         "a": 4.53197262530641,
         "b": 3.10784808246722
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "美味"
     },
     {
       "code": "12-1305 TPG",
@@ -18377,7 +19457,8 @@ export default {
         "a": 7.85503012790234,
         "b": 2.3929591069852
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "天上的粉红色"
     },
     {
       "code": "11-1408 TPG",
@@ -18394,7 +19475,8 @@ export default {
         "a": 8.44957884092262,
         "b": 5.00551475201485
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玫瑰水"
     },
     {
       "code": "12-2102 TPG",
@@ -18411,7 +19493,8 @@ export default {
         "a": 5.9215556576151,
         "b": 2.80242679456351
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡紫色"
     },
     {
       "code": "12-1605 TPG",
@@ -18428,7 +19511,8 @@ export default {
         "a": 9.03593672381359,
         "b": 5.16509574333146
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水晶粉红色"
     },
     {
       "code": "14-1905 TPG",
@@ -18445,7 +19529,8 @@ export default {
         "a": 12.9901090749996,
         "b": 5.33852350467896
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "莲花"
     },
     {
       "code": "13-2007 TPG",
@@ -18462,7 +19547,8 @@ export default {
         "a": 13.1415752084249,
         "b": 3.64432439559368
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "面纱粉红色"
     },
     {
       "code": "12-1310 TPG",
@@ -18479,7 +19565,8 @@ export default {
         "a": 13.8771904735074,
         "b": 0.942161843164779
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冰冷的粉红色"
     },
     {
       "code": "12-1813 TPG",
@@ -18496,7 +19583,8 @@ export default {
         "a": 13.9459137383071,
         "b": 4.5087546553203
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玛丽的玫瑰"
     },
     {
       "code": "12-2902 TPG",
@@ -18513,7 +19601,8 @@ export default {
         "a": 5.81588671843158,
         "b": 3.78531387230134
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡粉笔"
     },
     {
       "code": "12-2904 TPG",
@@ -18530,7 +19619,8 @@ export default {
         "a": 8.87868029220684,
         "b": 2.07790421891294
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "报春花粉红色"
     },
     {
       "code": "13-2803 TPG",
@@ -18547,7 +19637,8 @@ export default {
         "a": 9.97572735390534,
         "b": 1.32649258298891
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡淡的淡紫色"
     },
     {
       "code": "13-1904 TPG",
@@ -18564,7 +19655,8 @@ export default {
         "a": 12.9546216133561,
         "b": 1.52395025056618
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉笔粉红色"
     },
     {
       "code": "12-1808 TPG",
@@ -18581,7 +19673,8 @@ export default {
         "a": 16.4004161870343,
         "b": 3.45169846530373
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "小指"
     },
     {
       "code": "12-2807 TPG",
@@ -18598,7 +19691,8 @@ export default {
         "a": 12.1732623710645,
         "b": -1.29330593437411
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "温柔的触摸"
     },
     {
       "code": "13-2808 TPG",
@@ -18615,7 +19709,8 @@ export default {
         "a": 12.1676568472862,
         "b": 1.11944641142556
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "芭蕾拖鞋"
     },
     {
       "code": "13-2802 TPG",
@@ -18632,7 +19727,8 @@ export default {
         "a": 19.018401822035,
         "b": -0.914288456764267
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "童话"
     },
     {
       "code": "13-1906 TPG",
@@ -18649,7 +19745,8 @@ export default {
         "a": 21.5780923489748,
         "b": 1.43081364575008
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玫瑰阴影"
     },
     {
       "code": "13-2006 TPG",
@@ -18666,7 +19763,8 @@ export default {
         "a": 22.7918972732297,
         "b": 3.31621323005746
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杏仁花"
     },
     {
       "code": "13-2010 TPG",
@@ -18683,7 +19781,8 @@ export default {
         "a": 21.6693070194458,
         "b": 1.20032008913564
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "兰花粉红色"
     },
     {
       "code": "14-1909 TPG",
@@ -18700,7 +19799,8 @@ export default {
         "a": 20.0017033624985,
         "b": 3.61423136661088
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "珊瑚腮红"
     },
     {
       "code": "11-2511 TPG",
@@ -18717,7 +19817,8 @@ export default {
         "a": 7.446524155236,
         "b": 0.79011697928022
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "收缩紫罗兰色"
     },
     {
       "code": "12-2906 TPG",
@@ -18734,7 +19835,8 @@ export default {
         "a": 10.3278721529512,
         "b": 1.02757977489376
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "几乎没有粉红色"
     },
     {
       "code": "13-2807 TPG",
@@ -18751,7 +19853,8 @@ export default {
         "a": 12.3400575490503,
         "b": -1.5748853731149
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "芭蕾舞演员"
     },
     {
       "code": "13-2801 TPG",
@@ -18768,7 +19871,8 @@ export default {
         "a": 16.1096179418732,
         "b": -1.1487600363955
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色"
     },
     {
       "code": "14-2304 TPG",
@@ -18785,7 +19889,8 @@ export default {
         "a": 17.4064237270162,
         "b": 1.40673893301637
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "漂白的淡紫色"
     },
     {
       "code": "13-2804 TPG",
@@ -18802,7 +19907,8 @@ export default {
         "a": 16.1530355333989,
         "b": 0.331376389294058
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "帕菲特粉红色"
     },
     {
       "code": "13-2008 TPG",
@@ -18819,7 +19925,8 @@ export default {
         "a": 22.0578212717845,
         "b": 0.971637247721135
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "浪漫玫瑰"
     },
     {
       "code": "12-2907 TPG",
@@ -18836,7 +19943,8 @@ export default {
         "a": 8.29768222329785,
         "b": 0.248077630968235
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色棉花糖"
     },
     {
       "code": "11-2509 TPG",
@@ -18853,7 +19961,8 @@ export default {
         "a": 5.38356898676434,
         "b": -1.12889642226459
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "方解石"
     },
     {
       "code": "12-2905 TPG",
@@ -18870,7 +19979,8 @@ export default {
         "a": 11.2389194851298,
         "b": -2.05720701570731
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "摇篮粉红色"
     },
     {
       "code": "13-3406 TPG",
@@ -18887,7 +19997,8 @@ export default {
         "a": 6.40967533364445,
         "b": -3.40608476292068
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "兰花冰"
     },
     {
       "code": "12-2903 TPG",
@@ -18904,7 +20015,8 @@ export default {
         "a": 10.9424811424456,
         "b": -2.14879294150259
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡淡的淡紫色"
     },
     {
       "code": "13-3405 TPG",
@@ -18921,7 +20033,8 @@ export default {
         "a": 12.3912929904357,
         "b": -4.97159813089101
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡紫色雪"
     },
     {
       "code": "14-3203 TPG",
@@ -18938,7 +20051,8 @@ export default {
         "a": 17.9554481479828,
         "b": -3.54512637410542
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "胸花"
     },
     {
       "code": "12-2908 TPG",
@@ -18955,7 +20069,8 @@ export default {
         "a": 11.8864178398645,
         "b": -3.91936022809471
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "节日布鲁姆"
     },
     {
       "code": "13-2806 TPG",
@@ -18972,7 +20087,8 @@ export default {
         "a": 19.440109781409,
         "b": -4.36383768538635
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色女士"
     },
     {
       "code": "13-2805 TPG",
@@ -18989,7 +20105,8 @@ export default {
         "a": 18.4455900802936,
         "b": -3.20586323302707
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Roseate Spoonbill"
     },
     {
       "code": "13-2809 TPG",
@@ -19006,7 +20123,8 @@ export default {
         "a": 20.8954026231807,
         "b": -3.77334348859888
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "甜梦"
     },
     {
       "code": "14-2710 TPG",
@@ -19023,7 +20141,8 @@ export default {
         "a": 26.5976529833144,
         "b": -4.71819420060413
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "丁香囊"
     },
     {
       "code": "14-2808 TPG",
@@ -19040,7 +20159,8 @@ export default {
         "a": 21.7090778135377,
         "b": -4.74649754006693
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "甜丁香"
     },
     {
       "code": "14-3205 TPG",
@@ -19057,7 +20177,8 @@ export default {
         "a": 20.6880894399435,
         "b": -8.41226835948705
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "pirouette"
     },
     {
       "code": "13-2800 TPG",
@@ -19074,7 +20195,8 @@ export default {
         "a": 16.392301171576,
         "b": -6.993284461981
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色的薄纱"
     },
     {
       "code": "13-3207 TPG",
@@ -19091,7 +20213,8 @@ export default {
         "a": 15.8753504508824,
         "b": -2.79751230819347
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "樱花"
     },
     {
       "code": "14-2806 TPG",
@@ -19108,7 +20231,8 @@ export default {
         "a": 21.1535557691014,
         "b": -4.41476624920352
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "花束"
     },
     {
       "code": "15-2218 TPG",
@@ -19125,7 +20249,8 @@ export default {
         "a": 30.7578724564304,
         "b": -6.32923493404092
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色的糖霜"
     },
     {
       "code": "15-2213 TPG",
@@ -19142,7 +20267,8 @@ export default {
         "a": 31.8586589969305,
         "b": -7.38216763881381
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "骨头"
     },
     {
       "code": "16-2118 TPG",
@@ -19159,7 +20285,8 @@ export default {
         "a": 47.1410269111981,
         "b": -1.50681544658557
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色的电源"
     },
     {
       "code": "17-2519 TPG",
@@ -19176,7 +20303,8 @@ export default {
         "a": 49.8444279146129,
         "b": -2.10389009100931
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杜松子酒"
     },
     {
       "code": "15-1915 TPG",
@@ -19193,7 +20321,8 @@ export default {
         "a": 45.6147422907475,
         "b": 6.53840880430854
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "开花生姜"
     },
     {
       "code": "15-1922 TPG",
@@ -19210,7 +20339,8 @@ export default {
         "a": 40.3178308097081,
         "b": 9.62156039284039
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "天竺葵粉红色"
     },
     {
       "code": "16-1731 TPG",
@@ -19227,7 +20357,8 @@ export default {
         "a": 48.4789281146714,
         "b": 14.4331359210035
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "草莓粉红色"
     },
     {
       "code": "17-1928 TPG",
@@ -19244,7 +20375,8 @@ export default {
         "a": 48.6584339172958,
         "b": 7.65860961416927
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "泡泡糖"
     },
     {
       "code": "17-1930 TPG",
@@ -19261,7 +20393,8 @@ export default {
         "a": 56.1946993354861,
         "b": 13.7475519804204
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "茶花玫瑰"
     },
     {
       "code": "17-1926 TPG",
@@ -19278,7 +20411,8 @@ export default {
         "a": 47.7052940844808,
         "b": 8.23836699991125
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水果鸽子"
     },
     {
       "code": "17-1739 TPG",
@@ -19295,7 +20429,8 @@ export default {
         "a": 57.2436389200486,
         "b": 14.3177442442467
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "重新考虑粉红色"
     },
     {
       "code": "16-1723 TPG",
@@ -19312,7 +20447,8 @@ export default {
         "a": 46.2537789748286,
         "b": 10.2624533345736
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "五彩纸屑"
     },
     {
       "code": "16-1735 TPG",
@@ -19329,7 +20465,8 @@ export default {
         "a": 51.746822198003,
         "b": 12.3486632769068
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色柠檬水"
     },
     {
       "code": "17-1741 TPG",
@@ -19346,7 +20483,8 @@ export default {
         "a": 49.9101492257131,
         "b": 11.2135812051167
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "派对拳"
     },
     {
       "code": "17-1744 TPG",
@@ -19363,7 +20501,8 @@ export default {
         "a": 55.5334149195826,
         "b": 19.4836286857638
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "卡里普索珊瑚"
     },
     {
       "code": "17-1640 TPG",
@@ -19380,7 +20519,8 @@ export default {
         "a": 53.6132861963083,
         "b": 20.0579864865329
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Winterberry"
     },
     {
       "code": "18-1665 TPG",
@@ -19397,7 +20537,8 @@ export default {
         "a": 57.701219756583,
         "b": 21.7777633324437
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "西瓜"
     },
     {
       "code": "18-1750 TPG",
@@ -19414,7 +20555,8 @@ export default {
         "a": 58.8789574879834,
         "b": 17.3128557398933
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Viva洋红色"
     },
     {
       "code": "15-1822 TPG",
@@ -19431,7 +20573,8 @@ export default {
         "a": 42.0570013942945,
         "b": 9.7598690984771
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "羽毛状"
     },
     {
       "code": "17-1746 TPG",
@@ -19448,7 +20591,8 @@ export default {
         "a": 57.6125040928929,
         "b": 20.3971281142608
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "珊瑚天堂"
     },
     {
       "code": "17-1736 TPG",
@@ -19465,7 +20609,8 @@ export default {
         "a": 49.0751947649657,
         "b": 15.5427131364487
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "太阳亲吻了珊瑚"
     },
     {
       "code": "17-1755 TPG",
@@ -19482,7 +20627,8 @@ export default {
         "a": 62.3795857219996,
         "b": 22.8541510372123
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "天堂粉红色"
     },
     {
       "code": "17-1753 TPG",
@@ -19499,7 +20645,8 @@ export default {
         "a": 59.2330077362542,
         "b": 20.9948734883929
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "天竺葵"
     },
     {
       "code": "18-1755 TPG",
@@ -19516,7 +20663,8 @@ export default {
         "a": 61.2463360200683,
         "b": 20.1223346206033
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "胭脂红"
     },
     {
       "code": "18-1756 TPG",
@@ -19533,7 +20681,8 @@ export default {
         "a": 62.0832772391938,
         "b": 23.0975192679502
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Teaberry"
     },
     {
       "code": "18-2120 TPG",
@@ -19550,7 +20699,8 @@ export default {
         "a": 54.633896540426,
         "b": 9.90283644822303
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金银花"
     },
     {
       "code": "17-1740 TPG",
@@ -19567,7 +20717,8 @@ export default {
         "a": 49.6574983675567,
         "b": 12.495577984284
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫红色红色"
     },
     {
       "code": "18-1741 TPG",
@@ -19584,7 +20735,8 @@ export default {
         "a": 53.2907702171715,
         "b": 12.438166724028
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "覆盆子葡萄酒"
     },
     {
       "code": "18-1852 TPG",
@@ -19601,7 +20753,8 @@ export default {
         "a": 59.803186016507,
         "b": 15.1989051284848
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玫瑰红色"
     },
     {
       "code": "18-1760 TPG",
@@ -19618,7 +20771,8 @@ export default {
         "a": 55.6108006221054,
         "b": 18.3776771112892
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "凉亭"
     },
     {
       "code": "17-1842 TPG",
@@ -19635,7 +20789,8 @@ export default {
         "a": 61.1403402416997,
         "b": 18.075590303935
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "映山红"
     },
     {
       "code": "18-1856 TPG",
@@ -19652,7 +20807,8 @@ export default {
         "a": 62.8986982994157,
         "b": 16.9688054071092
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "虚拟粉红色"
     },
     {
       "code": "18-1754 TPG",
@@ -19669,7 +20825,8 @@ export default {
         "a": 61.9869939992873,
         "b": 19.3798439790081
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "覆盆子"
     },
     {
       "code": "18-1945 TPG",
@@ -19686,7 +20843,8 @@ export default {
         "a": 60.2292563823751,
         "b": 11.6095048311726
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "明亮的玫瑰"
     },
     {
       "code": "18-1951 TPG",
@@ -19703,7 +20861,8 @@ export default {
         "a": 59.6559248467379,
         "b": 11.0862327854771
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "爱药水"
     },
     {
       "code": "18-1950 TPG",
@@ -19720,7 +20879,8 @@ export default {
         "a": 56.7184437252003,
         "b": 11.9135054331865
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "爵士乐"
     },
     {
       "code": "19-1955 TPG",
@@ -19737,7 +20897,8 @@ export default {
         "a": 49.1373622308844,
         "b": 9.35912213730726
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "塞里斯"
     },
     {
       "code": "19-1860 TPG",
@@ -19754,7 +20915,8 @@ export default {
         "a": 49.6593409518617,
         "b": 11.820400910647
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "波斯红"
     },
     {
       "code": "19-1850 TPG",
@@ -19771,7 +20933,8 @@ export default {
         "a": 43.473417555178,
         "b": 8.21374479452391
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "红芽"
     },
     {
       "code": "17-1937 TPG",
@@ -19788,7 +20951,8 @@ export default {
         "a": 56.4003079705091,
         "b": 8.95555046329806
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色"
     },
     {
       "code": "18-2043 TPG",
@@ -19805,7 +20969,8 @@ export default {
         "a": 57.0921635935499,
         "b": 6.31811023860192
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "覆盆子冰糕"
     },
     {
       "code": "19-2039 TPG",
@@ -19822,7 +20987,8 @@ export default {
         "a": 46.9117724780355,
         "b": 6.8265913496106
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "格兰尼塔"
     },
     {
       "code": "19-2041 TPG",
@@ -19839,7 +21005,8 @@ export default {
         "a": 47.7285931384617,
         "b": 6.07003006068101
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "樱桃禧年"
     },
     {
       "code": "19-2045 TPG",
@@ -19856,7 +21023,8 @@ export default {
         "a": 52.0783508798326,
         "b": 4.55388464147195
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "活泼"
     },
     {
       "code": "19-2047 TPG",
@@ -19873,7 +21041,8 @@ export default {
         "a": 45.4506920551051,
         "b": 5.23943696193695
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桑格利亚汽酒"
     },
     {
       "code": "19-2033 TPG",
@@ -19890,7 +21059,8 @@ export default {
         "a": 38.0253998691896,
         "b": 3.80840789321168
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海葵"
     },
     {
       "code": "15-1920 TPG",
@@ -19907,7 +21077,8 @@ export default {
         "a": 44.4580059321399,
         "b": 3.72961881042635
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "喇叭花"
     },
     {
       "code": "16-2126 TPG",
@@ -19924,7 +21095,8 @@ export default {
         "a": 51.6869235267013,
         "b": 1.00417212507917
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杜鹃花粉红色"
     },
     {
       "code": "17-2127 TPG",
@@ -19941,7 +21113,8 @@ export default {
         "a": 51.0722826295715,
         "b": 1.46641508292009
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "令人震惊的粉红色"
     },
     {
       "code": "17-2230 TPG",
@@ -19958,7 +21131,8 @@ export default {
         "a": 52.9049216387884,
         "b": 0.144638497373961
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "胭脂红玫瑰"
     },
     {
       "code": "17-2033 TPG",
@@ -19975,7 +21149,8 @@ export default {
         "a": 55.7450146428869,
         "b": 5.71592391260038
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Fandango Pink"
     },
     {
       "code": "18-2133 TPG",
@@ -19992,7 +21167,8 @@ export default {
         "a": 52.9263171787372,
         "b": 4.31059389830892
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色的弗拉姆"
     },
     {
       "code": "17-1831 TPG",
@@ -20009,7 +21185,8 @@ export default {
         "a": 48.5962145232313,
         "b": 4.75467083110865
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "胭脂红"
     },
     {
       "code": "14-2311 TPG",
@@ -20026,7 +21203,8 @@ export default {
         "a": 32.4738241420847,
         "b": -4.08001343870477
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "棱镜粉红色"
     },
     {
       "code": "15-2216 TPG",
@@ -20043,7 +21221,8 @@ export default {
         "a": 43.7913614374782,
         "b": 0.417029668167146
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "香刺粉红色"
     },
     {
       "code": "15-2217 TPG",
@@ -20060,7 +21239,8 @@ export default {
         "a": 43.5860334058065,
         "b": -1.41246532071204
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Aurora粉红色"
     },
     {
       "code": "16-2124 TPG",
@@ -20077,7 +21257,8 @@ export default {
         "a": 46.7872333701869,
         "b": 1.12025390923698
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色的康乃馨"
     },
     {
       "code": "16-2120 TPG",
@@ -20094,7 +21275,8 @@ export default {
         "a": 44.8841142902535,
         "b": -4.67670761273564
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "野生兰花"
     },
     {
       "code": "17-2120 TPG",
@@ -20111,7 +21293,8 @@ export default {
         "a": 41.3252953693593,
         "b": 0.681703033098802
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "城堡玫瑰"
     },
     {
       "code": "17-2520 TPG",
@@ -20128,7 +21311,8 @@ export default {
         "a": 45.420193458499,
         "b": -4.08855400398991
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "宜必思玫瑰"
     },
     {
       "code": "15-2215 TPG",
@@ -20145,7 +21329,8 @@ export default {
         "a": 34.732841634176,
         "b": -3.71848207768102
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "秋海粉红色"
     },
     {
       "code": "15-2214 TPG",
@@ -20162,7 +21347,8 @@ export default {
         "a": 37.0709126296515,
         "b": -4.39899443983394
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玫瑰花"
     },
     {
       "code": "15-2718 TPG",
@@ -20179,7 +21365,8 @@ export default {
         "a": 38.6387986713607,
         "b": -8.02893967849361
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫红色粉红色"
     },
     {
       "code": "17-2623 TPG",
@@ -20196,7 +21383,8 @@ export default {
         "a": 46.941066376555,
         "b": -10.112013852028
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "斐济花"
     },
     {
       "code": "17-2227 TPG",
@@ -20213,7 +21401,8 @@ export default {
         "a": 52.1538838597992,
         "b": -1.00729430235353
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡紫色玫瑰"
     },
     {
       "code": "18-2333 TPG",
@@ -20230,7 +21419,8 @@ export default {
         "a": 54.282204590552,
         "b": -5.72176665065951
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "覆盆子玫瑰"
     },
     {
       "code": "17-2031 TPG",
@@ -20247,7 +21437,8 @@ export default {
         "a": 53.0199500783363,
         "b": 1.13146681903249
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫红色玫瑰"
     },
     {
       "code": "16-2122 TPG",
@@ -20264,7 +21455,8 @@ export default {
         "a": 47.4827213013224,
         "b": -0.224810752440607
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色的宇宙"
     },
     {
       "code": "17-2235 TPG",
@@ -20281,7 +21473,8 @@ export default {
         "a": 54.8339557977649,
         "b": 2.88961452724039
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桑格利亚汽酒日落"
     },
     {
       "code": "18-2330 TPG",
@@ -20298,7 +21491,8 @@ export default {
         "a": 57.4191465434812,
         "b": -5.06354323729525
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Fuchsia Fedora"
     },
     {
       "code": "17-2034 TPG",
@@ -20315,7 +21509,8 @@ export default {
         "a": 57.4940455946072,
         "b": 2.43569610883114
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色的arrow"
     },
     {
       "code": "17-2036 TPG",
@@ -20332,7 +21527,8 @@ export default {
         "a": 55.8488842948655,
         "b": 2.5260563456718
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "品红"
     },
     {
       "code": "18-2143 TPG",
@@ -20349,7 +21545,8 @@ export default {
         "a": 59.3749111484171,
         "b": 6.1005296906981
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "甜菜根紫色"
     },
     {
       "code": "18-2042 TPG",
@@ -20366,7 +21563,8 @@ export default {
         "a": 57.2948933484836,
         "b": 10.6438896980248
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "影射"
     },
     {
       "code": "17-2619 TPG",
@@ -20383,7 +21581,8 @@ export default {
         "a": 48.2248184752356,
         "b": -6.9619078673308
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "草莓月亮"
     },
     {
       "code": "17-2625 TPG",
@@ -20400,7 +21599,8 @@ export default {
         "a": 45.1439985311232,
         "b": -11.2258520352651
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "超级粉红色"
     },
     {
       "code": "17-2521 TPG",
@@ -20417,7 +21617,8 @@ export default {
         "a": 46.0415199921105,
         "b": -3.46092976343932
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "锥花"
     },
     {
       "code": "18-2436 TPG",
@@ -20434,7 +21635,8 @@ export default {
         "a": 57.6472809398335,
         "b": 2.28092604432102
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫红色紫色"
     },
     {
       "code": "18-2140 TPG",
@@ -20451,7 +21653,8 @@ export default {
         "a": 60.8276821395622,
         "b": 3.26951468190169
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "歌舞表演"
     },
     {
       "code": "18-2045 TPG",
@@ -20468,7 +21671,8 @@ export default {
         "a": 59.9161516264721,
         "b": 4.03670210008373
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色的孔雀"
     },
     {
       "code": "18-2336 TPG",
@@ -20485,7 +21689,8 @@ export default {
         "a": 53.7612456333543,
         "b": -3.6071138780182
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "非常浆果"
     },
     {
       "code": "17-2627 TPG",
@@ -20502,7 +21707,8 @@ export default {
         "a": 49.6043205113645,
         "b": -9.30270589913862
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "phlox粉红色"
     },
     {
       "code": "17-2624 TPG",
@@ -20519,7 +21725,8 @@ export default {
         "a": 51.5834928313035,
         "b": -9.80677921488047
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玫瑰紫"
     },
     {
       "code": "18-2615 TPG",
@@ -20536,7 +21743,8 @@ export default {
         "a": 40.170832949767,
         "b": -8.73756494581659
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃红冰糕"
     },
     {
       "code": "18-2328 TPG",
@@ -20553,7 +21761,8 @@ export default {
         "a": 51.921212924994,
         "b": -7.24979137546315
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫红色红"
     },
     {
       "code": "18-2326 TPG",
@@ -20570,7 +21779,8 @@ export default {
         "a": 46.3833751651637,
         "b": -3.61559687787592
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "仙人掌花"
     },
     {
       "code": "19-2434 TPG",
@@ -20587,7 +21797,8 @@ export default {
         "a": 45.3221441626495,
         "b": -7.01561843346006
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "节日淡淡"
     },
     {
       "code": "18-1722 TPG",
@@ -20604,7 +21815,8 @@ export default {
         "a": 33.9054542442421,
         "b": -2.55242968890341
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "覆盆子库里斯"
     },
     {
       "code": "18-2525 TPG",
@@ -20621,7 +21833,8 @@ export default {
         "a": 39.9964638300704,
         "b": -6.26631910567355
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "洋红色阴霾"
     },
     {
       "code": "18-2527 TPG",
@@ -20638,7 +21851,8 @@ export default {
         "a": 44.0415828537244,
         "b": -6.87663328135172
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "巴吞鲁日"
     },
     {
       "code": "19-2431 TPG",
@@ -20655,7 +21869,8 @@ export default {
         "a": 37.3667503726998,
         "b": -4.17301185017416
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Boysenberry"
     },
     {
       "code": "19-2432 TPG",
@@ -20672,7 +21887,8 @@ export default {
         "a": 34.5079631017358,
         "b": -3.31380311613698
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "覆盆子辐射"
     },
     {
       "code": "19-2430 TPG",
@@ -20689,7 +21905,8 @@ export default {
         "a": 26.0429033455517,
         "b": -1.67683277663854
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫色药水"
     },
     {
       "code": "19-2428 TPG",
@@ -20706,7 +21923,8 @@ export default {
         "a": 29.336544758432,
         "b": -5.16668329190554
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "洋红色紫色"
     },
     {
       "code": "19-2429 TPG",
@@ -20723,7 +21941,8 @@ export default {
         "a": 25.8206246257805,
         "b": -7.26888732371251
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "梅花卡皮亚"
     },
     {
       "code": "17-2617 TPG",
@@ -20740,7 +21959,8 @@ export default {
         "a": 38.8560057237397,
         "b": -9.43784885762307
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "达利亚毛夫"
     },
     {
       "code": "18-3027 TPG",
@@ -20757,7 +21977,8 @@ export default {
         "a": 42.5967674628295,
         "b": -14.4912560038058
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫色兰花"
     },
     {
       "code": "18-3339 TPG",
@@ -20774,7 +21995,8 @@ export default {
         "a": 41.3614426278582,
         "b": -13.2537384356697
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "生动的中提琴"
     },
     {
       "code": "19-2630 TPG",
@@ -20791,7 +22013,8 @@ export default {
         "a": 40.3056855196822,
         "b": -10.5267152989923
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "狂野的阿斯特"
     },
     {
       "code": "18-3022 TPG",
@@ -20808,7 +22031,8 @@ export default {
         "a": 37.9895760237128,
         "b": -11.8781764889957
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深兰花"
     },
     {
       "code": "18-2320 TPG",
@@ -20825,7 +22049,8 @@ export default {
         "a": 40.3817482241479,
         "b": -11.441230177383
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "三叶草"
     },
     {
       "code": "18-2929 TPG",
@@ -20842,7 +22067,8 @@ export default {
         "a": 38.6757727764158,
         "b": -11.6385008060694
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫色酒"
     },
     {
       "code": "18-3224 TPG",
@@ -20859,7 +22085,8 @@ export default {
         "a": 36.9750368357696,
         "b": -17.0167785637406
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "辐射兰花"
     },
     {
       "code": "18-3331 TPG",
@@ -20876,7 +22103,8 @@ export default {
         "a": 35.2384640921398,
         "b": -20.2960522270962
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "风信子紫罗兰色"
     },
     {
       "code": "18-3324 TPG",
@@ -20893,7 +22121,8 @@ export default {
         "a": 32.9423416878206,
         "b": -18.6347734223117
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "大丽花"
     },
     {
       "code": "19-2924 TPG",
@@ -20910,7 +22139,8 @@ export default {
         "a": 34.4950501433927,
         "b": -13.7254059829624
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Hollyhock"
     },
     {
       "code": "19-3138 TPG",
@@ -20927,7 +22157,8 @@ export default {
         "a": 34.1190677788182,
         "b": -17.4038227628053
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "拜占庭"
     },
     {
       "code": "19-2820 TPG",
@@ -20944,7 +22175,8 @@ export default {
         "a": 26.8795840826788,
         "b": -12.0891490178011
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "phlox"
     },
     {
       "code": "19-3022 TPG",
@@ -20961,7 +22193,8 @@ export default {
         "a": 20.5811108378886,
         "b": -10.8851605154076
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "gloxinia"
     },
     {
       "code": "17-3014 TPG",
@@ -20978,7 +22211,8 @@ export default {
         "a": 27.8080724612716,
         "b": -13.3526289807107
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桑"
     },
     {
       "code": "17-3323 TPG",
@@ -20995,7 +22229,8 @@ export default {
         "a": 32.9495833832198,
         "b": -20.5262974620125
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "虹膜兰花"
     },
     {
       "code": "18-3120 TPG",
@@ -21012,7 +22247,8 @@ export default {
         "a": 34.0973137282334,
         "b": -17.2916044153792
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Willowherb"
     },
     {
       "code": "18-3025 TPG",
@@ -21029,7 +22265,8 @@ export default {
         "a": 33.676300335814,
         "b": -17.0926760032209
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "惊人的紫色"
     },
     {
       "code": "19-3336 TPG",
@@ -21046,7 +22283,8 @@ export default {
         "a": 30.8475863153127,
         "b": -18.200087926822
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "闪闪发光的葡萄"
     },
     {
       "code": "19-3230 TPG",
@@ -21063,7 +22301,8 @@ export default {
         "a": 27.0981835909934,
         "b": -11.2140524137628
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "葡萄汁"
     },
     {
       "code": "18-3340 TPG",
@@ -21080,7 +22319,8 @@ export default {
         "a": 24.5222659791244,
         "b": -15.1474645126936
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "魅力"
     },
     {
       "code": "16-3115 TPG",
@@ -21097,7 +22337,8 @@ export default {
         "a": 31.3669293084159,
         "b": -12.2752906223653
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鳄鱼"
     },
     {
       "code": "17-3020 TPG",
@@ -21114,7 +22355,8 @@ export default {
         "a": 37.3198648729414,
         "b": -13.926303824823
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "春季鳄鱼"
     },
     {
       "code": "17-3240 TPG",
@@ -21131,7 +22373,8 @@ export default {
         "a": 36.816555546743,
         "b": -14.8491486216365
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "大胆"
     },
     {
       "code": "17-3023 TPG",
@@ -21148,7 +22391,8 @@ export default {
         "a": 40.5822645062909,
         "b": -16.2057535905739
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玫瑰花蕾"
     },
     {
       "code": "18-3230 TPG",
@@ -21165,7 +22409,8 @@ export default {
         "a": 35.6339917724878,
         "b": -13.8512524941145
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "草地毛夫"
     },
     {
       "code": "18-3015 TPG",
@@ -21182,7 +22427,8 @@ export default {
         "a": 25.2417493327009,
         "b": -12.1812800224623
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫晶"
     },
     {
       "code": "18-3014 TPG",
@@ -21199,7 +22445,8 @@ export default {
         "a": 24.4928810555029,
         "b": -8.23134735148481
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "葡萄吻"
     },
     {
       "code": "15-3216 TPG",
@@ -21216,7 +22463,8 @@ export default {
         "a": 25.3290735511909,
         "b": -12.9275467958143
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Phalaenopsis"
     },
     {
       "code": "16-3320 TPG",
@@ -21233,7 +22481,8 @@ export default {
         "a": 31.2179122269615,
         "b": -17.0467494807271
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫色"
     },
     {
       "code": "16-3321 TPG",
@@ -21250,7 +22499,8 @@ export default {
         "a": 33.0548233864011,
         "b": -17.8409686294764
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "第一次开花"
     },
     {
       "code": "17-3310 TPG",
@@ -21267,7 +22517,8 @@ export default {
         "a": 26.5373211705919,
         "b": -13.722283925345
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "苍白的三衣"
     },
     {
       "code": "17-3320 TPG",
@@ -21284,7 +22535,8 @@ export default {
         "a": 34.3098210076105,
         "b": -17.6858231670553
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "liatris"
     },
     {
       "code": "18-3223 TPG",
@@ -21301,7 +22553,8 @@ export default {
         "a": 39.1473807776277,
         "b": -17.8613249590919
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "卡特利·兰花"
     },
     {
       "code": "18-3024 TPG",
@@ -21318,7 +22571,8 @@ export default {
         "a": 34.5580109658757,
         "b": -16.6871575965447
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Beautyberry"
     },
     {
       "code": "15-3412 TPG",
@@ -21335,7 +22589,8 @@ export default {
         "a": 18.9048410824188,
         "b": -12.7250945706456
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "兰花花束"
     },
     {
       "code": "16-3416 TPG",
@@ -21352,7 +22607,8 @@ export default {
         "a": 25.4649185505954,
         "b": -16.8491198818643
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫罗兰薄纱"
     },
     {
       "code": "15-3214 TPG",
@@ -21369,7 +22625,8 @@ export default {
         "a": 27.5855547543047,
         "b": -13.8556248141615
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "兰花"
     },
     {
       "code": "14-3209 TPG",
@@ -21386,7 +22643,8 @@ export default {
         "a": 25.72724344727,
         "b": -10.1114914025898
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柔和的薰衣草"
     },
     {
       "code": "15-2913 TPG",
@@ -21403,7 +22661,8 @@ export default {
         "a": 30.6280090738386,
         "b": -11.122077452761
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡紫色雪纺"
     },
     {
       "code": "16-3118 TPG",
@@ -21420,7 +22679,8 @@ export default {
         "a": 37.4769790771028,
         "b": -13.3385426965886
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "圆锥形"
     },
     {
       "code": "16-3116 TPG",
@@ -21437,7 +22697,8 @@ export default {
         "a": 35.0976387620913,
         "b": -13.0811175528932
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "歌剧淡紫色"
     },
     {
       "code": "14-3207 TPG",
@@ -21454,7 +22715,8 @@ export default {
         "a": 19.9342695821526,
         "b": -7.88548023001816
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色薰衣草"
     },
     {
       "code": "16-2111 TPG",
@@ -21471,7 +22733,8 @@ export default {
         "a": 23.5932136413167,
         "b": -4.68816789814901
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡紫色兰花"
     },
     {
       "code": "16-2614 TPG",
@@ -21488,7 +22751,8 @@ export default {
         "a": 29.3806028324158,
         "b": -6.64718778644464
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "月亮紫红色"
     },
     {
       "code": "15-2210 TPG",
@@ -21505,7 +22769,8 @@ export default {
         "a": 26.8460285063491,
         "b": -1.87995591338745
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "兰花烟"
     },
     {
       "code": "16-2215 TPG",
@@ -21522,7 +22787,8 @@ export default {
         "a": 31.8121186292531,
         "b": -0.972810713538652
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "羊绒玫瑰"
     },
     {
       "code": "15-1912 TPG",
@@ -21539,7 +22805,8 @@ export default {
         "a": 31.0171246327157,
         "b": 1.88950493576929
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海粉"
     },
     {
       "code": "16-1715 TPG",
@@ -21556,7 +22823,8 @@ export default {
         "a": 32.1604788103443,
         "b": 1.66793612660476
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "野玫瑰"
     },
     {
       "code": "14-2305 TPG",
@@ -21573,7 +22841,8 @@ export default {
         "a": 19.8004113872813,
         "b": 0.959424493039296
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉红色的花蜜"
     },
     {
       "code": "14-2307 TPG",
@@ -21590,7 +22859,8 @@ export default {
         "a": 20.8949359109417,
         "b": 0.0369454781168121
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "客串粉红色"
     },
     {
       "code": "15-1906 TPG",
@@ -21607,7 +22877,8 @@ export default {
         "a": 17.3467167467085,
         "b": 1.90956171301551
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "和风"
     },
     {
       "code": "16-1712 TPG",
@@ -21624,7 +22895,8 @@ export default {
         "a": 24.57988969229,
         "b": -0.483569863084998
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "polignac"
     },
     {
       "code": "16-1710 TPG",
@@ -21641,7 +22913,8 @@ export default {
         "a": 23.5977001360945,
         "b": 2.78931716592916
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "福克斯"
     },
     {
       "code": "16-1708 TPG",
@@ -21658,7 +22931,8 @@ export default {
         "a": 19.1897818227624,
         "b": -0.221496885798445
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "莉拉"
     },
     {
       "code": "17-1610 TPG",
@@ -21675,7 +22949,8 @@ export default {
         "a": 16.6487014141575,
         "b": -2.52540603946405
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杜斯基兰花"
     },
     {
       "code": "17-1609 TPG",
@@ -21692,7 +22967,8 @@ export default {
         "a": 24.7730443036876,
         "b": 4.13755300144825
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "梅萨玫瑰"
     },
     {
       "code": "17-1614 TPG",
@@ -21709,7 +22985,8 @@ export default {
         "a": 25.3922416867101,
         "b": 4.42123285744109
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "装饰玫瑰"
     },
     {
       "code": "17-1522 TPG",
@@ -21726,7 +23003,8 @@ export default {
         "a": 33.0023986774249,
         "b": 6.33616490721496
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡紫色"
     },
     {
       "code": "18-1718 TPG",
@@ -21743,7 +23021,8 @@ export default {
         "a": 23.2717886986121,
         "b": 0.265105824161682
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "霍索恩·罗斯（Hawthorn Rose）"
     },
     {
       "code": "18-1725 TPG",
@@ -21760,7 +23039,8 @@ export default {
         "a": 30.1392857852261,
         "b": 1.90472886255741
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "干玫瑰"
     },
     {
       "code": "18-1619 TPG",
@@ -21777,7 +23057,8 @@ export default {
         "a": 24.2598937261242,
         "b": 3.14510204377182
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "栗色"
     },
     {
       "code": "18-1420 TPG",
@@ -21794,7 +23075,8 @@ export default {
         "a": 19.9340255940651,
         "b": 4.24694803835912
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "野生生姜"
     },
     {
       "code": "17-1623 TPG",
@@ -21811,7 +23093,8 @@ export default {
         "a": 32.2248263073727,
         "b": 1.74964024383073
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃红葡萄酒"
     },
     {
       "code": "17-1608 TPG",
@@ -21828,7 +23111,8 @@ export default {
         "a": 26.3191820406128,
         "b": 0.414805971504206
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "希瑟·罗斯"
     },
     {
       "code": "17-1723 TPG",
@@ -21845,7 +23129,8 @@ export default {
         "a": 35.8056428653001,
         "b": 0.865356572526887
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "马拉加"
     },
     {
       "code": "18-2027 TPG",
@@ -21862,7 +23147,8 @@ export default {
         "a": 35.4979819932811,
         "b": 2.74265197610234
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Beaujolais"
     },
     {
       "code": "19-2030 TPG",
@@ -21879,7 +23165,8 @@ export default {
         "a": 36.3552518185739,
         "b": 4.7666907236396
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "甜菜红"
     },
     {
       "code": "19-2025 TPG",
@@ -21896,7 +23183,8 @@ export default {
         "a": 32.1658900408242,
         "b": 2.46977610257226
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "红梅子"
     },
     {
       "code": "19-2024 TPG",
@@ -21913,7 +23201,8 @@ export default {
         "a": 28.2897436701645,
         "b": 3.66808779200241
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杜鹃花"
     },
     {
       "code": "15-1607 TPG",
@@ -21930,7 +23219,8 @@ export default {
         "a": 12.7074440725128,
         "b": 5.44764654616394
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡紫色"
     },
     {
       "code": "17-1512 TPG",
@@ -21947,7 +23237,8 @@ export default {
         "a": 17.4968161498548,
         "b": 2.6413595456396
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "怀旧玫瑰"
     },
     {
       "code": "17-1511 TPG",
@@ -21964,7 +23255,8 @@ export default {
         "a": 16.4209288679075,
         "b": 0.211453998257838
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "渴望的淡紫色"
     },
     {
       "code": "18-1613 TPG",
@@ -21981,7 +23273,8 @@ export default {
         "a": 21.9373827134247,
         "b": 2.73629717318536
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "文艺复兴时期的玫瑰"
     },
     {
       "code": "18-1418 TPG",
@@ -21998,7 +23291,8 @@ export default {
         "a": 20.4557054937289,
         "b": 1.79469783502673
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "压碎的浆果"
     },
     {
       "code": "18-1616 TPG",
@@ -22015,7 +23309,8 @@ export default {
         "a": 22.0548824161741,
         "b": 5.84407618217879
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "罗恩·鲁格（Roan Rouge）"
     },
     {
       "code": "18-1614 TPG",
@@ -22032,7 +23327,8 @@ export default {
         "a": 19.153797442456,
         "b": 2.04369322058058
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "夜曲"
     },
     {
       "code": "15-1905 TPG",
@@ -22049,7 +23345,8 @@ export default {
         "a": 9.24395093915853,
         "b": 0.451990802213054
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "丁香砂石"
     },
     {
       "code": "15-2705 TPG",
@@ -22066,7 +23363,8 @@ export default {
         "a": 11.1896234361464,
         "b": -1.47169202417794
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "纪念丁香"
     },
     {
       "code": "15-2205 TPG",
@@ -22083,7 +23381,8 @@ export default {
         "a": 13.4358548365255,
         "b": -3.22104881187839
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黎明粉红色"
     },
     {
       "code": "16-3205 TPG",
@@ -22100,7 +23399,8 @@ export default {
         "a": 12.0842706293255,
         "b": -1.78709811523328
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡藏的阴影"
     },
     {
       "code": "17-1605 TPG",
@@ -22117,7 +23417,8 @@ export default {
         "a": 10.0585156080623,
         "b": -1.99668638826074
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "接骨木浆果"
     },
     {
       "code": "17-2411 TPG",
@@ -22134,7 +23435,8 @@ export default {
         "a": 10.7261073576603,
         "b": -0.297177635850332
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蟾蜍"
     },
     {
       "code": "18-2109 TPG",
@@ -22151,7 +23453,8 @@ export default {
         "a": 12.8485233407598,
         "b": -1.03312677109419
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "葡萄奶昔"
     },
     {
       "code": "13-3804 TPG",
@@ -22168,7 +23471,8 @@ export default {
         "a": 4.86444973914024,
         "b": 0.240484787657747
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰色丁香"
     },
     {
       "code": "15-2706 TPG",
@@ -22185,7 +23489,8 @@ export default {
         "a": 7.51909332595291,
         "b": 1.0400034195774
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫罗兰冰"
     },
     {
       "code": "16-1707 TPG",
@@ -22202,7 +23507,8 @@ export default {
         "a": 11.1735749178399,
         "b": 2.98594400247987
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Deauville Mauve"
     },
     {
       "code": "16-1806 TPG",
@@ -22219,7 +23525,8 @@ export default {
         "a": 12.2726345686195,
         "b": 3.62297287083777
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "伍德罗斯"
     },
     {
       "code": "18-1807 TPG",
@@ -22236,7 +23543,8 @@ export default {
         "a": 10.2201893912965,
         "b": 2.01719628640253
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "暮光之王"
     },
     {
       "code": "18-1612 TPG",
@@ -22253,7 +23561,8 @@ export default {
         "a": 12.7852843350372,
         "b": 4.00981901201638
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玫瑰灰褐色"
     },
     {
       "code": "18-1512 TPG",
@@ -22270,7 +23579,8 @@ export default {
         "a": 16.3782375775705,
         "b": 4.25287865186854
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玫瑰布朗"
     },
     {
       "code": "14-3803 TPG",
@@ -22287,7 +23597,8 @@ export default {
         "a": 7.1473782803978,
         "b": 3.03425576174461
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "安静的紫罗兰"
     },
     {
       "code": "16-1509 TPG",
@@ -22304,7 +23615,8 @@ export default {
         "a": 7.21715193179845,
         "b": 5.92350674087361
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "阴影灰色"
     },
     {
       "code": "16-1508 TPG",
@@ -22321,7 +23633,8 @@ export default {
         "a": 10.3450435931308,
         "b": 7.74398984949238
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Adobe Rose"
     },
     {
       "code": "16-1510 TPG",
@@ -22338,7 +23651,8 @@ export default {
         "a": 9.03979620014422,
         "b": 5.98387264255493
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "讨好"
     },
     {
       "code": "17-1510 TPG",
@@ -22355,7 +23669,8 @@ export default {
         "a": 9.5550146400406,
         "b": 5.36592066341217
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鹿角"
     },
     {
       "code": "18-1415 TPG",
@@ -22372,7 +23687,8 @@ export default {
         "a": 11.6476907328797,
         "b": 5.73175770088187
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "马龙"
     },
     {
       "code": "18-1409 TPG",
@@ -22389,7 +23705,8 @@ export default {
         "a": 7.54180776431851,
         "b": 2.15143895833066
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "胡椒"
     },
     {
       "code": "13-3803 TPG",
@@ -22406,7 +23723,8 @@ export default {
         "a": 3.28097193319266,
         "b": 1.03235069479857
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡紫色灰"
     },
     {
       "code": "16-1703 TPG",
@@ -22423,7 +23741,8 @@ export default {
         "a": 6.76881074529706,
         "b": 4.6862652701211
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "狮身人面像"
     },
     {
       "code": "16-1506 TPG",
@@ -22440,7 +23759,8 @@ export default {
         "a": 6.86628419444762,
         "b": 4.40065233679219
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "吠"
     },
     {
       "code": "19-1620 TPG",
@@ -22457,7 +23777,8 @@ export default {
         "a": 9.84260869360956,
         "b": -0.018241012972664
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "哈克贝利"
     },
     {
       "code": "18-1404 TPG",
@@ -22474,7 +23795,8 @@ export default {
         "a": 6.27422575646108,
         "b": -1.12255104497563
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "麻雀"
     },
     {
       "code": "18-1506 TPG",
@@ -22491,7 +23813,8 @@ export default {
         "a": 7.14535227280555,
         "b": 1.24321548854235
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "梅花松露"
     },
     {
       "code": "19-1606 TPG",
@@ -22508,7 +23831,8 @@ export default {
         "a": 9.10683638638091,
         "b": -0.418480341526939
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "葡萄干"
     },
     {
       "code": "16-1606 TPG",
@@ -22525,7 +23849,8 @@ export default {
         "a": 7.21623903552176,
         "b": 0.125947262058745
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫色鸽子"
     },
     {
       "code": "17-1708 TPG",
@@ -22542,7 +23867,8 @@ export default {
         "a": 9.99280660463697,
         "b": -3.5204644508769
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "月经"
     },
     {
       "code": "18-1705 TPG",
@@ -22559,7 +23885,8 @@ export default {
         "a": 11.1923150935442,
         "b": -4.61907961683354
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "北极黄昏"
     },
     {
       "code": "18-1405 TPG",
@@ -22576,7 +23903,8 @@ export default {
         "a": 9.4453084754953,
         "b": -1.8763203055792
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "燧石"
     },
     {
       "code": "18-1708 TPG",
@@ -22593,7 +23921,8 @@ export default {
         "a": 10.3053756197209,
         "b": -2.77871437112691
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蜉蝣"
     },
     {
       "code": "18-1706 TPG",
@@ -22610,7 +23939,8 @@ export default {
         "a": 8.61201602335387,
         "b": -4.89227788753099
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑梅子"
     },
     {
       "code": "19-3316 TPG",
@@ -22627,7 +23957,8 @@ export default {
         "a": 7.31805239872277,
         "b": -4.26637753969076
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "李子完美"
     },
     {
       "code": "18-1411 TPG",
@@ -22644,7 +23975,8 @@ export default {
         "a": 14.7900543622766,
         "b": -2.17827942667574
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "梅酒"
     },
     {
       "code": "19-2311 TPG",
@@ -22661,7 +23993,8 @@ export default {
         "a": 11.7546574563454,
         "b": -1.40707282891772
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "茄子"
     },
     {
       "code": "19-1621 TPG",
@@ -22678,7 +24011,8 @@ export default {
         "a": 10.3860787233509,
         "b": 0.986605270912488
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "卡托巴葡萄"
     },
     {
       "code": "19-1624 TPG",
@@ -22695,7 +24029,8 @@ export default {
         "a": 9.29875093053753,
         "b": -0.226417163064707
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Sassafras"
     },
     {
       "code": "19-1625 TPG",
@@ -22712,7 +24047,8 @@ export default {
         "a": 11.7974241728625,
         "b": 3.04733876677807
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "decade废的巧克力"
     },
     {
       "code": "19-1623 TPG",
@@ -22729,7 +24065,8 @@ export default {
         "a": 12.0966682387628,
         "b": 1.54462492416085
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "葡萄园葡萄酒"
     },
     {
       "code": "19-1619 TPG",
@@ -22746,7 +24083,8 @@ export default {
         "a": 6.50728750769916,
         "b": 0.512768876099834
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "做傻事"
     },
     {
       "code": "19-1716 TPG",
@@ -22763,7 +24101,8 @@ export default {
         "a": 16.0736950660148,
         "b": -1.70955436031521
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡紫色"
     },
     {
       "code": "19-1718 TPG",
@@ -22780,7 +24119,8 @@ export default {
         "a": 11.7641299500199,
         "b": -1.35198232579602
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "如图"
     },
     {
       "code": "19-1627 TPG",
@@ -22797,7 +24137,8 @@ export default {
         "a": 16.0899415510768,
         "b": 2.34341961336898
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "皇家港"
     },
     {
       "code": "19-1617 TPG",
@@ -22814,7 +24155,8 @@ export default {
         "a": 18.0458287156268,
         "b": 1.4788073550027
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "勃艮第"
     },
     {
       "code": "19-1528 TPG",
@@ -22831,7 +24173,8 @@ export default {
         "a": 18.6900157226805,
         "b": 3.22001807118656
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "温莎葡萄酒"
     },
     {
       "code": "19-1529 TPG",
@@ -22848,7 +24191,8 @@ export default {
         "a": 19.2820068927098,
         "b": 2.11280715315686
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "栗色横幅"
     },
     {
       "code": "19-2118 TPG",
@@ -22865,7 +24209,8 @@ export default {
         "a": 8.79050875515977,
         "b": -0.849157424791924
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "winetasting"
     },
     {
       "code": "18-1709 TPG",
@@ -22882,7 +24227,8 @@ export default {
         "a": 19.2646777700931,
         "b": -2.90249283640884
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "塔利普伍德"
     },
     {
       "code": "18-1710 TPG",
@@ -22899,7 +24245,8 @@ export default {
         "a": 19.5703957201149,
         "b": -3.21087972577154
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "葡萄花蜜"
     },
     {
       "code": "19-2014 TPG",
@@ -22916,7 +24263,8 @@ export default {
         "a": 15.0336079908516,
         "b": -2.71888192875273
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "修剪"
     },
     {
       "code": "19-2315 TPG",
@@ -22933,7 +24281,8 @@ export default {
         "a": 16.0929149345034,
         "b": -3.2419258866289
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "葡萄酒"
     },
     {
       "code": "19-1608 TPG",
@@ -22950,7 +24299,8 @@ export default {
         "a": 12.6631592920789,
         "b": -4.39216925064376
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "修剪紫色"
     },
     {
       "code": "19-2514 TPG",
@@ -22967,7 +24317,8 @@ export default {
         "a": 13.1645898619361,
         "b": -4.77723743547864
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "意大利李子"
     },
     {
       "code": "19-2520 TPG",
@@ -22984,7 +24335,8 @@ export default {
         "a": 14.9725515943767,
         "b": -3.12292534958787
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "有效的紫色"
     },
     {
       "code": "17-1710 TPG",
@@ -23001,7 +24353,8 @@ export default {
         "a": 22.9165996728125,
         "b": -5.60206762861548
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "波尔多"
     },
     {
       "code": "17-1612 TPG",
@@ -23018,7 +24371,8 @@ export default {
         "a": 23.6403638770018,
         "b": -3.00434747079064
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柔和的淡紫色"
     },
     {
       "code": "17-1818 TPG",
@@ -23035,7 +24389,8 @@ export default {
         "a": 32.7195854507578,
         "b": -2.51266764806413
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "红色紫色"
     },
     {
       "code": "18-1720 TPG",
@@ -23052,7 +24407,8 @@ export default {
         "a": 28.4583023023266,
         "b": -1.36911202926553
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫色石英"
     },
     {
       "code": "18-1716 TPG",
@@ -23069,7 +24425,8 @@ export default {
         "a": 21.9036690555337,
         "b": -2.44064775025773
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "达姆森"
     },
     {
       "code": "19-2410 TPG",
@@ -23086,7 +24443,8 @@ export default {
         "a": 24.6697671607505,
         "b": -4.02807266868138
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "amaranth"
     },
     {
       "code": "19-2312 TPG",
@@ -23103,7 +24461,8 @@ export default {
         "a": 15.9490505389332,
         "b": -1.35346516779066
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "压碎的紫罗兰"
     },
     {
       "code": "14-3204 TPG",
@@ -23120,7 +24479,8 @@ export default {
         "a": 15.1259540153599,
         "b": -3.88991233449398
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "香丁香"
     },
     {
       "code": "15-3207 TPG",
@@ -23137,7 +24497,8 @@ export default {
         "a": 18.3096460126093,
         "b": -7.01922230953573
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡紫色"
     },
     {
       "code": "16-2107 TPG",
@@ -23154,7 +24515,8 @@ export default {
         "a": 19.9212824553766,
         "b": -4.91932449040922
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "兰花阴霾"
     },
     {
       "code": "18-3011 TPG",
@@ -23171,7 +24533,8 @@ export default {
         "a": 19.2286254830658,
         "b": -7.2931550564753
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Argyle紫色"
     },
     {
       "code": "18-3211 TPG",
@@ -23188,7 +24551,8 @@ export default {
         "a": 13.7825394254183,
         "b": -7.97619131579712
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "grapeade"
     },
     {
       "code": "18-3012 TPG",
@@ -23205,7 +24569,8 @@ export default {
         "a": 16.5069907187431,
         "b": -8.18572512517659
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫色gumdrop"
     },
     {
       "code": "18-3013 TPG",
@@ -23222,7 +24587,8 @@ export default {
         "a": 17.9942243050356,
         "b": -6.80201317774719
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "贝里保护"
     },
     {
       "code": "16-3307 TPG",
@@ -23239,7 +24605,8 @@ export default {
         "a": 15.2850597613108,
         "b": -7.77638603083939
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薰衣草雾"
     },
     {
       "code": "17-3410 TPG",
@@ -23256,7 +24623,8 @@ export default {
         "a": 18.9374979379343,
         "b": -8.5687953664273
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "瓦莱里安"
     },
     {
       "code": "18-3220 TPG",
@@ -23273,7 +24641,8 @@ export default {
         "a": 15.8927927885349,
         "b": -8.22439445448033
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "非常葡萄"
     },
     {
       "code": "18-3418 TPG",
@@ -23290,7 +24659,8 @@ export default {
         "a": 18.7918831099401,
         "b": -13.9540546371698
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "中国紫色"
     },
     {
       "code": "18-3218 TPG",
@@ -23307,7 +24677,8 @@ export default {
         "a": 21.313743842422,
         "b": -15.1470227488302
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "协和葡萄"
     },
     {
       "code": "19-3424 TPG",
@@ -23324,7 +24695,8 @@ export default {
         "a": 20.8815564278963,
         "b": -15.1651315844202
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "日落紫色"
     },
     {
       "code": "18-3415 TPG",
@@ -23341,7 +24713,8 @@ export default {
         "a": 13.3713927195143,
         "b": -10.6583812874697
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "葡萄果酱"
     },
     {
       "code": "18-3522 TPG",
@@ -23358,7 +24731,8 @@ export default {
         "a": 20.0357031209818,
         "b": -17.0142384615428
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "压碎的葡萄"
     },
     {
       "code": "19-3325 TPG",
@@ -23375,7 +24749,8 @@ export default {
         "a": 23.1513410106393,
         "b": -13.4317653277075
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "木紫色"
     },
     {
       "code": "19-3223 TPG",
@@ -23392,7 +24767,8 @@ export default {
         "a": 19.749216150457,
         "b": -11.29053163993
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫色的激情"
     },
     {
       "code": "19-2524 TPG",
@@ -23409,7 +24785,8 @@ export default {
         "a": 25.0172640145985,
         "b": -7.19080017596259
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深紫色"
     },
     {
       "code": "19-2420 TPG",
@@ -23426,7 +24803,8 @@ export default {
         "a": 17.1845474712835,
         "b": -4.30540513229115
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "腌甜菜"
     },
     {
       "code": "19-2620 TPG",
@@ -23443,7 +24821,8 @@ export default {
         "a": 14.0554384074715,
         "b": -4.97188654854078
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冬季开花"
     },
     {
       "code": "19-2816 TPG",
@@ -23460,7 +24839,8 @@ export default {
         "a": 11.4252674139161,
         "b": -5.99917511590379
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑莓葡萄酒"
     },
     {
       "code": "14-3206 TPG",
@@ -23477,7 +24857,8 @@ export default {
         "a": 13.1150672720235,
         "b": -6.80613373166705
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Winsome Orchid"
     },
     {
       "code": "16-3110 TPG",
@@ -23494,7 +24875,8 @@ export default {
         "a": 22.1912819246319,
         "b": -11.8200246381923
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "烟熏葡萄"
     },
     {
       "code": "17-3313 TPG",
@@ -23511,7 +24893,8 @@ export default {
         "a": 19.9272091892369,
         "b": -12.4585450719144
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "尘土飞扬的薰衣草"
     },
     {
       "code": "16-3310 TPG",
@@ -23528,7 +24911,8 @@ export default {
         "a": 18.731526244695,
         "b": -10.7379158264337
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薰衣草草药"
     },
     {
       "code": "17-3520 TPG",
@@ -23545,7 +24929,8 @@ export default {
         "a": 17.9822271405249,
         "b": -15.8050760851518
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "扩散的兰花"
     },
     {
       "code": "17-3612 TPG",
@@ -23562,7 +24947,8 @@ export default {
         "a": 14.0020996292636,
         "b": -13.2650481857703
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "兰花雾"
     },
     {
       "code": "18-3530 TPG",
@@ -23579,7 +24965,8 @@ export default {
         "a": 22.4692772978929,
         "b": -17.5200284422927
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薰衣草水晶"
     },
     {
       "code": "15-3520 TPG",
@@ -23596,7 +24983,8 @@ export default {
         "a": 18.1234866293336,
         "b": -16.9356539889266
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鳄鱼花瓣"
     },
     {
       "code": "16-3521 TPG",
@@ -23613,7 +25001,8 @@ export default {
         "a": 16.6400586281777,
         "b": -13.9150878730767
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "羽扇豆"
     },
     {
       "code": "16-3617 TPG",
@@ -23630,7 +25019,8 @@ export default {
         "a": 20.657614055874,
         "b": -18.6593277875864
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "纯丁香"
     },
     {
       "code": "16-3520 TPG",
@@ -23647,7 +25037,8 @@ export default {
         "a": 24.4001461002241,
         "b": -20.3363510136728
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "非洲紫罗兰"
     },
     {
       "code": "17-3617 TPG",
@@ -23664,7 +25055,8 @@ export default {
         "a": 19.7376720363845,
         "b": -22.0549754530787
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "英国薰衣草"
     },
     {
       "code": "17-3640 TPG",
@@ -23681,7 +25073,8 @@ export default {
         "a": 18.371028620752,
         "b": -24.2544322083294
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "仙女"
     },
     {
       "code": "18-3628 TPG",
@@ -23698,7 +25091,8 @@ export default {
         "a": 24.4220998890962,
         "b": -22.6842079832751
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "铃铛"
     },
     {
       "code": "13-3802 TPG",
@@ -23715,7 +25109,8 @@ export default {
         "a": 4.1582941888979,
         "b": -3.01426009091064
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "兰花色"
     },
     {
       "code": "13-3820 TPG",
@@ -23732,7 +25127,8 @@ export default {
         "a": 7.46639688797035,
         "b": -7.0355940158741
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薰衣草雾"
     },
     {
       "code": "13-3805 TPG",
@@ -23749,7 +25145,8 @@ export default {
         "a": 5.98299168394684,
         "b": -6.87473282321471
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "兰花嘘"
     },
     {
       "code": "15-3507 TPG",
@@ -23766,7 +25163,8 @@ export default {
         "a": 10.0517938439542,
         "b": -8.99152311010958
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薰衣草霜"
     },
     {
       "code": "15-3508 TPG",
@@ -23783,7 +25181,8 @@ export default {
         "a": 10.9969365105231,
         "b": -8.55318696407677
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "公平的兰花"
     },
     {
       "code": "16-3525 TPG",
@@ -23800,7 +25199,8 @@ export default {
         "a": 16.9290616957878,
         "b": -13.7329725895147
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "富豪兰花"
     },
     {
       "code": "16-3817 TPG",
@@ -23817,7 +25217,8 @@ export default {
         "a": 14.370251433835,
         "b": -14.2115831884811
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "狂想曲"
     },
     {
       "code": "14-3612 TPG",
@@ -23834,7 +25235,8 @@ export default {
         "a": 13.382077620583,
         "b": -14.0833235907363
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "兰花布鲁姆"
     },
     {
       "code": "15-3620 TPG",
@@ -23851,7 +25253,8 @@ export default {
         "a": 16.6967963411834,
         "b": -17.8028481806036
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Lavendula"
     },
     {
       "code": "15-3720 TPG",
@@ -23868,7 +25271,8 @@ export default {
         "a": 14.1482249152226,
         "b": -19.144557931547
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡紫色的微风"
     },
     {
       "code": "15-3716 TPG",
@@ -23885,7 +25289,8 @@ export default {
         "a": 12.3650907914923,
         "b": -19.5252009193388
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫色玫瑰"
     },
     {
       "code": "16-3815 TPG",
@@ -23902,7 +25307,8 @@ export default {
         "a": 14.0556986596618,
         "b": -18.3605774814193
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "中提琴"
     },
     {
       "code": "16-3720 TPG",
@@ -23919,7 +25325,8 @@ export default {
         "a": 14.088205505544,
         "b": -22.3833379025016
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沙子"
     },
     {
       "code": "17-3735 TPG",
@@ -23936,7 +25343,8 @@ export default {
         "a": 13.6692652552718,
         "b": -22.7577144756969
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "阳光下的葱"
     },
     {
       "code": "17-3619 TPG",
@@ -23953,7 +25361,8 @@ export default {
         "a": 22.2915030632363,
         "b": -23.2717207195205
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "风信子"
     },
     {
       "code": "17-3628 TPG",
@@ -23970,7 +25379,8 @@ export default {
         "a": 25.8808383701041,
         "b": -26.6106874471945
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫水晶兰花"
     },
     {
       "code": "18-3533 TPG",
@@ -23987,7 +25397,8 @@ export default {
         "a": 29.4399700404102,
         "b": -24.6731521326089
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "dewberry"
     },
     {
       "code": "19-3438 TPG",
@@ -24004,7 +25415,8 @@ export default {
         "a": 26.4954021304739,
         "b": -21.0079629708663
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "明亮的紫罗兰色"
     },
     {
       "code": "18-3634 TPG",
@@ -24021,7 +25433,8 @@ export default {
         "a": 20.8550426671388,
         "b": -26.5538678060745
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Chive Blossom"
     },
     {
       "code": "19-3526 TPG",
@@ -24038,7 +25451,8 @@ export default {
         "a": 21.0367040380856,
         "b": -21.2932786166014
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "草地紫罗兰色"
     },
     {
       "code": "19-3425 TPG",
@@ -24055,7 +25469,8 @@ export default {
         "a": 20.9352643230608,
         "b": -16.4824498797922
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "五香李子"
     },
     {
       "code": "18-3633 TPG",
@@ -24072,7 +25487,8 @@ export default {
         "a": 23.4632636651775,
         "b": -29.5202896214826
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深薰衣草"
     },
     {
       "code": "18-3531 TPG",
@@ -24089,7 +25505,8 @@ export default {
         "a": 24.6585214675237,
         "b": -26.3888296775211
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "皇家丁香"
     },
     {
       "code": "19-3542 TPG",
@@ -24106,7 +25523,8 @@ export default {
         "a": 22.1755316487309,
         "b": -23.7333055646973
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "三色堇"
     },
     {
       "code": "19-3536 TPG",
@@ -24123,7 +25541,8 @@ export default {
         "a": 25.558059932953,
         "b": -22.5221612813555
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Amaranth紫色"
     },
     {
       "code": "19-3540 TPG",
@@ -24140,7 +25559,8 @@ export default {
         "a": 23.4745355511309,
         "b": -17.6808247392621
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫色魔法"
     },
     {
       "code": "19-3528 TPG",
@@ -24157,7 +25577,8 @@ export default {
         "a": 17.9850231488363,
         "b": -15.3783875085987
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫色"
     },
     {
       "code": "19-3220 TPG",
@@ -24174,7 +25595,8 @@ export default {
         "a": 18.2518083764176,
         "b": -12.443333626823
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "李子"
     },
     {
       "code": "18-3635 TPG",
@@ -24191,7 +25613,8 @@ export default {
         "a": 17.9480961999539,
         "b": -20.3156193864866
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "毕加索莉莉"
     },
     {
       "code": "18-3520 TPG",
@@ -24208,7 +25631,8 @@ export default {
         "a": 19.1452609974846,
         "b": -21.9247808025816
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫心"
     },
     {
       "code": "18-3615 TPG",
@@ -24225,7 +25649,8 @@ export default {
         "a": 14.7098366735551,
         "b": -21.2200443146466
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "故宫"
     },
     {
       "code": "18-3518 TPG",
@@ -24242,7 +25667,8 @@ export default {
         "a": 16.3624490668367,
         "b": -17.8808132871593
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "贵族紫色"
     },
     {
       "code": "18-3521 TPG",
@@ -24259,7 +25685,8 @@ export default {
         "a": 20.8943423610922,
         "b": -21.9027216825991
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "李子果酱"
     },
     {
       "code": "18-3540 TPG",
@@ -24276,7 +25703,8 @@ export default {
         "a": 23.7723019008,
         "b": -25.1452809844066
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫色蓝宝石"
     },
     {
       "code": "19-3514 TPG",
@@ -24293,7 +25721,8 @@ export default {
         "a": 19.0441220803923,
         "b": -14.8004519009612
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "威严"
     },
     {
       "code": "19-3518 TPG",
@@ -24310,7 +25739,8 @@ export default {
         "a": 16.4520923111603,
         "b": -13.6834101543062
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "葡萄皇家"
     },
     {
       "code": "19-3632 TPG",
@@ -24327,7 +25757,8 @@ export default {
         "a": 16.071193812377,
         "b": -19.3616063084145
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "矮牵牛"
     },
     {
       "code": "19-3628 TPG",
@@ -24344,7 +25775,8 @@ export default {
         "a": 17.9537438788133,
         "b": -18.93357417998
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "acai"
     },
     {
       "code": "19-3640 TPG",
@@ -24361,7 +25793,8 @@ export default {
         "a": 13.6429872514265,
         "b": -13.0502059310887
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "皇冠珠宝"
     },
     {
       "code": "19-3218 TPG",
@@ -24378,7 +25811,8 @@ export default {
         "a": 13.9790107159575,
         "b": -8.85958013657421
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "李子紫色"
     },
     {
       "code": "18-3410 TPG",
@@ -24395,7 +25829,8 @@ export default {
         "a": 9.67237657189704,
         "b": -6.74590527741912
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "复古紫罗兰色"
     },
     {
       "code": "19-3217 TPG",
@@ -24412,7 +25847,8 @@ export default {
         "a": 15.2280061725044,
         "b": -8.06792444833657
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "阴影紫色"
     },
     {
       "code": "18-3513 TPG",
@@ -24429,7 +25865,8 @@ export default {
         "a": 11.1465205081753,
         "b": -12.3262731523384
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "葡萄蜜饯"
     },
     {
       "code": "19-2814 TPG",
@@ -24446,7 +25883,8 @@ export default {
         "a": 13.7859673443147,
         "b": -11.6572430322867
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "葡萄酒"
     },
     {
       "code": "19-3323 TPG",
@@ -24463,7 +25901,8 @@ export default {
         "a": 13.3920222131173,
         "b": -7.97126742926748
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深紫色"
     },
     {
       "code": "19-2009 TPG",
@@ -24480,7 +25919,8 @@ export default {
         "a": 11.7273428707972,
         "b": -7.16735329222002
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "园艺"
     },
     {
       "code": "19-3714 TPG",
@@ -24497,7 +25937,8 @@ export default {
         "a": 9.62105039257341,
         "b": -8.93589286074769
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海军宇宙"
     },
     {
       "code": "19-3519 TPG",
@@ -24514,7 +25955,8 @@ export default {
         "a": 9.7577740238034,
         "b": -8.39553140224169
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫色三角旗"
     },
     {
       "code": "19-3520 TPG",
@@ -24531,7 +25973,8 @@ export default {
         "a": 10.8863339102936,
         "b": -9.60254119813584
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑莓亲切"
     },
     {
       "code": "18-3714 TPG",
@@ -24548,7 +25991,8 @@ export default {
         "a": 8.24301898424337,
         "b": -12.2298397795105
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "思考葡萄"
     },
     {
       "code": "18-3715 TPG",
@@ -24565,7 +26009,8 @@ export default {
         "a": 8.00757639470856,
         "b": -9.26706132578257
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蒙大拿州葡萄"
     },
     {
       "code": "18-3620 TPG",
@@ -24582,7 +26027,8 @@ export default {
         "a": 13.093680867977,
         "b": -17.0652009635729
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "神秘"
     },
     {
       "code": "19-3622 TPG",
@@ -24599,7 +26045,8 @@ export default {
         "a": 10.998294899003,
         "b": -13.6884166652441
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Loganberry"
     },
     {
       "code": "19-3620 TPG",
@@ -24616,7 +26063,8 @@ export default {
         "a": 11.6623356857394,
         "b": -17.3562140795907
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫色统治"
     },
     {
       "code": "19-3215 TPG",
@@ -24633,7 +26081,8 @@ export default {
         "a": 10.4071338983761,
         "b": -11.5326496003583
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "靛青"
     },
     {
       "code": "19-3619 TPG",
@@ -24650,7 +26099,8 @@ export default {
         "a": 7.15945825454858,
         "b": -7.84891896092018
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "甜葡萄"
     },
     {
       "code": "19-3722 TPG",
@@ -24667,7 +26117,8 @@ export default {
         "a": 10.0769679553051,
         "b": -18.0125193532182
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桑紫色"
     },
     {
       "code": "19-3716 TPG",
@@ -24684,7 +26135,8 @@ export default {
         "a": 8.37547610980366,
         "b": -11.0698484489741
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫色羽毛"
     },
     {
       "code": "19-3720 TPG",
@@ -24701,7 +26153,8 @@ export default {
         "a": 9.61182683559406,
         "b": -11.1125519767148
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "哥特式葡萄"
     },
     {
       "code": "19-3617 TPG",
@@ -24718,7 +26171,8 @@ export default {
         "a": 7.28771978103415,
         "b": -8.62799018211807
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Mysterioso"
     },
     {
       "code": "19-3712 TPG",
@@ -24735,7 +26189,8 @@ export default {
         "a": 4.79032478564759,
         "b": -5.97390179366136
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "睡衣"
     },
     {
       "code": "19-3725 TPG",
@@ -24752,7 +26207,8 @@ export default {
         "a": 6.64219268748253,
         "b": -9.99195910499799
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫色天鹅绒"
     },
     {
       "code": "19-3728 TPG",
@@ -24769,7 +26225,8 @@ export default {
         "a": 10.1361955093763,
         "b": -13.7895668750934
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "葡萄"
     },
     {
       "code": "18-3834 TPG",
@@ -24786,7 +26243,8 @@ export default {
         "a": 10.140347025251,
         "b": -23.28922746315
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "维罗妮卡"
     },
     {
       "code": "18-3840 TPG",
@@ -24803,7 +26261,8 @@ export default {
         "a": 15.7473626149175,
         "b": -34.5627482427966
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫色的富裕"
     },
     {
       "code": "19-3850 TPG",
@@ -24820,7 +26279,8 @@ export default {
         "a": 13.6182518691612,
         "b": -32.3406174455727
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "自由"
     },
     {
       "code": "19-3847 TPG",
@@ -24837,7 +26297,8 @@ export default {
         "a": 13.4169393194151,
         "b": -29.4733049947918
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深蓝色"
     },
     {
       "code": "19-3737 TPG",
@@ -24854,7 +26315,8 @@ export default {
         "a": 16.6615225547698,
         "b": -24.5248720231443
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鸡血石"
     },
     {
       "code": "19-3750 TPG",
@@ -24871,7 +26333,8 @@ export default {
         "a": 13.6203859620669,
         "b": -20.7552561953164
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫罗兰色靛蓝"
     },
     {
       "code": "19-3731 TPG",
@@ -24888,7 +26351,8 @@ export default {
         "a": 10.7681098815775,
         "b": -16.3050040734812
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "降落伞紫色"
     },
     {
       "code": "17-3834 TPG",
@@ -24905,7 +26369,8 @@ export default {
         "a": 15.7847452404623,
         "b": -29.0798315963903
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "大丽花紫色"
     },
     {
       "code": "18-3737 TPG",
@@ -24922,7 +26387,8 @@ export default {
         "a": 18.7085261098974,
         "b": -29.8899048812262
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "激情花"
     },
     {
       "code": "18-3839 TPG",
@@ -24939,7 +26405,8 @@ export default {
         "a": 16.2353044697955,
         "b": -32.2597282780229
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫色珊瑚岩"
     },
     {
       "code": "18-3838 TPG",
@@ -24956,7 +26423,8 @@ export default {
         "a": 16.2458315380161,
         "b": -29.2938926401148
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Ultra Violet"
     },
     {
       "code": "19-3748 TPG",
@@ -24973,7 +26441,8 @@ export default {
         "a": 16.5095371318678,
         "b": -29.0406221963534
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "棱镜紫罗兰色"
     },
     {
       "code": "19-3642 TPG",
@@ -24990,7 +26459,8 @@ export default {
         "a": 16.6714524765135,
         "b": -24.9897168369847
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "皇家紫色"
     },
     {
       "code": "19-3638 TPG",
@@ -25007,7 +26477,8 @@ export default {
         "a": 23.0219362995469,
         "b": -26.7601425705686
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "tillandsia紫色"
     },
     {
       "code": "14-3812 TPG",
@@ -25024,7 +26495,8 @@ export default {
         "a": 9.69175395106836,
         "b": -14.5961854247236
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柔和的丁香"
     },
     {
       "code": "15-3817 TPG",
@@ -25041,7 +26513,8 @@ export default {
         "a": 12.0874506825151,
         "b": -20.3539275079087
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薰衣草"
     },
     {
       "code": "16-3823 TPG",
@@ -25058,7 +26531,8 @@ export default {
         "a": 12.5514239957142,
         "b": -25.1841798529761
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫罗兰色郁金香"
     },
     {
       "code": "17-3725 TPG",
@@ -25075,7 +26549,8 @@ export default {
         "a": 17.1254103225908,
         "b": -25.0251057679626
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "九重奏"
     },
     {
       "code": "17-3730 TPG",
@@ -25092,7 +26567,8 @@ export default {
         "a": 15.3378300527374,
         "b": -26.1604064873266
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "佩斯利紫色"
     },
     {
       "code": "17-3826 TPG",
@@ -25109,7 +26585,8 @@ export default {
         "a": 11.8399109020025,
         "b": -24.4274088300582
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫色紫色"
     },
     {
       "code": "19-3730 TPG",
@@ -25126,7 +26603,8 @@ export default {
         "a": 14.1566301279745,
         "b": -24.771318491339
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绅士紫罗兰"
     },
     {
       "code": "14-3710 TPG",
@@ -25143,7 +26621,8 @@ export default {
         "a": 8.49372807327009,
         "b": -11.6095569579349
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "兰花花瓣"
     },
     {
       "code": "16-3810 TPG",
@@ -25160,7 +26639,8 @@ export default {
         "a": 6.53823610925619,
         "b": -11.9975573479915
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫藤"
     },
     {
       "code": "16-3812 TPG",
@@ -25177,7 +26657,8 @@ export default {
         "a": 6.9618673984963,
         "b": -14.7170982131555
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "传家宝丁香"
     },
     {
       "code": "17-3817 TPG",
@@ -25194,7 +26675,8 @@ export default {
         "a": 7.94014111495334,
         "b": -16.1911498157523
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "拂晓"
     },
     {
       "code": "17-3812 TPG",
@@ -25211,7 +26693,8 @@ export default {
         "a": 7.04273297645852,
         "b": -12.4720068289591
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄昏"
     },
     {
       "code": "17-3615 TPG",
@@ -25228,7 +26711,8 @@ export default {
         "a": 13.3773259457591,
         "b": -19.2148914768465
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉笔紫罗兰色"
     },
     {
       "code": "18-3718 TPG",
@@ -25245,7 +26729,8 @@ export default {
         "a": 10.8643871072418,
         "b": -18.0333457734297
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫色雾霾"
     },
     {
       "code": "15-3807 TPG",
@@ -25262,7 +26747,8 @@ export default {
         "a": 3.93209877695783,
         "b": -7.26268419873226
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薄雾丁香"
     },
     {
       "code": "14-3907 TPG",
@@ -25279,7 +26765,8 @@ export default {
         "a": 4.34381050229837,
         "b": -8.6817346205877
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓟"
     },
     {
       "code": "14-3904 TPG",
@@ -25296,7 +26783,8 @@ export default {
         "a": 3.70580058644721,
         "b": -7.4827386717754
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "晚上的阴霾"
     },
     {
       "code": "17-3910 TPG",
@@ -25313,7 +26801,8 @@ export default {
         "a": 4.92946275465844,
         "b": -8.97215819455905
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薰衣草灰色"
     },
     {
       "code": "17-3810 TPG",
@@ -25330,7 +26819,8 @@ export default {
         "a": 5.89761071175449,
         "b": -8.63010620509545
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫色灰"
     },
     {
       "code": "18-3710 TPG",
@@ -25347,7 +26837,8 @@ export default {
         "a": 5.63168546267462,
         "b": -6.30887707141978
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰色山脊"
     },
     {
       "code": "18-3712 TPG",
@@ -25364,7 +26855,8 @@ export default {
         "a": 6.72146077747859,
         "b": -9.25695184275683
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫色的鼠尾草"
     },
     {
       "code": "14-3903 TPG",
@@ -25381,7 +26873,8 @@ export default {
         "a": 3.77924972539234,
         "b": -3.52421111346584
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡紫色大理石"
     },
     {
       "code": "15-3802 TPG",
@@ -25398,7 +26891,8 @@ export default {
         "a": 5.37405871349295,
         "b": -0.357207239319313
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "云灰色"
     },
     {
       "code": "14-3906 TPG",
@@ -25415,7 +26909,8 @@ export default {
         "a": 3.88836053389802,
         "b": -2.300809554198
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "雨滴"
     },
     {
       "code": "14-3805 TPG",
@@ -25432,7 +26927,8 @@ export default {
         "a": 5.78936328923724,
         "b": -4.98999720460145
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "虹膜"
     },
     {
       "code": "17-3808 TPG",
@@ -25449,7 +26945,8 @@ export default {
         "a": 7.44146096063264,
         "b": -4.44757843331076
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "涅rv"
     },
     {
       "code": "16-3304 TPG",
@@ -25466,7 +26963,8 @@ export default {
         "a": 9.93469237615396,
         "b": -2.84940717608935
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海雾"
     },
     {
       "code": "17-1505 TPG",
@@ -25483,7 +26981,8 @@ export default {
         "a": 7.74505662552505,
         "b": -1.27271473225035
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鹌鹑"
     },
     {
       "code": "13-4105 TPG",
@@ -25500,7 +26999,8 @@ export default {
         "a": 1.45239892209503,
         "b": -3.8393459327708
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡紫色提示"
     },
     {
       "code": "14-3905 TPG",
@@ -25517,7 +27017,8 @@ export default {
         "a": 3.69912793166877,
         "b": -9.43007460969587
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薰衣草蓝"
     },
     {
       "code": "16-3911 TPG",
@@ -25534,7 +27035,8 @@ export default {
         "a": 4.89853922043515,
         "b": -8.84751152580925
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薰衣草光环"
     },
     {
       "code": "16-3905 TPG",
@@ -25551,7 +27053,8 @@ export default {
         "a": 2.69773443005555,
         "b": -6.51749387184433
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡紫色灰色"
     },
     {
       "code": "16-3907 TPG",
@@ -25568,7 +27071,8 @@ export default {
         "a": 2.08129320839601,
         "b": -6.60650555259994
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "小点灰色"
     },
     {
       "code": "17-3906 TPG",
@@ -25585,7 +27089,8 @@ export default {
         "a": 3.41227032030877,
         "b": -6.38745998697003
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "最小灰色"
     },
     {
       "code": "18-1703 TPG",
@@ -25602,7 +27107,8 @@ export default {
         "a": 3.94915218795644,
         "b": -4.37845316944754
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鲨鱼"
     },
     {
       "code": "15-3910 TPG",
@@ -25619,7 +27125,8 @@ export default {
         "a": 3.63807682161177,
         "b": -12.958421777231
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "langeid薰衣草"
     },
     {
       "code": "15-3908 TPG",
@@ -25636,7 +27143,8 @@ export default {
         "a": 1.80653097339506,
         "b": -10.3124979902765
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冰岛蓝色"
     },
     {
       "code": "15-3912 TPG",
@@ -25653,7 +27161,8 @@ export default {
         "a": 2.17259812345455,
         "b": -11.6941548741049
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "阿留申"
     },
     {
       "code": "17-3933 TPG",
@@ -25670,7 +27179,8 @@ export default {
         "a": 3.94243070337802,
         "b": -12.5768582367952
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "银弹"
     },
     {
       "code": "17-3907 TPG",
@@ -25687,7 +27197,8 @@ export default {
         "a": 2.22399840636534,
         "b": -6.65232342314417
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水银"
     },
     {
       "code": "18-3933 TPG",
@@ -25704,7 +27215,8 @@ export default {
         "a": 3.01871277082266,
         "b": -11.5354022581008
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色花岗岩"
     },
     {
       "code": "18-3812 TPG",
@@ -25721,7 +27233,8 @@ export default {
         "a": 5.88300004568204,
         "b": -11.3970552743763
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "学员"
     },
     {
       "code": "14-3911 TPG",
@@ -25738,7 +27251,8 @@ export default {
         "a": 5.06392103828174,
         "b": -14.2395321757372
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫色希瑟"
     },
     {
       "code": "15-3909 TPG",
@@ -25755,7 +27269,8 @@ export default {
         "a": 3.0328535374165,
         "b": -14.5229434546875
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "宇宙的天空"
     },
     {
       "code": "16-3930 TPG",
@@ -25772,7 +27287,8 @@ export default {
         "a": 4.05247614917892,
         "b": -20.1689627012788
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓟向下"
     },
     {
       "code": "17-3925 TPG",
@@ -25789,7 +27305,8 @@ export default {
         "a": 5.2188982410491,
         "b": -19.832489883939
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "波斯紫罗兰"
     },
     {
       "code": "18-3820 TPG",
@@ -25806,7 +27323,8 @@ export default {
         "a": 6.71495971717434,
         "b": -20.7499241969598
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "暮光紫色"
     },
     {
       "code": "18-3817 TPG",
@@ -25823,7 +27341,8 @@ export default {
         "a": 4.48835922488178,
         "b": -15.5784215964006
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "苍鹭"
     },
     {
       "code": "19-3842 TPG",
@@ -25840,7 +27359,8 @@ export default {
         "a": 9.14536104734748,
         "b": -23.5625483029502
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深紫藤"
     },
     {
       "code": "16-3931 TPG",
@@ -25857,7 +27377,8 @@ export default {
         "a": 6.27856152789108,
         "b": -20.7462625984202
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "甜薰衣草"
     },
     {
       "code": "17-3924 TPG",
@@ -25874,7 +27395,8 @@ export default {
         "a": 3.91494661999975,
         "b": -22.8300034064362
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薰衣草紫罗兰色"
     },
     {
       "code": "18-3930 TPG",
@@ -25891,7 +27413,8 @@ export default {
         "a": 3.73784893317058,
         "b": -24.3337234916073
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "漂白的牛仔布"
     },
     {
       "code": "18-3833 TPG",
@@ -25908,7 +27431,8 @@ export default {
         "a": 8.78074698972847,
         "b": -28.6091916381568
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰尘"
     },
     {
       "code": "18-3828 TPG",
@@ -25925,7 +27449,8 @@ export default {
         "a": 9.4649715069095,
         "b": -26.1776707002842
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "科西嘉蓝色"
     },
     {
       "code": "19-3947 TPG",
@@ -25942,7 +27467,8 @@ export default {
         "a": 9.63894315710909,
         "b": -26.2733956602699
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "东方蓝色"
     },
     {
       "code": "18-3963 TPG",
@@ -25959,7 +27485,8 @@ export default {
         "a": 10.2512246790786,
         "b": -32.1939108545768
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "光谱蓝色"
     },
     {
       "code": "17-3929 TPG",
@@ -25976,7 +27503,8 @@ export default {
         "a": 4.49608807729751,
         "b": -27.4868169129243
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "苍白的虹膜"
     },
     {
       "code": "17-3932 TPG",
@@ -25993,7 +27521,8 @@ export default {
         "a": 6.88213747927274,
         "b": -30.6273453221175
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深处的深处"
     },
     {
       "code": "17-3940 TPG",
@@ -26010,7 +27539,8 @@ export default {
         "a": 7.33442032165538,
         "b": -32.4333054864837
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "iolite"
     },
     {
       "code": "18-3944 TPG",
@@ -26027,7 +27557,8 @@ export default {
         "a": 8.91222135836245,
         "b": -34.0966147819692
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫色风暴"
     },
     {
       "code": "18-3950 TPG",
@@ -26044,7 +27575,8 @@ export default {
         "a": 9.8180150244328,
         "b": -33.5093422714071
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鸢尾花"
     },
     {
       "code": "18-3943 TPG",
@@ -26061,7 +27593,8 @@ export default {
         "a": 11.9435336632622,
         "b": -35.6207290717874
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色虹膜"
     },
     {
       "code": "19-3832 TPG",
@@ -26078,7 +27611,8 @@ export default {
         "a": 7.30906079018104,
         "b": -23.9807925890242
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海军蓝"
     },
     {
       "code": "16-3925 TPG",
@@ -26095,7 +27629,8 @@ export default {
         "a": 5.19164258608185,
         "b": -27.220909384667
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "复活节彩蛋"
     },
     {
       "code": "17-3930 TPG",
@@ -26112,7 +27647,8 @@ export default {
         "a": 6.5736213578797,
         "b": -29.8274772842225
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "jacaranda"
     },
     {
       "code": "17-3934 TPG",
@@ -26129,7 +27665,8 @@ export default {
         "a": 4.38638955741566,
         "b": -35.3186006117424
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "波斯珠宝"
     },
     {
       "code": "18-3935 TPG",
@@ -26146,7 +27683,8 @@ export default {
         "a": 3.68884651058138,
         "b": -32.8252908301673
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "韦奇伍德"
     },
     {
       "code": "18-3946 TPG",
@@ -26163,7 +27701,8 @@ export default {
         "a": 8.09753309554923,
         "b": -39.5916361622537
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Baja Blue"
     },
     {
       "code": "19-3955 TPG",
@@ -26180,7 +27719,8 @@ export default {
         "a": 12.0264971061599,
         "b": -35.7236545594524
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "宝蓝色"
     },
     {
       "code": "19-3951 TPG",
@@ -26197,7 +27737,8 @@ export default {
         "a": 10.3068038545635,
         "b": -32.0217457377448
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄褐色的蓝色"
     },
     {
       "code": "17-4037 TPG",
@@ -26214,7 +27755,8 @@ export default {
         "a": 2.09694593359927,
         "b": -37.9599695583132
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "群青"
     },
     {
       "code": "18-3945 TPG",
@@ -26231,7 +27773,8 @@ export default {
         "a": 7.22884438745142,
         "b": -41.3359755162163
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Amparo Blue"
     },
     {
       "code": "18-3949 TPG",
@@ -26248,7 +27791,8 @@ export default {
         "a": 11.6410354537641,
         "b": -49.6141572015364
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "令人眼花blue乱"
     },
     {
       "code": "19-3950 TPG",
@@ -26265,7 +27809,8 @@ export default {
         "a": 6.02876920903608,
         "b": -31.4914951254266
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深摩尔马林"
     },
     {
       "code": "19-3954 TPG",
@@ -26282,7 +27827,8 @@ export default {
         "a": 11.523776911964,
         "b": -40.6373289443264
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色"
     },
     {
       "code": "19-3952 TPG",
@@ -26299,7 +27845,8 @@ export default {
         "a": 9.68794125358866,
         "b": -37.7262147891974
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "浏览网络"
     },
     {
       "code": "19-3864 TPG",
@@ -26316,7 +27863,8 @@ export default {
         "a": 6.96145934419937,
         "b": -30.7805730568394
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "马扎林蓝"
     },
     {
       "code": "19-3964 TPG",
@@ -26333,7 +27881,8 @@ export default {
         "a": 2.63165436368201,
         "b": -30.7754460343477
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色石英"
     },
     {
       "code": "19-4055 TPG",
@@ -26350,7 +27899,8 @@ export default {
         "a": 1.81420195828658,
         "b": -29.6535114376537
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "星系蓝色"
     },
     {
       "code": "19-4041 TPG",
@@ -26367,7 +27917,8 @@ export default {
         "a": -1.06533013048282,
         "b": -30.4223588277379
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "déjaVu蓝色"
     },
     {
       "code": "19-4057 TPG",
@@ -26384,7 +27935,8 @@ export default {
         "a": 1.87042063977591,
         "b": -30.6727346799205
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "是蓝色"
     },
     {
       "code": "19-4044 TPG",
@@ -26401,7 +27953,8 @@ export default {
         "a": 2.81203374306921,
         "b": -27.740955748836
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Limoges"
     },
     {
       "code": "19-4029 TPG",
@@ -26418,7 +27971,8 @@ export default {
         "a": 0.666041923425509,
         "b": -20.7422928438595
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海军牡丹"
     },
     {
       "code": "19-3953 TPG",
@@ -26435,7 +27989,8 @@ export default {
         "a": 6.49005530711169,
         "b": -31.2084109300541
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Sodalite蓝色"
     },
     {
       "code": "19-4045 TPG",
@@ -26452,7 +28007,8 @@ export default {
         "a": 2.06447103321156,
         "b": -39.7932485205059
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "青金石蓝色"
     },
     {
       "code": "19-4150 TPG",
@@ -26469,7 +28025,8 @@ export default {
         "a": 0.755787878510522,
         "b": -41.7472352852871
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝公主"
     },
     {
       "code": "18-4148 TPG",
@@ -26486,7 +28043,8 @@ export default {
         "a": -0.612232168510418,
         "b": -41.0850585138534
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "维多利亚蓝"
     },
     {
       "code": "19-4049 TPG",
@@ -26503,7 +28061,8 @@ export default {
         "a": -0.85555856532285,
         "b": -39.6259221518746
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "浮潜蓝色"
     },
     {
       "code": "19-4050 TPG",
@@ -26520,7 +28079,8 @@ export default {
         "a": 2.80677945368854,
         "b": -38.9430785603355
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "航海蓝色"
     },
     {
       "code": "19-4053 TPG",
@@ -26537,7 +28097,8 @@ export default {
         "a": 2.40530280693085,
         "b": -39.0188043194669
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "土耳其海"
     },
     {
       "code": "19-4056 TPG",
@@ -26554,7 +28115,8 @@ export default {
         "a": 2.29365541835849,
         "b": -36.8070677197427
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色iolite"
     },
     {
       "code": "18-4039 TPG",
@@ -26571,7 +28133,8 @@ export default {
         "a": -2.27338651030362,
         "b": -36.6461140876777
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "帆船赛"
     },
     {
       "code": "18-4043 TPG",
@@ -26588,7 +28151,8 @@ export default {
         "a": 0.147076153674042,
         "b": -40.0946227721966
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "皇宫蓝色"
     },
     {
       "code": "18-4143 TPG",
@@ -26605,7 +28169,8 @@ export default {
         "a": -2.54843660546328,
         "b": -42.280912235293
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "超音速"
     },
     {
       "code": "18-4051 TPG",
@@ -26622,7 +28187,8 @@ export default {
         "a": 1.22470106307132,
         "b": -41.1746586237268
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "强蓝色"
     },
     {
       "code": "18-4048 TPG",
@@ -26639,7 +28205,8 @@ export default {
         "a": 0.686795101827731,
         "b": -40.6846831166355
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "星云蓝"
     },
     {
       "code": "19-4058 TPG",
@@ -26656,7 +28223,8 @@ export default {
         "a": 5.12800837177238,
         "b": -37.6246121971426
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色"
     },
     {
       "code": "19-4054 TPG",
@@ -26673,7 +28241,8 @@ export default {
         "a": 2.35431126464383,
         "b": -31.2109744078815
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "努维安海军"
     },
     {
       "code": "18-4141 TPG",
@@ -26690,7 +28259,8 @@ export default {
         "a": -4.78247904145801,
         "b": -37.3582543068111
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Campanula"
     },
     {
       "code": "18-4250 TPG",
@@ -26707,7 +28277,8 @@ export default {
         "a": -8.98568988770931,
         "b": -43.7820701726326
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "靛蓝彩旗"
     },
     {
       "code": "18-4244 TPG",
@@ -26724,7 +28295,8 @@ export default {
         "a": -6.79820728664968,
         "b": -43.4646179859034
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Directoire Blue"
     },
     {
       "code": "18-4045 TPG",
@@ -26741,7 +28313,8 @@ export default {
         "a": -4.30005442040113,
         "b": -36.9316599447325
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "芫"
     },
     {
       "code": "19-4151 TPG",
@@ -26758,7 +28331,8 @@ export default {
         "a": -3.18439369651299,
         "b": -41.2069681861073
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "跳伞运动员"
     },
     {
       "code": "19-4048 TPG",
@@ -26775,7 +28349,8 @@ export default {
         "a": -1.82298520813096,
         "b": -33.585271055518
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Baleine Blue"
     },
     {
       "code": "19-4052 TPG",
@@ -26792,7 +28367,8 @@ export default {
         "a": 0.527607911896877,
         "b": -34.3870424673177
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "经典蓝色"
     },
     {
       "code": "16-4132 TPG",
@@ -26809,7 +28385,8 @@ export default {
         "a": -5.64365662998761,
         "b": -34.8895993775178
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "小男孩蓝色"
     },
     {
       "code": "17-4139 TPG",
@@ -26826,7 +28403,8 @@ export default {
         "a": -7.72508626998808,
         "b": -36.3261249990882
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色"
     },
     {
       "code": "17-4245 TPG",
@@ -26843,7 +28421,8 @@ export default {
         "a": -11.0228913496317,
         "b": -40.024344870419
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "伊维萨蓝"
     },
     {
       "code": "18-4252 TPG",
@@ -26860,7 +28439,8 @@ export default {
         "a": -12.3785080811206,
         "b": -43.6579533214001
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色的芦苇"
     },
     {
       "code": "18-4247 TPG",
@@ -26877,7 +28457,8 @@ export default {
         "a": -10.1189277633179,
         "b": -44.4772628272917
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "辉煌的蓝色"
     },
     {
       "code": "18-4140 TPG",
@@ -26894,7 +28475,8 @@ export default {
         "a": -7.57950358008597,
         "b": -39.9202513598827
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "法国蓝色"
     },
     {
       "code": "19-4245 TPG",
@@ -26911,7 +28493,8 @@ export default {
         "a": -3.88070974833762,
         "b": -40.1742866770761
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "帝国蓝色"
     },
     {
       "code": "14-4320 TPG",
@@ -26928,7 +28511,8 @@ export default {
         "a": -13.4634892174916,
         "b": -26.0521343164627
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "波罗的海"
     },
     {
       "code": "15-4323 TPG",
@@ -26945,7 +28529,8 @@ export default {
         "a": -15.0963255165451,
         "b": -29.0748767972632
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "空白蓝色"
     },
     {
       "code": "16-4134 TPG",
@@ -26962,7 +28547,8 @@ export default {
         "a": -13.1101202765752,
         "b": -33.208090220194
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "邦妮·蓝"
     },
     {
       "code": "17-4435 TPG",
@@ -26979,7 +28565,8 @@ export default {
         "a": -15.5261535995476,
         "b": -37.6241798315147
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "马里布蓝"
     },
     {
       "code": "17-4129 TPG",
@@ -26996,7 +28583,8 @@ export default {
         "a": -15.7030176961545,
         "b": -28.8842828052689
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "波浪骑行"
     },
     {
       "code": "18-4032 TPG",
@@ -27013,7 +28601,8 @@ export default {
         "a": -8.18218562198228,
         "b": -26.586189184665
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深水"
     },
     {
       "code": "18-4037 TPG",
@@ -27030,7 +28619,8 @@ export default {
         "a": -9.3168672072439,
         "b": -30.3893045968744
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "伯利兹海"
     },
     {
       "code": "14-4122 TPG",
@@ -27047,7 +28637,8 @@ export default {
         "a": -6.81139003279185,
         "b": -20.833514922994
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "通风的蓝色"
     },
     {
       "code": "15-4225 TPG",
@@ -27064,7 +28655,8 @@ export default {
         "a": -11.912667495306,
         "b": -27.8479911338477
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "阿拉斯加蓝"
     },
     {
       "code": "17-4032 TPG",
@@ -27081,7 +28673,8 @@ export default {
         "a": -6.27330223328892,
         "b": -27.5437954223012
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "地衣蓝"
     },
     {
       "code": "18-4036 TPG",
@@ -27098,7 +28691,8 @@ export default {
         "a": -7.19350110215622,
         "b": -27.5512993045574
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "巴黎蓝"
     },
     {
       "code": "17-4033 TPG",
@@ -27115,7 +28709,8 @@ export default {
         "a": -4.94318949348782,
         "b": -29.1194483344076
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "太平洋海岸"
     },
     {
       "code": "17-4029 TPG",
@@ -27132,7 +28727,8 @@ export default {
         "a": -4.40592142978064,
         "b": -22.5106493086753
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "安静的港口"
     },
     {
       "code": "18-4029 TPG",
@@ -27149,7 +28745,8 @@ export default {
         "a": -2.65846170369949,
         "b": -26.9722498810052
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "联邦蓝色"
     },
     {
       "code": "15-4020 TPG",
@@ -27166,7 +28763,8 @@ export default {
         "a": -4.19423394864454,
         "b": -19.2457104004942
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Cerulean"
     },
     {
       "code": "16-4121 TPG",
@@ -27183,7 +28781,8 @@ export default {
         "a": -5.86620461218962,
         "b": -23.7945157650518
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "幸福的蓝色"
     },
     {
       "code": "16-4021 TPG",
@@ -27200,7 +28799,8 @@ export default {
         "a": -3.82434510791102,
         "b": -22.6686628194092
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "引诱"
     },
     {
       "code": "18-4035 TPG",
@@ -27217,7 +28817,8 @@ export default {
         "a": -7.30343145705942,
         "b": -23.8133681871062
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Cyaneus"
     },
     {
       "code": "18-4027 TPG",
@@ -27234,7 +28835,8 @@ export default {
         "a": -3.02229618930316,
         "b": -18.8792849601379
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "月光蓝色"
     },
     {
       "code": "18-3929 TPG",
@@ -27251,7 +28853,8 @@ export default {
         "a": -2.6491968306715,
         "b": -19.0484480488334
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色地平线"
     },
     {
       "code": "19-4026 TPG",
@@ -27268,7 +28871,8 @@ export default {
         "a": -2.25497476485767,
         "b": -16.5477213843124
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色少尉"
     },
     {
       "code": "16-4018 TPG",
@@ -27285,7 +28889,8 @@ export default {
         "a": -3.75905618872419,
         "b": -21.8401094326343
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Ashleigh Blue"
     },
     {
       "code": "17-4027 TPG",
@@ -27302,7 +28907,8 @@ export default {
         "a": -2.29031740822749,
         "b": -27.207452633508
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "里维埃拉"
     },
     {
       "code": "17-4028 TPG",
@@ -27319,7 +28925,8 @@ export default {
         "a": -1.59063417617139,
         "b": -25.2702120008494
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "河边"
     },
     {
       "code": "18-4034 TPG",
@@ -27336,7 +28943,8 @@ export default {
         "a": -7.15065219470434,
         "b": -27.3925835027548
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "瓦拉塔蓝"
     },
     {
       "code": "18-4041 TPG",
@@ -27353,7 +28961,8 @@ export default {
         "a": -1.97098316846261,
         "b": -31.648656408495
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "星蓝宝石"
     },
     {
       "code": "19-4039 TPG",
@@ -27370,7 +28979,8 @@ export default {
         "a": -0.573312575721074,
         "b": -28.7302414049619
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "代尔夫特"
     },
     {
       "code": "19-4037 TPG",
@@ -27387,7 +28997,8 @@ export default {
         "a": -2.19519553676131,
         "b": -30.3042557251198
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "明亮的钴"
     },
     {
       "code": "15-3932 TPG",
@@ -27404,7 +29015,8 @@ export default {
         "a": -1.87372856524892,
         "b": -23.7890818895316
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Bel Air Blue"
     },
     {
       "code": "18-4033 TPG",
@@ -27421,7 +29033,8 @@ export default {
         "a": -5.72777454154483,
         "b": -28.7967325470373
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色jasper"
     },
     {
       "code": "18-4022 TPG",
@@ -27438,7 +29051,8 @@ export default {
         "a": -3.62358225654005,
         "b": -29.2266659307793
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "高潮"
     },
     {
       "code": "19-4042 TPG",
@@ -27455,7 +29069,8 @@ export default {
         "a": -2.17530369789412,
         "b": -24.6532333750255
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "启航"
     },
     {
       "code": "19-4035 TPG",
@@ -27472,7 +29087,8 @@ export default {
         "a": -3.58277485460382,
         "b": -21.1730930236953
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深蓝色"
     },
     {
       "code": "19-4033 TPG",
@@ -27489,7 +29105,8 @@ export default {
         "a": -1.90980801111096,
         "b": -19.6566224076305
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "波塞冬"
     },
     {
       "code": "19-4117 TPG",
@@ -27506,7 +29123,8 @@ export default {
         "a": -1.64455489362406,
         "b": -11.4115437924468
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "北斗星"
     },
     {
       "code": "16-4031 TPG",
@@ -27523,7 +29141,8 @@ export default {
         "a": 0.11752225483258,
         "b": -32.8437184314207
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玉米花蓝色"
     },
     {
       "code": "16-4032 TPG",
@@ -27540,7 +29159,8 @@ export default {
         "a": -2.24098003340761,
         "b": -32.516825390949
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "普罗旺斯"
     },
     {
       "code": "17-4041 TPG",
@@ -27557,7 +29177,8 @@ export default {
         "a": -1.97699207262325,
         "b": -40.0356460612033
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "码头"
     },
     {
       "code": "16-4033 TPG",
@@ -27574,7 +29195,8 @@ export default {
         "a": 0.374289216161394,
         "b": -35.4269411097623
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "格拉纳达的天空"
     },
     {
       "code": "17-3936 TPG",
@@ -27591,7 +29213,8 @@ export default {
         "a": -0.777504954933395,
         "b": -31.6427455250685
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色引擎盖"
     },
     {
       "code": "18-3937 TPG",
@@ -27608,7 +29231,8 @@ export default {
         "a": -1.22893429335147,
         "b": -30.2274416416147
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色"
     },
     {
       "code": "18-3928 TPG",
@@ -27625,7 +29249,8 @@ export default {
         "a": -0.294776640570815,
         "b": -25.7410751258193
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "荷兰蓝色"
     },
     {
       "code": "16-3923 TPG",
@@ -27642,7 +29267,8 @@ export default {
         "a": 3.93824601750975,
         "b": -22.2224499679472
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "婴儿薰衣草"
     },
     {
       "code": "16-3921 TPG",
@@ -27659,7 +29285,8 @@ export default {
         "a": 1.4424936862632,
         "b": -19.2731918759568
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝鹭"
     },
     {
       "code": "15-3919 TPG",
@@ -27676,7 +29303,8 @@ export default {
         "a": -0.866859644305273,
         "b": -23.8806008409352
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "宁静"
     },
     {
       "code": "15-3930 TPG",
@@ -27693,7 +29321,8 @@ export default {
         "a": -1.03626438426502,
         "b": -32.2040173344599
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Vista Blue"
     },
     {
       "code": "16-3920 TPG",
@@ -27710,7 +29339,8 @@ export default {
         "a": -0.0664440115867859,
         "b": -21.0858418064514
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薰衣草光泽"
     },
     {
       "code": "16-4030 TPG",
@@ -27727,7 +29357,8 @@ export default {
         "a": 0.0753762204328545,
         "b": -25.7362133224766
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绣球"
     },
     {
       "code": "16-3929 TPG",
@@ -27744,7 +29375,8 @@ export default {
         "a": 1.78853644086108,
         "b": -28.7603258454682
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "grapemist"
     },
     {
       "code": "15-4031 TPG",
@@ -27761,7 +29393,8 @@ export default {
         "a": -1.83303327878026,
         "b": -22.6338093999282
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "风浪冲浪者"
     },
     {
       "code": "15-3917 TPG",
@@ -27778,7 +29411,8 @@ export default {
         "a": -3.39433161698749,
         "b": -23.4837401595462
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冷冻峡湾"
     },
     {
       "code": "15-3920 TPG",
@@ -27795,7 +29429,8 @@ export default {
         "a": -4.3604121788946,
         "b": -23.8611326244905
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "普莱西德蓝色"
     },
     {
       "code": "15-3922 TPG",
@@ -27812,7 +29447,8 @@ export default {
         "a": -2.33594826959349,
         "b": -26.7453339246879
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "露天"
     },
     {
       "code": "16-4020 TPG",
@@ -27829,7 +29465,8 @@ export default {
         "a": -3.13225911174331,
         "b": -28.952844061261
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "德拉·罗比亚蓝"
     },
     {
       "code": "16-4029 TPG",
@@ -27846,7 +29483,8 @@ export default {
         "a": -1.31511846190019,
         "b": -29.059243096689
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝丁"
     },
     {
       "code": "18-3936 TPG",
@@ -27863,7 +29501,8 @@ export default {
         "a": -0.388630142903024,
         "b": -28.3099395362989
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "潮起潮落"
     },
     {
       "code": "13-4202 TPG",
@@ -27880,7 +29519,8 @@ export default {
         "a": -4.17560399820716,
         "b": -12.8102314999764
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冰水"
     },
     {
       "code": "14-4005 TPG",
@@ -27897,7 +29537,8 @@ export default {
         "a": -5.31841747390938,
         "b": -13.7180990199689
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Nantucket微风"
     },
     {
       "code": "14-4124 TPG",
@@ -27914,7 +29555,8 @@ export default {
         "a": -5.56059386552377,
         "b": -24.341920274005
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "荷兰运河"
     },
     {
       "code": "14-4214 TPG",
@@ -27931,7 +29573,8 @@ export default {
         "a": -5.10442578549042,
         "b": -18.5189984955894
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉蓝色"
     },
     {
       "code": "14-4121 TPG",
@@ -27948,7 +29591,8 @@ export default {
         "a": -5.51490718166403,
         "b": -21.7242753400197
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色的钟"
     },
     {
       "code": "17-4140 TPG",
@@ -27965,7 +29609,8 @@ export default {
         "a": -8.65134083146041,
         "b": -34.7545024522701
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "所有人都在船上"
     },
     {
       "code": "17-4030 TPG",
@@ -27982,7 +29627,8 @@ export default {
         "a": -4.48077702390115,
         "b": -29.0294356595842
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "银湖蓝色"
     },
     {
       "code": "13-4306 TPG",
@@ -27999,7 +29645,8 @@ export default {
         "a": -3.76046038973515,
         "b": -7.784426807645
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冰融化"
     },
     {
       "code": "13-4302 TPG",
@@ -28016,7 +29663,8 @@ export default {
         "a": -1.71974769032812,
         "b": -7.60980328373828
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "天空写作"
     },
     {
       "code": "14-4112 TPG",
@@ -28033,7 +29681,8 @@ export default {
         "a": -3.01610400387731,
         "b": -14.350489269415
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "天道"
     },
     {
       "code": "14-4115 TPG",
@@ -28050,7 +29699,8 @@ export default {
         "a": -3.05188758270225,
         "b": -16.226444329983
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Cashmere Blue"
     },
     {
       "code": "15-4030 TPG",
@@ -28067,7 +29717,8 @@ export default {
         "a": -2.44661301162807,
         "b": -19.1766474250501
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Chambray Blue"
     },
     {
       "code": "16-3922 TPG",
@@ -28084,7 +29735,8 @@ export default {
         "a": -0.0760897583408915,
         "b": -18.9073734126267
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Brunnera Blue"
     },
     {
       "code": "16-4022 TPG",
@@ -28101,7 +29753,8 @@ export default {
         "a": -3.24584409421724,
         "b": -19.055891116375
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "无尽的天空"
     },
     {
       "code": "13-3920 TPG",
@@ -28118,7 +29771,8 @@ export default {
         "a": 0.055917008577544,
         "b": -9.93802599974996
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "卤素蓝"
     },
     {
       "code": "14-4110 TPG",
@@ -28135,7 +29789,8 @@ export default {
         "a": -0.229143114681696,
         "b": -12.7497720372814
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "希瑟"
     },
     {
       "code": "14-3949 TPG",
@@ -28152,7 +29807,8 @@ export default {
         "a": -0.0254200451723086,
         "b": -10.9267609127655
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Xenon Blue"
     },
     {
       "code": "15-3915 TPG",
@@ -28169,7 +29825,8 @@ export default {
         "a": -0.843049265630613,
         "b": -18.9314766306347
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "肯塔基蓝"
     },
     {
       "code": "14-3912 TPG",
@@ -28186,7 +29843,8 @@ export default {
         "a": -0.252878275374346,
         "b": -11.3574782461213
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "禅宗蓝"
     },
     {
       "code": "16-4016 TPG",
@@ -28203,7 +29861,8 @@ export default {
         "a": -3.32343791653161,
         "b": -14.8834634246655
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柔软的山褐色"
     },
     {
       "code": "15-4009 TPG",
@@ -28220,7 +29879,8 @@ export default {
         "a": -0.879978174606277,
         "b": -12.82037678048
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色暴风雪"
     },
     {
       "code": "12-4108 TPG",
@@ -28237,7 +29897,8 @@ export default {
         "a": -0.972606861321001,
         "b": -8.00161602088962
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "古水"
     },
     {
       "code": "13-4110 TPG",
@@ -28254,7 +29915,8 @@ export default {
         "a": -0.915801560905372,
         "b": -7.08839018237193
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "北极冰"
     },
     {
       "code": "14-4211 TPG",
@@ -28271,7 +29933,8 @@ export default {
         "a": -3.14868785466932,
         "b": -9.55278548211642
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "尼亚加拉薄雾"
     },
     {
       "code": "16-4023 TPG",
@@ -28288,7 +29951,8 @@ export default {
         "a": -2.70414202101649,
         "b": -15.2884128108123
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "雨洗了"
     },
     {
       "code": "17-3912 TPG",
@@ -28305,7 +29969,8 @@ export default {
         "a": 0.415552179734435,
         "b": -15.6334988743854
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "狂风"
     },
     {
       "code": "17-3926 TPG",
@@ -28322,7 +29987,8 @@ export default {
         "a": -1.03698211107101,
         "b": -14.7077506747917
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "对流层"
     },
     {
       "code": "18-3919 TPG",
@@ -28339,7 +30005,8 @@ export default {
         "a": -3.93165621229435,
         "b": -13.8412571358125
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝鳍金枪鱼"
     },
     {
       "code": "16-3919 TPG",
@@ -28356,7 +30023,8 @@ export default {
         "a": -0.0234451051400186,
         "b": -15.0398805601635
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄昏"
     },
     {
       "code": "16-4019 TPG",
@@ -28373,7 +30041,8 @@ export default {
         "a": -2.72027600753699,
         "b": -20.3630123180898
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "永远蓝色"
     },
     {
       "code": "17-4015 TPG",
@@ -28390,7 +30059,8 @@ export default {
         "a": -2.05756356603265,
         "b": -16.9934968869487
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "无穷大"
     },
     {
       "code": "17-3915 TPG",
@@ -28407,7 +30077,8 @@ export default {
         "a": -0.33371610429872,
         "b": -15.387114934282
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "暴风雨"
     },
     {
       "code": "17-3917 TPG",
@@ -28424,7 +30095,8 @@ export default {
         "a": -0.0315839277694185,
         "b": -15.9357954483611
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "石器"
     },
     {
       "code": "17-3918 TPG",
@@ -28441,7 +30113,8 @@ export default {
         "a": -0.832688357384426,
         "b": -17.3867023952603
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "乡村蓝色"
     },
     {
       "code": "19-3929 TPG",
@@ -28458,7 +30131,8 @@ export default {
         "a": -0.716040275195534,
         "b": -12.5664275274189
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "复古靛蓝"
     },
     {
       "code": "18-3916 TPG",
@@ -28475,7 +30149,8 @@ export default {
         "a": -2.30589760269584,
         "b": -10.7684012220923
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "火石石"
     },
     {
       "code": "18-3910 TPG",
@@ -28492,7 +30167,8 @@ export default {
         "a": -0.415426741578684,
         "b": -10.3382180088706
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Folkstone Gray"
     },
     {
       "code": "18-3912 TPG",
@@ -28509,7 +30185,8 @@ export default {
         "a": 1.53129175664957,
         "b": -10.3760696555978
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "格里萨尔"
     },
     {
       "code": "19-4121 TPG",
@@ -28526,7 +30203,8 @@ export default {
         "a": -3.22188464584924,
         "b": -15.202615229196
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝翼蓝绿色"
     },
     {
       "code": "19-4028 TPG",
@@ -28543,7 +30221,8 @@ export default {
         "a": -0.587062356492446,
         "b": -13.5960810503006
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "徽章蓝色"
     },
     {
       "code": "19-4118 TPG",
@@ -28560,7 +30239,8 @@ export default {
         "a": -1.99381396061424,
         "b": -14.6377592255582
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深色牛仔布"
     },
     {
       "code": "19-4122 TPG",
@@ -28577,7 +30257,8 @@ export default {
         "a": -2.61745408421069,
         "b": -13.5108707551604
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "月光下的海洋"
     },
     {
       "code": "17-3919 TPG",
@@ -28594,7 +30275,8 @@ export default {
         "a": 2.11545842492039,
         "b": -20.1494720516505
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "紫色的印象"
     },
     {
       "code": "17-3923 TPG",
@@ -28611,7 +30293,8 @@ export default {
         "a": -0.319917143849213,
         "b": -21.9461670457815
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色殖民地"
     },
     {
       "code": "18-3921 TPG",
@@ -28628,7 +30311,8 @@ export default {
         "a": -1.09143317454599,
         "b": -20.9872932170466
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Bijou Blue"
     },
     {
       "code": "19-4030 TPG",
@@ -28645,7 +30329,8 @@ export default {
         "a": 0.836588933435384,
         "b": -21.2472860254403
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "真正的海军"
     },
     {
       "code": "19-3926 TPG",
@@ -28662,7 +30347,8 @@ export default {
         "a": 2.09151279442674,
         "b": -13.3223048530442
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "皇冠蓝色"
     },
     {
       "code": "19-4031 TPG",
@@ -28679,7 +30365,8 @@ export default {
         "a": 0.137496438502499,
         "b": -14.2061090430681
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "萨尔加索海"
     },
     {
       "code": "19-4024 TPG",
@@ -28696,7 +30383,8 @@ export default {
         "a": 0.448567035456343,
         "b": -11.2899902575741
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "穿着布鲁斯"
     },
     {
       "code": "17-3920 TPG",
@@ -28713,7 +30401,8 @@ export default {
         "a": -0.354895872600014,
         "b": -20.3708865911779
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "英国庄园"
     },
     {
       "code": "18-3920 TPG",
@@ -28730,7 +30419,8 @@ export default {
         "a": 1.3426593348512,
         "b": -20.8311873124495
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沿海峡湾"
     },
     {
       "code": "18-3917 TPG",
@@ -28747,7 +30437,8 @@ export default {
         "a": 2.47198948809879,
         "b": -19.084997966233
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰色"
     },
     {
       "code": "19-3928 TPG",
@@ -28764,7 +30455,8 @@ export default {
         "a": 0.751367579082646,
         "b": -16.3159994164201
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色靛蓝"
     },
     {
       "code": "19-3919 TPG",
@@ -28781,7 +30473,8 @@ export default {
         "a": 1.33500067877088,
         "b": -12.5170361975276
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "夜间蓝色"
     },
     {
       "code": "19-3915 TPG",
@@ -28798,7 +30491,8 @@ export default {
         "a": 2.64162678747293,
         "b": -10.0087659877666
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰石"
     },
     {
       "code": "19-3815 TPG",
@@ -28815,7 +30509,8 @@ export default {
         "a": 4.77053214400025,
         "b": -12.5073495681484
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "晚上蓝色"
     },
     {
       "code": "17-3922 TPG",
@@ -28832,7 +30527,8 @@ export default {
         "a": 1.86875929583202,
         "b": -19.6549134539796
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝冰"
     },
     {
       "code": "18-3927 TPG",
@@ -28849,7 +30545,8 @@ export default {
         "a": 2.65839207598134,
         "b": -20.0439786174009
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "天鹅绒早晨"
     },
     {
       "code": "18-3932 TPG",
@@ -28866,7 +30563,8 @@ export default {
         "a": 2.90923447502633,
         "b": -20.5765715052067
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "马林"
     },
     {
       "code": "19-3936 TPG",
@@ -28883,7 +30581,8 @@ export default {
         "a": 6.35690398556901,
         "b": -21.2742688029768
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "船长蓝色"
     },
     {
       "code": "19-3839 TPG",
@@ -28900,7 +30599,8 @@ export default {
         "a": 5.09440806424127,
         "b": -17.6139886682392
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色丝带"
     },
     {
       "code": "19-3830 TPG",
@@ -28917,7 +30617,8 @@ export default {
         "a": 5.86642733939607,
         "b": -15.3865495519583
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "星体光环"
     },
     {
       "code": "19-3810 TPG",
@@ -28934,7 +30635,8 @@ export default {
         "a": 4.40222734374379,
         "b": -13.1159691700878
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蚀"
     },
     {
       "code": "19-3934 TPG",
@@ -28951,7 +30653,8 @@ export default {
         "a": 1.46672597356695,
         "b": -17.0336400239632
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "大洋洲"
     },
     {
       "code": "19-3932 TPG",
@@ -28968,7 +30671,8 @@ export default {
         "a": 2.23242375094701,
         "b": -11.8869967551334
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海军学院"
     },
     {
       "code": "19-3943 TPG",
@@ -28985,7 +30689,8 @@ export default {
         "a": 4.72371379228445,
         "b": -23.4122529071453
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝蓝色"
     },
     {
       "code": "19-3851 TPG",
@@ -29002,7 +30707,8 @@ export default {
         "a": 3.83387498154816,
         "b": -16.8229354332703
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "午夜航行"
     },
     {
       "code": "19-3942 TPG",
@@ -29019,7 +30725,8 @@ export default {
         "a": 6.26959096771962,
         "b": -19.779577077512
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Beacon Blue"
     },
     {
       "code": "19-3937 TPG",
@@ -29036,7 +30743,8 @@ export default {
         "a": 2.89584344018698,
         "b": -16.318344988185
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海洞"
     },
     {
       "code": "19-3838 TPG",
@@ -29053,7 +30761,8 @@ export default {
         "a": 6.28687382828108,
         "b": -17.6352869374142
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "犀牛"
     },
     {
       "code": "19-3935 TPG",
@@ -29070,7 +30779,8 @@ export default {
         "a": 3.66478557415498,
         "b": -16.7520416613981
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深钴"
     },
     {
       "code": "19-4027 TPG",
@@ -29087,7 +30797,8 @@ export default {
         "a": 2.21973442872947,
         "b": -19.5038501084328
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "房地产蓝色"
     },
     {
       "code": "19-3938 TPG",
@@ -29104,7 +30815,8 @@ export default {
         "a": 2.53992961302008,
         "b": -20.6974021882493
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "暮光蓝"
     },
     {
       "code": "19-3939 TPG",
@@ -29121,7 +30833,8 @@ export default {
         "a": 5.30892677309147,
         "b": -23.0525665039955
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝图"
     },
     {
       "code": "19-3940 TPG",
@@ -29138,7 +30851,8 @@ export default {
         "a": 4.49844265790297,
         "b": -19.8993442522076
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色深度"
     },
     {
       "code": "19-3933 TPG",
@@ -29155,7 +30869,8 @@ export default {
         "a": 3.3026055842694,
         "b": -15.6328301704214
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "中世纪蓝色"
     },
     {
       "code": "19-3925 TPG",
@@ -29172,7 +30887,8 @@ export default {
         "a": 2.852577304468,
         "b": -14.4841202288082
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "爱国者蓝"
     },
     {
       "code": "19-4111 TPG",
@@ -29189,7 +30905,8 @@ export default {
         "a": 0.0419736442282548,
         "b": -13.4823131173736
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "选美蓝色"
     },
     {
       "code": "19-4109 TPG",
@@ -29206,7 +30923,8 @@ export default {
         "a": -0.0901212462534329,
         "b": -6.34301456694081
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "午夜之后"
     },
     {
       "code": "19-4018 TPG",
@@ -29223,7 +30941,8 @@ export default {
         "a": 1.59028957186588,
         "b": -7.36072026456962
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海上"
     },
     {
       "code": "19-3812 TPG",
@@ -29240,7 +30959,8 @@ export default {
         "a": 1.91894987748722,
         "b": -6.99954793596113
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "男中音蓝"
     },
     {
       "code": "19-4017 TPG",
@@ -29257,7 +30977,8 @@ export default {
         "a": 0.0690553903190116,
         "b": -10.1446130361268
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "迷恋"
     },
     {
       "code": "19-3811 TPG",
@@ -29274,7 +30995,8 @@ export default {
         "a": 3.41710619486524,
         "b": -7.72042091472979
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "暗示"
     },
     {
       "code": "19-4105 TPG",
@@ -29291,7 +31013,8 @@ export default {
         "a": 1.05810676601706,
         "b": -6.7289032745568
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "极性之夜"
     },
     {
       "code": "19-3921 TPG",
@@ -29308,7 +31031,8 @@ export default {
         "a": 0.799461830611192,
         "b": -10.7579775918115
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑虹膜"
     },
     {
       "code": "19-3831 TPG",
@@ -29325,7 +31049,8 @@ export default {
         "a": 2.99044149127797,
         "b": -8.8538124179478
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海洋蓝色"
     },
     {
       "code": "19-4025 TPG",
@@ -29342,7 +31067,8 @@ export default {
         "a": -0.509586260524914,
         "b": -9.56895033803242
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "情绪靛蓝"
     },
     {
       "code": "19-3920 TPG",
@@ -29359,7 +31085,8 @@ export default {
         "a": 2.84516018946512,
         "b": -10.0948177710286
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "皮大衣"
     },
     {
       "code": "19-4010 TPG",
@@ -29376,7 +31103,8 @@ export default {
         "a": -0.269218645533253,
         "b": -6.41893696159587
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "全食"
     },
     {
       "code": "19-4022 TPG",
@@ -29393,7 +31121,8 @@ export default {
         "a": 1.01046661184295,
         "b": -7.87045489618893
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "巴黎夜"
     },
     {
       "code": "19-4020 TPG",
@@ -29410,7 +31139,8 @@ export default {
         "a": 0.815305773038399,
         "b": -8.09091454423154
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑色蓝宝石"
     },
     {
       "code": "19-3930 TPG",
@@ -29427,7 +31157,8 @@ export default {
         "a": 2.06611418175628,
         "b": -7.46514408243213
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "奥德赛·格雷"
     },
     {
       "code": "19-4009 TPG",
@@ -29444,7 +31175,8 @@ export default {
         "a": 0.106283442042915,
         "b": -9.50096126069563
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "外层空间"
     },
     {
       "code": "19-3927 TPG",
@@ -29461,7 +31193,8 @@ export default {
         "a": 2.77758138258843,
         "b": -7.58212780677472
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "石墨"
     },
     {
       "code": "19-4023 TPG",
@@ -29478,7 +31211,8 @@ export default {
         "a": -0.330117709257532,
         "b": -6.91729536443878
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色的夜晚"
     },
     {
       "code": "19-3923 TPG",
@@ -29495,7 +31229,8 @@ export default {
         "a": 1.36543458694663,
         "b": -8.87056944457503
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海军西装外套"
     },
     {
       "code": "19-3922 TPG",
@@ -29512,7 +31247,8 @@ export default {
         "a": 1.01125154055304,
         "b": -7.6516412116703
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "天空队长"
     },
     {
       "code": "19-3713 TPG",
@@ -29529,7 +31265,8 @@ export default {
         "a": 2.93098238312742,
         "b": -6.22236441240271
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深层"
     },
     {
       "code": "19-4014 TPG",
@@ -29546,7 +31283,8 @@ export default {
         "a": -0.656564152969497,
         "b": -7.08904962512017
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "ombre蓝色"
     },
     {
       "code": "19-4019 TPG",
@@ -29563,7 +31301,8 @@ export default {
         "a": -0.756123889837479,
         "b": -6.48217114147043
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "印度墨水"
     },
     {
       "code": "19-4013 TPG",
@@ -29580,7 +31319,8 @@ export default {
         "a": -0.211836810217497,
         "b": -3.82235464753458
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑暗海军"
     },
     {
       "code": "19-4015 TPG",
@@ -29597,7 +31337,8 @@ export default {
         "a": -0.38033581097055,
         "b": -2.91282321643481
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色石墨"
     },
     {
       "code": "19-4011 TPG",
@@ -29614,7 +31355,8 @@ export default {
         "a": 0.467321180783242,
         "b": -7.12073208036895
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "礼炮"
     },
     {
       "code": "19-4218 TPG",
@@ -29631,7 +31373,8 @@ export default {
         "a": 0.285297855428163,
         "b": -3.91810555706386
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "瓦肯人"
     },
     {
       "code": "19-3924 TPG",
@@ -29648,7 +31391,8 @@ export default {
         "a": 1.99911437152947,
         "b": -7.71137076521112
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "夜空"
     },
     {
       "code": "19-4908 TPG",
@@ -29665,7 +31409,8 @@ export default {
         "a": -4.06490561671624,
         "b": -4.29858660850033
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "神奇的森林"
     },
     {
       "code": "19-4112 TPG",
@@ -29682,7 +31427,8 @@ export default {
         "a": -3.29077059782965,
         "b": -8.59394225465255
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "分层的海"
     },
     {
       "code": "19-4108 TPG",
@@ -29699,7 +31445,8 @@ export default {
         "a": -1.67837174589797,
         "b": -7.03849179897976
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海风暴"
     },
     {
       "code": "19-3944 TPG",
@@ -29716,7 +31463,8 @@ export default {
         "a": 1.67628509989109,
         "b": -9.40925947273261
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "序曲"
     },
     {
       "code": "19-4016 TPG",
@@ -29733,7 +31481,8 @@ export default {
         "a": 0.0155390516649589,
         "b": -6.89056205435307
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "墨水"
     },
     {
       "code": "19-4051 TPG",
@@ -29750,7 +31499,8 @@ export default {
         "a": -1.35371977445686,
         "b": -5.40992714296471
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "大学蓝色"
     },
     {
       "code": "19-3916 TPG",
@@ -29767,7 +31517,8 @@ export default {
         "a": 1.77182252427227,
         "b": -4.01891930222279
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "木炭艺术"
     },
     {
       "code": "16-3916 TPG",
@@ -29784,7 +31535,8 @@ export default {
         "a": 0.874559284174015,
         "b": -3.62463425769766
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "霰"
     },
     {
       "code": "15-4307 TPG",
@@ -29801,7 +31553,8 @@ export default {
         "a": -1.38416804795893,
         "b": -6.49942888097077
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "贸易风"
     },
     {
       "code": "18-4214 TPG",
@@ -29818,7 +31571,8 @@ export default {
         "a": -3.27690070037351,
         "b": -6.44755638397985
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "暴风雨的天气"
     },
     {
       "code": "19-4215 TPG",
@@ -29835,7 +31589,8 @@ export default {
         "a": -0.973851524135066,
         "b": -4.85319080828727
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "湍流"
     },
     {
       "code": "19-4110 TPG",
@@ -29852,7 +31607,8 @@ export default {
         "a": -1.96114581166951,
         "b": -8.61611850235459
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "午夜海军"
     },
     {
       "code": "19-4021 TPG",
@@ -29869,7 +31625,8 @@ export default {
         "a": -1.29909384139695,
         "b": -6.99794615953495
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝莓"
     },
     {
       "code": "19-4012 TPG",
@@ -29886,7 +31643,8 @@ export default {
         "a": 0.0204704782796605,
         "b": -5.95496894432335
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "碳"
     },
     {
       "code": "17-4020 TPG",
@@ -29903,7 +31661,8 @@ export default {
         "a": -6.26150290357636,
         "b": -16.7740654469148
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色阴影"
     },
     {
       "code": "19-4227 TPG",
@@ -29920,7 +31679,8 @@ export default {
         "a": -5.61553463169953,
         "b": -12.5607620609935
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "印度蓝绿色"
     },
     {
       "code": "19-4318 TPG",
@@ -29937,7 +31697,8 @@ export default {
         "a": -7.68897923059778,
         "b": -14.2124877235737
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "野鸭蓝"
     },
     {
       "code": "18-3918 TPG",
@@ -29954,7 +31715,8 @@ export default {
         "a": -4.1018672442496,
         "b": -13.255926645191
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "中国蓝色"
     },
     {
       "code": "19-4229 TPG",
@@ -29971,7 +31733,8 @@ export default {
         "a": -3.96991712186778,
         "b": -8.67091010900852
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Orion Blue"
     },
     {
       "code": "19-4220 TPG",
@@ -29988,7 +31751,8 @@ export default {
         "a": -3.4005712346627,
         "b": -6.13067307797628
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深色板岩"
     },
     {
       "code": "19-4316 TPG",
@@ -30005,7 +31769,8 @@ export default {
         "a": -6.56463647714414,
         "b": -9.43018366955288
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "观星"
     },
     {
       "code": "17-4019 TPG",
@@ -30022,7 +31787,8 @@ export default {
         "a": -6.02433041190931,
         "b": -13.5074847585169
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "山春天"
     },
     {
       "code": "17-4018 TPG",
@@ -30039,7 +31805,8 @@ export default {
         "a": -4.15998516557731,
         "b": -12.5267436599228
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "风蓝"
     },
     {
       "code": "18-4221 TPG",
@@ -30056,7 +31823,8 @@ export default {
         "a": -5.96972599571499,
         "b": -13.7336478237188
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "春湖"
     },
     {
       "code": "18-4218 TPG",
@@ -30073,7 +31841,8 @@ export default {
         "a": -3.74609886002969,
         "b": -14.2596705218815
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色融合"
     },
     {
       "code": "18-3923 TPG",
@@ -30090,7 +31859,8 @@ export default {
         "a": -5.21176925881961,
         "b": -12.3949380439549
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Oceanview"
     },
     {
       "code": "19-4129 TPG",
@@ -30107,7 +31877,8 @@ export default {
         "a": -3.2269406267505,
         "b": -14.3613433113221
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "关键的largo"
     },
     {
       "code": "19-4128 TPG",
@@ -30124,7 +31895,8 @@ export default {
         "a": -2.31259344906637,
         "b": -14.6243240596149
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "泰坦"
     },
     {
       "code": "18-4220 TPG",
@@ -30141,7 +31913,8 @@ export default {
         "a": -7.53110962192016,
         "b": -16.0374564514792
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "省蓝色"
     },
     {
       "code": "18-4217 TPG",
@@ -30158,7 +31931,8 @@ export default {
         "a": -7.4049073985929,
         "b": -13.7710326374584
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "青石"
     },
     {
       "code": "18-4320 TPG",
@@ -30175,7 +31949,8 @@ export default {
         "a": -8.86859664559397,
         "b": -14.2972836292916
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "爱琴海蓝色"
     },
     {
       "code": "18-3922 TPG",
@@ -30192,7 +31967,8 @@ export default {
         "a": -4.6159798186558,
         "b": -18.7818680040598
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Coronet Blue"
     },
     {
       "code": "18-4020 TPG",
@@ -30209,7 +31985,8 @@ export default {
         "a": -5.44109147015831,
         "b": -18.1856327632976
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "船长的蓝色"
     },
     {
       "code": "18-4025 TPG",
@@ -30226,7 +32003,8 @@ export default {
         "a": -5.44341469556237,
         "b": -16.2994563760861
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "铜蓝色"
     },
     {
       "code": "18-4026 TPG",
@@ -30243,7 +32021,8 @@ export default {
         "a": -6.18534000442719,
         "b": -18.1990144541328
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "恒星"
     },
     {
       "code": "18-4215 TPG",
@@ -30260,7 +32039,8 @@ export default {
         "a": -5.49812880305373,
         "b": -10.5053965956495
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色幻影"
     },
     {
       "code": "18-4028 TPG",
@@ -30277,7 +32057,8 @@ export default {
         "a": -2.66690198844957,
         "b": -12.4313582154147
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "白令海"
     },
     {
       "code": "19-4126 TPG",
@@ -30294,7 +32075,8 @@ export default {
         "a": -6.26435796822525,
         "b": -14.7251711106073
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深入潜水"
     },
     {
       "code": "19-4038 TPG",
@@ -30311,7 +32093,8 @@ export default {
         "a": -3.34063841434515,
         "b": -17.3950543470719
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "直布罗陀海"
     },
     {
       "code": "19-4120 TPG",
@@ -30328,7 +32111,8 @@ export default {
         "a": -3.0199184398908,
         "b": -19.7038367466862
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色蛋白石"
     },
     {
       "code": "19-4034 TPG",
@@ -30345,7 +32129,8 @@ export default {
         "a": -5.05504456324646,
         "b": -17.7343806583737
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水手蓝"
     },
     {
       "code": "19-4125 TPG",
@@ -30362,7 +32147,8 @@ export default {
         "a": -2.99395698632587,
         "b": -12.6138771755019
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Majolica Blue"
     },
     {
       "code": "17-4023 TPG",
@@ -30379,7 +32165,8 @@ export default {
         "a": -7.56104025276699,
         "b": -18.0465237780889
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝天"
     },
     {
       "code": "18-4222 TPG",
@@ -30396,7 +32183,8 @@ export default {
         "a": -8.65844225958073,
         "b": -18.2461945154731
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色"
     },
     {
       "code": "18-4018 TPG",
@@ -30413,7 +32201,8 @@ export default {
         "a": -5.51663618154072,
         "b": -15.1717152005476
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "真正的蓝绿色"
     },
     {
       "code": "19-4127 TPG",
@@ -30430,7 +32219,8 @@ export default {
         "a": -10.0944142918011,
         "b": -19.3183646683505
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "午夜"
     },
     {
       "code": "18-4023 TPG",
@@ -30447,7 +32237,8 @@ export default {
         "a": -6.51834140540311,
         "b": -17.861749985127
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色骨灰"
     },
     {
       "code": "19-4234 TPG",
@@ -30464,7 +32255,8 @@ export default {
         "a": -10.5619949887489,
         "b": -19.2080327608739
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "墨水蓝色"
     },
     {
       "code": "19-4241 TPG",
@@ -30481,7 +32273,8 @@ export default {
         "a": -10.8943258658261,
         "b": -19.8413557306528
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "摩洛哥蓝"
     },
     {
       "code": "14-4106 TPG",
@@ -30498,7 +32291,8 @@ export default {
         "a": -0.764308039245265,
         "b": -7.2162333544171
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰色黎明"
     },
     {
       "code": "14-4206 TPG",
@@ -30515,7 +32309,8 @@ export default {
         "a": -3.88988795893719,
         "b": -4.68238140595558
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "珍珠蓝"
     },
     {
       "code": "14-4210 TPG",
@@ -30532,7 +32327,8 @@ export default {
         "a": -4.04190258063369,
         "b": -10.4604368653644
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "天蓝色"
     },
     {
       "code": "15-4008 TPG",
@@ -30549,7 +32345,8 @@ export default {
         "a": -4.5005593806472,
         "b": -11.6464805588662
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色雾"
     },
     {
       "code": "16-4010 TPG",
@@ -30566,7 +32363,8 @@ export default {
         "a": -3.77941649870051,
         "b": -12.5755537960048
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "尘土飞扬的蓝色"
     },
     {
       "code": "16-4013 TPG",
@@ -30583,7 +32381,8 @@ export default {
         "a": -4.37833005540683,
         "b": -11.5526994106865
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "阿什利蓝"
     },
     {
       "code": "17-4021 TPG",
@@ -30600,7 +32399,8 @@ export default {
         "a": -4.19029022377859,
         "b": -16.0074865816114
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "褪色的牛仔布"
     },
     {
       "code": "12-4303 TPG",
@@ -30617,7 +32417,8 @@ export default {
         "a": -2.82058501246441,
         "b": -7.41824204280199
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "乡村空气"
     },
     {
       "code": "12-4202 TPG",
@@ -30634,7 +32435,8 @@ export default {
         "a": -6.15242914547776,
         "b": -9.86481730344757
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "精致的蓝色"
     },
     {
       "code": "14-4215 TPG",
@@ -30651,7 +32453,8 @@ export default {
         "a": -4.29381605608931,
         "b": -10.8071592105642
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Skyride"
     },
     {
       "code": "14-4316 TPG",
@@ -30668,7 +32471,8 @@ export default {
         "a": -8.18669552043411,
         "b": -16.2561492220606
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "夏季歌曲"
     },
     {
       "code": "14-4123 TPG",
@@ -30685,7 +32489,8 @@ export default {
         "a": -6.03557714184066,
         "b": -18.7799712087706
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "晴朗的天空"
     },
     {
       "code": "14-4209 TPG",
@@ -30702,7 +32507,8 @@ export default {
         "a": -2.33115480969365,
         "b": -11.3163712521403
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柔和的蓝色"
     },
     {
       "code": "16-4118 TPG",
@@ -30719,7 +32525,8 @@ export default {
         "a": -6.64252873308968,
         "b": -16.849305319777
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冰川湖"
     },
     {
       "code": "13-4111 TPG",
@@ -30736,7 +32543,8 @@ export default {
         "a": -1.9197338868604,
         "b": -5.65606288520457
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "平民空气"
     },
     {
       "code": "13-4200 TPG",
@@ -30753,7 +32561,8 @@ export default {
         "a": -6.26447631767241,
         "b": -10.2522758198711
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "omphalodes"
     },
     {
       "code": "14-4317 TPG",
@@ -30770,7 +32579,8 @@ export default {
         "a": -8.74758397299169,
         "b": -14.310070809047
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "凉爽的蓝色"
     },
     {
       "code": "14-4313 TPG",
@@ -30787,7 +32597,8 @@ export default {
         "a": -11.2370923936057,
         "b": -13.6600966901476
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝晶"
     },
     {
       "code": "15-4005 TPG",
@@ -30804,7 +32615,8 @@ export default {
         "a": -7.77726727731276,
         "b": -13.8167127324687
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "梦想蓝色"
     },
     {
       "code": "14-4318 TPG",
@@ -30821,7 +32633,8 @@ export default {
         "a": -12.3911207990201,
         "b": -17.6988596945007
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "天蓝色"
     },
     {
       "code": "15-4319 TPG",
@@ -30838,7 +32651,8 @@ export default {
         "a": -12.6358505440817,
         "b": -20.1233169689073
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色"
     },
     {
       "code": "15-4105 TPG",
@@ -30855,7 +32669,8 @@ export default {
         "a": -6.68535099107231,
         "b": -16.9860451887262
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "天使瀑布"
     },
     {
       "code": "16-4120 TPG",
@@ -30872,7 +32687,8 @@ export default {
         "a": -7.4835384597669,
         "b": -19.3354403482404
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄昏蓝色"
     },
     {
       "code": "16-4127 TPG",
@@ -30889,7 +32705,8 @@ export default {
         "a": -11.1810874016431,
         "b": -24.664770205979
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "遗产蓝色"
     },
     {
       "code": "17-4123 TPG",
@@ -30906,7 +32723,8 @@ export default {
         "a": -11.1342224041419,
         "b": -21.2973995559481
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "尼亚加拉"
     },
     {
       "code": "17-4131 TPG",
@@ -30923,7 +32741,8 @@ export default {
         "a": -11.189890559836,
         "b": -28.122088533334
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Cendre Blue"
     },
     {
       "code": "18-4232 TPG",
@@ -30940,7 +32759,8 @@ export default {
         "a": -11.0831983219204,
         "b": -24.600361503717
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "奖项"
     },
     {
       "code": "18-4231 TPG",
@@ -30957,7 +32777,8 @@ export default {
         "a": -11.7688822733118,
         "b": -23.1555694952699
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色蓝宝石"
     },
     {
       "code": "17-4336 TPG",
@@ -30974,7 +32795,8 @@ export default {
         "a": -14.4478617431056,
         "b": -37.6452614071811
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "布利特"
     },
     {
       "code": "17-4433 TPG",
@@ -30991,7 +32813,8 @@ export default {
         "a": -19.1868239857431,
         "b": -39.6560075897087
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "德累斯顿蓝"
     },
     {
       "code": "18-4334 TPG",
@@ -31008,7 +32831,8 @@ export default {
         "a": -13.217829758577,
         "b": -32.0247966262919
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "地中海蓝"
     },
     {
       "code": "18-4330 TPG",
@@ -31025,7 +32849,8 @@ export default {
         "a": -14.8111799420996,
         "b": -33.8478390108634
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "瑞典蓝色"
     },
     {
       "code": "18-4440 TPG",
@@ -31042,7 +32867,8 @@ export default {
         "a": -16.4829251819074,
         "b": -40.2193751896166
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Cloisonné"
     },
     {
       "code": "17-4247 TPG",
@@ -31059,7 +32885,8 @@ export default {
         "a": -16.7161708030828,
         "b": -42.651412739022
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Diva Blue"
     },
     {
       "code": "18-4434 TPG",
@@ -31076,7 +32903,8 @@ export default {
         "a": -11.1750821164171,
         "b": -31.3398409512436
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "mykonos蓝色"
     },
     {
       "code": "15-4427 TPG",
@@ -31093,7 +32921,8 @@ export default {
         "a": -18.884251731414,
         "b": -26.873597032575
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "北欧蓝色"
     },
     {
       "code": "17-4540 TPG",
@@ -31110,7 +32939,8 @@ export default {
         "a": -31.448723556868,
         "b": -39.0322132662384
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "夏威夷海洋"
     },
     {
       "code": "17-4432 TPG",
@@ -31127,7 +32957,8 @@ export default {
         "a": -22.4713515823773,
         "b": -33.0594944744808
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "生动的蓝色"
     },
     {
       "code": "17-4440 TPG",
@@ -31144,7 +32975,8 @@ export default {
         "a": -23.1898446179573,
         "b": -35.2884945409432
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色多瑙河"
     },
     {
       "code": "18-4535 TPG",
@@ -31161,7 +32993,8 @@ export default {
         "a": -27.302461646242,
         "b": -39.014428123452
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色珠宝"
     },
     {
       "code": "18-4538 TPG",
@@ -31178,7 +33011,8 @@ export default {
         "a": -23.199667369416,
         "b": -38.5106834017876
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "夏威夷冲浪"
     },
     {
       "code": "18-4537 TPG",
@@ -31195,7 +33029,8 @@ export default {
         "a": -18.9357970033484,
         "b": -37.1420214474215
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "甲基蓝"
     },
     {
       "code": "14-4514 TPG",
@@ -31212,7 +33047,8 @@ export default {
         "a": -16.6983337891564,
         "b": -17.5695391989585
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "喷雾器"
     },
     {
       "code": "16-4520 TPG",
@@ -31229,7 +33065,8 @@ export default {
         "a": -20.6502648776141,
         "b": -26.370770934659
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Splish飞溅"
     },
     {
       "code": "15-4421 TPG",
@@ -31246,7 +33083,8 @@ export default {
         "a": -17.4393652988911,
         "b": -25.9842189487713
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色石窟"
     },
     {
       "code": "15-4428 TPG",
@@ -31263,7 +33101,8 @@ export default {
         "a": -19.0891484569936,
         "b": -26.0542598382179
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水晶海"
     },
     {
       "code": "16-4526 TPG",
@@ -31280,7 +33119,8 @@ export default {
         "a": -20.8327373104044,
         "b": -32.5474057485682
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "游泳帽"
     },
     {
       "code": "16-4530 TPG",
@@ -31297,7 +33137,8 @@ export default {
         "a": -22.7083683099657,
         "b": -30.7168234054322
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水瓶座"
     },
     {
       "code": "16-4529 TPG",
@@ -31314,7 +33155,8 @@ export default {
         "a": -24.998334645615,
         "b": -30.1608779043443
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "青色蓝"
     },
     {
       "code": "13-4307 TPG",
@@ -31331,7 +33173,8 @@ export default {
         "a": -18.6125633143625,
         "b": -20.3569761798094
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "热带微风"
     },
     {
       "code": "14-4310 TPG",
@@ -31348,7 +33191,8 @@ export default {
         "a": -18.1772506301964,
         "b": -19.2483185824049
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色黄玉"
     },
     {
       "code": "14-4522 TPG",
@@ -31365,7 +33209,8 @@ export default {
         "a": -25.8869000368591,
         "b": -25.6883931365996
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "单身汉按钮"
     },
     {
       "code": "15-4720 TPG",
@@ -31382,7 +33227,8 @@ export default {
         "a": -25.4062826405634,
         "b": -25.4879073174233
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色河"
     },
     {
       "code": "16-4535 TPG",
@@ -31399,7 +33245,8 @@ export default {
         "a": -33.2734563367771,
         "b": -30.8448756071681
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色环礁"
     },
     {
       "code": "16-4427 TPG",
@@ -31416,7 +33263,8 @@ export default {
         "a": -23.2669320307342,
         "b": -27.4918830455251
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "地平线蓝色"
     },
     {
       "code": "17-4427 TPG",
@@ -31433,7 +33281,8 @@ export default {
         "a": -17.8511883064286,
         "b": -27.2920801742144
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Bluejay"
     },
     {
       "code": "13-4410 TPG",
@@ -31450,7 +33299,8 @@ export default {
         "a": -7.94145830803572,
         "b": -9.10876498605728
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冷却喷雾"
     },
     {
       "code": "13-4401 TPG",
@@ -31467,7 +33317,8 @@ export default {
         "a": -10.0343545428043,
         "b": -9.99392329093602
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "安静的潮汐"
     },
     {
       "code": "12-4401 TPG",
@@ -31484,7 +33335,8 @@ export default {
         "a": -11.164285214904,
         "b": -11.6546428457869
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "棉花糖"
     },
     {
       "code": "14-4311 TPG",
@@ -31501,7 +33353,8 @@ export default {
         "a": -9.4134266597532,
         "b": -12.2952561804408
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Corydalis蓝色"
     },
     {
       "code": "13-4411 TPG",
@@ -31518,7 +33371,8 @@ export default {
         "a": -11.5860490328265,
         "b": -13.9360477112056
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水晶蓝"
     },
     {
       "code": "14-4516 TPG",
@@ -31535,7 +33389,8 @@ export default {
         "a": -17.4821103000595,
         "b": -16.4092774661728
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "小四人"
     },
     {
       "code": "16-4421 TPG",
@@ -31552,7 +33407,8 @@ export default {
         "a": -20.6667545022231,
         "b": -22.175359736512
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色雾"
     },
     {
       "code": "18-4430 TPG",
@@ -31569,7 +33425,8 @@ export default {
         "a": -20.0901919952036,
         "b": -26.9463220381854
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "峡湾蓝"
     },
     {
       "code": "18-4528 TPG",
@@ -31586,7 +33443,8 @@ export default {
         "a": -20.6695788740872,
         "b": -24.048419361691
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "马赛克蓝色"
     },
     {
       "code": "18-4432 TPG",
@@ -31603,7 +33461,8 @@ export default {
         "a": -17.2690284116808,
         "b": -27.3449517982387
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "土耳其瓷砖"
     },
     {
       "code": "18-4530 TPG",
@@ -31620,7 +33479,8 @@ export default {
         "a": -14.1580231842474,
         "b": -24.3221853921597
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "天体"
     },
     {
       "code": "18-4225 TPG",
@@ -31637,7 +33497,8 @@ export default {
         "a": -11.6090042283675,
         "b": -18.6044859474212
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "萨克森蓝色"
     },
     {
       "code": "19-4342 TPG",
@@ -31654,7 +33515,8 @@ export default {
         "a": -14.5331377470564,
         "b": -25.7173063003435
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海港"
     },
     {
       "code": "19-4329 TPG",
@@ -31671,7 +33533,8 @@ export default {
         "a": -12.214496354524,
         "b": -18.0737925104061
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海盗"
     },
     {
       "code": "17-4328 TPG",
@@ -31688,7 +33551,8 @@ export default {
         "a": -16.6859831362264,
         "b": -24.2591273346922
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝月亮"
     },
     {
       "code": "17-4429 TPG",
@@ -31705,7 +33569,8 @@ export default {
         "a": -16.6995104231988,
         "b": -23.651320530635
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "纳瓦吉奥湾"
     },
     {
       "code": "18-4630 TPG",
@@ -31722,7 +33587,8 @@ export default {
         "a": -22.151345204183,
         "b": -20.8579037762483
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "大溪地潮"
     },
     {
       "code": "19-4536 TPG",
@@ -31739,7 +33605,8 @@ export default {
         "a": -20.2087433085285,
         "b": -24.6748469285492
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "晶体蓝绿色"
     },
     {
       "code": "19-4540 TPG",
@@ -31756,7 +33623,8 @@ export default {
         "a": -16.7231329466381,
         "b": -17.1651441990548
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深泻湖"
     },
     {
       "code": "19-4535 TPG",
@@ -31773,7 +33641,8 @@ export default {
         "a": -20.2114855528143,
         "b": -19.7847742508975
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海深"
     },
     {
       "code": "19-4340 TPG",
@@ -31790,7 +33659,8 @@ export default {
         "a": -12.8028778015339,
         "b": -21.3524763060026
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "里昂蓝"
     },
     {
       "code": "16-4525 TPG",
@@ -31807,7 +33677,8 @@ export default {
         "a": -21.0089180315776,
         "b": -19.7869122030159
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "毛伊蓝"
     },
     {
       "code": "17-4728 TPG",
@@ -31824,7 +33695,8 @@ export default {
         "a": -26.4024809430511,
         "b": -24.0695379899082
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Algiers Blue"
     },
     {
       "code": "17-4530 TPG",
@@ -31841,7 +33713,8 @@ export default {
         "a": -24.8595343120869,
         "b": -26.5013918560043
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "障碍礁"
     },
     {
       "code": "17-4730 TPG",
@@ -31858,7 +33731,8 @@ export default {
         "a": -26.0436483221317,
         "b": -26.6896257599001
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Caneel Bay"
     },
     {
       "code": "18-4525 TPG",
@@ -31875,7 +33749,8 @@ export default {
         "a": -27.8884288858779,
         "b": -27.9835043648735
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "加勒比海"
     },
     {
       "code": "17-4735 TPG",
@@ -31892,7 +33767,8 @@ export default {
         "a": -31.6595726239299,
         "b": -24.5900147528985
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "卡普里微风"
     },
     {
       "code": "18-4733 TPG",
@@ -31909,7 +33785,8 @@ export default {
         "a": -28.7085855147839,
         "b": -23.828424173423
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "搪瓷蓝"
     },
     {
       "code": "12-4608 TPG",
@@ -31926,7 +33803,8 @@ export default {
         "a": -13.4039947998933,
         "b": -10.0052765842789
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "克利尔沃特"
     },
     {
       "code": "14-4816 TPG",
@@ -31943,7 +33821,8 @@ export default {
         "a": -28.4874919005689,
         "b": -16.3373976770977
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色辐射"
     },
     {
       "code": "15-4722 TPG",
@@ -31960,7 +33839,8 @@ export default {
         "a": -29.9912992102916,
         "b": -19.2177863491284
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "卡普里"
     },
     {
       "code": "15-4825 TPG",
@@ -31977,7 +33857,8 @@ export default {
         "a": -33.2874708369932,
         "b": -18.6895237363508
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色库拉科"
     },
     {
       "code": "16-4725 TPG",
@@ -31994,7 +33875,8 @@ export default {
         "a": -36.2328818762715,
         "b": -26.1977064720729
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "潜水蓝"
     },
     {
       "code": "16-4834 TPG",
@@ -32011,7 +33893,8 @@ export default {
         "a": -37.1887865919178,
         "b": -23.8526863649745
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝鸟"
     },
     {
       "code": "16-4728 TPG",
@@ -32028,7 +33911,8 @@ export default {
         "a": -33.7052453540546,
         "b": -22.8774987887818
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "孔雀蓝"
     },
     {
       "code": "13-4409 TPG",
@@ -32045,7 +33929,8 @@ export default {
         "a": -11.9588824041959,
         "b": -10.1262224851014
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色的光芒"
     },
     {
       "code": "14-4510 TPG",
@@ -32062,7 +33947,8 @@ export default {
         "a": -12.6564870732947,
         "b": -11.1775116613139
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水"
     },
     {
       "code": "14-4315 TPG",
@@ -32079,7 +33965,8 @@ export default {
         "a": -11.8611337288739,
         "b": -11.1327095795517
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海洋天使"
     },
     {
       "code": "13-5410 TPG",
@@ -32096,7 +33983,8 @@ export default {
         "a": -12.2063209871046,
         "b": -9.91739229662718
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冰aqua"
     },
     {
       "code": "14-4508 TPG",
@@ -32113,7 +34001,8 @@ export default {
         "a": -10.8765757944487,
         "b": -10.7947133465393
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "平流层"
     },
     {
       "code": "14-4512 TPG",
@@ -32130,7 +34019,8 @@ export default {
         "a": -14.5005887719348,
         "b": -12.1962834979602
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "瓷蓝色"
     },
     {
       "code": "15-4415 TPG",
@@ -32147,7 +34037,8 @@ export default {
         "a": -14.9666609229058,
         "b": -16.7231575307718
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "乳白色"
     },
     {
       "code": "13-4304 TPG",
@@ -32164,7 +34055,8 @@ export default {
         "a": -3.77984494203065,
         "b": -9.04095079983702
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "民谣蓝"
     },
     {
       "code": "13-4308 TPG",
@@ -32181,7 +34073,8 @@ export default {
         "a": -5.11220759256098,
         "b": -9.78487685477192
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡蓝色"
     },
     {
       "code": "15-4312 TPG",
@@ -32198,7 +34091,8 @@ export default {
         "a": -8.37573430419919,
         "b": -13.2807356907041
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "忘记我，不是"
     },
     {
       "code": "16-4519 TPG",
@@ -32215,7 +34109,8 @@ export default {
         "a": -15.2768599758236,
         "b": -17.7363356655335
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色"
     },
     {
       "code": "17-4320 TPG",
@@ -32232,7 +34127,8 @@ export default {
         "a": -11.906678054684,
         "b": -14.8201937216124
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "亚得利亚蓝"
     },
     {
       "code": "17-4421 TPG",
@@ -32249,7 +34145,8 @@ export default {
         "a": -14.1237073258297,
         "b": -19.5120990896595
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "larkspur"
     },
     {
       "code": "17-4716 TPG",
@@ -32266,7 +34163,8 @@ export default {
         "a": -13.9416859905406,
         "b": -15.470957471127
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "风暴蓝色"
     },
     {
       "code": "16-4109 TPG",
@@ -32283,7 +34181,8 @@ export default {
         "a": -5.85065230156345,
         "b": -9.1979022316327
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "阿罗纳"
     },
     {
       "code": "17-4412 TPG",
@@ -32300,7 +34199,8 @@ export default {
         "a": -10.6518641975893,
         "b": -9.36951340159746
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "烟蓝"
     },
     {
       "code": "17-4111 TPG",
@@ -32317,7 +34217,8 @@ export default {
         "a": -5.36414691196213,
         "b": -10.3635477466978
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "堡垒"
     },
     {
       "code": "18-4417 TPG",
@@ -32334,7 +34235,8 @@ export default {
         "a": -9.10344959802226,
         "b": -12.7197020117346
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "挂毯"
     },
     {
       "code": "19-4526 TPG",
@@ -32351,7 +34253,8 @@ export default {
         "a": -12.300179410449,
         "b": -15.4837189194694
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色珊瑚"
     },
     {
       "code": "19-4324 TPG",
@@ -32368,7 +34271,8 @@ export default {
         "a": -7.0671483470833,
         "b": -14.1569475017928
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "军团蓝色"
     },
     {
       "code": "19-4326 TPG",
@@ -32385,7 +34289,8 @@ export default {
         "a": -4.70434393716157,
         "b": -11.4996776042102
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "反射池塘"
     },
     {
       "code": "13-4404 TPG",
@@ -32402,7 +34307,8 @@ export default {
         "a": -3.99636794602704,
         "b": -2.35141707467954
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冰流"
     },
     {
       "code": "13-4103 TPG",
@@ -32419,7 +34325,8 @@ export default {
         "a": -3.73220421520176,
         "b": -5.0973491282478
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "幻觉蓝色"
     },
     {
       "code": "14-4306 TPG",
@@ -32436,7 +34343,8 @@ export default {
         "a": -8.26858700847849,
         "b": -5.19176565358186
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "云蓝色"
     },
     {
       "code": "14-4506 TPG",
@@ -32453,7 +34361,8 @@ export default {
         "a": -7.78377031097915,
         "b": -4.9395045424568
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "醚"
     },
     {
       "code": "16-4411 TPG",
@@ -32470,7 +34379,8 @@ export default {
         "a": -8.99263412666751,
         "b": -8.71853126119613
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "电气石"
     },
     {
       "code": "16-4114 TPG",
@@ -32487,7 +34397,8 @@ export default {
         "a": -8.61514598016899,
         "b": -9.61937454270916
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "石蓝"
     },
     {
       "code": "16-4414 TPG",
@@ -32504,7 +34415,8 @@ export default {
         "a": -12.395754984334,
         "b": -10.7280151943851
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "客串蓝色"
     },
     {
       "code": "14-4307 TPG",
@@ -32521,7 +34433,8 @@ export default {
         "a": -6.31094192347775,
         "b": -10.1375772491654
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冬天的天空"
     },
     {
       "code": "15-4309 TPG",
@@ -32538,7 +34451,8 @@ export default {
         "a": -8.02981055684871,
         "b": -8.89477920084412
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "纯蓝色"
     },
     {
       "code": "16-4612 TPG",
@@ -32555,7 +34469,8 @@ export default {
         "a": -15.6131623600724,
         "b": -12.4742100068172
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "珊瑚礁水"
     },
     {
       "code": "16-4610 TPG",
@@ -32572,7 +34487,8 @@ export default {
         "a": -16.0405695170413,
         "b": -13.2048919842033
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "死水"
     },
     {
       "code": "15-4717 TPG",
@@ -32589,7 +34505,8 @@ export default {
         "a": -16.8128045071919,
         "b": -14.3665763736403
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水"
     },
     {
       "code": "16-5121 TPG",
@@ -32606,7 +34523,8 @@ export default {
         "a": -20.2173666320882,
         "b": -11.2298675329546
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Meadowbrook"
     },
     {
       "code": "16-4719 TPG",
@@ -32623,7 +34541,8 @@ export default {
         "a": -20.2495458203706,
         "b": -12.1210825926062
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "瓷"
     },
     {
       "code": "12-4609 TPG",
@@ -32640,7 +34559,8 @@ export default {
         "a": -7.95467285788148,
         "b": -8.75457092951653
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "星光蓝色"
     },
     {
       "code": "13-4809 TPG",
@@ -32657,7 +34577,8 @@ export default {
         "a": -14.2386279960834,
         "b": -9.67929668133087
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "羽"
     },
     {
       "code": "15-4712 TPG",
@@ -32674,7 +34595,8 @@ export default {
         "a": -19.1296631627164,
         "b": -12.2722513584337
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海洋蓝色"
     },
     {
       "code": "15-4714 TPG",
@@ -32691,7 +34613,8 @@ export default {
         "a": -21.532791671958,
         "b": -12.7971038343463
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水彩画"
     },
     {
       "code": "15-4715 TPG",
@@ -32708,7 +34631,8 @@ export default {
         "a": -20.6833744994268,
         "b": -10.9692612318794
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水上海"
     },
     {
       "code": "15-5209 TPG",
@@ -32725,7 +34649,8 @@ export default {
         "a": -17.0398775815767,
         "b": -8.32320795449435
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水雾"
     },
     {
       "code": "15-5210 TPG",
@@ -32742,7 +34667,8 @@ export default {
         "a": -14.967408573699,
         "b": -8.49234326194681
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "尼罗蓝"
     },
     {
       "code": "12-4611 TPG",
@@ -32759,7 +34685,8 @@ export default {
         "a": -7.61161964376633,
         "b": -7.24867404165783
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "盐水滑梯"
     },
     {
       "code": "13-5411 TPG",
@@ -32776,7 +34703,8 @@ export default {
         "a": -12.8721351797471,
         "b": -9.78604498118767
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水上风格"
     },
     {
       "code": "14-4515 TPG",
@@ -32793,7 +34721,8 @@ export default {
         "a": -18.5248503559886,
         "b": -16.8363137285467
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色长生不老药"
     },
     {
       "code": "14-4513 TPG",
@@ -32810,7 +34739,8 @@ export default {
         "a": -17.2394449279933,
         "b": -16.7941193010011
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "小屋蓝色"
     },
     {
       "code": "14-4511 TPG",
@@ -32827,7 +34757,8 @@ export default {
         "a": -16.8445484116403,
         "b": -14.2790642803829
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海湾流"
     },
     {
       "code": "15-4710 TPG",
@@ -32844,7 +34775,8 @@ export default {
         "a": -23.7422961072389,
         "b": -16.1103292804641
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "巴巴多斯海滩"
     },
     {
       "code": "15-4716 TPG",
@@ -32861,7 +34793,8 @@ export default {
         "a": -25.5886417138252,
         "b": -14.0596794075493
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "ipanema"
     },
     {
       "code": "14-4620 TPG",
@@ -32878,7 +34811,8 @@ export default {
         "a": -23.1958483275196,
         "b": -10.6500168396348
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "岛上的天堂"
     },
     {
       "code": "13-4720 TPG",
@@ -32895,7 +34829,8 @@ export default {
         "a": -21.3899464755486,
         "b": -13.1014129929221
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Tanager绿松石"
     },
     {
       "code": "14-4812 TPG",
@@ -32912,7 +34847,8 @@ export default {
         "a": -24.3496263271999,
         "b": -9.4553540624728
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水上飞溅"
     },
     {
       "code": "13-4810 TPG",
@@ -32929,7 +34865,8 @@ export default {
         "a": -22.4329318416929,
         "b": -8.91776292102266
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "lig壳"
     },
     {
       "code": "14-4710 TPG",
@@ -32946,7 +34883,8 @@ export default {
         "a": -20.890623605386,
         "b": -10.4928436923312
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "藏石"
     },
     {
       "code": "14-4814 TPG",
@@ -32963,7 +34901,8 @@ export default {
         "a": -20.8790044729353,
         "b": -12.5789572174508
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "天使蓝"
     },
     {
       "code": "14-4615 TPG",
@@ -32980,7 +34919,8 @@ export default {
         "a": -19.7327801413492,
         "b": -13.3356594310176
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "安提瓜砂"
     },
     {
       "code": "14-4618 TPG",
@@ -32997,7 +34937,8 @@ export default {
         "a": -22.4623269538952,
         "b": -11.1546115866036
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Waterspout"
     },
     {
       "code": "14-4818 TPG",
@@ -33014,7 +34955,8 @@ export default {
         "a": -21.5977251008728,
         "b": -9.88856331471679
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "亚马逊石"
     },
     {
       "code": "14-4815 TPG",
@@ -33031,7 +34973,8 @@ export default {
         "a": -20.5491904544538,
         "b": -10.5215792732263
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "休闲时间"
     },
     {
       "code": "15-4711 TPG",
@@ -33048,7 +34991,8 @@ export default {
         "a": -19.5421482902771,
         "b": -11.2591845552585
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沿海阴影"
     },
     {
       "code": "15-4713 TPG",
@@ -33065,7 +35009,8 @@ export default {
         "a": -25.7394825583011,
         "b": -15.9202812211871
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海喷气机"
     },
     {
       "code": "17-4725 TPG",
@@ -33082,7 +35027,8 @@ export default {
         "a": -29.0339810493823,
         "b": -21.5045505194428
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "大溪地蓝绿色"
     },
     {
       "code": "18-4631 TPG",
@@ -33099,7 +35045,8 @@ export default {
         "a": -25.1555294922626,
         "b": -19.2789785349004
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "异国情调的羽流"
     },
     {
       "code": "17-4928 TPG",
@@ -33116,7 +35063,8 @@ export default {
         "a": -32.3223864521512,
         "b": -18.7374825686568
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝湖"
     },
     {
       "code": "18-4735 TPG",
@@ -33133,7 +35081,8 @@ export default {
         "a": -34.5866392561343,
         "b": -20.4616413613914
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "瓷砖蓝色"
     },
     {
       "code": "18-4726 TPG",
@@ -33150,7 +35099,8 @@ export default {
         "a": -22.2870096067474,
         "b": -16.5447283114049
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "比斯湾"
     },
     {
       "code": "17-4724 TPG",
@@ -33167,7 +35117,8 @@ export default {
         "a": -21.9806336238655,
         "b": -17.7236570455106
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "宝塔蓝色"
     },
     {
       "code": "18-4728 TPG",
@@ -33184,7 +35135,8 @@ export default {
         "a": -23.1711161282414,
         "b": -15.5332317082262
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海蓝色"
     },
     {
       "code": "19-4524 TPG",
@@ -33201,7 +35153,8 @@ export default {
         "a": -17.1402133175227,
         "b": -11.1166565866801
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "阴影云杉"
     },
     {
       "code": "19-4914 TPG",
@@ -33218,7 +35171,8 @@ export default {
         "a": -11.3692879636986,
         "b": -8.97489428237733
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深蓝色"
     },
     {
       "code": "18-5610 TPG",
@@ -33235,7 +35189,8 @@ export default {
         "a": -14.679579407918,
         "b": -10.1981228329541
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "布列塔尼蓝"
     },
     {
       "code": "18-4718 TPG",
@@ -33252,7 +35207,8 @@ export default {
         "a": -11.1780142299064,
         "b": -10.8130680399827
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水力"
     },
     {
       "code": "19-4826 TPG",
@@ -33269,7 +35225,8 @@ export default {
         "a": -13.0295712606212,
         "b": -12.8126455850119
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蜻蜓"
     },
     {
       "code": "18-4522 TPG",
@@ -33286,7 +35243,8 @@ export default {
         "a": -14.4631890036085,
         "b": -13.5788451859112
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "殖民地蓝色"
     },
     {
       "code": "19-4820 TPG",
@@ -33303,7 +35261,8 @@ export default {
         "a": -9.86530082400428,
         "b": -7.72959864988565
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "香脂"
     },
     {
       "code": "19-4517 TPG",
@@ -33320,7 +35279,8 @@ export default {
         "a": -11.454868975528,
         "b": -8.30455728530859
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "地中海"
     },
     {
       "code": "19-4726 TPG",
@@ -33337,7 +35297,8 @@ export default {
         "a": -12.5895323682145,
         "b": -8.15819265099418
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "大西洋深"
     },
     {
       "code": "12-4604 TPG",
@@ -33354,7 +35315,8 @@ export default {
         "a": -7.95366880862736,
         "b": -2.12738001449682
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "天窗"
     },
     {
       "code": "12-4607 TPG",
@@ -33371,7 +35333,8 @@ export default {
         "a": -8.25413967320993,
         "b": -4.6243315818437
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柔和的蓝色"
     },
     {
       "code": "14-4810 TPG",
@@ -33388,7 +35351,8 @@ export default {
         "a": -12.5424672826782,
         "b": -8.46724216208443
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "运河蓝色"
     },
     {
       "code": "16-5114 TPG",
@@ -33405,7 +35369,8 @@ export default {
         "a": -19.1250746334092,
         "b": -8.24021418811185
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "尘土飞扬的绿松石"
     },
     {
       "code": "17-4818 TPG",
@@ -33422,7 +35387,8 @@ export default {
         "a": -19.2553746808022,
         "b": -9.21831233813655
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "布里斯托尔蓝"
     },
     {
       "code": "17-5117 TPG",
@@ -33439,7 +35405,8 @@ export default {
         "a": -21.5410089177864,
         "b": -10.2363113006408
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿蓝色石板"
     },
     {
       "code": "17-4919 TPG",
@@ -33456,7 +35423,8 @@ export default {
         "a": -19.2577172575146,
         "b": -9.81686222030038
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝绿色"
     },
     {
       "code": "13-5306 TPG",
@@ -33473,7 +35441,8 @@ export default {
         "a": -12.9287436666816,
         "b": -3.93865442899224
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冰冷的早晨"
     },
     {
       "code": "13-4909 TPG",
@@ -33490,7 +35459,8 @@ export default {
         "a": -18.7995979218893,
         "b": -5.76813604561768
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝光"
     },
     {
       "code": "13-4910 TPG",
@@ -33507,7 +35477,8 @@ export default {
         "a": -20.1217134183052,
         "b": -7.32051056060652
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色色调"
     },
     {
       "code": "13-5313 TPG",
@@ -33524,7 +35495,8 @@ export default {
         "a": -27.0118387856407,
         "b": -8.22170250291632
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "阿鲁巴蓝"
     },
     {
       "code": "14-4811 TPG",
@@ -33541,7 +35513,8 @@ export default {
         "a": -24.2657906482651,
         "b": -9.45229984376901
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水天空"
     },
     {
       "code": "15-5217 TPG",
@@ -33558,7 +35531,8 @@ export default {
         "a": -28.4949047966295,
         "b": -8.5419929950522
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色绿松石"
     },
     {
       "code": "16-5123 TPG",
@@ -33575,7 +35549,8 @@ export default {
         "a": -29.3729756943474,
         "b": -12.9053950930105
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "波罗的海"
     },
     {
       "code": "11-4607 TPG",
@@ -33592,7 +35567,8 @@ export default {
         "a": -2.88053420560197,
         "b": -0.783438514159873
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "透明"
     },
     {
       "code": "11-4606 TPG",
@@ -33609,7 +35585,8 @@ export default {
         "a": -6.38883656342526,
         "b": -3.17637939251847
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冰城堡"
     },
     {
       "code": "12-5208 TPG",
@@ -33626,7 +35603,8 @@ export default {
         "a": -9.43365117773642,
         "b": -3.30497988099896
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Mint Julep"
     },
     {
       "code": "12-5207 TPG",
@@ -33643,7 +35621,8 @@ export default {
         "a": -10.8017977427299,
         "b": -5.13751759449257
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "盐空气"
     },
     {
       "code": "13-4908 TPG",
@@ -33660,7 +35639,8 @@ export default {
         "a": -15.7213507284139,
         "b": -8.7073855646812
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水疗度假胜地"
     },
     {
       "code": "14-4715 TPG",
@@ -33677,7 +35657,8 @@ export default {
         "a": -20.1898671706544,
         "b": -10.3932798042065
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水芭蕾舞"
     },
     {
       "code": "12-5302 TPG",
@@ -33694,7 +35675,8 @@ export default {
         "a": -10.0934167812449,
         "b": -4.6642934989729
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冷却绿洲"
     },
     {
       "code": "12-5206 TPG",
@@ -33711,7 +35693,8 @@ export default {
         "a": -9.56888906892051,
         "b": -3.61695408670297
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色玻璃"
     },
     {
       "code": "12-5209 TPG",
@@ -33728,7 +35711,8 @@ export default {
         "a": -12.6162219396723,
         "b": -1.47049677474995
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "舒缓大海"
     },
     {
       "code": "12-5808 TPG",
@@ -33745,7 +35729,8 @@ export default {
         "a": -17.4758804810778,
         "b": 2.49068942902424
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "甘露"
     },
     {
       "code": "12-5409 TPG",
@@ -33762,7 +35747,8 @@ export default {
         "a": -15.2306434253207,
         "b": -2.18138681056279
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "公平水上"
     },
     {
       "code": "12-5410 TPG",
@@ -33779,7 +35765,8 @@ export default {
         "a": -16.1283022253597,
         "b": -4.19518133711752
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "漂白的水"
     },
     {
       "code": "14-4809 TPG",
@@ -33796,7 +35783,8 @@ export default {
         "a": -15.5967519609105,
         "b": -4.3833010543747
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蛋壳蓝"
     },
     {
       "code": "13-5309 TPG",
@@ -33813,7 +35801,8 @@ export default {
         "a": -16.1176689910303,
         "b": -6.50355867518444
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柔和的绿松石"
     },
     {
       "code": "11-4604 TPG",
@@ -33830,7 +35819,8 @@ export default {
         "a": -4.1992193006829,
         "b": -0.0980179411737225
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "滚滚帆"
     },
     {
       "code": "12-4305 TPG",
@@ -33847,7 +35837,8 @@ export default {
         "a": -4.65231781378861,
         "b": -0.737495580629477
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水疗蓝色"
     },
     {
       "code": "12-4805 TPG",
@@ -33864,7 +35855,8 @@ export default {
         "a": -6.06652524099971,
         "b": -3.06244551880674
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Wan Blue"
     },
     {
       "code": "12-4610 TPG",
@@ -33881,7 +35873,8 @@ export default {
         "a": -7.33143188044083,
         "b": -3.00036960178391
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "小声蓝色"
     },
     {
       "code": "13-4804 TPG",
@@ -33898,7 +35891,8 @@ export default {
         "a": -6.48455671026493,
         "b": -2.10839905865603
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡蓝色"
     },
     {
       "code": "13-4405 TPG",
@@ -33915,7 +35909,8 @@ export default {
         "a": -6.7146197179952,
         "b": -2.00267897192286
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薄雾蓝"
     },
     {
       "code": "14-4504 TPG",
@@ -33932,7 +35927,8 @@ export default {
         "a": -5.8828515583581,
         "b": -1.34827663230668
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "天灰"
     },
     {
       "code": "11-4805 TPG",
@@ -33949,7 +35945,8 @@ export default {
         "a": -6.34732335872673,
         "b": 1.22461075421074
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薄荷的提示"
     },
     {
       "code": "12-5508 TPG",
@@ -33966,7 +35963,8 @@ export default {
         "a": -6.82078034798655,
         "b": 0.562022643801852
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "安静的绿色"
     },
     {
       "code": "12-5204 TPG",
@@ -33983,7 +35981,8 @@ export default {
         "a": -7.081713670957,
         "b": -1.00709302579522
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "早晨雾"
     },
     {
       "code": "12-5303 TPG",
@@ -34000,7 +35999,8 @@ export default {
         "a": -6.30220502779777,
         "b": 0.560631641910225
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "发芽绿色"
     },
     {
       "code": "12-4806 TPG",
@@ -34017,7 +36017,8 @@ export default {
         "a": -5.93675100724828,
         "b": -1.516657858853
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉笔蓝色"
     },
     {
       "code": "14-4807 TPG",
@@ -34034,7 +36035,8 @@ export default {
         "a": -9.38201492487667,
         "b": -1.44831668511221
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冲浪喷雾"
     },
     {
       "code": "14-4908 TPG",
@@ -34051,7 +36053,8 @@ export default {
         "a": -10.8766602016414,
         "b": -0.336215136488049
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "港口格雷"
     },
     {
       "code": "15-4707 TPG",
@@ -34068,7 +36071,8 @@ export default {
         "a": -9.59385054767481,
         "b": -3.39798288682969
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色阴霾"
     },
     {
       "code": "15-4706 TPG",
@@ -34085,7 +36089,8 @@ export default {
         "a": -7.56037280762251,
         "b": -3.53311259327636
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰色雾"
     },
     {
       "code": "16-5106 TPG",
@@ -34102,7 +36107,8 @@ export default {
         "a": -10.4152383871143,
         "b": -1.71655714567451
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色冲浪"
     },
     {
       "code": "15-5207 TPG",
@@ -34119,7 +36125,8 @@ export default {
         "a": -13.8444049494358,
         "b": -6.02079417117081
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "含水层"
     },
     {
       "code": "16-4712 TPG",
@@ -34136,7 +36143,8 @@ export default {
         "a": -12.3838807755134,
         "b": -5.13385993761803
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "矿物蓝色"
     },
     {
       "code": "17-5110 TPG",
@@ -34153,7 +36161,8 @@ export default {
         "a": -11.7722801269968,
         "b": -3.97662119019957
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "格子"
     },
     {
       "code": "17-4911 TPG",
@@ -34170,7 +36179,8 @@ export default {
         "a": -11.3937171793316,
         "b": -8.19508565157967
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "北极"
     },
     {
       "code": "16-4408 TPG",
@@ -34187,7 +36197,8 @@ export default {
         "a": -6.91756562433249,
         "b": -4.04804337023763
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "石板"
     },
     {
       "code": "16-4706 TPG",
@@ -34204,7 +36215,8 @@ export default {
         "a": -5.95647648309572,
         "b": -3.10774531483635
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "银蓝色"
     },
     {
       "code": "16-4404 TPG",
@@ -34221,7 +36233,8 @@ export default {
         "a": -6.36252611661237,
         "b": -3.36916710938537
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深渊"
     },
     {
       "code": "17-4408 TPG",
@@ -34238,7 +36251,8 @@ export default {
         "a": -6.12769377640282,
         "b": -5.87871576904015
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "带领"
     },
     {
       "code": "18-4711 TPG",
@@ -34255,7 +36269,8 @@ export default {
         "a": -6.72983567176044,
         "b": -2.85234315275185
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "暴风雨"
     },
     {
       "code": "18-4510 TPG",
@@ -34272,7 +36287,8 @@ export default {
         "a": -6.78825472065342,
         "b": -4.62725779058484
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "士兵"
     },
     {
       "code": "18-4011 TPG",
@@ -34289,7 +36305,8 @@ export default {
         "a": -6.18450250269192,
         "b": -6.13761419152428
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "地精蓝"
     },
     {
       "code": "16-5304 TPG",
@@ -34306,7 +36323,8 @@ export default {
         "a": -8.25026419169561,
         "b": 0.319861542982425
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "硬玉"
     },
     {
       "code": "16-5804 TPG",
@@ -34323,7 +36341,8 @@ export default {
         "a": -6.08624489692983,
         "b": 0.806346137463376
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "石板灰色"
     },
     {
       "code": "17-5107 TPG",
@@ -34340,7 +36359,8 @@ export default {
         "a": -7.7378266582897,
         "b": -0.664325098679885
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Chinois绿色"
     },
     {
       "code": "16-5806 TPG",
@@ -34357,7 +36377,8 @@ export default {
         "a": -7.28768739089747,
         "b": 0.459122940236822
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色环境"
     },
     {
       "code": "18-5606 TPG",
@@ -34374,7 +36395,8 @@ export default {
         "a": -4.83577377956826,
         "b": -3.53812660981008
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "香脂绿"
     },
     {
       "code": "18-4612 TPG",
@@ -34391,7 +36413,8 @@ export default {
         "a": -10.7588892252266,
         "b": -5.48065627715848
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "北大西洋"
     },
     {
       "code": "18-5112 TPG",
@@ -34408,7 +36431,8 @@ export default {
         "a": -10.9916408528955,
         "b": -5.46700750012536
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海松"
     },
     {
       "code": "18-5612 TPG",
@@ -34425,7 +36449,8 @@ export default {
         "a": -11.9443194432019,
         "b": -3.63751466257309
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鼠尾草绿色"
     },
     {
       "code": "18-5410 TPG",
@@ -34442,7 +36467,8 @@ export default {
         "a": -9.09659842074434,
         "b": -2.03601730796861
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "银松"
     },
     {
       "code": "18-5308 TPG",
@@ -34459,7 +36485,8 @@ export default {
         "a": -12.3165014518254,
         "b": -2.99844091502162
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝云杉"
     },
     {
       "code": "19-4818 TPG",
@@ -34476,7 +36503,8 @@ export default {
         "a": -9.72759193866904,
         "b": -4.828313050951
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Mallard Green"
     },
     {
       "code": "19-5408 TPG",
@@ -34493,7 +36521,8 @@ export default {
         "a": -11.6933979068774,
         "b": -2.36772289545897
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Bistro Green"
     },
     {
       "code": "19-5030 TPG",
@@ -34510,7 +36539,8 @@ export default {
         "a": -8.42126748994185,
         "b": -4.92883538310824
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海苔"
     },
     {
       "code": "19-5320 TPG",
@@ -34527,7 +36557,8 @@ export default {
         "a": -10.2308996419756,
         "b": -4.27203962467925
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄松"
     },
     {
       "code": "19-5226 TPG",
@@ -34544,7 +36575,8 @@ export default {
         "a": -21.8691370171996,
         "b": -8.97943620425763
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "大沼泽地"
     },
     {
       "code": "19-4922 TPG",
@@ -34561,7 +36593,8 @@ export default {
         "a": -21.4763740655713,
         "b": -8.64458772164817
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝绿色"
     },
     {
       "code": "19-4916 TPG",
@@ -34578,7 +36611,8 @@ export default {
         "a": -13.3255807209144,
         "b": -9.50932765223689
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "太平洋"
     },
     {
       "code": "19-5413 TPG",
@@ -34595,7 +36629,8 @@ export default {
         "a": -13.2315145364749,
         "b": -5.5907502101368
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "碧玉"
     },
     {
       "code": "19-5217 TPG",
@@ -34612,7 +36647,8 @@ export default {
         "a": -18.8919757849426,
         "b": -6.61725912572657
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "风暴"
     },
     {
       "code": "18-5315 TPG",
@@ -34629,7 +36665,8 @@ export default {
         "a": -15.9724460029754,
         "b": -4.93803189698893
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "湾莓"
     },
     {
       "code": "19-5414 TPG",
@@ -34646,7 +36683,8 @@ export default {
         "a": -11.8081984552909,
         "b": -5.12828471440827
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "六月错误"
     },
     {
       "code": "18-4835 TPG",
@@ -34663,7 +36701,8 @@ export default {
         "a": -23.9315037487073,
         "b": -11.4368950330702
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Alexandrite"
     },
     {
       "code": "18-4833 TPG",
@@ -34680,7 +36719,8 @@ export default {
         "a": -27.3791129805453,
         "b": -13.4479241992815
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "皮划艇"
     },
     {
       "code": "19-4918 TPG",
@@ -34697,7 +36737,8 @@ export default {
         "a": -15.7805795234576,
         "b": -10.1554897115028
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "刺"
     },
     {
       "code": "19-4534 TPG",
@@ -34714,7 +36755,8 @@ export default {
         "a": -14.9197818185608,
         "b": -11.28405758084
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "切萨皮克湾"
     },
     {
       "code": "19-4727 TPG",
@@ -34731,7 +36773,8 @@ export default {
         "a": -12.9725027264926,
         "b": -10.1439607369464
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色苍鹭"
     },
     {
       "code": "19-4523 TPG",
@@ -34748,7 +36791,8 @@ export default {
         "a": -13.5065132129273,
         "b": -13.8117710355777
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "墨西哥湾沿岸"
     },
     {
       "code": "19-5025 TPG",
@@ -34765,7 +36809,8 @@ export default {
         "a": -10.2467170258219,
         "b": -7.39469164729507
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑海"
     },
     {
       "code": "16-5112 TPG",
@@ -34782,7 +36827,8 @@ export default {
         "a": -15.5606253037655,
         "b": -5.9143178270231
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "广州"
     },
     {
       "code": "16-5412 TPG",
@@ -34799,7 +36845,8 @@ export default {
         "a": -22.2193511059073,
         "b": -5.18311571966859
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玛瑙绿色"
     },
     {
       "code": "16-5119 TPG",
@@ -34816,7 +36863,8 @@ export default {
         "a": -24.2615323445066,
         "b": -5.79802041882138
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海蓝色"
     },
     {
       "code": "17-5122 TPG",
@@ -34833,7 +36881,8 @@ export default {
         "a": -25.7336563319184,
         "b": -9.70279948604671
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "拉蒂戈湾"
     },
     {
       "code": "17-5421 TPG",
@@ -34850,7 +36899,8 @@ export default {
         "a": -29.408863423275,
         "b": -6.31794628794531
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "瓷绿"
     },
     {
       "code": "18-5121 TPG",
@@ -34867,7 +36917,8 @@ export default {
         "a": -20.4441648650847,
         "b": -8.29863423111956
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "河口"
     },
     {
       "code": "18-5115 TPG",
@@ -34884,7 +36935,8 @@ export default {
         "a": -20.5689134408374,
         "b": -5.60957915420979
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "北海"
     },
     {
       "code": "16-5127 TPG",
@@ -34901,7 +36953,8 @@ export default {
         "a": -39.7074216996215,
         "b": -13.9083979569347
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "陶瓷制品"
     },
     {
       "code": "17-5126 TPG",
@@ -34918,7 +36971,8 @@ export default {
         "a": -35.1935955537235,
         "b": -15.3504367707787
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Viridian Green"
     },
     {
       "code": "18-4930 TPG",
@@ -34935,7 +36989,8 @@ export default {
         "a": -38.5603916136339,
         "b": -13.7733824559275
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "热带绿色"
     },
     {
       "code": "17-5025 TPG",
@@ -34952,7 +37007,8 @@ export default {
         "a": -34.664991017506,
         "b": -13.5611164960618
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "导航"
     },
     {
       "code": "17-5029 TPG",
@@ -34969,7 +37025,8 @@ export default {
         "a": -37.6235800347634,
         "b": -13.4695186961149
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深孔雀蓝"
     },
     {
       "code": "17-5034 TPG",
@@ -34986,7 +37043,8 @@ export default {
         "a": -38.7897810916746,
         "b": -14.4500763320392
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "青金石"
     },
     {
       "code": "18-4834 TPG",
@@ -35003,7 +37061,8 @@ export default {
         "a": -22.5026404862579,
         "b": -13.4970843768446
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深湖"
     },
     {
       "code": "15-5218 TPG",
@@ -35020,7 +37079,8 @@ export default {
         "a": -26.7138230437497,
         "b": -7.38467687074151
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "池蓝色"
     },
     {
       "code": "15-5519 TPG",
@@ -35037,7 +37097,8 @@ export default {
         "a": -33.3923303394048,
         "b": -6.74349132479675
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿松石"
     },
     {
       "code": "15-5516 TPG",
@@ -35054,7 +37115,8 @@ export default {
         "a": -33.9111929621283,
         "b": -5.37457051451273
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "瀑布"
     },
     {
       "code": "16-5418 TPG",
@@ -35071,7 +37133,8 @@ export default {
         "a": -26.0966546765497,
         "b": -6.90405182260936
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "泻湖"
     },
     {
       "code": "16-5422 TPG",
@@ -35088,7 +37151,8 @@ export default {
         "a": -32.8765644484925,
         "b": -8.45867325774761
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "明亮的水"
     },
     {
       "code": "18-5128 TPG",
@@ -35105,7 +37169,8 @@ export default {
         "a": -36.6306554778894,
         "b": -12.9485981389604
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝草"
     },
     {
       "code": "18-4936 TPG",
@@ -35122,7 +37187,8 @@ export default {
         "a": -29.5650973981545,
         "b": -13.317009226369
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "大张旗鼓"
     },
     {
       "code": "15-5425 TPG",
@@ -35139,7 +37205,8 @@ export default {
         "a": -43.1192665721268,
         "b": -5.68947626714391
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "亚特兰蒂斯"
     },
     {
       "code": "16-5425 TPG",
@@ -35156,7 +37223,8 @@ export default {
         "a": -44.9316815269138,
         "b": -4.23262559145599
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "游泳池绿"
     },
     {
       "code": "17-5335 TPG",
@@ -35173,7 +37241,8 @@ export default {
         "a": -45.6692680651216,
         "b": -8.13364376545196
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "光谱绿色"
     },
     {
       "code": "17-5330 TPG",
@@ -35190,7 +37259,8 @@ export default {
         "a": -43.3277705304644,
         "b": -7.20430955121776
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "王朝绿色"
     },
     {
       "code": "17-5130 TPG",
@@ -35207,7 +37277,8 @@ export default {
         "a": -42.3120103753141,
         "b": -9.83333786455201
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "哥伦比亚"
     },
     {
       "code": "17-5024 TPG",
@@ -35224,7 +37295,8 @@ export default {
         "a": -30.0291775167337,
         "b": -10.6343550998746
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝蓝色"
     },
     {
       "code": "18-5025 TPG",
@@ -35241,7 +37313,8 @@ export default {
         "a": -26.8078345800543,
         "b": -9.60173576896078
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Quetzal Green"
     },
     {
       "code": "14-5416 TPG",
@@ -35258,7 +37331,8 @@ export default {
         "a": -37.0734038693479,
         "b": -1.23193370927963
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "百慕大"
     },
     {
       "code": "14-5721 TPG",
@@ -35275,7 +37349,8 @@ export default {
         "a": -40.8344241558528,
         "b": -0.18288705882914
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "电绿色"
     },
     {
       "code": "15-5421 TPG",
@@ -35292,7 +37367,8 @@ export default {
         "a": -43.7783792609565,
         "b": -2.14974121951164
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色"
     },
     {
       "code": "16-5427 TPG",
@@ -35309,7 +37385,8 @@ export default {
         "a": -44.4918880628502,
         "b": -2.70110106933805
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "台球"
     },
     {
       "code": "16-5431 TPG",
@@ -35326,7 +37403,8 @@ export default {
         "a": -47.8391265814796,
         "b": -0.0898835521367936
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "孔雀绿"
     },
     {
       "code": "16-5533 TPG",
@@ -35343,7 +37421,8 @@ export default {
         "a": -44.7542851201616,
         "b": -3.21935977145074
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "阿卡迪亚"
     },
     {
       "code": "18-5020 TPG",
@@ -35360,7 +37439,8 @@ export default {
         "a": -31.0876530619654,
         "b": -8.37739762328955
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "伞兵"
     },
     {
       "code": "13-6009 TPG",
@@ -35377,7 +37457,8 @@ export default {
         "a": -21.1712326998491,
         "b": 2.03581656164888
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "布鲁克格林"
     },
     {
       "code": "13-5714 TPG",
@@ -35394,7 +37475,8 @@ export default {
         "a": -32.2379182410954,
         "b": 4.87963395986677
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "卷心菜"
     },
     {
       "code": "14-5714 TPG",
@@ -35411,7 +37493,8 @@ export default {
         "a": -30.2525653640523,
         "b": 1.87718328244009
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "斜面玻璃"
     },
     {
       "code": "14-5718 TPG",
@@ -35428,7 +37511,8 @@ export default {
         "a": -34.2687816259196,
         "b": 2.29288915670578
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蛋白石"
     },
     {
       "code": "15-5819 TPG",
@@ -35445,7 +37529,8 @@ export default {
         "a": -34.3277169196258,
         "b": 4.27847825000811
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薄荷"
     },
     {
       "code": "15-5718 TPG",
@@ -35462,7 +37547,8 @@ export default {
         "a": -41.0939331196854,
         "b": 4.04405687954474
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Biscay Green"
     },
     {
       "code": "15-5728 TPG",
@@ -35479,7 +37565,8 @@ export default {
         "a": -46.1520977630132,
         "b": 3.30132841759641
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薄荷叶"
     },
     {
       "code": "12-5407 TPG",
@@ -35496,7 +37583,8 @@ export default {
         "a": -8.33990203372304,
         "b": 2.12748596607037
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水玻璃"
     },
     {
       "code": "12-5507 TPG",
@@ -35513,7 +37601,8 @@ export default {
         "a": -16.8044197130756,
         "b": 1.88855805435457
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "湾"
     },
     {
       "code": "13-5409 TPG",
@@ -35530,7 +37619,8 @@ export default {
         "a": -22.2657548107004,
         "b": -0.816920378206287
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "丝兰"
     },
     {
       "code": "13-5412 TPG",
@@ -35547,7 +37637,8 @@ export default {
         "a": -26.8392537038278,
         "b": -0.0784666080458241
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海滩玻璃"
     },
     {
       "code": "13-5414 TPG",
@@ -35564,7 +37655,8 @@ export default {
         "a": -31.7066865059548,
         "b": 0.180955729508359
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冰绿"
     },
     {
       "code": "14-5420 TPG",
@@ -35581,7 +37673,8 @@ export default {
         "a": -36.973157486587,
         "b": -2.30092756092211
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "小鹦鹉"
     },
     {
       "code": "15-5416 TPG",
@@ -35598,7 +37691,8 @@ export default {
         "a": -37.2268697348649,
         "b": -1.74730051108296
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "佛罗里达钥匙"
     },
     {
       "code": "12-5406 TPG",
@@ -35615,7 +37709,8 @@ export default {
         "a": -9.90716310086148,
         "b": -0.18111496366271
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蛋白石蓝色"
     },
     {
       "code": "12-5408 TPG",
@@ -35632,7 +37727,8 @@ export default {
         "a": -13.595307862163,
         "b": 0.0646003045321919
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "月光玉"
     },
     {
       "code": "12-5505 TPG",
@@ -35649,7 +37745,8 @@ export default {
         "a": -9.97156961176299,
         "b": -0.342058059298211
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冰川"
     },
     {
       "code": "14-5711 TPG",
@@ -35666,7 +37763,8 @@ export default {
         "a": -20.9192854006847,
         "b": 0.363174078845496
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海浪"
     },
     {
       "code": "14-5413 TPG",
@@ -35683,7 +37781,8 @@ export default {
         "a": -25.2805557122663,
         "b": -1.3895471345605
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "假期"
     },
     {
       "code": "14-5713 TPG",
@@ -35700,7 +37799,8 @@ export default {
         "a": -25.3315473565062,
         "b": -2.09827888523006
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "级联"
     },
     {
       "code": "15-5711 TPG",
@@ -35717,7 +37817,8 @@ export default {
         "a": -22.9149377231879,
         "b": 2.63665249535259
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "尘土绿色"
     },
     {
       "code": "16-5109 TPG",
@@ -35734,7 +37835,8 @@ export default {
         "a": -18.59749364971,
         "b": -2.60938801167732
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "芥末"
     },
     {
       "code": "16-5515 TPG",
@@ -35751,7 +37853,8 @@ export default {
         "a": -17.4813881491638,
         "b": -0.832129854357011
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "贝里尔·格林（Beryl Green）"
     },
     {
       "code": "17-5111 TPG",
@@ -35768,7 +37871,8 @@ export default {
         "a": -14.5239714358336,
         "b": -4.56867251018713
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "油蓝色"
     },
     {
       "code": "17-5513 TPG",
@@ -35785,7 +37889,8 @@ export default {
         "a": -17.9365705206552,
         "b": -2.84726317275619
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深海"
     },
     {
       "code": "18-5618 TPG",
@@ -35802,7 +37907,8 @@ export default {
         "a": -18.9090450561369,
         "b": -5.17272533192334
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深丛林"
     },
     {
       "code": "18-5619 TPG",
@@ -35819,7 +37925,8 @@ export default {
         "a": -24.0602273796528,
         "b": -5.74065572342339
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "泰德浦"
     },
     {
       "code": "18-5620 TPG",
@@ -35836,7 +37943,8 @@ export default {
         "a": -22.3186903813344,
         "b": -4.73284092260087
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "常春藤"
     },
     {
       "code": "16-5919 TPG",
@@ -35853,7 +37961,8 @@ export default {
         "a": -20.0394836519259,
         "b": 4.35238084066867
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "奶油"
     },
     {
       "code": "16-5815 TPG",
@@ -35870,7 +37979,8 @@ export default {
         "a": -17.7344058243923,
         "b": 3.08354539707254
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "长石"
     },
     {
       "code": "18-5622 TPG",
@@ -35887,7 +37997,8 @@ export default {
         "a": -18.6394663106641,
         "b": 2.47616888019944
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冰霜云杉"
     },
     {
       "code": "17-5722 TPG",
@@ -35904,7 +38015,8 @@ export default {
         "a": -22.4271334265553,
         "b": -0.192097875141584
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "瓶绿色"
     },
     {
       "code": "18-5418 TPG",
@@ -35921,7 +38033,8 @@ export default {
         "a": -17.4895460640398,
         "b": -4.53042509192234
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "古董绿色"
     },
     {
       "code": "18-5725 TPG",
@@ -35938,7 +38051,8 @@ export default {
         "a": -20.7678276047611,
         "b": -1.34768521846986
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "加拉帕戈斯绿色"
     },
     {
       "code": "19-5230 TPG",
@@ -35955,7 +38069,8 @@ export default {
         "a": -13.2087826194954,
         "b": -3.68287710887967
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "森林生物群落"
     },
     {
       "code": "16-5917 TPG",
@@ -35972,7 +38087,8 @@ export default {
         "a": -19.193186984662,
         "b": 3.17385447698066
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "孔雀石绿色"
     },
     {
       "code": "18-5621 TPG",
@@ -35989,7 +38105,8 @@ export default {
         "a": -18.6011689021317,
         "b": 1.11973926001143
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冷杉"
     },
     {
       "code": "19-5420 TPG",
@@ -36006,7 +38123,8 @@ export default {
         "a": -20.5061292870037,
         "b": -0.302337084668036
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "常绿"
     },
     {
       "code": "18-5616 TPG",
@@ -36023,7 +38141,8 @@ export default {
         "a": -14.2553526487076,
         "b": -1.34712610619181
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Posy Green"
     },
     {
       "code": "19-5511 TPG",
@@ -36040,7 +38159,8 @@ export default {
         "a": -12.6029671561775,
         "b": 1.41680626836655
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "猎人格林"
     },
     {
       "code": "18-5718 TPG",
@@ -36057,7 +38177,8 @@ export default {
         "a": -12.9540157365237,
         "b": -0.0742668586776185
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "吸烟"
     },
     {
       "code": "19-5232 TPG",
@@ -36074,7 +38195,8 @@ export default {
         "a": -12.2339187222018,
         "b": -1.87178160998637
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "雨林"
     },
     {
       "code": "16-5721 TPG",
@@ -36091,7 +38213,8 @@ export default {
         "a": -31.3323109048169,
         "b": 0.276025278497793
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海洋绿色"
     },
     {
       "code": "17-5430 TPG",
@@ -36108,7 +38231,8 @@ export default {
         "a": -32.0155559973057,
         "b": -2.54403824261804
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "阿罕布拉"
     },
     {
       "code": "17-5734 TPG",
@@ -36125,7 +38249,8 @@ export default {
         "a": -35.0315311028153,
         "b": 1.41341840552347
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "维里迪斯"
     },
     {
       "code": "17-5528 TPG",
@@ -36142,7 +38267,8 @@ export default {
         "a": -32.8022007257147,
         "b": -1.82203393817628
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿莱克"
     },
     {
       "code": "18-5624 TPG",
@@ -36159,7 +38285,8 @@ export default {
         "a": -28.7879582864345,
         "b": 0.406312798092334
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "阴暗的林间"
     },
     {
       "code": "18-5424 TPG",
@@ -36176,7 +38303,8 @@ export default {
         "a": -29.6735324348909,
         "b": -3.42497784518185
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "镉绿"
     },
     {
       "code": "18-5322 TPG",
@@ -36193,7 +38321,8 @@ export default {
         "a": -22.7101215356489,
         "b": -4.51777995276524
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "高山绿色"
     },
     {
       "code": "16-5426 TPG",
@@ -36210,7 +38339,8 @@ export default {
         "a": -38.788019098451,
         "b": -1.61556102059748
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水花园"
     },
     {
       "code": "17-5440 TPG",
@@ -36227,7 +38357,8 @@ export default {
         "a": -35.4796101348642,
         "b": -5.16911765718244
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海底"
     },
     {
       "code": "17-5730 TPG",
@@ -36244,7 +38375,8 @@ export default {
         "a": -39.2424032742854,
         "b": -3.54005510295832
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "泥泞"
     },
     {
       "code": "17-5527 TPG",
@@ -36261,7 +38393,8 @@ export default {
         "a": -37.7500893116312,
         "b": -4.00503943018948
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "运动绿色"
     },
     {
       "code": "18-5016 TPG",
@@ -36278,7 +38411,8 @@ export default {
         "a": -33.8480738380812,
         "b": -7.39743747346109
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "骄傲的孔雀"
     },
     {
       "code": "18-5425 TPG",
@@ -36295,7 +38429,8 @@ export default {
         "a": -31.0803000075116,
         "b": -2.46346271127849
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "熊草"
     },
     {
       "code": "19-5421 TPG",
@@ -36312,7 +38447,8 @@ export default {
         "a": -24.6923036201817,
         "b": -2.68796067805462
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鸟嘌呤"
     },
     {
       "code": "16-5421 TPG",
@@ -36329,7 +38465,8 @@ export default {
         "a": -37.3515548082337,
         "b": -0.448934641182652
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海绿"
     },
     {
       "code": "17-5633 TPG",
@@ -36346,7 +38483,8 @@ export default {
         "a": -45.1740111072378,
         "b": -0.571193296117478
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深绿色"
     },
     {
       "code": "17-5638 TPG",
@@ -36363,7 +38501,8 @@ export default {
         "a": -48.0849899849447,
         "b": 1.54819893888978
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "生动的绿色"
     },
     {
       "code": "17-5641 TPG",
@@ -36380,7 +38519,8 @@ export default {
         "a": -46.4890047961467,
         "b": 2.54384762296618
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "翠"
     },
     {
       "code": "18-5841 TPG",
@@ -36397,7 +38537,8 @@ export default {
         "a": -43.8756776326196,
         "b": 1.99616140414152
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "胡椒绿"
     },
     {
       "code": "17-5735 TPG",
@@ -36414,7 +38555,8 @@ export default {
         "a": -47.3652564083094,
         "b": 4.8826836575214
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "长尾小鹦鹉"
     },
     {
       "code": "18-5642 TPG",
@@ -36431,7 +38573,8 @@ export default {
         "a": -49.3153715062646,
         "b": 4.06915636213581
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "高尔夫绿色"
     },
     {
       "code": "16-5932 TPG",
@@ -36448,7 +38591,8 @@ export default {
         "a": -42.745523021554,
         "b": 6.55331254252844
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "霍莉·格林"
     },
     {
       "code": "17-5936 TPG",
@@ -36465,7 +38609,8 @@ export default {
         "a": -41.1356824946008,
         "b": 5.71841307101235
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "只是绿色"
     },
     {
       "code": "16-5938 TPG",
@@ -36482,7 +38627,8 @@ export default {
         "a": -50.4140443422426,
         "b": 10.6882902092991
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薄荷"
     },
     {
       "code": "17-5937 TPG",
@@ -36499,7 +38645,8 @@ export default {
         "a": -47.2004068757024,
         "b": 10.4334447582996
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深薄荷"
     },
     {
       "code": "18-5633 TPG",
@@ -36516,7 +38663,8 @@ export default {
         "a": -35.6729559234358,
         "b": 3.74756762597488
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Bosphorus"
     },
     {
       "code": "18-5845 TPG",
@@ -36533,7 +38681,8 @@ export default {
         "a": -36.4720183291172,
         "b": 2.5368092160668
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "郁郁葱葱的草地"
     },
     {
       "code": "18-5338 TPG",
@@ -36550,7 +38699,8 @@ export default {
         "a": -36.580750677776,
         "b": 0.542849470076812
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "摩尔马林绿色"
     },
     {
       "code": "14-6017 TPG",
@@ -36567,7 +38717,8 @@ export default {
         "a": -24.6894508595032,
         "b": 6.09467615522266
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海王星绿色"
     },
     {
       "code": "16-6030 TPG",
@@ -36584,7 +38735,8 @@ export default {
         "a": -31.2563718287739,
         "b": 8.51232046528765
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "katydid"
     },
     {
       "code": "14-6330 TPG",
@@ -36601,7 +38753,8 @@ export default {
         "a": -39.2430880595495,
         "b": 12.3828889942351
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "春季芽"
     },
     {
       "code": "15-6123 TPG",
@@ -36618,7 +38771,8 @@ export default {
         "a": -33.6961583167578,
         "b": 8.48784897566068
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玉奶油"
     },
     {
       "code": "16-5930 TPG",
@@ -36635,7 +38789,8 @@ export default {
         "a": -37.7784932297321,
         "b": 10.562003035491
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "明格林"
     },
     {
       "code": "16-5942 TPG",
@@ -36652,7 +38807,8 @@ export default {
         "a": -49.808436870107,
         "b": 9.28014882667527
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "布拉尼"
     },
     {
       "code": "16-5825 TPG",
@@ -36669,7 +38825,8 @@ export default {
         "a": -37.1557161497539,
         "b": 3.77918789359586
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "gumdrop绿色"
     },
     {
       "code": "15-5812 TPG",
@@ -36686,7 +38843,8 @@ export default {
         "a": -16.5094558628143,
         "b": 3.59060475835886
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "地衣"
     },
     {
       "code": "13-5907 TPG",
@@ -36703,7 +38861,8 @@ export default {
         "a": -13.5943778567696,
         "b": 3.89844903669834
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Gossamer Green"
     },
     {
       "code": "13-5911 TPG",
@@ -36720,7 +38879,8 @@ export default {
         "a": -16.9310122192192,
         "b": 4.32937696642803
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鸟的蛋绿"
     },
     {
       "code": "13-6110 TPG",
@@ -36737,7 +38897,8 @@ export default {
         "a": -17.140013329895,
         "b": 5.49792701076648
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薄雾绿"
     },
     {
       "code": "14-6011 TPG",
@@ -36754,7 +38915,8 @@ export default {
         "a": -15.899427502419,
         "b": 4.92380168602571
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰玉"
     },
     {
       "code": "16-5820 TPG",
@@ -36771,7 +38933,8 @@ export default {
         "a": -26.1157489024174,
         "b": 5.09021389073894
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿云杉"
     },
     {
       "code": "16-5924 TPG",
@@ -36788,7 +38951,8 @@ export default {
         "a": -29.4760724762556,
         "b": 6.02621065202045
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冬季绿色"
     },
     {
       "code": "11-0304 TPG",
@@ -36805,7 +38969,8 @@ export default {
         "a": -3.22606140172399,
         "b": 5.01108363410305
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水百合"
     },
     {
       "code": "12-6208 TPG",
@@ -36822,7 +38987,8 @@ export default {
         "a": -3.61754574003736,
         "b": 4.67594647516978
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "幻影绿色"
     },
     {
       "code": "12-6206 TPG",
@@ -36839,7 +39005,8 @@ export default {
         "a": -4.29636704875724,
         "b": 5.1805404713219
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "最公平的玉"
     },
     {
       "code": "12-5504 TPG",
@@ -36856,7 +39023,8 @@ export default {
         "a": -8.63768056815095,
         "b": 2.94734995516339
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "显然是水"
     },
     {
       "code": "13-6008 TPG",
@@ -36873,7 +39041,8 @@ export default {
         "a": -12.2486203545906,
         "b": 4.25351422883022
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "迷雾玉"
     },
     {
       "code": "12-5506 TPG",
@@ -36890,7 +39059,8 @@ export default {
         "a": -10.3309705874887,
         "b": 1.48090460776016
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "尘土飞扬的水"
     },
     {
       "code": "14-6312 TPG",
@@ -36907,7 +39077,8 @@ export default {
         "a": -12.9019784226043,
         "b": 6.05885025304189
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "客串绿色"
     },
     {
       "code": "11-4303 TPG",
@@ -36924,7 +39095,8 @@ export default {
         "a": -1.88198365964409,
         "b": 3.02927713772769
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "神秘的蓝色"
     },
     {
       "code": "12-4304 TPG",
@@ -36941,7 +39113,8 @@ export default {
         "a": -2.70917504722856,
         "b": 1.69490745521528
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝洗"
     },
     {
       "code": "11-4301 TPG",
@@ -36958,7 +39131,8 @@ export default {
         "a": -0.539056665833315,
         "b": 3.20429878420256
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "莉莉·怀特"
     },
     {
       "code": "11-4802 TPG",
@@ -36975,7 +39149,8 @@ export default {
         "a": -2.63487355067732,
         "b": 2.68205406427926
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "夏季淋浴"
     },
     {
       "code": "11-4804 TPG",
@@ -36992,7 +39167,8 @@ export default {
         "a": -2.93153892223957,
         "b": 4.62963933721985
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "最轻的天空"
     },
     {
       "code": "12-5203 TPG",
@@ -37009,7 +39185,8 @@ export default {
         "a": -3.96503866719478,
         "b": 1.4048193681196
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杂音"
     },
     {
       "code": "12-5603 TPG",
@@ -37026,7 +39203,8 @@ export default {
         "a": -3.93872964557102,
         "b": 3.22233422386622
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Zephyr蓝色"
     },
     {
       "code": "12-5404 TPG",
@@ -37043,7 +39221,8 @@ export default {
         "a": -2.69400286213767,
         "b": 5.49070236935187
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "耳语绿色"
     },
     {
       "code": "12-6205 TPG",
@@ -37060,7 +39239,8 @@ export default {
         "a": -5.39754691752997,
         "b": 3.20295785603413
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "乳绿色"
     },
     {
       "code": "13-0107 TPG",
@@ -37077,7 +39257,8 @@ export default {
         "a": -7.77693081531938,
         "b": 6.47753587385884
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Dewkist"
     },
     {
       "code": "13-6106 TPG",
@@ -37094,7 +39275,8 @@ export default {
         "a": -4.55076967450901,
         "b": 5.54770141643661
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色色调"
     },
     {
       "code": "13-6107 TPG",
@@ -37111,7 +39293,8 @@ export default {
         "a": -8.3364447880111,
         "b": 5.62096184018679
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿百合"
     },
     {
       "code": "13-6108 TPG",
@@ -37128,7 +39311,8 @@ export default {
         "a": -10.1978633999032,
         "b": 6.13258705907727
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "卡拉登"
     },
     {
       "code": "14-6008 TPG",
@@ -37145,7 +39329,8 @@ export default {
         "a": -11.2195304421761,
         "b": 3.72097611468565
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "微妙的绿色"
     },
     {
       "code": "14-4505 TPG",
@@ -37162,7 +39347,8 @@ export default {
         "a": -4.08353972642517,
         "b": 0.518399559979077
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "抽烟"
     },
     {
       "code": "13-5305 TPG",
@@ -37179,7 +39365,8 @@ export default {
         "a": -5.43504766544628,
         "b": 2.43113181905146
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "苍白的水"
     },
     {
       "code": "14-5707 TPG",
@@ -37196,7 +39383,8 @@ export default {
         "a": -10.8574762734802,
         "b": 3.44124754607527
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水泡"
     },
     {
       "code": "14-5706 TPG",
@@ -37213,7 +39401,8 @@ export default {
         "a": -9.5265429913638,
         "b": 2.75046882248446
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淤泥绿色"
     },
     {
       "code": "15-5706 TPG",
@@ -37230,7 +39419,8 @@ export default {
         "a": -9.09140013543408,
         "b": 3.87460447980879
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "霜绿色"
     },
     {
       "code": "16-5907 TPG",
@@ -37247,7 +39437,8 @@ export default {
         "a": -13.0849911446131,
         "b": 2.87647711569792
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "花岗岩绿色"
     },
     {
       "code": "16-5810 TPG",
@@ -37264,7 +39455,8 @@ export default {
         "a": -9.80885529376879,
         "b": 3.82721141090847
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿湾"
     },
     {
       "code": "12-5403 TPG",
@@ -37281,7 +39473,8 @@ export default {
         "a": -4.63126044043483,
         "b": 1.03514110568219
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蓝色的花"
     },
     {
       "code": "14-4502 TPG",
@@ -37298,7 +39491,8 @@ export default {
         "a": -3.49380701539753,
         "b": 1.36504114373346
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "汞"
     },
     {
       "code": "14-4503 TPG",
@@ -37315,7 +39509,8 @@ export default {
         "a": -4.4061621730842,
         "b": 0.383833520524268
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金属"
     },
     {
       "code": "15-4702 TPG",
@@ -37332,7 +39527,8 @@ export default {
         "a": -5.53784312315886,
         "b": -0.199876102936991
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "清教徒灰色"
     },
     {
       "code": "15-4704 TPG",
@@ -37349,7 +39545,8 @@ export default {
         "a": -4.57374819850837,
         "b": 0.969006675381201
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鸽子"
     },
     {
       "code": "15-5205 TPG",
@@ -37366,7 +39563,8 @@ export default {
         "a": -5.59472258904598,
         "b": 1.43352341730318
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水灰"
     },
     {
       "code": "16-5808 TPG",
@@ -37383,7 +39581,8 @@ export default {
         "a": -8.85378983954699,
         "b": 2.5966249895484
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冰山绿"
     },
     {
       "code": "16-5807 TPG",
@@ -37400,7 +39599,8 @@ export default {
         "a": -7.9822069881193,
         "b": 3.17448048603841
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蕸"
     },
     {
       "code": "17-6009 TPG",
@@ -37417,7 +39617,8 @@ export default {
         "a": -7.36655369060274,
         "b": 2.22218563582768
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "月桂树花圈"
     },
     {
       "code": "18-5611 TPG",
@@ -37434,7 +39635,8 @@ export default {
         "a": -7.06008142666423,
         "b": -0.0193517826455825
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑暗的森林"
     },
     {
       "code": "18-6011 TPG",
@@ -37451,7 +39653,8 @@ export default {
         "a": -9.97929414223925,
         "b": 2.32959950203566
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鸭绿"
     },
     {
       "code": "18-5913 TPG",
@@ -37468,7 +39671,8 @@ export default {
         "a": -9.70539801564732,
         "b": 0.562024977089737
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "花园修剪"
     },
     {
       "code": "19-5411 TPG",
@@ -37485,7 +39689,8 @@ export default {
         "a": -9.067082781236,
         "b": -1.01703203398344
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "徒步绿色"
     },
     {
       "code": "19-5220 TPG",
@@ -37502,7 +39707,8 @@ export default {
         "a": -13.4586498811939,
         "b": -2.67196502375313
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "植物园"
     },
     {
       "code": "19-5004 TPG",
@@ -37519,7 +39725,8 @@ export default {
         "a": -3.44077685898964,
         "b": -1.8040299181634
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "城市时尚"
     },
     {
       "code": "19-4906 TPG",
@@ -37536,7 +39743,8 @@ export default {
         "a": -5.92132937850345,
         "b": -2.29967135718439
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色山墙"
     },
     {
       "code": "19-5212 TPG",
@@ -37553,7 +39761,8 @@ export default {
         "a": -5.27429254209952,
         "b": -2.6640066481707
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "最黑暗的云杉"
     },
     {
       "code": "19-5406 TPG",
@@ -37570,7 +39779,8 @@ export default {
         "a": -7.95484675773708,
         "b": -0.457994730332489
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "松林"
     },
     {
       "code": "19-5918 TPG",
@@ -37587,7 +39797,8 @@ export default {
         "a": -8.66255809560598,
         "b": 4.02360972860798
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "山景"
     },
     {
       "code": "19-6110 TPG",
@@ -37604,7 +39815,8 @@ export default {
         "a": -4.15241841403599,
         "b": 1.17567862099851
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深森林"
     },
     {
       "code": "19-5350 TPG",
@@ -37621,7 +39833,8 @@ export default {
         "a": -4.15763816010609,
         "b": -0.710646019641648
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "圣甲虫"
     },
     {
       "code": "17-6212 TPG",
@@ -37638,7 +39851,8 @@ export default {
         "a": -8.67485160473425,
         "b": 4.97580618436182
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海喷"
     },
     {
       "code": "18-5806 TPG",
@@ -37655,7 +39869,8 @@ export default {
         "a": -3.82714966281716,
         "b": 2.61414380252452
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "龙舌兰绿"
     },
     {
       "code": "19-0309 TPG",
@@ -37672,7 +39887,8 @@ export default {
         "a": -5.38265355797429,
         "b": 4.06895664855212
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "百里香"
     },
     {
       "code": "19-5621 TPG",
@@ -37689,7 +39905,8 @@ export default {
         "a": -7.0527303524876,
         "b": 1.86896438150993
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "香菜"
     },
     {
       "code": "19-5914 TPG",
@@ -37706,7 +39923,8 @@ export default {
         "a": -6.90730175497242,
         "b": -0.559934222755176
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "丛林绿色"
     },
     {
       "code": "19-5920 TPG",
@@ -37723,7 +39941,8 @@ export default {
         "a": -9.22764723191768,
         "b": 1.14834299137524
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "小针"
     },
     {
       "code": "19-5917 TPG",
@@ -37740,7 +39959,8 @@ export default {
         "a": -8.81793424608593,
         "b": 1.2193176510595
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "无菌"
     },
     {
       "code": "18-0515 TPG",
@@ -37757,7 +39977,8 @@ export default {
         "a": -0.449265439549817,
         "b": 5.83748834001442
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "尘土飞扬的橄榄"
     },
     {
       "code": "19-0312 TPG",
@@ -37774,7 +39995,8 @@ export default {
         "a": -3.47569360227734,
         "b": 5.03844801565971
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "甲虫"
     },
     {
       "code": "19-0307 TPG",
@@ -37791,7 +40013,8 @@ export default {
         "a": -2.94039705849353,
         "b": 3.42770144350025
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "攀登常春藤"
     },
     {
       "code": "19-0417 TPG",
@@ -37808,7 +40031,8 @@ export default {
         "a": -6.67047452469294,
         "b": 6.07902122623639
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "KOMBU GREEN"
     },
     {
       "code": "19-0315 TPG",
@@ -37825,7 +40049,8 @@ export default {
         "a": -8.91375018970281,
         "b": 5.98702304647376
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑森林"
     },
     {
       "code": "19-0415 TPG",
@@ -37842,7 +40067,8 @@ export default {
         "a": -3.61176062350843,
         "b": 2.92637095638014
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "行李袋"
     },
     {
       "code": "19-0509 TPG",
@@ -37859,7 +40085,8 @@ export default {
         "a": -2.89648161730066,
         "b": 3.25652960260334
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "松香"
     },
     {
       "code": "17-0610 TPG",
@@ -37876,7 +40103,8 @@ export default {
         "a": -1.9827675330551,
         "b": 8.53041465384628
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "月桂树橡树"
     },
     {
       "code": "17-0613 TPG",
@@ -37893,7 +40121,8 @@ export default {
         "a": -2.37267054998874,
         "b": 6.96832785206403
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "香根草"
     },
     {
       "code": "18-0312 TPG",
@@ -37910,7 +40139,8 @@ export default {
         "a": -4.61822474983609,
         "b": 8.7900327672976
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深层地衣绿"
     },
     {
       "code": "18-0517 TPG",
@@ -37927,7 +40157,8 @@ export default {
         "a": -0.660678577730778,
         "b": 5.3688690905606
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "茶叶"
     },
     {
       "code": "18-0514 TPG",
@@ -37944,7 +40175,8 @@ export default {
         "a": -1.75787159852875,
         "b": 4.09833148460461
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "仔细考虑罗勒"
     },
     {
       "code": "19-0404 TPG",
@@ -37961,7 +40193,8 @@ export default {
         "a": -2.51942995735088,
         "b": 3.9643809995899
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "坎巴巴"
     },
     {
       "code": "19-0406 TPG",
@@ -37978,7 +40211,8 @@ export default {
         "a": -1.01340424835286,
         "b": 2.30643666444096
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "嵌合体"
     },
     {
       "code": "15-6304 TPG",
@@ -37995,7 +40229,8 @@ export default {
         "a": -1.82818309828381,
         "b": 5.40621708349849
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Pussywillow Gray"
     },
     {
       "code": "16-0207 TPG",
@@ -38012,7 +40247,8 @@ export default {
         "a": -1.36025137353912,
         "b": 6.95939362519165
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "伦敦雾"
     },
     {
       "code": "15-4306 TPG",
@@ -38029,7 +40265,8 @@ export default {
         "a": -2.15661960326924,
         "b": 1.45595855482479
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "比利时街区"
     },
     {
       "code": "16-5904 TPG",
@@ -38046,7 +40283,8 @@ export default {
         "a": -5.28743456906888,
         "b": 1.04562641118653
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "锻铁"
     },
     {
       "code": "17-0209 TPG",
@@ -38063,7 +40301,8 @@ export default {
         "a": -1.69217697771967,
         "b": 3.0904747135577
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "森林雾"
     },
     {
       "code": "17-0208 TPG",
@@ -38080,7 +40319,8 @@ export default {
         "a": -1.56261148594189,
         "b": 5.39200200802838
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "干燥的鼠尾草"
     },
     {
       "code": "18-0516 TPG",
@@ -38097,7 +40337,8 @@ export default {
         "a": -0.615987369586068,
         "b": 5.64754157617213
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "烟熏橄榄"
     },
     {
       "code": "12-5703 TPG",
@@ -38114,7 +40355,8 @@ export default {
         "a": -3.8905074905865,
         "b": 4.10180355870642
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "磨砂薄荷"
     },
     {
       "code": "13-6105 TPG",
@@ -38131,7 +40373,8 @@ export default {
         "a": -2.97895255972475,
         "b": 7.14394167822165
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Celadon Tint"
     },
     {
       "code": "15-5704 TPG",
@@ -38148,7 +40391,8 @@ export default {
         "a": -2.98921537503455,
         "b": 2.92658115830355
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "矿物灰色"
     },
     {
       "code": "16-0110 TPG",
@@ -38165,7 +40409,8 @@ export default {
         "a": -5.17556136950398,
         "b": 7.03730146906614
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沙漠圣人"
     },
     {
       "code": "16-6008 TPG",
@@ -38182,7 +40427,8 @@ export default {
         "a": -4.24848838595965,
         "b": 5.74060085455135
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海草"
     },
     {
       "code": "16-0213 TPG",
@@ -38199,7 +40445,8 @@ export default {
         "a": -4.84408719852064,
         "b": 11.1368154939399
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "茶"
     },
     {
       "code": "17-6206 TPG",
@@ -38216,7 +40463,8 @@ export default {
         "a": -4.22514716378558,
         "b": 4.03218243668302
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "阴影"
     },
     {
       "code": "13-0210 TPG",
@@ -38233,7 +40481,8 @@ export default {
         "a": -6.61179168956466,
         "b": 9.65181057241413
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "雾绿"
     },
     {
       "code": "13-0212 TPG",
@@ -38250,7 +40499,8 @@ export default {
         "a": -6.87076674368686,
         "b": 12.1070780673818
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "嫩蔬菜"
     },
     {
       "code": "14-0114 TPG",
@@ -38267,7 +40517,8 @@ export default {
         "a": -9.17914191596703,
         "b": 12.9023984484153
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Celadon Green"
     },
     {
       "code": "15-6313 TPG",
@@ -38284,7 +40535,8 @@ export default {
         "a": -9.04909643233381,
         "b": 10.8129356086205
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "月桂树绿"
     },
     {
       "code": "15-6310 TPG",
@@ -38301,7 +40553,8 @@ export default {
         "a": -6.29692857192077,
         "b": 10.8434980436969
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沼泽"
     },
     {
       "code": "15-6414 TPG",
@@ -38318,7 +40571,8 @@ export default {
         "a": -9.41249755509099,
         "b": 12.1642684458573
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Reseda"
     },
     {
       "code": "17-6323 TPG",
@@ -38335,7 +40589,8 @@ export default {
         "a": -11.1801113744401,
         "b": 6.68408018372293
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "树篱绿色"
     },
     {
       "code": "14-6007 TPG",
@@ -38352,7 +40607,8 @@ export default {
         "a": -6.0133250235927,
         "b": 5.06532801965074
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海泡"
     },
     {
       "code": "15-6315 TPG",
@@ -38369,7 +40625,8 @@ export default {
         "a": -12.2996595919221,
         "b": 7.93968550923703
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "烟绿"
     },
     {
       "code": "16-0220 TPG",
@@ -38386,7 +40643,8 @@ export default {
         "a": -13.1773400154611,
         "b": 12.3717334268344
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "槲寄生"
     },
     {
       "code": "16-0224 TPG",
@@ -38403,7 +40661,8 @@ export default {
         "a": -14.6024177737805,
         "b": 16.1482575145858
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿眼睛"
     },
     {
       "code": "17-0119 TPG",
@@ -38420,7 +40679,8 @@ export default {
         "a": -16.2977391052497,
         "b": 12.4112463052808
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "草皮绿色"
     },
     {
       "code": "17-0220 TPG",
@@ -38437,7 +40697,8 @@ export default {
         "a": -14.4313379371444,
         "b": 13.3034185164429
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "豆瓣"
     },
     {
       "code": "18-0121 TPG",
@@ -38454,7 +40715,8 @@ export default {
         "a": -14.7156557286536,
         "b": 10.3798372420032
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "榆树绿"
     },
     {
       "code": "13-6006 TPG",
@@ -38471,7 +40733,8 @@ export default {
         "a": -4.59269176182414,
         "b": 7.21032844857323
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "几乎是水"
     },
     {
       "code": "13-6208 TPG",
@@ -38488,7 +40751,8 @@ export default {
         "a": -7.8276860885883,
         "b": 10.936154994418
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Bok Choy"
     },
     {
       "code": "16-6318 TPG",
@@ -38505,7 +40769,8 @@ export default {
         "a": -17.574770971278,
         "b": 11.9967346334073
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "矿物绿色"
     },
     {
       "code": "18-6216 TPG",
@@ -38522,7 +40787,8 @@ export default {
         "a": -14.0282313237526,
         "b": 6.13911922121821
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Comfrey"
     },
     {
       "code": "17-5912 TPG",
@@ -38539,7 +40805,8 @@ export default {
         "a": -13.5151858827184,
         "b": 5.09130630515473
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑暗常春藤"
     },
     {
       "code": "18-6114 TPG",
@@ -38556,7 +40823,8 @@ export default {
         "a": -13.0770345774204,
         "b": 4.4819070005035
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桃金娘"
     },
     {
       "code": "18-6018 TPG",
@@ -38573,7 +40841,8 @@ export default {
         "a": -19.9097138880414,
         "b": 3.44109803759758
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "树叶绿色"
     },
     {
       "code": "13-6007 TPG",
@@ -38590,7 +40859,8 @@ export default {
         "a": -11.6543798492797,
         "b": 8.81454998706976
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "喷"
     },
     {
       "code": "13-0116 TPG",
@@ -38607,7 +40877,8 @@ export default {
         "a": -16.8813218390056,
         "b": 12.455998110635
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柔和的绿色"
     },
     {
       "code": "14-6316 TPG",
@@ -38624,7 +40895,8 @@ export default {
         "a": -16.8975546027557,
         "b": 12.5421571161086
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Sprucestone"
     },
     {
       "code": "14-6324 TPG",
@@ -38641,7 +40913,8 @@ export default {
         "a": -24.9643506566245,
         "b": 16.5901960759498
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Peapod"
     },
     {
       "code": "14-6327 TPG",
@@ -38658,7 +40931,8 @@ export default {
         "a": -26.6605587249953,
         "b": 16.9562501378186
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Zephyr绿色"
     },
     {
       "code": "16-6324 TPG",
@@ -38675,7 +40949,8 @@ export default {
         "a": -21.775504109568,
         "b": 14.6646347677776
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Jadesheen"
     },
     {
       "code": "15-6432 TPG",
@@ -38692,7 +40967,8 @@ export default {
         "a": -25.8360845775972,
         "b": 22.3606224733938
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "三叶草"
     },
     {
       "code": "15-6114 TPG",
@@ -38709,7 +40985,8 @@ export default {
         "a": -18.9008711164689,
         "b": 8.93355384994801
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "铁杉"
     },
     {
       "code": "14-6319 TPG",
@@ -38726,7 +41003,8 @@ export default {
         "a": -21.0709489263352,
         "b": 12.6169070296635
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "草地"
     },
     {
       "code": "15-6120 TPG",
@@ -38743,7 +41021,8 @@ export default {
         "a": -25.0881363332428,
         "b": 12.6080325636458
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "明"
     },
     {
       "code": "15-6322 TPG",
@@ -38760,7 +41039,8 @@ export default {
         "a": -25.6894736623086,
         "b": 14.7860179651707
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "浅绿色"
     },
     {
       "code": "14-6329 TPG",
@@ -38777,7 +41057,8 @@ export default {
         "a": -31.7067245744718,
         "b": 17.7717238138103
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "苦艾酒"
     },
     {
       "code": "16-6329 TPG",
@@ -38794,7 +41075,8 @@ export default {
         "a": -24.2516369331742,
         "b": 17.9134763237774
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薄荷"
     },
     {
       "code": "18-0110 TPG",
@@ -38811,7 +41093,8 @@ export default {
         "a": -16.4873871500287,
         "b": 14.8695758221377
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "英语常春藤"
     },
     {
       "code": "14-0127 TPG",
@@ -38828,7 +41111,8 @@ export default {
         "a": -25.8190749604222,
         "b": 18.4363534344997
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿资"
     },
     {
       "code": "16-6127 TPG",
@@ -38845,7 +41129,8 @@ export default {
         "a": -32.8543680683909,
         "b": 12.6181426247646
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色布拉尔"
     },
     {
       "code": "18-6022 TPG",
@@ -38862,7 +41147,8 @@ export default {
         "a": -29.9571715300998,
         "b": 9.56482242141359
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "妖精"
     },
     {
       "code": "17-6030 TPG",
@@ -38879,7 +41165,8 @@ export default {
         "a": -43.5230623398795,
         "b": 14.8997152062061
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "果冻豆"
     },
     {
       "code": "18-6030 TPG",
@@ -38896,7 +41183,8 @@ export default {
         "a": -44.3789075452348,
         "b": 15.3539092930402
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "欢乐的格林"
     },
     {
       "code": "19-6026 TPG",
@@ -38913,7 +41201,8 @@ export default {
         "a": -28.290667608165,
         "b": 7.48717506474892
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "翠绿的绿色"
     },
     {
       "code": "18-6024 TPG",
@@ -38930,7 +41219,8 @@ export default {
         "a": -28.6609152496481,
         "b": 10.1340724979924
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "亚马逊"
     },
     {
       "code": "17-6154 TPG",
@@ -38947,7 +41237,8 @@ export default {
         "a": -43.9845646448835,
         "b": 20.9379071013002
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色蜜蜂"
     },
     {
       "code": "18-6028 TPG",
@@ -38964,7 +41255,8 @@ export default {
         "a": -33.7552271322849,
         "b": 16.7289860256969
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "起伏的丘陵"
     },
     {
       "code": "18-6031 TPG",
@@ -38981,7 +41273,8 @@ export default {
         "a": -41.1838565895847,
         "b": 15.287003287262
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "第一个T恤"
     },
     {
       "code": "18-6033 TPG",
@@ -38998,7 +41291,8 @@ export default {
         "a": -42.3978463802614,
         "b": 10.1546636015378
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色的手提琴"
     },
     {
       "code": "18-6026 TPG",
@@ -39015,7 +41309,8 @@ export default {
         "a": -32.0548769675281,
         "b": 13.4859833550253
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "丰富的绿色"
     },
     {
       "code": "19-6350 TPG",
@@ -39032,7 +41327,8 @@ export default {
         "a": -20.4081375470329,
         "b": 12.1414175688578
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "正式花园"
     },
     {
       "code": "19-6027 TPG",
@@ -39049,7 +41345,8 @@ export default {
         "a": -27.2141011526262,
         "b": 6.04204440328158
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色外套"
     },
     {
       "code": "14-0121 TPG",
@@ -39066,7 +41363,8 @@ export default {
         "a": -16.6922012197299,
         "b": 19.0649752123282
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "尼罗河绿"
     },
     {
       "code": "13-0221 TPG",
@@ -39083,7 +41381,8 @@ export default {
         "a": -22.7595829172715,
         "b": 22.1536380852037
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "开心果绿"
     },
     {
       "code": "13-0117 TPG",
@@ -39100,7 +41399,8 @@ export default {
         "a": -27.01930148138,
         "b": 15.0123602053078
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿灰"
     },
     {
       "code": "14-6340 TPG",
@@ -39117,7 +41417,8 @@ export default {
         "a": -40.8958370954906,
         "b": 20.8843452403909
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "春季花束"
     },
     {
       "code": "15-6340 TPG",
@@ -39134,7 +41435,8 @@ export default {
         "a": -47.6345200247584,
         "b": 23.249378307983
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "爱尔兰绿色"
     },
     {
       "code": "16-6240 TPG",
@@ -39151,7 +41453,8 @@ export default {
         "a": -48.513833536343,
         "b": 23.064417812999
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色绿色"
     },
     {
       "code": "15-5534 TPG",
@@ -39168,7 +41471,8 @@ export default {
         "a": -50.0210553058764,
         "b": 19.4494058430737
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鲜绿色"
     },
     {
       "code": "12-0225 TPG",
@@ -39185,7 +41489,8 @@ export default {
         "a": -26.4783311657168,
         "b": 20.3182345178662
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Patina Green"
     },
     {
       "code": "14-0156 TPG",
@@ -39202,7 +41507,8 @@ export default {
         "a": -41.4973097371039,
         "b": 30.2362495592723
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "夏季绿色"
     },
     {
       "code": "16-6444 TPG",
@@ -39219,7 +41525,8 @@ export default {
         "a": -43.4925200012304,
         "b": 28.290426234513
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "毒绿"
     },
     {
       "code": "16-6340 TPG",
@@ -39236,7 +41543,8 @@ export default {
         "a": -50.8181378923815,
         "b": 38.6537175756339
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "经典绿色"
     },
     {
       "code": "16-6339 TPG",
@@ -39253,7 +41561,8 @@ export default {
         "a": -37.1076414865283,
         "b": 27.5695421167936
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "充满活力的绿色"
     },
     {
       "code": "16-6138 TPG",
@@ -39270,7 +41579,8 @@ export default {
         "a": -42.2026313574143,
         "b": 18.3511402572218
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "凯利·格林（Kelly Green）"
     },
     {
       "code": "17-6153 TPG",
@@ -39287,7 +41597,8 @@ export default {
         "a": -47.4129029118241,
         "b": 22.2530882039158
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蕨绿"
     },
     {
       "code": "13-0220 TPG",
@@ -39304,7 +41615,8 @@ export default {
         "a": -26.9184029064042,
         "b": 28.1404669895147
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "天堂绿"
     },
     {
       "code": "15-0146 TPG",
@@ -39321,7 +41633,8 @@ export default {
         "a": -43.0678595256432,
         "b": 43.9053359039576
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色闪光灯"
     },
     {
       "code": "15-0545 TPG",
@@ -39338,7 +41651,8 @@ export default {
         "a": -39.5850331973972,
         "b": 49.6149234566025
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "茉莉花绿"
     },
     {
       "code": "16-0237 TPG",
@@ -39355,7 +41669,8 @@ export default {
         "a": -22.5954859977155,
         "b": 30.7055287332904
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "叶子"
     },
     {
       "code": "17-0145 TPG",
@@ -39372,7 +41687,8 @@ export default {
         "a": -29.2317941246145,
         "b": 25.9366006545851
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "在线石灰"
     },
     {
       "code": "18-0135 TPG",
@@ -39389,7 +41705,8 @@ export default {
         "a": -18.5484663896767,
         "b": 21.1787190406154
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "树梢"
     },
     {
       "code": "19-0230 TPG",
@@ -39406,7 +41723,8 @@ export default {
         "a": -12.2711139059404,
         "b": 13.9922147398044
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "花园绿色"
     },
     {
       "code": "14-0232 TPG",
@@ -39423,7 +41741,8 @@ export default {
         "a": -21.6600918703085,
         "b": 32.3277892990166
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "翡翠石灰"
     },
     {
       "code": "14-0244 TPG",
@@ -39440,7 +41759,8 @@ export default {
         "a": -23.4673346104121,
         "b": 39.8712673802904
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "明亮的石灰绿色"
     },
     {
       "code": "15-0343 TPG",
@@ -39457,7 +41777,8 @@ export default {
         "a": -23.4004270577758,
         "b": 41.7437106153626
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色植物"
     },
     {
       "code": "17-0235 TPG",
@@ -39474,7 +41795,8 @@ export default {
         "a": -19.6238175442268,
         "b": 24.9908921864171
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色的绿色"
     },
     {
       "code": "18-0119 TPG",
@@ -39491,7 +41813,8 @@ export default {
         "a": -17.0746042262113,
         "b": 18.1932792925234
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柳树"
     },
     {
       "code": "18-0107 TPG",
@@ -39508,7 +41831,8 @@ export default {
         "a": -13.9333476781858,
         "b": 18.3798540105017
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "羽衣甘蓝"
     },
     {
       "code": "18-0330 TPG",
@@ -39525,7 +41849,8 @@ export default {
         "a": -11.5910319872486,
         "b": 20.0071983028032
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "石灰的扭曲"
     },
     {
       "code": "17-0232 TPG",
@@ -39542,7 +41867,8 @@ export default {
         "a": -23.2841725353481,
         "b": 31.2234080386202
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "咸石灰"
     },
     {
       "code": "17-0340 TPG",
@@ -39559,7 +41885,8 @@ export default {
         "a": -17.7690607284811,
         "b": 37.6713415557457
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海带森林"
     },
     {
       "code": "17-0345 TPG",
@@ -39576,7 +41903,8 @@ export default {
         "a": -18.4574771938835,
         "b": 31.1217600141663
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "切碎的草药"
     },
     {
       "code": "18-0230 TPG",
@@ -39593,7 +41921,8 @@ export default {
         "a": -18.4566605233878,
         "b": 24.3708892841082
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "香蕉棕榈"
     },
     {
       "code": "18-0226 TPG",
@@ -39610,7 +41939,8 @@ export default {
         "a": -18.7990143540061,
         "b": 19.3978944638621
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "庭院"
     },
     {
       "code": "19-0231 TPG",
@@ -39627,7 +41957,8 @@ export default {
         "a": -15.6229575631036,
         "b": 15.8706226291799
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "森林精灵"
     },
     {
       "code": "19-0220 TPG",
@@ -39644,7 +41975,8 @@ export default {
         "a": -10.6270745188896,
         "b": 9.66360482623271
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "道格拉斯冷杉"
     },
     {
       "code": "13-0331 TPG",
@@ -39661,7 +41993,8 @@ export default {
         "a": -18.5894000579119,
         "b": 31.7702368364047
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "SAP绿色"
     },
     {
       "code": "15-0341 TPG",
@@ -39678,7 +42011,8 @@ export default {
         "a": -22.6625962356566,
         "b": 40.4211105826988
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鹦鹉绿色"
     },
     {
       "code": "16-0235 TPG",
@@ -39695,7 +42029,8 @@ export default {
         "a": -26.9870422137802,
         "b": 32.9161525982407
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "猕猴桃"
     },
     {
       "code": "17-0133 TPG",
@@ -39712,7 +42047,8 @@ export default {
         "a": -22.2314150960011,
         "b": 24.0120431597472
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "氟绿色"
     },
     {
       "code": "17-0230 TPG",
@@ -39729,7 +42065,8 @@ export default {
         "a": -20.7560583338832,
         "b": 23.7051079125166
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "森林绿色"
     },
     {
       "code": "18-0130 TPG",
@@ -39746,7 +42083,8 @@ export default {
         "a": -14.7843969074107,
         "b": 21.4468553526776
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "仙人掌"
     },
     {
       "code": "18-0125 TPG",
@@ -39763,7 +42101,8 @@ export default {
         "a": -16.0461727770333,
         "b": 14.4993385391039
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "朝鲜蓟绿色"
     },
     {
       "code": "14-0123 TPG",
@@ -39780,7 +42119,8 @@ export default {
         "a": -22.0535718738032,
         "b": 21.9153918187488
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Arcadian绿色"
     },
     {
       "code": "15-6437 TPG",
@@ -39797,7 +42137,8 @@ export default {
         "a": -29.4716911585753,
         "b": 29.3220503482288
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "草绿"
     },
     {
       "code": "15-6442 TPG",
@@ -39814,7 +42155,8 @@ export default {
         "a": -30.3315430523992,
         "b": 31.0479409087161
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "芽绿"
     },
     {
       "code": "15-6428 TPG",
@@ -39831,7 +42173,8 @@ export default {
         "a": -21.8197514724567,
         "b": 24.4172378147015
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿茶"
     },
     {
       "code": "16-0123 TPG",
@@ -39848,7 +42191,8 @@ export default {
         "a": -15.3016357374151,
         "b": 20.6479871001232
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "卷须"
     },
     {
       "code": "17-0215 TPG",
@@ -39865,7 +42209,8 @@ export default {
         "a": -14.9890291782992,
         "b": 13.1110302073099
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "阿斯彭绿色"
     },
     {
       "code": "16-0228 TPG",
@@ -39882,7 +42227,8 @@ export default {
         "a": -18.0287061812151,
         "b": 20.0080160192531
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "翡翠绿色"
     },
     {
       "code": "13-0324 TPG",
@@ -39899,7 +42245,8 @@ export default {
         "a": -14.672115265315,
         "b": 29.4720442112886
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "生菜绿色"
     },
     {
       "code": "14-0226 TPG",
@@ -39916,7 +42263,8 @@ export default {
         "a": -20.0715774287219,
         "b": 27.8653522961854
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蛋白石绿"
     },
     {
       "code": "16-0233 TPG",
@@ -39933,7 +42281,8 @@ export default {
         "a": -20.5736367458667,
         "b": 24.4758111844821
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "草地绿色"
     },
     {
       "code": "17-6229 TPG",
@@ -39950,7 +42299,8 @@ export default {
         "a": -23.3295503187922,
         "b": 14.5231295587806
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "中等绿色"
     },
     {
       "code": "18-6330 TPG",
@@ -39967,7 +42317,8 @@ export default {
         "a": -21.0677598859848,
         "b": 13.9410842761819
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杜松"
     },
     {
       "code": "18-6320 TPG",
@@ -39984,7 +42335,8 @@ export default {
         "a": -18.4634165091707,
         "b": 9.78682892462326
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "球道"
     },
     {
       "code": "17-6333 TPG",
@@ -40001,7 +42353,8 @@ export default {
         "a": -23.7120337610789,
         "b": 18.159510282562
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薄荷绿"
     },
     {
       "code": "13-0215 TPG",
@@ -40018,7 +42371,8 @@ export default {
         "a": -12.024714865742,
         "b": 19.9289944291002
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "芦苇"
     },
     {
       "code": "12-0317 TPG",
@@ -40035,7 +42389,8 @@ export default {
         "a": -10.2273131208358,
         "b": 13.688372347161
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "闪闪发光"
     },
     {
       "code": "14-0115 TPG",
@@ -40052,7 +42407,8 @@ export default {
         "a": -11.7308350740232,
         "b": 15.8938034218799
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "泡沫绿色"
     },
     {
       "code": "15-6423 TPG",
@@ -40069,7 +42425,8 @@ export default {
         "a": -16.1321750968729,
         "b": 18.6831854834368
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "森林阴影"
     },
     {
       "code": "16-6116 TPG",
@@ -40086,7 +42443,8 @@ export default {
         "a": -15.0862400110204,
         "b": 8.97619107180183
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "页岩绿"
     },
     {
       "code": "17-6319 TPG",
@@ -40103,7 +42461,8 @@ export default {
         "a": -15.7639056583102,
         "b": 10.4449413456589
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "克什米尔"
     },
     {
       "code": "17-6219 TPG",
@@ -40120,7 +42479,8 @@ export default {
         "a": -19.9955559420782,
         "b": 7.16061996792379
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深草绿色"
     },
     {
       "code": "16-6216 TPG",
@@ -40137,7 +42497,8 @@ export default {
         "a": -13.6022509499852,
         "b": 8.83383838524334
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "罗勒"
     },
     {
       "code": "17-0210 TPG",
@@ -40154,7 +42515,8 @@ export default {
         "a": -12.3465564865932,
         "b": 8.32086513732406
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "洛登霜"
     },
     {
       "code": "18-0108 TPG",
@@ -40171,7 +42533,8 @@ export default {
         "a": -12.7407045423032,
         "b": 15.1884206043812
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "莳萝"
     },
     {
       "code": "18-0117 TPG",
@@ -40188,7 +42551,8 @@ export default {
         "a": -13.0294554123285,
         "b": 12.3833948828977
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "葡萄园绿色"
     },
     {
       "code": "19-6311 TPG",
@@ -40205,7 +42569,8 @@ export default {
         "a": -13.6746187630091,
         "b": 7.87241005672663
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色的牧场"
     },
     {
       "code": "19-6050 TPG",
@@ -40222,7 +42587,8 @@ export default {
         "a": -16.8259566609844,
         "b": 6.85372795384556
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "伊甸"
     },
     {
       "code": "19-5513 TPG",
@@ -40239,7 +42605,8 @@ export default {
         "a": -11.1558237941712,
         "b": 1.51611046396575
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深绿色"
     },
     {
       "code": "12-0106 TPG",
@@ -40256,7 +42623,8 @@ export default {
         "a": -5.92391573286027,
         "b": 11.0026637510551
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "草地雾"
     },
     {
       "code": "12-0109 TPG",
@@ -40273,7 +42641,8 @@ export default {
         "a": -9.21233011635092,
         "b": 11.3676602385797
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "安布罗西亚"
     },
     {
       "code": "13-0111 TPG",
@@ -40290,7 +42659,8 @@ export default {
         "a": -9.27640434606675,
         "b": 12.6943813274388
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Seacrest"
     },
     {
       "code": "15-6317 TPG",
@@ -40307,7 +42677,8 @@ export default {
         "a": -16.2218542938317,
         "b": 14.3655620479737
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "安静的绿色"
     },
     {
       "code": "15-6316 TPG",
@@ -40324,7 +42695,8 @@ export default {
         "a": -16.2111644201763,
         "b": 14.5148994774656
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "公平的绿色"
     },
     {
       "code": "17-0123 TPG",
@@ -40341,7 +42713,8 @@ export default {
         "a": -20.6197241168624,
         "b": 13.7645563430334
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "石绿色"
     },
     {
       "code": "17-5923 TPG",
@@ -40358,7 +42731,8 @@ export default {
         "a": -22.6576865752979,
         "b": 4.94981743488183
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "松绿色"
     },
     {
       "code": "12-0313 TPG",
@@ -40375,7 +42749,8 @@ export default {
         "a": -9.95478246396331,
         "b": 16.29497864553
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海洋绿色"
     },
     {
       "code": "12-0312 TPG",
@@ -40392,7 +42767,8 @@ export default {
         "a": -9.28790985251221,
         "b": 18.6098251316661
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "石灰霜"
     },
     {
       "code": "13-0319 TPG",
@@ -40409,7 +42785,8 @@ export default {
         "a": -11.7791402539794,
         "b": 30.9872046748424
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "阴影石灰"
     },
     {
       "code": "12-0322 TPG",
@@ -40426,7 +42803,8 @@ export default {
         "a": -13.6843339657967,
         "b": 26.1283222992001
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蝴蝶"
     },
     {
       "code": "13-0317 TPG",
@@ -40443,7 +42821,8 @@ export default {
         "a": -10.9290929978119,
         "b": 25.3085712739185
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "莉莉·格林"
     },
     {
       "code": "14-0223 TPG",
@@ -40460,7 +42839,8 @@ export default {
         "a": -9.09745705099335,
         "b": 24.1990777357762
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "尼罗河"
     },
     {
       "code": "15-0531 TPG",
@@ -40477,7 +42857,8 @@ export default {
         "a": -9.31506003019494,
         "b": 29.780737962567
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "甜豌豆"
     },
     {
       "code": "12-6207 TPG",
@@ -40494,7 +42875,8 @@ export default {
         "a": -4.09605461342688,
         "b": 4.50074443682011
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "霜"
     },
     {
       "code": "12-0315 TPG",
@@ -40511,7 +42893,8 @@ export default {
         "a": -7.16197726768386,
         "b": 18.4393285560323
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "白玉"
     },
     {
       "code": "14-0217 TPG",
@@ -40528,7 +42911,8 @@ export default {
         "a": -8.87077132308961,
         "b": 18.0747715551937
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "幼苗"
     },
     {
       "code": "14-0116 TPG",
@@ -40545,7 +42929,8 @@ export default {
         "a": -12.7566249552232,
         "b": 25.042388272163
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玛格丽塔"
     },
     {
       "code": "15-0628 TPG",
@@ -40562,7 +42947,8 @@ export default {
         "a": -3.04097992708574,
         "b": 29.9722700260777
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "韭菜绿"
     },
     {
       "code": "15-0525 TPG",
@@ -40579,7 +42965,8 @@ export default {
         "a": -4.39643597360123,
         "b": 26.3951087768755
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "垂柳"
     },
     {
       "code": "16-0430 TPG",
@@ -40596,7 +42983,8 @@ export default {
         "a": -8.76687321165281,
         "b": 27.2053894985297
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蕨类"
     },
     {
       "code": "12-0435 TPG",
@@ -40613,7 +43001,8 @@ export default {
         "a": -12.8191535634571,
         "b": 41.2437782401028
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Daiquiri Green"
     },
     {
       "code": "13-0442 TPG",
@@ -40630,7 +43019,8 @@ export default {
         "a": -20.3526185047411,
         "b": 45.0215184476561
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色的光芒"
     },
     {
       "code": "14-0445 TPG",
@@ -40647,7 +43037,8 @@ export default {
         "a": -13.9401244059704,
         "b": 48.6777655713255
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "明亮的chartreuse"
     },
     {
       "code": "16-0435 TPG",
@@ -40664,7 +43055,8 @@ export default {
         "a": -13.9669729751264,
         "b": 40.7824277231526
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑色的柑橘"
     },
     {
       "code": "15-0332 TPG",
@@ -40681,7 +43073,8 @@ export default {
         "a": -10.9163508575906,
         "b": 29.9935524885041
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "叶绿色"
     },
     {
       "code": "15-0336 TPG",
@@ -40698,7 +43091,8 @@ export default {
         "a": -14.8521894113396,
         "b": 35.1474368019842
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "草药花园"
     },
     {
       "code": "16-0439 TPG",
@@ -40715,7 +43109,8 @@ export default {
         "a": -12.8137797217279,
         "b": 34.6524595568179
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "菠菜绿"
     },
     {
       "code": "13-0535 TPG",
@@ -40732,7 +43127,8 @@ export default {
         "a": -22.3051001804082,
         "b": 45.4940976586039
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "锋利的绿色"
     },
     {
       "code": "13-0443 TPG",
@@ -40749,7 +43145,8 @@ export default {
         "a": -22.3833303120338,
         "b": 65.6280299804297
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "爱鸟"
     },
     {
       "code": "14-0340 TPG",
@@ -40766,7 +43163,8 @@ export default {
         "a": -27.2406573368063,
         "b": 68.0924615531318
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "酸石灰"
     },
     {
       "code": "13-0550 TPG",
@@ -40783,7 +43181,8 @@ export default {
         "a": -22.345009810456,
         "b": 65.6853470442588
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "石灰拳"
     },
     {
       "code": "14-0446 TPG",
@@ -40800,7 +43199,8 @@ export default {
         "a": -18.7053420719023,
         "b": 57.2076633865085
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "嫩芽"
     },
     {
       "code": "16-0230 TPG",
@@ -40817,7 +43217,8 @@ export default {
         "a": -20.299995551942,
         "b": 50.3393131504959
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金刚鹦鹉绿色"
     },
     {
       "code": "17-0336 TPG",
@@ -40834,7 +43235,8 @@ export default {
         "a": -17.290648190116,
         "b": 34.8564311386567
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "橄榄石"
     },
     {
       "code": "13-0643 TPG",
@@ -40851,7 +43253,8 @@ export default {
         "a": -13.0188293555352,
         "b": 60.6164322625579
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄梅子"
     },
     {
       "code": "15-0549 TPG",
@@ -40868,7 +43271,8 @@ export default {
         "a": -14.2105974795821,
         "b": 64.0293563261539
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "脆弱的发芽"
     },
     {
       "code": "14-0443 TPG",
@@ -40885,7 +43289,8 @@ export default {
         "a": -20.2286360493701,
         "b": 68.7360344721964
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "猕猴桃Colada"
     },
     {
       "code": "14-0442 TPG",
@@ -40902,7 +43307,8 @@ export default {
         "a": -21.0778829882871,
         "b": 51.6910543090697
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "白葡萄"
     },
     {
       "code": "16-0229 TPG",
@@ -40919,7 +43325,8 @@ export default {
         "a": -22.22838666959,
         "b": 51.9243896647782
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "钛矿"
     },
     {
       "code": "17-0332 TPG",
@@ -40936,7 +43343,8 @@ export default {
         "a": -24.7674371480624,
         "b": 37.6413658543402
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "主轴树"
     },
     {
       "code": "18-0323 TPG",
@@ -40953,7 +43361,8 @@ export default {
         "a": -15.7831562302862,
         "b": 20.3632613576038
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "营地"
     },
     {
       "code": "12-0741 TPG",
@@ -40970,7 +43379,8 @@ export default {
         "a": -13.4525848966292,
         "b": 46.29055405776
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "阳光明媚的石灰"
     },
     {
       "code": "12-0530 TPG",
@@ -40987,7 +43397,8 @@ export default {
         "a": -8.60551729334136,
         "b": 41.0741650829622
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "夏洛克"
     },
     {
       "code": "13-0645 TPG",
@@ -41004,7 +43415,8 @@ export default {
         "a": -12.7644209752905,
         "b": 54.7367963984604
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "利多德"
     },
     {
       "code": "13-0650 TPG",
@@ -41021,7 +43433,8 @@ export default {
         "a": -13.7747872278681,
         "b": 72.5775357490369
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "硫春季"
     },
     {
       "code": "13-0651 TPG",
@@ -41038,7 +43451,8 @@ export default {
         "a": -19.0893678635978,
         "b": 75.0036889760279
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "傍晚"
     },
     {
       "code": "13-0540 TPG",
@@ -41055,7 +43469,8 @@ export default {
         "a": -14.4654048973978,
         "b": 49.9879512163486
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "野生石灰"
     },
     {
       "code": "14-0452 TPG",
@@ -41072,7 +43487,8 @@ export default {
         "a": -26.1010380091353,
         "b": 58.6265900653904
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "石灰绿"
     },
     {
       "code": "11-0710 TPG",
@@ -41089,7 +43505,8 @@ export default {
         "a": -5.45546580841316,
         "b": 27.8691984395518
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "嫩黄"
     },
     {
       "code": "11-0618 TPG",
@@ -41106,7 +43523,8 @@ export default {
         "a": -5.84582907271913,
         "b": 29.1598218746812
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蜡黄"
     },
     {
       "code": "12-0426 TPG",
@@ -41123,7 +43541,8 @@ export default {
         "a": -8.10915397342921,
         "b": 33.056328977488
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "醇厚的绿色"
     },
     {
       "code": "12-0525 TPG",
@@ -41140,7 +43559,8 @@ export default {
         "a": -9.50821682061215,
         "b": 31.4953795911994
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "亮绿色"
     },
     {
       "code": "12-0520 TPG",
@@ -41157,7 +43577,8 @@ export default {
         "a": -7.68459701767543,
         "b": 32.2052995861071
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡黄色的黄色"
     },
     {
       "code": "13-0530 TPG",
@@ -41174,7 +43595,8 @@ export default {
         "a": -9.67835675252149,
         "b": 34.5159988538322
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "石灰棚屋"
     },
     {
       "code": "13-0532 TPG",
@@ -41191,7 +43613,8 @@ export default {
         "a": -9.91172329226059,
         "b": 38.9065656290885
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "芹菜绿"
     },
     {
       "code": "11-4803 TPG",
@@ -41208,7 +43631,8 @@ export default {
         "a": -3.02551569844101,
         "b": 4.02727700004279
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冰"
     },
     {
       "code": "12-0108 TPG",
@@ -41225,7 +43649,8 @@ export default {
         "a": -4.90516475306635,
         "b": 8.4904717923814
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金丝雀绿"
     },
     {
       "code": "11-0410 TPG",
@@ -41242,7 +43667,8 @@ export default {
         "a": -3.62144240249779,
         "b": 13.5680185724423
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "西尔万·格林（Sylvan Green）"
     },
     {
       "code": "12-0607 TPG",
@@ -41259,7 +43685,8 @@ export default {
         "a": -3.67614677766576,
         "b": 15.1047110937979
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色精华"
     },
     {
       "code": "12-0521 TPG",
@@ -41276,7 +43703,8 @@ export default {
         "a": -5.96362713195037,
         "b": 27.5181969899917
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "年轻小麦"
     },
     {
       "code": "12-0524 TPG",
@@ -41293,7 +43721,8 @@ export default {
         "a": -6.64632090226619,
         "b": 31.5875056390631
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "香橼"
     },
     {
       "code": "11-0623 TPG",
@@ -41310,7 +43739,8 @@ export default {
         "a": -6.44402194808241,
         "b": 38.6152487722392
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄梨"
     },
     {
       "code": "11-0205 TPG",
@@ -41327,7 +43757,8 @@ export default {
         "a": -2.7419174790384,
         "b": 13.2034962607778
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玻璃绿色"
     },
     {
       "code": "13-0614 TPG",
@@ -41344,7 +43775,8 @@ export default {
         "a": -3.1577108617305,
         "b": 24.8092780425559
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "花园溜达"
     },
     {
       "code": "12-0418 TPG",
@@ -41361,7 +43793,8 @@ export default {
         "a": -1.64112305396974,
         "b": 21.3952437086656
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "干草"
     },
     {
       "code": "13-0720 TPG",
@@ -41378,7 +43811,8 @@ export default {
         "a": -1.45975661008424,
         "b": 38.968323685353
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蛋ust"
     },
     {
       "code": "13-0333 TPG",
@@ -41395,7 +43829,8 @@ export default {
         "a": -3.3798614155911,
         "b": 35.4604557747725
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "利马豆"
     },
     {
       "code": "14-0827 TPG",
@@ -41412,7 +43847,8 @@ export default {
         "a": 0.820438080843033,
         "b": 40.7200655111971
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "昏暗的Citron"
     },
     {
       "code": "13-0739 TPG",
@@ -41429,7 +43865,8 @@ export default {
         "a": 1.69977480565509,
         "b": 49.7569357923651
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "奶油黄金"
     },
     {
       "code": "11-0609 TPG",
@@ -41446,7 +43883,8 @@ export default {
         "a": -3.34515862561791,
         "b": 15.4537643072356
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "空灵绿色"
     },
     {
       "code": "11-0617 TPG",
@@ -41463,7 +43901,8 @@ export default {
         "a": -1.01991733632406,
         "b": 21.1455274148912
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "透明的黄色"
     },
     {
       "code": "13-0624 TPG",
@@ -41480,7 +43919,8 @@ export default {
         "a": -4.1321586679075,
         "b": 31.2203787408726
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金雾"
     },
     {
       "code": "12-0619 TPG",
@@ -41497,7 +43937,8 @@ export default {
         "a": -3.15543869923812,
         "b": 25.200956179916
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "尘黄色"
     },
     {
       "code": "14-0627 TPG",
@@ -41514,7 +43955,8 @@ export default {
         "a": -2.23101494866662,
         "b": 32.6465017516255
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "影子绿色"
     },
     {
       "code": "14-0826 TPG",
@@ -41531,7 +43973,8 @@ export default {
         "a": 1.29678951299556,
         "b": 33.3809420332866
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "潘帕斯"
     },
     {
       "code": "16-0737 TPG",
@@ -41548,7 +43991,8 @@ export default {
         "a": -0.933248766589512,
         "b": 35.5213112121615
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金黄色"
     },
     {
       "code": "13-0633 TPG",
@@ -41565,7 +44009,8 @@ export default {
         "a": -4.43237743508662,
         "b": 35.6382047564867
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "霞多丽"
     },
     {
       "code": "14-0636 TPG",
@@ -41582,7 +44027,8 @@ export default {
         "a": -4.79324008103071,
         "b": 39.8963199085242
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柔和的石灰"
     },
     {
       "code": "13-0632 TPG",
@@ -41599,7 +44045,8 @@ export default {
         "a": -5.57939606916102,
         "b": 39.6756120964538
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "苣荬菜"
     },
     {
       "code": "15-0636 TPG",
@@ -41616,7 +44063,8 @@ export default {
         "a": -2.94408493640835,
         "b": 38.4487344180255
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金绿"
     },
     {
       "code": "16-0632 TPG",
@@ -41633,7 +44081,8 @@ export default {
         "a": -0.0136319239491534,
         "b": 30.4715078842181
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柳"
     },
     {
       "code": "17-0636 TPG",
@@ -41650,7 +44099,8 @@ export default {
         "a": -0.448546158060725,
         "b": 26.0120712300201
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色苔藓"
     },
     {
       "code": "18-0627 TPG",
@@ -41667,7 +44117,8 @@ export default {
         "a": 1.07074742506183,
         "b": 21.1831906420088
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色"
     },
     {
       "code": "12-0626 TPG",
@@ -41684,7 +44135,8 @@ export default {
         "a": -4.69399589934572,
         "b": 33.4353877614236
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柠檬草"
     },
     {
       "code": "12-0633 TPG",
@@ -41701,7 +44153,8 @@ export default {
         "a": -8.07259646871328,
         "b": 44.7346425967922
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金丝雀黄"
     },
     {
       "code": "14-0647 TPG",
@@ -41718,7 +44171,8 @@ export default {
         "a": -5.18731137281891,
         "b": 54.8903856197549
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "芹菜"
     },
     {
       "code": "15-0646 TPG",
@@ -41735,7 +44189,8 @@ export default {
         "a": -2.91322275019612,
         "b": 58.3696867878047
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "温暖的橄榄"
     },
     {
       "code": "15-0643 TPG",
@@ -41752,7 +44207,8 @@ export default {
         "a": -3.14911207295937,
         "b": 52.2126569107544
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "克雷斯·格林（Cress Green）"
     },
     {
       "code": "16-0840 TPG",
@@ -41769,7 +44225,8 @@ export default {
         "a": 1.29648822459211,
         "b": 57.4197160382933
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "古董苔藓"
     },
     {
       "code": "16-0639 TPG",
@@ -41786,7 +44243,8 @@ export default {
         "a": 0.296135912509987,
         "b": 42.6812503952563
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄金橄榄"
     },
     {
       "code": "15-0533 TPG",
@@ -41803,7 +44261,8 @@ export default {
         "a": -5.0532549451297,
         "b": 38.5586794272983
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "林登·格林（Linden Green）"
     },
     {
       "code": "15-0543 TPG",
@@ -41820,7 +44279,8 @@ export default {
         "a": -10.169979331815,
         "b": 55.807109948222
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "苹果绿"
     },
     {
       "code": "15-0544 TPG",
@@ -41837,7 +44297,8 @@ export default {
         "a": -12.4383529532682,
         "b": 60.3720560122443
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色绿色"
     },
     {
       "code": "16-0540 TPG",
@@ -41854,7 +44315,8 @@ export default {
         "a": -7.8172257299785,
         "b": 42.1745095423664
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿洲"
     },
     {
       "code": "16-0543 TPG",
@@ -41871,7 +44333,8 @@ export default {
         "a": -7.63598641486563,
         "b": 45.8640903413138
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金石灰"
     },
     {
       "code": "16-0545 TPG",
@@ -41888,7 +44351,8 @@ export default {
         "a": -7.17560519323091,
         "b": 42.8635750075994
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "豌豆分裂"
     },
     {
       "code": "16-0550 TPG",
@@ -41905,7 +44369,8 @@ export default {
         "a": -6.1651662432109,
         "b": 46.2497987525607
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "小扁豆发芽"
     },
     {
       "code": "15-0548 TPG",
@@ -41922,7 +44387,8 @@ export default {
         "a": -6.30117516763729,
         "b": 57.9018718890081
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Citronelle"
     },
     {
       "code": "15-0542 TPG",
@@ -41939,7 +44405,8 @@ export default {
         "a": -8.85534759352069,
         "b": 57.725161566703
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "梨利口酒"
     },
     {
       "code": "16-0541 TPG",
@@ -41956,7 +44423,8 @@ export default {
         "a": -2.55525730126549,
         "b": 48.7009529795547
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色嫉妒"
     },
     {
       "code": "16-0640 TPG",
@@ -41973,7 +44441,8 @@ export default {
         "a": -0.916195499042483,
         "b": 43.9020877658068
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鳄梨油"
     },
     {
       "code": "16-0544 TPG",
@@ -41990,7 +44459,8 @@ export default {
         "a": -5.85291327169224,
         "b": 45.7801959051941
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "露营装备"
     },
     {
       "code": "16-0634 TPG",
@@ -42007,7 +44477,8 @@ export default {
         "a": -4.88895427459696,
         "b": 33.6458293237528
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "常绿的小树枝"
     },
     {
       "code": "18-0537 TPG",
@@ -42024,7 +44495,8 @@ export default {
         "a": -10.0849117328989,
         "b": 39.3328356345583
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金柏树"
     },
     {
       "code": "15-0538 TPG",
@@ -42041,7 +44513,8 @@ export default {
         "a": -11.034407370618,
         "b": 45.6012699158448
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色绿洲"
     },
     {
       "code": "16-0436 TPG",
@@ -42058,7 +44531,8 @@ export default {
         "a": -9.7433627719356,
         "b": 40.5142975151449
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "腌胡椒"
     },
     {
       "code": "16-0532 TPG",
@@ -42075,7 +44549,8 @@ export default {
         "a": -6.74850179806391,
         "b": 32.6497574690942
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "苔藓"
     },
     {
       "code": "18-0540 TPG",
@@ -42092,7 +44567,8 @@ export default {
         "a": -11.7289867082147,
         "b": 42.7881226505307
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "利马豆绿"
     },
     {
       "code": "18-0530 TPG",
@@ -42109,7 +44585,8 @@ export default {
         "a": -9.28075233966857,
         "b": 33.129687413253
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "去绿色"
     },
     {
       "code": "17-0530 TPG",
@@ -42126,7 +44603,8 @@ export default {
         "a": -7.52819539942134,
         "b": 31.5106141275733
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鳄梨调味酱"
     },
     {
       "code": "18-0538 TPG",
@@ -42143,7 +44621,8 @@ export default {
         "a": -8.74090291195179,
         "b": 37.0928663920492
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "伍德宾"
     },
     {
       "code": "13-0522 TPG",
@@ -42160,7 +44639,8 @@ export default {
         "a": -5.17996356091577,
         "b": 28.076427431727
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡绿色"
     },
     {
       "code": "14-0434 TPG",
@@ -42177,7 +44657,8 @@ export default {
         "a": -9.0886532143914,
         "b": 35.7492381502103
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色香蕉"
     },
     {
       "code": "15-0535 TPG",
@@ -42194,7 +44675,8 @@ export default {
         "a": -7.90122433960583,
         "b": 40.3008019046956
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "棕榈"
     },
     {
       "code": "16-0531 TPG",
@@ -42211,7 +44693,8 @@ export default {
         "a": -5.38911953744647,
         "b": 37.4347207900939
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "完美的梨"
     },
     {
       "code": "17-0529 TPG",
@@ -42228,7 +44711,8 @@ export default {
         "a": -6.55354567448507,
         "b": 31.3836510952626
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "豆蔻种子"
     },
     {
       "code": "18-0428 TPG",
@@ -42245,7 +44729,8 @@ export default {
         "a": -6.06623282616103,
         "b": 25.3030896647259
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "泥炭苔藓"
     },
     {
       "code": "18-0529 TPG",
@@ -42262,7 +44747,8 @@ export default {
         "a": -4.32182424908378,
         "b": 17.3586753460662
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "泥炭纳姆"
     },
     {
       "code": "14-0425 TPG",
@@ -42279,7 +44765,8 @@ export default {
         "a": -6.26277483735305,
         "b": 26.9827519736666
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "比奇纳特"
     },
     {
       "code": "15-0326 TPG",
@@ -42296,7 +44783,8 @@ export default {
         "a": -10.6710795250829,
         "b": 24.1652686785175
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "龙龙"
     },
     {
       "code": "17-0324 TPG",
@@ -42313,7 +44801,8 @@ export default {
         "a": -11.4912626479369,
         "b": 20.0368754080694
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Epsom"
     },
     {
       "code": "17-0330 TPG",
@@ -42330,7 +44819,8 @@ export default {
         "a": -9.9183514623597,
         "b": 26.3852372658213
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "乌龟绿"
     },
     {
       "code": "18-0324 TPG",
@@ -42347,7 +44837,8 @@ export default {
         "a": -6.83776444376621,
         "b": 20.2952557082698
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Calliste Green"
     },
     {
       "code": "18-0332 TPG",
@@ -42364,7 +44855,8 @@ export default {
         "a": -12.2745747935987,
         "b": 27.9574295037346
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蚱蜢"
     },
     {
       "code": "18-0435 TPG",
@@ -42381,7 +44873,8 @@ export default {
         "a": -8.31355668737682,
         "b": 25.1730570899245
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "卡拉·格林（Calla Green）"
     },
     {
       "code": "13-0608 TPG",
@@ -42398,7 +44891,8 @@ export default {
         "a": -4.9368093412151,
         "b": 15.0495059942346
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "芦荟洗"
     },
     {
       "code": "14-0216 TPG",
@@ -42415,7 +44909,8 @@ export default {
         "a": -6.38454085009532,
         "b": 16.5861700877334
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "皮棉"
     },
     {
       "code": "16-0421 TPG",
@@ -42432,7 +44927,8 @@ export default {
         "a": -6.18532247487541,
         "b": 18.5809462684401
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "圣人"
     },
     {
       "code": "17-0525 TPG",
@@ -42449,7 +44945,8 @@ export default {
         "a": -4.42175660784194,
         "b": 18.6923487353898
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "MOSSTONE"
     },
     {
       "code": "18-0525 TPG",
@@ -42466,7 +44963,8 @@ export default {
         "a": -7.59060499806252,
         "b": 21.1360804342885
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鬣蜥"
     },
     {
       "code": "18-0228 TPG",
@@ -42483,7 +44981,8 @@ export default {
         "a": -9.26322237198129,
         "b": 18.581977752165
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "香蒜酱"
     },
     {
       "code": "18-0328 TPG",
@@ -42500,7 +44999,8 @@ export default {
         "a": -10.3008628707549,
         "b": 21.3201316663913
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "雪松绿"
     },
     {
       "code": "15-0523 TPG",
@@ -42517,7 +45017,8 @@ export default {
         "a": -7.40300174066572,
         "b": 22.7820880939176
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冬季梨"
     },
     {
       "code": "16-0526 TPG",
@@ -42534,7 +45035,8 @@ export default {
         "a": -2.96399814565584,
         "b": 22.7254522914434
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "雪松"
     },
     {
       "code": "17-0535 TPG",
@@ -42551,7 +45053,8 @@ export default {
         "a": -4.38370434464341,
         "b": 26.0509901133721
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿橄榄"
     },
     {
       "code": "18-0430 TPG",
@@ -42568,7 +45071,8 @@ export default {
         "a": -3.78635085587781,
         "b": 19.7205781475429
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "牛油果"
     },
     {
       "code": "18-0426 TPG",
@@ -42585,7 +45089,8 @@ export default {
         "a": -4.5327941863223,
         "b": 13.5655323135036
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Capulet Olive"
     },
     {
       "code": "18-0220 TPG",
@@ -42602,7 +45107,8 @@ export default {
         "a": -4.53188786587894,
         "b": 15.7979120574739
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蜉蝣"
     },
     {
       "code": "18-0527 TPG",
@@ -42619,7 +45125,8 @@ export default {
         "a": -1.82159648000174,
         "b": 19.2034056440697
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "橄榄分支"
     },
     {
       "code": "17-0115 TPG",
@@ -42636,7 +45143,8 @@ export default {
         "a": -7.16950694584889,
         "b": 10.9289467154094
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "油绿"
     },
     {
       "code": "18-0316 TPG",
@@ -42653,7 +45161,8 @@ export default {
         "a": -6.29405883028206,
         "b": 9.24198623579219
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄绿"
     },
     {
       "code": "18-0317 TPG",
@@ -42670,7 +45179,8 @@ export default {
         "a": -5.40297010427079,
         "b": 9.44316056681505
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "铜绿"
     },
     {
       "code": "19-0323 TPG",
@@ -42687,7 +45197,8 @@ export default {
         "a": -5.37258047864039,
         "b": 11.449135319119
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "奇夫"
     },
     {
       "code": "18-0322 TPG",
@@ -42704,7 +45215,8 @@ export default {
         "a": -5.52230145210322,
         "b": 11.6055799212858
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柏"
     },
     {
       "code": "18-0523 TPG",
@@ -42721,7 +45233,8 @@ export default {
         "a": -3.62935204566894,
         "b": 11.7317268817413
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冬季苔藓"
     },
     {
       "code": "19-0419 TPG",
@@ -42738,7 +45251,8 @@ export default {
         "a": -5.40329369354839,
         "b": 7.91702253678118
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "步枪绿"
     },
     {
       "code": "18-0422 TPG",
@@ -42755,7 +45269,8 @@ export default {
         "a": -6.5090686535022,
         "b": 13.5012696904079
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "loden绿色"
     },
     {
       "code": "18-0420 TPG",
@@ -42772,7 +45287,8 @@ export default {
         "a": -5.77344389817114,
         "b": 8.17451440330462
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "四叶三叶草"
     },
     {
       "code": "18-0521 TPG",
@@ -42789,7 +45305,8 @@ export default {
         "a": -1.13673558715799,
         "b": 10.4871023170905
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "燃烧的橄榄"
     },
     {
       "code": "19-0512 TPG",
@@ -42806,7 +45323,8 @@ export default {
         "a": -0.669158383718005,
         "b": 7.64452888863344
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "常春藤绿"
     },
     {
       "code": "19-0510 TPG",
@@ -42823,7 +45341,8 @@ export default {
         "a": 0.13351529856398,
         "b": 6.44353696579101
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "卡拉马塔"
     },
     {
       "code": "19-0515 TPG",
@@ -42840,7 +45359,8 @@ export default {
         "a": 0.0597671025844293,
         "b": 6.93931822108352
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "橄榄之夜"
     },
     {
       "code": "19-0413 TPG",
@@ -42857,7 +45377,8 @@ export default {
         "a": -1.52806192323626,
         "b": 4.90109358678963
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "深度"
     },
     {
       "code": "18-0617 TPG",
@@ -42874,7 +45395,8 @@ export default {
         "a": 0.426723917665017,
         "b": 11.5678363254384
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "秘密绿色"
     },
     {
       "code": "17-0517 TPG",
@@ -42891,7 +45413,8 @@ export default {
         "a": 2.43332735383844,
         "b": 9.66680756923164
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "昏暗的绿色"
     },
     {
       "code": "19-0622 TPG",
@@ -42908,7 +45431,8 @@ export default {
         "a": 0.404225618643117,
         "b": 13.4777851835634
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "军事橄榄"
     },
     {
       "code": "19-0516 TPG",
@@ -42925,7 +45449,8 @@ export default {
         "a": -0.206143496660066,
         "b": 11.1014278269784
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑橄榄"
     },
     {
       "code": "19-0403 TPG",
@@ -42942,7 +45467,8 @@ export default {
         "a": 1.49296723891856,
         "b": 6.60928330868479
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海龟"
     },
     {
       "code": "19-0511 TPG",
@@ -42959,7 +45485,8 @@ export default {
         "a": -2.45374802372639,
         "b": 6.93493473372221
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "葡萄叶"
     },
     {
       "code": "19-0414 TPG",
@@ -42976,7 +45503,8 @@ export default {
         "a": -2.30022939342334,
         "b": 3.9788371188819
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "森林之夜"
     },
     {
       "code": "16-0518 TPG",
@@ -42993,7 +45521,8 @@ export default {
         "a": -2.02055512401117,
         "b": 17.8162014352831
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "灰绿色"
     },
     {
       "code": "17-0625 TPG",
@@ -43010,7 +45539,8 @@ export default {
         "a": -0.150549390278365,
         "b": 18.9570210140595
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蟒蛇"
     },
     {
       "code": "17-0627 TPG",
@@ -43027,7 +45557,8 @@ export default {
         "a": 0.706099133494231,
         "b": 18.6448244351037
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "干草药"
     },
     {
       "code": "18-0622 TPG",
@@ -43044,7 +45575,8 @@ export default {
         "a": -2.7847143456739,
         "b": 19.2389739409962
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "橄榄单调"
     },
     {
       "code": "18-0825 TPG",
@@ -43061,7 +45593,8 @@ export default {
         "a": 1.02715458995317,
         "b": 18.3275828805335
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海狸鼠"
     },
     {
       "code": "18-0629 TPG",
@@ -43078,7 +45611,8 @@ export default {
         "a": 0.0132329771135309,
         "b": 18.8862136992085
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蜥蜴"
     },
     {
       "code": "18-0625 TPG",
@@ -43095,7 +45629,8 @@ export default {
         "a": 0.446886157915494,
         "b": 14.6358473921774
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "马提尼橄榄"
     },
     {
       "code": "14-0418 TPG",
@@ -43112,7 +45647,8 @@ export default {
         "a": -5.26782667710252,
         "b": 17.7229676096857
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沼泽"
     },
     {
       "code": "15-0318 TPG",
@@ -43129,7 +45665,8 @@ export default {
         "a": -3.41283183790919,
         "b": 19.5241075142907
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鼠尾草绿"
     },
     {
       "code": "16-0713 TPG",
@@ -43146,7 +45683,8 @@ export default {
         "a": 1.22463893108654,
         "b": 15.2135329984983
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "石板绿色"
     },
     {
       "code": "17-0619 TPG",
@@ -43163,7 +45701,8 @@ export default {
         "a": 1.21693398707651,
         "b": 9.46841756673915
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "陆上跋涉"
     },
     {
       "code": "16-0613 TPG",
@@ -43180,7 +45719,8 @@ export default {
         "a": -0.924472351484074,
         "b": 13.0896323949741
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "榆树"
     },
     {
       "code": "17-0620 TPG",
@@ -43197,7 +45737,8 @@ export default {
         "a": 0.531588880614553,
         "b": 14.3149097561165
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "芦荟"
     },
     {
       "code": "17-0618 TPG",
@@ -43214,7 +45755,8 @@ export default {
         "a": -1.36840863146431,
         "b": 11.2572941231761
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "美人鱼"
     },
     {
       "code": "15-0522 TPG",
@@ -43231,7 +45773,8 @@ export default {
         "a": 0.833567821357351,
         "b": 18.6158590800408
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡橄榄绿色"
     },
     {
       "code": "16-1110 TPG",
@@ -43248,7 +45791,8 @@ export default {
         "a": -0.0382555990441902,
         "b": 18.2754746746167
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "橄榄灰"
     },
     {
       "code": "16-1108 TPG",
@@ -43265,7 +45809,8 @@ export default {
         "a": -0.179135375947215,
         "b": 15.6670491382322
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "斜纹"
     },
     {
       "code": "16-1118 TPG",
@@ -43282,7 +45827,8 @@ export default {
         "a": 1.19863344317717,
         "b": 17.7465468654309
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海绵"
     },
     {
       "code": "17-0630 TPG",
@@ -43299,7 +45845,8 @@ export default {
         "a": 2.17566569141481,
         "b": 14.4404201773628
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "树屋"
     },
     {
       "code": "17-1019 TPG",
@@ -43316,7 +45863,8 @@ export default {
         "a": 4.40238962425077,
         "b": 16.3280922207547
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "埃尔姆伍德"
     },
     {
       "code": "18-0724 TPG",
@@ -43333,7 +45881,8 @@ export default {
         "a": 1.18528302465898,
         "b": 16.6084536363127
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "哥特式橄榄"
     },
     {
       "code": "13-0715 TPG",
@@ -43350,7 +45899,8 @@ export default {
         "a": 0.881415801149033,
         "b": 20.4913587321062
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海雾"
     },
     {
       "code": "13-0613 TPG",
@@ -43367,7 +45917,8 @@ export default {
         "a": 0.0125361356368425,
         "b": 19.9178875603563
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "奇诺绿"
     },
     {
       "code": "13-0919 TPG",
@@ -43384,7 +45935,8 @@ export default {
         "a": 3.07601808621027,
         "b": 21.8714494700873
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "大豆"
     },
     {
       "code": "13-0915 TPG",
@@ -43401,7 +45953,8 @@ export default {
         "a": 1.10608163202774,
         "b": 23.1095129679584
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "芦苇黄色"
     },
     {
       "code": "14-1113 TPG",
@@ -43418,7 +45971,8 @@ export default {
         "a": 4.6873720195259,
         "b": 23.0832166166983
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "小杏仁饼"
     },
     {
       "code": "14-0925 TPG",
@@ -43435,7 +45989,8 @@ export default {
         "a": 0.419540587278722,
         "b": 27.4904450789283
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "欧洲防风草"
     },
     {
       "code": "14-1026 TPG",
@@ -43452,7 +46007,8 @@ export default {
         "a": 4.58319345996616,
         "b": 28.2291411091573
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "月球石"
     },
     {
       "code": "14-0626 TPG",
@@ -43469,7 +46025,8 @@ export default {
         "a": -0.693804765926065,
         "b": 32.2914616810254
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "干苔藓"
     },
     {
       "code": "14-1025 TPG",
@@ -43486,7 +46043,8 @@ export default {
         "a": 1.52547712147338,
         "b": 32.2819086058172
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "茧"
     },
     {
       "code": "14-0721 TPG",
@@ -43503,7 +46061,8 @@ export default {
         "a": 0.712815974054704,
         "b": 28.1150648438869
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "麻"
     },
     {
       "code": "15-0719 TPG",
@@ -43520,7 +46079,8 @@ export default {
         "a": 0.729042312889228,
         "b": 24.2873117938516
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "银蕨"
     },
     {
       "code": "16-0726 TPG",
@@ -43537,7 +46097,8 @@ export default {
         "a": 0.818487287746916,
         "b": 26.0789839643242
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "卡其色"
     },
     {
       "code": "17-0929 TPG",
@@ -43554,7 +46115,8 @@ export default {
         "a": 4.99311228729576,
         "b": 25.9653787452829
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "茴香种子"
     },
     {
       "code": "18-0820 TPG",
@@ -43571,7 +46133,8 @@ export default {
         "a": -0.1245507563985,
         "b": 13.4581150577701
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "刺山柑"
     },
     {
       "code": "16-1326 TPG",
@@ -43588,7 +46151,8 @@ export default {
         "a": 4.8135673608774,
         "b": 30.4523005920795
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "草原沙"
     },
     {
       "code": "16-1126 TPG",
@@ -43605,7 +46169,8 @@ export default {
         "a": 3.8558179725432,
         "b": 30.1439194139921
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "羚羊"
     },
     {
       "code": "16-1133 TPG",
@@ -43622,7 +46187,8 @@ export default {
         "a": 6.27579650410071,
         "b": 35.7904340603431
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "芥末黄金"
     },
     {
       "code": "17-1028 TPG",
@@ -43639,7 +46205,8 @@ export default {
         "a": 2.95069289911132,
         "b": 21.7317099399223
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "古董青铜"
     },
     {
       "code": "17-0935 TPG",
@@ -43656,7 +46223,8 @@ export default {
         "a": 3.842512372286,
         "b": 25.5061119953181
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "暗金"
     },
     {
       "code": "18-0830 TPG",
@@ -43673,7 +46241,8 @@ export default {
         "a": 3.63149412690983,
         "b": 19.3616110220921
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "胡桃"
     },
     {
       "code": "19-0617 TPG",
@@ -43690,7 +46259,8 @@ export default {
         "a": 2.96063262409252,
         "b": 10.592470052002
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柚木"
     },
     {
       "code": "16-0730 TPG",
@@ -43707,7 +46277,8 @@ export default {
         "a": 2.02748766554911,
         "b": 33.7485576901709
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "古董黄金"
     },
     {
       "code": "17-0836 TPG",
@@ -43724,7 +46295,8 @@ export default {
         "a": 3.95452488759479,
         "b": 32.5915609680918
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Ecru Olive"
     },
     {
       "code": "17-0840 TPG",
@@ -43741,7 +46313,8 @@ export default {
         "a": 2.20043998855846,
         "b": 36.7140418981018
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "琥珀绿"
     },
     {
       "code": "17-0843 TPG",
@@ -43758,7 +46331,8 @@ export default {
         "a": 7.7393899661316,
         "b": 33.3119297463102
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "青铜雾"
     },
     {
       "code": "19-1034 TPG",
@@ -43775,7 +46349,8 @@ export default {
         "a": 6.23627885085176,
         "b": 20.3200287811746
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "布林"
     },
     {
       "code": "18-0920 TPG",
@@ -43792,7 +46367,8 @@ export default {
         "a": 3.67055851883324,
         "b": 14.8251554130217
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "袋鼠"
     },
     {
       "code": "19-0618 TPG",
@@ -43809,7 +46385,8 @@ export default {
         "a": 0.512933566476415,
         "b": 13.4648703857068
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "山毛榉"
     },
     {
       "code": "15-0730 TPG",
@@ -43826,7 +46403,8 @@ export default {
         "a": 1.43309808197445,
         "b": 33.7910776665033
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "南苔藓"
     },
     {
       "code": "15-0732 TPG",
@@ -43843,7 +46421,8 @@ export default {
         "a": 1.07081815091076,
         "b": 38.3784813707324
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "橄榄石"
     },
     {
       "code": "16-0742 TPG",
@@ -43860,7 +46439,8 @@ export default {
         "a": 4.78594514655029,
         "b": 47.2812966306191
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色硫"
     },
     {
       "code": "17-0839 TPG",
@@ -43877,7 +46457,8 @@ export default {
         "a": 3.85306965087473,
         "b": 53.7126870263623
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金棕榈"
     },
     {
       "code": "16-0847 TPG",
@@ -43894,7 +46475,8 @@ export default {
         "a": 3.95651588795493,
         "b": 45.6484508698764
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "橄榄油"
     },
     {
       "code": "18-0835 TPG",
@@ -43911,7 +46493,8 @@ export default {
         "a": 5.08427141281276,
         "b": 36.4027179566162
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "干烟草"
     },
     {
       "code": "18-0832 TPG",
@@ -43928,7 +46511,8 @@ export default {
         "a": 4.10511486936926,
         "b": 23.6798713302126
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "种植园"
     },
     {
       "code": "13-0725 TPG",
@@ -43945,7 +46529,8 @@ export default {
         "a": -0.0494455737353738,
         "b": 35.9972382693742
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "拉菲亚"
     },
     {
       "code": "15-0743 TPG",
@@ -43962,7 +46547,8 @@ export default {
         "a": 3.03364972135672,
         "b": 48.8430972473923
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "油黄"
     },
     {
       "code": "14-0740 TPG",
@@ -43979,7 +46565,8 @@ export default {
         "a": 3.17877844033837,
         "b": 51.1409233903687
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "竹子"
     },
     {
       "code": "15-0850 TPG",
@@ -43996,7 +46583,8 @@ export default {
         "a": 6.55302284342302,
         "b": 59.7500072022964
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "锡兰黄色"
     },
     {
       "code": "15-0751 TPG",
@@ -44013,7 +46601,8 @@ export default {
         "a": 7.63801553826954,
         "b": 61.9396928892893
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柠檬咖喱"
     },
     {
       "code": "16-0946 TPG",
@@ -44030,7 +46619,8 @@ export default {
         "a": 7.97811699797812,
         "b": 47.5534849091415
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蜂蜜"
     },
     {
       "code": "18-0840 TPG",
@@ -44047,7 +46637,8 @@ export default {
         "a": 7.11083990533168,
         "b": 28.1138144082315
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "苹果"
     },
     {
       "code": "14-0837 TPG",
@@ -44064,7 +46655,8 @@ export default {
         "a": 4.19430084046868,
         "b": 46.9032561066149
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "迷雾黄色"
     },
     {
       "code": "14-0952 TPG",
@@ -44081,7 +46673,8 @@ export default {
         "a": 9.66351812558874,
         "b": 56.7622184119222
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "辣芥末"
     },
     {
       "code": "16-0954 TPG",
@@ -44098,7 +46691,8 @@ export default {
         "a": 11.4318555458305,
         "b": 54.9362105629352
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "阿罗伍德"
     },
     {
       "code": "16-0952 TPG",
@@ -44115,7 +46709,8 @@ export default {
         "a": 10.4548283601846,
         "b": 60.4320865091562
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "掘金黄金"
     },
     {
       "code": "15-0948 TPG",
@@ -44132,7 +46727,8 @@ export default {
         "a": 10.303458259324,
         "b": 51.9733960022912
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄金香料"
     },
     {
       "code": "16-0953 TPG",
@@ -44149,7 +46745,8 @@ export default {
         "a": 11.1190263149338,
         "b": 57.3661478532187
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄褐色橄榄"
     },
     {
       "code": "17-0949 TPG",
@@ -44166,7 +46763,8 @@ export default {
         "a": 13.1514304824022,
         "b": 47.7280247927096
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柴茶"
     },
     {
       "code": "14-1031 TPG",
@@ -44183,7 +46781,8 @@ export default {
         "a": 6.58494736020976,
         "b": 37.391012656805
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "藤"
     },
     {
       "code": "14-1036 TPG",
@@ -44200,7 +46799,8 @@ export default {
         "a": 9.49892881587017,
         "b": 46.7496637053787
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "赭石"
     },
     {
       "code": "15-1132 TPG",
@@ -44217,7 +46817,8 @@ export default {
         "a": 5.57259089908457,
         "b": 35.7449163224595
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "秋叶"
     },
     {
       "code": "15-0942 TPG",
@@ -44234,7 +46835,8 @@ export default {
         "a": 5.75063348864802,
         "b": 43.9999347160288
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "索恩"
     },
     {
       "code": "16-0945 TPG",
@@ -44251,7 +46853,8 @@ export default {
         "a": 9.14173532982837,
         "b": 44.3778645835365
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "箔"
     },
     {
       "code": "16-0948 TPG",
@@ -44268,7 +46871,8 @@ export default {
         "a": 9.77067507967144,
         "b": 45.5376430381887
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "收获黄金"
     },
     {
       "code": "18-0939 TPG",
@@ -44285,7 +46889,8 @@ export default {
         "a": 7.52111816064954,
         "b": 30.5943691258728
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "小茴香"
     },
     {
       "code": "15-1142 TPG",
@@ -44302,7 +46907,8 @@ export default {
         "a": 12.6220984291082,
         "b": 49.8587751823769
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蜂蜜金"
     },
     {
       "code": "16-0947 TPG",
@@ -44319,7 +46925,8 @@ export default {
         "a": 10.6069810691249,
         "b": 49.3872559421476
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "明亮的黄金"
     },
     {
       "code": "16-0950 TPG",
@@ -44336,7 +46943,8 @@ export default {
         "a": 13.1222331538227,
         "b": 47.2217124800702
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水仙"
     },
     {
       "code": "16-1139 TPG",
@@ -44353,7 +46961,8 @@ export default {
         "a": 11.0495613797682,
         "b": 40.8566226765978
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "琥珀色"
     },
     {
       "code": "15-1046 TPG",
@@ -44370,7 +46979,8 @@ export default {
         "a": 13.514999772641,
         "b": 54.7867574668174
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "矿物黄色"
     },
     {
       "code": "15-0960 TPG",
@@ -44387,7 +46997,8 @@ export default {
         "a": 16.067547670708,
         "b": 58.423446830518
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "芒果莫吉托"
     },
     {
       "code": "15-0953 TPG",
@@ -44404,7 +47015,8 @@ export default {
         "a": 16.3608798467466,
         "b": 60.3466968421326
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金黄色"
     },
     {
       "code": "16-0940 TPG",
@@ -44421,7 +47033,8 @@ export default {
         "a": 10.2482280353622,
         "b": 33.4793595535366
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "塔夫"
     },
     {
       "code": "17-1047 TPG",
@@ -44438,7 +47051,8 @@ export default {
         "a": 9.35847518632194,
         "b": 38.6036820173907
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蜂蜜芥末"
     },
     {
       "code": "17-1129 TPG",
@@ -44455,7 +47069,8 @@ export default {
         "a": 9.69060999464721,
         "b": 37.7586272525646
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "木质鹅口疮"
     },
     {
       "code": "18-0940 TPG",
@@ -44472,7 +47087,8 @@ export default {
         "a": 11.1201068554582,
         "b": 34.2138670398891
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金棕色"
     },
     {
       "code": "18-0937 TPG",
@@ -44489,7 +47105,8 @@ export default {
         "a": 8.98050865262739,
         "b": 26.8137503435684
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "青铜棕色"
     },
     {
       "code": "18-0933 TPG",
@@ -44506,7 +47123,8 @@ export default {
         "a": 9.56511047685871,
         "b": 20.3074940834883
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "橡皮"
     },
     {
       "code": "18-1048 TPG",
@@ -44523,7 +47141,8 @@ export default {
         "a": 12.2231544749542,
         "b": 20.0643740802431
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "和尚的长袍"
     },
     {
       "code": "17-1036 TPG",
@@ -44540,7 +47159,8 @@ export default {
         "a": 7.87228030236498,
         "b": 29.2271683386066
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Bistre"
     },
     {
       "code": "18-1022 TPG",
@@ -44557,7 +47177,8 @@ export default {
         "a": 5.71463272502509,
         "b": 18.76580478679
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "貂"
     },
     {
       "code": "18-1018 TPG",
@@ -44574,7 +47195,8 @@ export default {
         "a": 6.21858762455524,
         "b": 15.6858859839751
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "獭"
     },
     {
       "code": "18-0930 TPG",
@@ -44591,7 +47213,8 @@ export default {
         "a": 6.23954779466346,
         "b": 13.0199951463897
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "咖啡liqueúr"
     },
     {
       "code": "18-0928 TPG",
@@ -44608,7 +47231,8 @@ export default {
         "a": 5.25275422801758,
         "b": 14.4924874378263
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "棕褐色"
     },
     {
       "code": "19-0815 TPG",
@@ -44625,7 +47249,8 @@ export default {
         "a": 4.96075736422263,
         "b": 12.0443072188692
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沙漠棕榈"
     },
     {
       "code": "19-1020 TPG",
@@ -44642,7 +47267,8 @@ export default {
         "a": 6.47000276123322,
         "b": 10.8458558388414
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑土"
     },
     {
       "code": "16-1334 TPG",
@@ -44659,7 +47285,8 @@ export default {
         "a": 7.76403649324986,
         "b": 24.6087449786741
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "棕褐色"
     },
     {
       "code": "17-1325 TPG",
@@ -44676,7 +47303,8 @@ export default {
         "a": 9.12363386628562,
         "b": 21.0759535355788
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "卡丘"
     },
     {
       "code": "17-1038 TPG",
@@ -44693,7 +47321,8 @@ export default {
         "a": 9.1833001913697,
         "b": 17.7444486924024
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "老虎的眼睛"
     },
     {
       "code": "18-1014 TPG",
@@ -44710,7 +47339,8 @@ export default {
         "a": 8.67264606248763,
         "b": 15.4191052639372
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "麦芽球"
     },
     {
       "code": "18-1020 TPG",
@@ -44727,7 +47357,8 @@ export default {
         "a": 8.10926698749403,
         "b": 14.3642882438751
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "可可奶油"
     },
     {
       "code": "18-1029 TPG",
@@ -44744,7 +47375,8 @@ export default {
         "a": 9.9989228039104,
         "b": 16.6921222462555
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "烤椰子"
     },
     {
       "code": "18-1025 TPG",
@@ -44761,7 +47393,8 @@ export default {
         "a": 12.7165887671005,
         "b": 21.5778675918784
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "狐狸"
     },
     {
       "code": "14-1038 TPG",
@@ -44778,7 +47411,8 @@ export default {
         "a": 6.86267016428321,
         "b": 33.0957919951102
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "新小麦"
     },
     {
       "code": "16-0928 TPG",
@@ -44795,7 +47429,8 @@ export default {
         "a": 7.0082791983751,
         "b": 29.8895915264702
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "咖喱"
     },
     {
       "code": "15-1040 TPG",
@@ -44812,7 +47447,8 @@ export default {
         "a": 9.72240355265319,
         "b": 23.199965443236
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冰咖啡"
     },
     {
       "code": "17-1045 TPG",
@@ -44829,7 +47465,8 @@ export default {
         "a": 10.3348038033297,
         "b": 30.1127532770587
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "苹果肉桂"
     },
     {
       "code": "17-1128 TPG",
@@ -44846,7 +47483,8 @@ export default {
         "a": 10.7623783526102,
         "b": 30.6342664435811
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "骨头棕色"
     },
     {
       "code": "17-1125 TPG",
@@ -44863,7 +47501,8 @@ export default {
         "a": 7.52402797453799,
         "b": 27.9337138326955
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "第琼"
     },
     {
       "code": "17-0942 TPG",
@@ -44880,7 +47519,8 @@ export default {
         "a": 8.15278183333512,
         "b": 29.0035196609932
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "奖牌铜牌"
     },
     {
       "code": "13-1031 TPG",
@@ -44897,7 +47537,8 @@ export default {
         "a": 10.9604648951388,
         "b": 33.1563417054712
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杏子雪橇"
     },
     {
       "code": "13-1030 TPG",
@@ -44914,7 +47555,8 @@ export default {
         "a": 14.8042472702749,
         "b": 36.5625877559206
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "朝阳"
     },
     {
       "code": "16-1144 TPG",
@@ -44931,7 +47573,8 @@ export default {
         "a": 13.528648786111,
         "b": 38.9026473669579
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "橡木爱好"
     },
     {
       "code": "16-1143 TPG",
@@ -44948,7 +47591,8 @@ export default {
         "a": 15.9296860922445,
         "b": 41.4045023213694
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蜂蜜黄色"
     },
     {
       "code": "17-1040 TPG",
@@ -44965,7 +47609,8 @@ export default {
         "a": 14.3940586538304,
         "b": 41.8823646282808
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "云杉黄色"
     },
     {
       "code": "17-1048 TPG",
@@ -44982,7 +47627,8 @@ export default {
         "a": 19.7138503321985,
         "b": 48.6078058075
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "印加金"
     },
     {
       "code": "18-0935 TPG",
@@ -44999,7 +47645,8 @@ export default {
         "a": 16.379019131303,
         "b": 44.761268483408
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "巴克索恩·布朗"
     },
     {
       "code": "13-1027 TPG",
@@ -45016,7 +47663,8 @@ export default {
         "a": 14.6316942906508,
         "b": 37.1695620833074
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杏奶油"
     },
     {
       "code": "14-1128 TPG",
@@ -45033,7 +47681,8 @@ export default {
         "a": 20.2773748996703,
         "b": 44.8054622711846
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Buff橙色"
     },
     {
       "code": "15-1145 TPG",
@@ -45050,7 +47699,8 @@ export default {
         "a": 20.9950153367944,
         "b": 49.0913224922273
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "麂皮"
     },
     {
       "code": "14-1051 TPG",
@@ -45067,7 +47717,8 @@ export default {
         "a": 21.7711160152731,
         "b": 54.6475322559508
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "温暖的杏子"
     },
     {
       "code": "16-1142 TPG",
@@ -45084,7 +47735,8 @@ export default {
         "a": 20.8031288303274,
         "b": 46.5407298347915
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄金块"
     },
     {
       "code": "16-1342 TPG",
@@ -45101,7 +47753,8 @@ export default {
         "a": 21.4721659094641,
         "b": 41.9246614346403
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "雄鹿"
     },
     {
       "code": "16-1148 TPG",
@@ -45118,7 +47771,8 @@ export default {
         "a": 21.2394519370038,
         "b": 44.4133246714553
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "掘金"
     },
     {
       "code": "16-1149 TPG",
@@ -45135,7 +47789,8 @@ export default {
         "a": 28.6205365293,
         "b": 47.5450076960186
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沙漠太阳"
     },
     {
       "code": "17-1046 TPG",
@@ -45152,7 +47807,8 @@ export default {
         "a": 25.8034753756743,
         "b": 46.8669441501414
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金橡树"
     },
     {
       "code": "18-1160 TPG",
@@ -45169,7 +47825,8 @@ export default {
         "a": 19.0284489029196,
         "b": 36.9509618400105
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "苏丹·布朗"
     },
     {
       "code": "18-1050 TPG",
@@ -45186,7 +47843,8 @@ export default {
         "a": 25.0862739777409,
         "b": 43.6419610636722
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "亲爱的生姜"
     },
     {
       "code": "18-1049 TPG",
@@ -45203,7 +47861,8 @@ export default {
         "a": 21.9473086614832,
         "b": 43.6043637975486
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "泰国咖喱"
     },
     {
       "code": "18-1163 TPG",
@@ -45220,7 +47879,8 @@ export default {
         "a": 23.87823467568,
         "b": 38.9822195267814
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "南瓜香料"
     },
     {
       "code": "18-0950 TPG",
@@ -45237,7 +47897,8 @@ export default {
         "a": 15.8701711440359,
         "b": 33.2448154824397
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "国泰香料"
     },
     {
       "code": "13-0945 TPG",
@@ -45254,7 +47915,8 @@ export default {
         "a": 16.2796967907891,
         "b": 57.841724357367
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "苍白的万寿菊"
     },
     {
       "code": "14-1050 TPG",
@@ -45271,7 +47933,8 @@ export default {
         "a": 24.3842751588088,
         "b": 59.5471980952906
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "万寿菊"
     },
     {
       "code": "15-1058 TPG",
@@ -45288,7 +47951,8 @@ export default {
         "a": 27.8003786391179,
         "b": 69.8718071943528
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "辐射黄色"
     },
     {
       "code": "15-1147 TPG",
@@ -45305,7 +47969,8 @@ export default {
         "a": 22.1103476254587,
         "b": 51.503234565998
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Butterscotch"
     },
     {
       "code": "15-1054 TPG",
@@ -45322,7 +47987,8 @@ export default {
         "a": 25.2410740246067,
         "b": 65.9048167506369
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "镉黄"
     },
     {
       "code": "16-1140 TPG",
@@ -45339,7 +48005,8 @@ export default {
         "a": 22.0000124550723,
         "b": 48.9098236219119
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "薯"
     },
     {
       "code": "16-1150 TPG",
@@ -45356,7 +48023,8 @@ export default {
         "a": 25.9417553314187,
         "b": 46.3323993967285
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄玉"
     },
     {
       "code": "13-0942 TPG",
@@ -45373,7 +48041,8 @@ export default {
         "a": 17.5867289187459,
         "b": 56.4302072974932
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "琥珀色"
     },
     {
       "code": "13-0947 TPG",
@@ -45390,7 +48059,8 @@ export default {
         "a": 15.7616849816844,
         "b": 61.0065737742858
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "香蕉"
     },
     {
       "code": "15-0955 TPG",
@@ -45407,7 +48077,8 @@ export default {
         "a": 14.4979208673681,
         "b": 72.9936003005867
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "老黄金"
     },
     {
       "code": "14-0955 TPG",
@@ -45424,7 +48095,8 @@ export default {
         "a": 21.2075586500656,
         "b": 71.0383443061707
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柑橘"
     },
     {
       "code": "15-1062 TPG",
@@ -45441,7 +48113,8 @@ export default {
         "a": 24.1549432991868,
         "b": 85.1897620552509
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金融合"
     },
     {
       "code": "14-1064 TPG",
@@ -45458,7 +48131,8 @@ export default {
         "a": 26.2792646585929,
         "b": 81.2822088909346
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "藏红花"
     },
     {
       "code": "14-1159 TPG",
@@ -45475,7 +48149,8 @@ export default {
         "a": 32.8191313151653,
         "b": 70.6183915115169
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Zinnia"
     },
     {
       "code": "14-0936 TPG",
@@ -45492,7 +48167,8 @@ export default {
         "a": 5.62656148004859,
         "b": 33.3413006119532
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "撒哈拉太阳"
     },
     {
       "code": "13-1025 TPG",
@@ -45509,7 +48185,8 @@ export default {
         "a": 9.15637261400665,
         "b": 36.2174419712389
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黑斑羚"
     },
     {
       "code": "13-0935 TPG",
@@ -45526,7 +48203,8 @@ export default {
         "a": 14.0067886281261,
         "b": 45.8276335462718
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "亚麻"
     },
     {
       "code": "14-1045 TPG",
@@ -45543,7 +48221,8 @@ export default {
         "a": 17.8038298564627,
         "b": 54.3961451101025
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "琥珀色"
     },
     {
       "code": "15-1049 TPG",
@@ -45560,7 +48239,8 @@ export default {
         "a": 19.3820462821395,
         "b": 58.7358814229707
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "工匠的黄金"
     },
     {
       "code": "14-0941 TPG",
@@ -45577,7 +48257,8 @@ export default {
         "a": 19.460062566543,
         "b": 56.4849643662369
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蜂蜡"
     },
     {
       "code": "15-1045 TPG",
@@ -45594,7 +48275,8 @@ export default {
         "a": 23.2738041039002,
         "b": 60.2973652812222
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "秋天大火"
     },
     {
       "code": "13-0939 TPG",
@@ -45611,7 +48293,8 @@ export default {
         "a": 12.9491202918749,
         "b": 49.7530274730486
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金色奶油"
     },
     {
       "code": "13-0946 TPG",
@@ -45628,7 +48311,8 @@ export default {
         "a": 18.073404138292,
         "b": 53.2274119133477
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "侏罗纪黄金"
     },
     {
       "code": "14-1052 TPG",
@@ -45645,7 +48329,8 @@ export default {
         "a": 23.3306877835223,
         "b": 55.294207812229
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金橘"
     },
     {
       "code": "16-1054 TPG",
@@ -45662,7 +48347,8 @@ export default {
         "a": 18.7708387262688,
         "b": 57.5918932215802
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "向日葵"
     },
     {
       "code": "15-1050 TPG",
@@ -45679,7 +48365,8 @@ export default {
         "a": 16.7150582745229,
         "b": 57.3268798073304
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金色的光芒"
     },
     {
       "code": "14-1041 TPG",
@@ -45696,7 +48383,8 @@ export default {
         "a": 13.0390213042492,
         "b": 46.580130818827
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄金杏子"
     },
     {
       "code": "15-1051 TPG",
@@ -45713,7 +48401,8 @@ export default {
         "a": 21.7959955742589,
         "b": 59.2956586915142
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金橙"
     },
     {
       "code": "13-0941 TPG",
@@ -45730,7 +48419,8 @@ export default {
         "a": 10.4503637413754,
         "b": 52.0380567200409
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "香蕉奶油"
     },
     {
       "code": "13-0932 TPG",
@@ -45747,7 +48437,8 @@ export default {
         "a": 8.15564890823062,
         "b": 44.1281582606747
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玉米"
     },
     {
       "code": "13-0940 TPG",
@@ -45764,7 +48455,8 @@ export default {
         "a": 11.3997423742506,
         "b": 51.763396114884
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "日落金"
     },
     {
       "code": "14-0851 TPG",
@@ -45781,7 +48473,8 @@ export default {
         "a": 8.38602587031556,
         "b": 50.0586362881455
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "萨摩亚太阳"
     },
     {
       "code": "14-0847 TPG",
@@ -45798,7 +48491,8 @@ export default {
         "a": 9.70011720246172,
         "b": 48.2225427035011
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄色黄色"
     },
     {
       "code": "14-0850 TPG",
@@ -45815,7 +48509,8 @@ export default {
         "a": 13.5456622892133,
         "b": 65.8679166969401
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "水仙花"
     },
     {
       "code": "14-0846 TPG",
@@ -45832,7 +48527,8 @@ export default {
         "a": 11.0811134728979,
         "b": 55.0290911818009
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蛋黄黄色"
     },
     {
       "code": "12-0826 TPG",
@@ -45849,7 +48545,8 @@ export default {
         "a": 4.8958929555788,
         "b": 38.7277356914186
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金色阴霾"
     },
     {
       "code": "12-0758 TPG",
@@ -45866,7 +48563,8 @@ export default {
         "a": 6.86483950877192,
         "b": 47.202617666691
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "是的"
     },
     {
       "code": "14-0848 TPG",
@@ -45883,7 +48581,8 @@ export default {
         "a": 8.10074586309839,
         "b": 57.7025580099317
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "含羞草"
     },
     {
       "code": "13-0859 TPG",
@@ -45900,7 +48599,8 @@ export default {
         "a": 13.5953678838361,
         "b": 87.1187519503372
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柠檬铬"
     },
     {
       "code": "14-0957 TPG",
@@ -45917,7 +48617,8 @@ export default {
         "a": 13.5234381978609,
         "b": 78.3551570982823
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "光谱黄色"
     },
     {
       "code": "13-0759 TPG",
@@ -45934,7 +48635,8 @@ export default {
         "a": 9.46369232960087,
         "b": 63.358235027198
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "太阳能"
     },
     {
       "code": "14-0951 TPG",
@@ -45951,7 +48653,8 @@ export default {
         "a": 15.0430675315865,
         "b": 67.834856597707
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金棒"
     },
     {
       "code": "13-0840 TPG",
@@ -45968,7 +48671,8 @@ export default {
         "a": 7.29652780106854,
         "b": 53.8132389362989
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Snapdragon"
     },
     {
       "code": "13-0851 TPG",
@@ -45985,7 +48689,8 @@ export default {
         "a": 6.60337749807471,
         "b": 61.5598403956912
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "奴才yellowtm"
     },
     {
       "code": "13-0850 TPG",
@@ -46002,7 +48707,8 @@ export default {
         "a": 5.21679438462186,
         "b": 62.9567052113001
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "阿斯彭黄金"
     },
     {
       "code": "13-0849 TPG",
@@ -46019,7 +48725,8 @@ export default {
         "a": 5.83542193783942,
         "b": 67.5749294429127
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "哈巴罗黄金"
     },
     {
       "code": "13-0758 TPG",
@@ -46036,7 +48743,8 @@ export default {
         "a": 7.41130762902731,
         "b": 84.8607000566556
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蒲公英"
     },
     {
       "code": "13-0752 TPG",
@@ -46053,7 +48761,8 @@ export default {
         "a": 5.6570618562854,
         "b": 75.391956666596
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柠檬"
     },
     {
       "code": "14-0852 TPG",
@@ -46070,7 +48779,8 @@ export default {
         "a": 8.89510338608546,
         "b": 72.0995156989022
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Freesia"
     },
     {
       "code": "13-0754 TPG",
@@ -46087,7 +48797,8 @@ export default {
         "a": 4.62994864219313,
         "b": 64.9513398690976
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "沉没"
     },
     {
       "code": "14-0849 TPG",
@@ -46104,7 +48815,8 @@ export default {
         "a": 8.68821761689598,
         "b": 55.9990411144098
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "海滩球"
     },
     {
       "code": "14-0751 TPG",
@@ -46121,7 +48833,8 @@ export default {
         "a": 6.99894610972046,
         "b": 75.9901178413774
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黛西发呆"
     },
     {
       "code": "13-0757 TPG",
@@ -46138,7 +48851,8 @@ export default {
         "a": 9.67919485071123,
         "b": 64.2810606389984
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金盏花"
     },
     {
       "code": "14-0958 TPG",
@@ -46155,7 +48869,8 @@ export default {
         "a": 11.509804101202,
         "b": 80.5683414896687
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "熊蜂"
     },
     {
       "code": "15-0956 TPG",
@@ -46172,7 +48887,8 @@ export default {
         "a": 16.1842250721539,
         "b": 77.7949131780974
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "昼夜"
     },
     {
       "code": "15-0954 TPG",
@@ -46189,7 +48905,8 @@ export default {
         "a": 14.8804632120507,
         "b": 70.9226611647549
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "交响的日落"
     },
     {
       "code": "12-0737 TPG",
@@ -46206,7 +48923,8 @@ export default {
         "a": 0.417037170024781,
         "b": 52.747131432861
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "戈德福"
     },
     {
       "code": "12-0736 TPG",
@@ -46223,7 +48941,8 @@ export default {
         "a": 2.12964950339811,
         "b": 51.337512044703
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柠檬滴"
     },
     {
       "code": "13-0755 TPG",
@@ -46240,7 +48959,8 @@ export default {
         "a": 3.34793174916731,
         "b": 60.1644331652013
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "报春花黄"
     },
     {
       "code": "13-0756 TPG",
@@ -46257,7 +48977,8 @@ export default {
         "a": 0.321487985211144,
         "b": 59.2440471703327
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柠檬皮"
     },
     {
       "code": "14-0754 TPG",
@@ -46274,7 +48995,8 @@ export default {
         "a": 4.47796413317852,
         "b": 63.0213856011349
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "超级柠檬"
     },
     {
       "code": "13-0746 TPG",
@@ -46291,7 +49013,8 @@ export default {
         "a": 1.49310851237505,
         "b": 67.8991058439179
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "玉米"
     },
     {
       "code": "14-0755 TPG",
@@ -46308,7 +49031,8 @@ export default {
         "a": 5.34148645044652,
         "b": 67.9061733871873
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "硫"
     },
     {
       "code": "13-0760 TPG",
@@ -46325,7 +49049,8 @@ export default {
         "a": 3.98123096746583,
         "b": 65.8578280171503
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄色气球"
     },
     {
       "code": "13-0749 TPG",
@@ -46342,7 +49067,8 @@ export default {
         "a": 2.71940480061367,
         "b": 70.5246975113433
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "雨衣"
     },
     {
       "code": "13-0751 TPG",
@@ -46359,7 +49085,8 @@ export default {
         "a": 4.54529465038811,
         "b": 84.2310448218645
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "高见性"
     },
     {
       "code": "14-0750 TPG",
@@ -46376,7 +49103,8 @@ export default {
         "a": 1.94856495001439,
         "b": 71.0508233971735
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "百香果"
     },
     {
       "code": "14-0757 TPG",
@@ -46393,7 +49121,8 @@ export default {
         "a": 4.63765848255665,
         "b": 69.8400637106912
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "迷雾万寿菊"
     },
     {
       "code": "14-0758 TPG",
@@ -46410,7 +49139,8 @@ export default {
         "a": 6.824622600618,
         "b": 68.318535947745
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "热点"
     },
     {
       "code": "16-0748 TPG",
@@ -46427,7 +49157,8 @@ export default {
         "a": 7.87127313082614,
         "b": 61.8840782797972
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金片"
     },
     {
       "code": "12-0738 TPG",
@@ -46444,7 +49175,8 @@ export default {
         "a": -1.46999521584484,
         "b": 52.8827127710817
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄色奶油"
     },
     {
       "code": "13-0644 TPG",
@@ -46461,7 +49193,8 @@ export default {
         "a": -3.0053050839754,
         "b": 71.7307351634241
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金猕猴桃"
     },
     {
       "code": "12-0752 TPG",
@@ -46478,7 +49211,8 @@ export default {
         "a": -3.10562498906658,
         "b": 74.8047546098617
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "buttercup"
     },
     {
       "code": "12-0643 TPG",
@@ -46495,7 +49229,8 @@ export default {
         "a": -6.17431800920149,
         "b": 76.9257005619939
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "炽热的黄色"
     },
     {
       "code": "14-0756 TPG",
@@ -46512,7 +49247,8 @@ export default {
         "a": 0.617336566185844,
         "b": 80.5737580447749
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "帝国黄色"
     },
     {
       "code": "14-0760 TPG",
@@ -46529,7 +49265,8 @@ export default {
         "a": 4.81353334494211,
         "b": 84.762405133301
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "网络黄色"
     },
     {
       "code": "13-0858 TPG",
@@ -46546,7 +49283,8 @@ export default {
         "a": 0.993156046105725,
         "b": 82.0605136371981
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鲜艳的黄色"
     },
     {
       "code": "12-0735 TPG",
@@ -46563,7 +49301,8 @@ export default {
         "a": -3.16968091169678,
         "b": 56.1759964168377
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄尾"
     },
     {
       "code": "13-0753 TPG",
@@ -46580,7 +49319,8 @@ export default {
         "a": -3.20091056086802,
         "b": 76.0385202349122
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "桲"
     },
     {
       "code": "13-0647 TPG",
@@ -46597,7 +49337,8 @@ export default {
         "a": -3.76715290864371,
         "b": 69.6581068019319
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "照明"
     },
     {
       "code": "14-0745 TPG",
@@ -46614,7 +49355,8 @@ export default {
         "a": 0.412135434876393,
         "b": 76.2620059827998
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "印加里"
     },
     {
       "code": "15-0635 TPG",
@@ -46631,7 +49373,8 @@ export default {
         "a": -3.57596407009902,
         "b": 64.6963293037329
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "蛇眼"
     },
     {
       "code": "15-0647 TPG",
@@ -46648,7 +49391,8 @@ export default {
         "a": 1.1010658402435,
         "b": 69.5287945179763
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄色茉莉花"
     },
     {
       "code": "16-0838 TPG",
@@ -46665,7 +49409,8 @@ export default {
         "a": -0.306419044305839,
         "b": 68.1902717676825
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "芒果薄荷"
     },
     {
       "code": "12-0740 TPG",
@@ -46682,7 +49427,8 @@ export default {
         "a": -7.37909129370407,
         "b": 51.7030913907998
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "众人瞩目"
     },
     {
       "code": "12-0742 TPG",
@@ -46699,7 +49445,8 @@ export default {
         "a": -5.28367268613117,
         "b": 53.9580104117928
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柠檬马戏"
     },
     {
       "code": "12-0646 TPG",
@@ -46716,7 +49463,8 @@ export default {
         "a": -5.7594836787343,
         "b": 60.4240027734289
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "西兰丁"
     },
     {
       "code": "12-0642 TPG",
@@ -46733,7 +49481,8 @@ export default {
         "a": -3.05581700499158,
         "b": 61.7981818644329
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "极光"
     },
     {
       "code": "13-0640 TPG",
@@ -46750,7 +49499,8 @@ export default {
         "a": -4.75433005537607,
         "b": 52.1294570614403
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "相思"
     },
     {
       "code": "13-0648 TPG",
@@ -46767,7 +49517,8 @@ export default {
         "a": -6.10393677272531,
         "b": 59.6316237933456
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "绿色的光泽"
     },
     {
       "code": "13-0646 TPG",
@@ -46784,7 +49535,8 @@ export default {
         "a": -4.44657331012055,
         "b": 65.4453072490886
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "Meadowlark"
     },
     {
       "code": "11-0615 TPG",
@@ -46801,7 +49553,8 @@ export default {
         "a": -1.85433702052551,
         "b": 17.1988999954631
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "梨冰糕"
     },
     {
       "code": "11-0616 TPG",
@@ -46818,7 +49571,8 @@ export default {
         "a": -0.717555709530582,
         "b": 28.4371632360791
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "粉彩黄色"
     },
     {
       "code": "12-0715 TPG",
@@ -46835,7 +49589,8 @@ export default {
         "a": 1.34513981776019,
         "b": 29.7147190675079
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "双奶油"
     },
     {
       "code": "12-0722 TPG",
@@ -46852,7 +49607,8 @@ export default {
         "a": -0.986318728305124,
         "b": 31.0842678806664
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "法国香草"
     },
     {
       "code": "12-0721 TPG",
@@ -46869,7 +49625,8 @@ export default {
         "a": -3.68061246410595,
         "b": 37.5178881174046
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柠檬水"
     },
     {
       "code": "11-0622 TPG",
@@ -46886,7 +49643,8 @@ export default {
         "a": -5.88620118861194,
         "b": 41.83850934408
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "黄虹膜"
     },
     {
       "code": "11-0620 TPG",
@@ -46903,7 +49661,8 @@ export default {
         "a": -6.63381015432268,
         "b": 39.2307503589181
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "小精灵黄"
     },
     {
       "code": "12-0720 TPG",
@@ -46920,7 +49679,8 @@ export default {
         "a": -0.221712130200113,
         "b": 34.1868516432833
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "醇厚的黄色"
     },
     {
       "code": "12-0824 TPG",
@@ -46937,7 +49697,8 @@ export default {
         "a": 0.01181370660569,
         "b": 39.3102177787696
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "苍白的香蕉"
     },
     {
       "code": "12-0711 TPG",
@@ -46954,7 +49715,8 @@ export default {
         "a": -2.26321681271108,
         "b": 35.2296672749042
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柠檬蛋白甜饼"
     },
     {
       "code": "12-0825 TPG",
@@ -46971,7 +49733,8 @@ export default {
         "a": 0.208671741523836,
         "b": 43.0810059342893
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "爆米花"
     },
     {
       "code": "12-0718 TPG",
@@ -46988,7 +49751,8 @@ export default {
         "a": 0.330508911382144,
         "b": 33.7251867271387
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "菠萝片"
     },
     {
       "code": "12-0729 TPG",
@@ -47005,7 +49769,8 @@ export default {
         "a": 3.32894773970061,
         "b": 34.8089079749251
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "夏装"
     },
     {
       "code": "12-0727 TPG",
@@ -47022,7 +49787,8 @@ export default {
         "a": 0.875494597597948,
         "b": 48.4157486065024
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "阳光"
     },
     {
       "code": "11-0510 TPG",
@@ -47039,7 +49805,8 @@ export default {
         "a": 0.408745660466836,
         "b": 14.3083030934299
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "余辉"
     },
     {
       "code": "11-0619 TPG",
@@ -47056,7 +49823,8 @@ export default {
         "a": -0.461423906291447,
         "b": 21.0866128177278
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "弗兰"
     },
     {
       "code": "12-0717 TPG",
@@ -47073,7 +49841,8 @@ export default {
         "a": -1.03570953167842,
         "b": 20.7719401492967
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "茴香花"
     },
     {
       "code": "13-0822 TPG",
@@ -47090,7 +49859,8 @@ export default {
         "a": 2.34568626906334,
         "b": 29.5045446427819
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "阳光"
     },
     {
       "code": "13-0917 TPG",
@@ -47107,7 +49877,8 @@ export default {
         "a": 2.91977993219206,
         "b": 27.9061885323252
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "意大利稻草"
     },
     {
       "code": "13-0922 TPG",
@@ -47124,7 +49895,8 @@ export default {
         "a": 3.18313238700463,
         "b": 31.4586845741903
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "稻草"
     },
     {
       "code": "14-0935 TPG",
@@ -47141,7 +49913,8 @@ export default {
         "a": 4.07970032358057,
         "b": 35.5689333370439
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "霍霍巴"
     },
     {
       "code": "12-0812 TPG",
@@ -47158,7 +49931,8 @@ export default {
         "a": 1.85426611095074,
         "b": 19.2243426857109
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "雪花石膏闪闪发光"
     },
     {
       "code": "12-0806 TPG",
@@ -47175,7 +49949,8 @@ export default {
         "a": 0.0683831554608161,
         "b": 18.7761299857544
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "鲁塔巴加"
     },
     {
       "code": "13-0815 TPG",
@@ -47192,7 +49967,8 @@ export default {
         "a": 2.19504931315767,
         "b": 25.0973005050723
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "香蕉薄饼"
     },
     {
       "code": "12-0910 TPG",
@@ -47209,7 +49985,8 @@ export default {
         "a": 4.93752948970438,
         "b": 19.1160224167755
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "羔羊的羊毛"
     },
     {
       "code": "13-0814 TPG",
@@ -47226,7 +50003,8 @@ export default {
         "a": 2.89002327849364,
         "b": 22.2594718990726
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "夏瓜"
     },
     {
       "code": "12-0714 TPG",
@@ -47243,7 +50021,8 @@ export default {
         "a": 4.6635436599699,
         "b": 23.8925667458056
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "康努斯克"
     },
     {
       "code": "12-0822 TPG",
@@ -47260,7 +50039,8 @@ export default {
         "a": 8.72416191404662,
         "b": 31.2131748063133
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "金羊毛"
     },
     {
       "code": "11-0515 TPG",
@@ -47277,7 +50057,8 @@ export default {
         "a": -0.727295287831997,
         "b": 18.2932953275279
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "柠檬糖霜"
     },
     {
       "code": "12-0804 TPG",
@@ -47294,7 +50075,8 @@ export default {
         "a": 0.177220275266177,
         "b": 14.018163225459
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "云霜"
     },
     {
       "code": "12-0713 TPG",
@@ -47311,7 +50093,8 @@ export default {
         "a": 0.443940758316053,
         "b": 20.2441194430583
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杏仁油"
     },
     {
       "code": "12-0815 TPG",
@@ -47328,7 +50111,8 @@ export default {
         "a": 0.615456524331814,
         "b": 21.7187649677623
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "香草蛋ust"
     },
     {
       "code": "12-0712 TPG",
@@ -47345,7 +50129,8 @@ export default {
         "a": 1.66749308764719,
         "b": 18.0600397760392
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "香草"
     },
     {
       "code": "13-0916 TPG",
@@ -47362,7 +50147,8 @@ export default {
         "a": 2.93231221822698,
         "b": 26.0714512291287
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "洋甘菊"
     },
     {
       "code": "12-0817 TPG",
@@ -47379,7 +50165,8 @@ export default {
         "a": 5.04717955015349,
         "b": 28.3530244609449
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "杏冰淇淋"
     },
     {
       "code": "11-0108 TPG",
@@ -47396,7 +50183,8 @@ export default {
         "a": -0.245468109130231,
         "b": 8.53212786787125
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "孤星"
     },
     {
       "code": "11-0202 TPG",
@@ -47413,7 +50201,8 @@ export default {
         "a": -0.0435759082774156,
         "b": 8.59461440923512
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "婴儿的呼吸"
     },
     {
       "code": "11-0507 TPG",
@@ -47430,7 +50219,8 @@ export default {
         "a": -0.270243231770828,
         "b": 11.6669155958466
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "冬季白色"
     },
     {
       "code": "11-0107 TPG",
@@ -47447,7 +50237,8 @@ export default {
         "a": -0.753074871998605,
         "b": 10.6316306716886
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "纸莎草纸"
     },
     {
       "code": "11-0106 TPG",
@@ -47464,7 +50255,8 @@ export default {
         "a": -0.858945801264277,
         "b": 11.1834200845653
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "甜玉米"
     },
     {
       "code": "12-0602 TPG",
@@ -47481,7 +50273,8 @@ export default {
         "a": 0.946672398800141,
         "b": 7.73975529264577
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "北极狼"
     },
     {
       "code": "12-0908 TPG",
@@ -47498,7 +50291,8 @@ export default {
         "a": 2.03166250646103,
         "b": 11.0059849792552
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "夏季沙"
     },
     {
       "code": "13-1012 TPG",
@@ -47515,7 +50309,8 @@ export default {
         "a": 5.33712968544298,
         "b": 15.5403357094246
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "磨砂杏仁"
     },
     {
       "code": "14-1012 TPG",
@@ -47532,7 +50327,8 @@ export default {
         "a": 6.80292334643229,
         "b": 19.5549084552809
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "镀金的米色"
     },
     {
       "code": "15-0927 TPG",
@@ -47549,7 +50345,8 @@ export default {
         "a": 13.1811492320009,
         "b": 33.1653216312351
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "淡黄色"
     },
     {
       "code": "16-0836 TPG",
@@ -47566,7 +50363,8 @@ export default {
         "a": 3.64259986816434,
         "b": 38.322396077092
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "丰富的黄金"
     },
     {
       "code": "16-1325 TPG",
@@ -47583,7 +50381,8 @@ export default {
         "a": 24.9415097845928,
         "b": 29.6864258314639
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "铜"
     },
     {
       "code": "18-1537 TPG",
@@ -47600,7 +50399,8 @@ export default {
         "a": 31.7917357650233,
         "b": 27.3166517455892
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "铜硬币"
     },
     {
       "code": "14-5002 TPG",
@@ -47617,7 +50417,8 @@ export default {
         "a": -0.689881296562833,
         "b": 1.65877901234921
       },
-      "cmyk": null
+      "cmyk": null,
+      "cn_name": "银"
     }
   ]
 }
