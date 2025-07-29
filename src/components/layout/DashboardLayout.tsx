@@ -140,11 +140,11 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
         <div className="h-16 flex items-center justify-center border-b border-gray-100 bg-gradient-to-r from-blue-600 to-purple-600">
           {!collapsed ? (
             <h1 className="text-xl font-bold text-white truncate">
-              信维资源管理
+              鑫威资源管理
             </h1>
           ) : (
             <h1 className="text-xl font-bold text-white">
-              信维
+              鑫威
             </h1>
           )}
         </div>

@@ -187,7 +187,7 @@ export default function InitAdminPage() {
             系统初始化
           </h1>
           <p className="text-gray-600">
-            创建第一个管理员账户来开始使用信维资源管理系统
+            创建第一个管理员账户来开始使用鑫威资源管理系统
           </p>
         </div>
 
