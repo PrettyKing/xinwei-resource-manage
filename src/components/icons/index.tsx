@@ -34,7 +34,8 @@ export {
   ExportIcon,
   FilterIcon,
   RefreshIcon,
-  CloseIcon
+  CloseIcon,
+  XIcon
 } from './actions';
 
 // 状态和通知相关图标
@@ -44,7 +45,8 @@ export {
   StatusIcon,
   BellIcon,
   SpinnerIcon,
-  LoadingIcon
+  LoadingIcon,
+  AlertTriangleIcon
 } from './status';
 
 // 统计和趋势相关图标

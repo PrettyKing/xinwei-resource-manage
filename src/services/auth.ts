@@ -98,17 +98,7 @@ export async function loginUser(credentials: { username: string; password: strin
 // 用户注册
 export async function registerUser(userData: CreateUserForm) {
   try {
-    // 检查用户名是否存在
-    const existingUser = await UserService.findByUsername(userData.username);
-    if (existingUser) {
-      throw new Error('用户名已存在');
-    }
-
-    // 检查邮箱是否存在
-    const existingEmail = await UserService.findByEmail(userData.email);
-    if (existingEmail) {
-      throw new Error('邮箱已被使用');
-    }
+    // 检查用户名是否存在 - 现在通过 UserService.create 来处理重复检查
 
     // 加密密码
     const hashedPassword = await hashPassword(userData.password);
@@ -117,7 +107,7 @@ export async function registerUser(userData: CreateUserForm) {
     const newUser = await UserService.create({
       ...userData,
       password: hashedPassword
-    });
+    }, 'system');
 
     return {
       success: true,
@@ -330,6 +320,47 @@ export function createProtectedResponse(
   };
 }
 
+// 验证请求认证状态 - 返回用户信息
+export async function verifyAuth(request: NextRequest) {
+  try {
+    const decoded = verifyToken(request);
+    const user = await UserService.findById(decoded.userId);
+    
+    if (!user) {
+      return {
+        success: false,
+        error: '用户不存在'
+      };
+    }
+
+    if (user.status !== 'active') {
+      return {
+        success: false,
+        error: '账户已被禁用'
+      };
+    }
+
+    return {
+      success: true,
+      user: {
+        _id: user._id,
+        username: user.username,
+        email: user.email,
+        role: user.role,
+        realName: user.realName,
+        phone: user.phone,
+        status: user.status,
+        lastLoginAt: user.lastLoginAt
+      }
+    };
+  } catch (error) {
+    return {
+      success: false,
+      error: error instanceof Error ? error.message : '认证失败'
+    };
+  }
+}
+
 // 导出认证工具函数
 export const AuthService = {
   verifyToken,
@@ -343,7 +374,8 @@ export const AuthService = {
   changePassword,
   refreshToken,
   checkPermission,
-  createProtectedResponse
+  createProtectedResponse,
+  verifyAuth
 };
 
 export default AuthService;

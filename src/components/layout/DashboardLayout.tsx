@@ -58,12 +58,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
       label: '仪表盘',
     },
     {
-      key: '/dashboard/materials',
-      icon: <MaterialsIcon size={20} />,
-      label: '材料管理',
-    },
-    {
-      key: '/dashboard/inbound',
+      key: '/dashboard/inbound-materials',
       icon: <InboundIcon size={20} />,
       label: '入库管理',
     },

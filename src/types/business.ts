@@ -44,7 +44,58 @@ export interface MaterialCategory {
   children?: MaterialCategory[];
 }
 
-// 材料类型
+// 整合的入库材料类型
+export interface InboundMaterial {
+  _id: string;
+  // 入库基本信息
+  orderNumber: string;            // 入库单号
+  materialName: string;           // 材料名称
+  manufacturer: string;           // 材料厂商
+  
+  // 材料规格信息
+  specification: string;          // 规格
+  color: string;                  // 颜色
+  pantoneColor?: string;          // 潘通色号
+  
+  // 使用信息
+  usedComponent?: string;         // 使用部件
+  customer?: string;              // 使用客户
+  season?: string;                // 样品季节
+  
+  // 库存和价格信息
+  currentStock: number;           // 库存
+  unitPrice: number;              // 单价
+  totalValue: number;             // 总价值
+  unit: string;                   // 单位
+  
+  // 描述和备注
+  description?: string;           // 描述
+  remarks?: string;               // 备注
+  
+  // 供应商信息
+  supplierId?: string;
+  supplierName?: string;
+  
+  // 状态和审批
+  status: 'active' | 'inactive' | 'pending' | 'approved';
+  
+  // 批次信息
+  batchNumber?: string;           // 批次号
+  manufactureDate?: Date;         // 生产日期
+  expiryDate?: Date;              // 过期日期
+  
+  // 操作信息
+  operator: {
+    id: string;
+    name: string;
+  };
+  
+  // 时间戳
+  createdAt: Date;
+  updatedAt: Date;
+}
+
+// 保留原材料类型以兼容现有代码
 export interface Material {
   _id: string;
   name: string;
@@ -264,6 +315,79 @@ export interface InboundReport {
 }
 
 // 表单数据类型
+// 创建入库材料表单
+export interface CreateInboundMaterialForm {
+  // 入库基本信息
+  orderNumber: string;            // 入库单号
+  materialName: string;           // 材料名称
+  manufacturer: string;           // 材料厂商
+  
+  // 材料规格信息
+  specification: string;          // 规格
+  color: string;                  // 颜色
+  pantoneColor?: string;          // 潘通色号
+  
+  // 使用信息
+  usedComponent?: string;         // 使用部件
+  customer?: string;              // 使用客户
+  season?: string;                // 样品季节
+  
+  // 库存和价格信息
+  currentStock: number;           // 库存
+  unitPrice: number;              // 单价
+  unit: string;                   // 单位
+  
+  // 描述和备注
+  description?: string;           // 描述
+  remarks?: string;               // 备注
+  
+  // 供应商信息
+  supplierId?: string;
+  supplierName?: string;
+  
+  // 批次信息
+  batchNumber?: string;           // 批次号
+  manufactureDate?: Date;         // 生产日期
+  expiryDate?: Date;              // 过期日期
+}
+
+// 更新入库材料表单
+export interface UpdateInboundMaterialForm {
+  materialName?: string;
+  manufacturer?: string;
+  specification?: string;
+  color?: string;
+  pantoneColor?: string;
+  usedComponent?: string;
+  customer?: string;
+  season?: string;
+  currentStock?: number;
+  unitPrice?: number;
+  unit?: string;
+  description?: string;
+  remarks?: string;
+  supplierId?: string;
+  supplierName?: string;
+  status?: 'active' | 'inactive' | 'pending' | 'approved';
+  batchNumber?: string;
+  manufactureDate?: Date;
+  expiryDate?: Date;
+}
+
+// 入库材料查询过滤器
+export interface InboundMaterialFilter {
+  orderNumber?: string;
+  materialName?: string;
+  manufacturer?: string;
+  color?: string;
+  pantoneColor?: string;
+  customer?: string;
+  season?: string;
+  status?: 'active' | 'inactive' | 'pending' | 'approved';
+  keyword?: string;
+  dateRange?: [Date, Date];
+}
+
 export interface CreateMaterialForm {
   name: string;
   code: string;

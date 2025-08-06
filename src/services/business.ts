@@ -5,15 +5,10 @@ import {
   InboundOrder, 
   InboundItem, 
   StockRecord, 
-  StockBatch,
   User,
   IMaterial,
-  IMaterialCategory,
   ISupplier,
   IInboundOrder,
-  IInboundItem,
-  IStockRecord,
-  IStockBatch,
   IUser
 } from '@/models';
 import { 
@@ -31,7 +26,7 @@ import {
   DashboardStats,
   RecentActivity
 } from '@/types/business';
-import { connectDB } from '@/lib/db';
+import { connectToDatabase } from '@/lib/mongodb';
 import mongoose from 'mongoose';
 
 // 验证ObjectId格式
@@ -41,7 +36,7 @@ function isValidObjectId(id: string): boolean {
 
 export class MaterialService {
   static async getAll(filter: MaterialFilter, pagination: PaginationParams): Promise<PaginatedResponse<IMaterial>> {
-    await connectDB();
+    await connectToDatabase();
     
     const query: any = {};
     
@@ -91,7 +86,7 @@ export class MaterialService {
   }
 
   static async getById(id: string): Promise<IMaterial | null> {
-    await connectDB();
+    await connectToDatabase();
     
     if (!isValidObjectId(id)) {
       throw new Error('无效的材料ID格式');
@@ -101,7 +96,7 @@ export class MaterialService {
   }
 
   static async create(data: CreateMaterialForm, userId: string): Promise<IMaterial> {
-    await connectDB();
+    await connectToDatabase();
     
     // 验证分类ID格式
     if (!isValidObjectId(data.categoryId)) {
@@ -131,7 +126,7 @@ export class MaterialService {
   }
 
   static async update(id: string, data: Partial<CreateMaterialForm>, userId: string): Promise<IMaterial | null> {
-    await connectDB();
+    await connectToDatabase();
     
     if (!isValidObjectId(id)) {
       throw new Error('无效的材料ID格式');
@@ -164,7 +159,7 @@ export class MaterialService {
   }
 
   static async delete(id: string): Promise<boolean> {
-    await connectDB();
+    await connectToDatabase();
     
     if (!isValidObjectId(id)) {
       throw new Error('无效的材料ID格式');
@@ -194,7 +189,7 @@ export class MaterialService {
   }
 
   static async updateStock(materialId: string, quantity: number, type: 'inbound' | 'outbound' | 'adjustment', userId: string, referenceId?: string): Promise<void> {
-    await connectDB();
+    await connectToDatabase();
     
     if (!isValidObjectId(materialId)) {
       throw new Error('无效的材料ID格式');
@@ -236,7 +231,7 @@ export class MaterialService {
   }
 
   static async getOptions(): Promise<Array<{ id: string; name: string; code: string; unit: string; price: number }>> {
-    await connectDB();
+    await connectToDatabase();
     return Material.find({ status: 'active' })
       .select('name code unit price')
       .sort({ name: 1 })
@@ -253,7 +248,7 @@ export class MaterialService {
 
 export class SupplierService {
   static async getAll(filter: SupplierFilter, pagination: PaginationParams): Promise<PaginatedResponse<ISupplier>> {
-    await connectDB();
+    await connectToDatabase();
     
     const query: any = {};
     
@@ -293,7 +288,7 @@ export class SupplierService {
   }
 
   static async getById(id: string): Promise<ISupplier | null> {
-    await connectDB();
+    await connectToDatabase();
     
     if (!isValidObjectId(id)) {
       throw new Error('无效的供应商ID格式');
@@ -303,7 +298,7 @@ export class SupplierService {
   }
 
   static async create(data: CreateSupplierForm, userId: string): Promise<ISupplier> {
-    await connectDB();
+    await connectToDatabase();
     
     // 检查编码是否唯一
     const existingCode = await Supplier.findOne({ code: data.code });
@@ -321,7 +316,7 @@ export class SupplierService {
   }
 
   static async update(id: string, data: Partial<CreateSupplierForm>, userId: string): Promise<ISupplier | null> {
-    await connectDB();
+    await connectToDatabase();
     
     if (!isValidObjectId(id)) {
       throw new Error('无效的供应商ID格式');
@@ -344,7 +339,7 @@ export class SupplierService {
   }
 
   static async delete(id: string): Promise<boolean> {
-    await connectDB();
+    await connectToDatabase();
     
     if (!isValidObjectId(id)) {
       throw new Error('无效的供应商ID格式');
@@ -361,7 +356,7 @@ export class SupplierService {
   }
 
   static async getOptions(): Promise<Array<{ id: string; name: string; code: string }>> {
-    await connectDB();
+    await connectToDatabase();
     return Supplier.find({ status: 'active' })
       .select('name code')
       .sort({ name: 1 })
@@ -376,7 +371,7 @@ export class SupplierService {
 
 export class InboundService {
   static async getAll(filter: InboundFilter, pagination: PaginationParams): Promise<PaginatedResponse<IInboundOrder>> {
-    await connectDB();
+    await connectToDatabase();
     
     const query: any = {};
     
@@ -437,7 +432,7 @@ export class InboundService {
   }
 
   static async getById(id: string): Promise<IInboundOrder | null> {
-    await connectDB();
+    await connectToDatabase();
     
     if (!isValidObjectId(id)) {
       throw new Error('无效的入库单ID格式');
@@ -473,7 +468,7 @@ export class InboundService {
   }
 
   static async create(data: CreateInboundForm, userId: string): Promise<IInboundOrder> {
-    await connectDB();
+    await connectToDatabase();
     
     try {
       // 验证供应商ID格式
@@ -541,7 +536,7 @@ export class InboundService {
   }
 
   static async submit(id: string, userId: string): Promise<IInboundOrder | null> {
-    await connectDB();
+    await connectToDatabase();
     
     if (!isValidObjectId(id)) {
       throw new Error('无效的入库单ID格式');
@@ -570,7 +565,7 @@ export class InboundService {
   }
 
   static async approve(id: string, userId: string): Promise<IInboundOrder | null> {
-    await connectDB();
+    await connectToDatabase();
     
     if (!isValidObjectId(id)) {
       throw new Error('无效的入库单ID格式');
@@ -594,7 +589,7 @@ export class InboundService {
   }
 
   static async reject(id: string, reason: string, userId: string): Promise<IInboundOrder | null> {
-    await connectDB();
+    await connectToDatabase();
     
     if (!isValidObjectId(id)) {
       throw new Error('无效的入库单ID格式');
@@ -619,7 +614,7 @@ export class InboundService {
   }
 
   static async complete(id: string, actualQuantities: Record<string, number>, userId: string): Promise<IInboundOrder | null> {
-    await connectDB();
+    await connectToDatabase();
     
     if (!isValidObjectId(id)) {
       throw new Error('无效的入库单ID格式');
@@ -672,7 +667,7 @@ export class InboundService {
   }
 
   static async delete(id: string): Promise<boolean> {
-    await connectDB();
+    await connectToDatabase();
     
     if (!isValidObjectId(id)) {
       throw new Error('无效的入库单ID格式');
@@ -703,7 +698,7 @@ export class InboundService {
 
 export class DashboardService {
   static async getStats(): Promise<DashboardStats> {
-    await connectDB();
+    await connectToDatabase();
 
     const now = new Date();
     const startOfMonth = new Date(now.getFullYear(), now.getMonth(), 1);
@@ -799,8 +794,41 @@ export class DashboardService {
 
 
 export class UserService {
+  // 基础查询方法
+  static async findById(id: string): Promise<IUser | null> {
+    await connectToDatabase();
+    
+    if (!isValidObjectId(id)) {
+      throw new Error('无效的用户ID格式');
+    }
+    
+    return User.findById(id).lean();
+  }
+
+  static async findByUsername(username: string): Promise<IUser | null> {
+    await connectToDatabase();
+    return User.findOne({ username: username.trim() }).lean();
+  }
+
+  static async findByEmail(email: string): Promise<IUser | null> {
+    await connectToDatabase();
+    return User.findOne({ email: email.trim().toLowerCase() }).lean();
+  }
+
+  static async updateLastLogin(userId: string): Promise<void> {
+    await connectToDatabase();
+    
+    if (!isValidObjectId(userId)) {
+      throw new Error('无效的用户ID格式');
+    }
+    
+    await User.findByIdAndUpdate(userId, { 
+      lastLoginAt: new Date() 
+    });
+  }
+
   static async getAll(filter: UserFilter, pagination: PaginationParams): Promise<PaginatedResponse<IUser>> {
-    await connectDB();
+    await connectToDatabase();
     
     const query: any = {};
     
@@ -840,12 +868,18 @@ export class UserService {
   }
 
   static async create(data: CreateUserForm, createdBy: string): Promise<IUser> {
-    await connectDB();
+    await connectToDatabase();
     
     // 检查用户名是否唯一
-    const existingUser = await User.findOne({ username: data.username });
+    const existingUser = await this.findByUsername(data.username);
     if (existingUser) {
       throw new Error('用户名已存在');
+    }
+
+    // 检查邮箱是否唯一
+    const existingEmail = await this.findByEmail(data.email);
+    if (existingEmail) {
+      throw new Error('邮箱已被使用');
     }
 
     const user = new User({
@@ -858,7 +892,7 @@ export class UserService {
   }
 
   static async update(id: string, data: UpdateUserForm, updatedBy: string): Promise<IUser | null> {
-    await connectDB();
+    await connectToDatabase();
     
     if (!isValidObjectId(id)) {
       throw new Error('无效的用户ID格式');
@@ -881,7 +915,7 @@ export class UserService {
     return user?.toObject() || null;
   }
   static async delete(id: string): Promise<boolean> {
-    await connectDB();
+    await connectToDatabase();
     
     if (!isValidObjectId(id)) {
       throw new Error('无效的用户ID格式');
@@ -901,7 +935,7 @@ export class UserService {
     return true;
   }
   static async getOptions(): Promise<Array<{ id: string; username: string; realName: string }>> {
-    await connectDB();
+    await connectToDatabase();
     return User.find({ status: 'active' })
       .select('username realName')
       .sort({ username: 1 })
@@ -913,7 +947,7 @@ export class UserService {
       })));
   }
   static async changePassword(userId: string, oldPassword: string, newPassword: string): Promise<void> {
-    await connectDB();
+    await connectToDatabase();
     
     if (!isValidObjectId(userId)) {
       throw new Error('无效的用户ID格式');
@@ -933,7 +967,7 @@ export class UserService {
     await user.save();
   }
   static async resetPassword(userId: string, newPassword: string): Promise<void> {
-    await connectDB();
+    await connectToDatabase();
     
     if (!isValidObjectId(userId)) {
       throw new Error('无效的用户ID格式');
@@ -948,7 +982,7 @@ export class UserService {
     await user.save();
   }
   static async getUserRole(userId: string): Promise<string> {
-    await connectDB();
+    await connectToDatabase();
     
     if (!isValidObjectId(userId)) {
       throw new Error('无效的用户ID格式');
@@ -962,7 +996,7 @@ export class UserService {
     return user.role;
   }
   static async getUserPermissions(userId: string): Promise<string[]> {
-    await connectDB();
+    await connectToDatabase();
     
     if (!isValidObjectId(userId)) {
       throw new Error('无效的用户ID格式');
@@ -986,7 +1020,7 @@ export class UserService {
     }
   }
   static async getUserDisplayName(userId: string): Promise<string> {
-    await connectDB();
+    await connectToDatabase();
     
     if (!isValidObjectId(userId)) {
       throw new Error('无效的用户ID格式');
@@ -1000,7 +1034,7 @@ export class UserService {
     return user.realName || user.username;
   }
   static async getUserAvatar(userId: string): Promise<string> {
-    await connectDB();
+    await connectToDatabase();
     
     if (!isValidObjectId(userId)) {
       throw new Error('无效的用户ID格式');

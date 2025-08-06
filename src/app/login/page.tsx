@@ -193,7 +193,6 @@ export default function LoginPage() {
                 type="submit"
                 loading={loginLoading}
                 loadingText="登录中..."
-                size="default"
                 className="mt-6 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition-colors duration-200 flex items-center justify-center"
               >
                 立即登录

@@ -190,3 +190,22 @@ export const CloseIcon = ({ className = "", size = 24 }: IconProps) => (
     />
   </svg>
 );
+
+// X图标 (别名)
+export const XIcon = ({ className = "", size = 24 }: IconProps) => (
+  <svg
+    className={className}
+    width={size}
+    height={size}
+    fill="none"
+    stroke="currentColor"
+    viewBox="0 0 24 24"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M6 18L18 6M6 6l12 12"
+    />
+  </svg>
+);

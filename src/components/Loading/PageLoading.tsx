@@ -1,6 +1,68 @@
 import React from 'react';
-import Loading, { LoadingProps } from './Loading';
 import './loading.css';
+
+// 加载动画类型
+export type LoadingType = 'spinner' | 'dots' | 'wave' | 'circle' | 'pulse';
+export type LoadingSize = 'xs' | 'sm' | 'md' | 'lg' | 'xl';
+export type LoadingColor = 'primary' | 'success' | 'warning' | 'error' | 'white' | 'gray';
+
+// 基础Loading组件属性
+export interface LoadingProps {
+  type?: LoadingType;
+  size?: LoadingSize;
+  color?: LoadingColor;
+  className?: string;
+  style?: React.CSSProperties;
+}
+
+// 简化的Loading组件（内联到此文件）
+const Loading: React.FC<LoadingProps> = ({
+  type = 'spinner',
+  size = 'md',
+  color = 'primary',
+  className = '',
+  style,
+}) => {
+  const getSpinnerContent = () => {
+    switch (type) {
+      case 'spinner':
+        return (
+          <svg
+            className={`animate-spin loading-spinner loading-${size} loading-${color} ${className}`}
+            style={style}
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <circle
+              className="opacity-25"
+              cx="12"
+              cy="12"
+              r="10"
+              stroke="currentColor"
+              strokeWidth="4"
+            />
+            <path
+              className="opacity-75"
+              fill="currentColor"
+              d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+            />
+          </svg>
+        );
+      case 'dots':
+        return (
+          <div className={`loading-dots loading-${size} loading-${color} ${className}`} style={style}>
+            <div />
+            <div />
+            <div />
+          </div>
+        );
+      default:
+        return getSpinnerContent();
+    }
+  };
+
+  return getSpinnerContent();
+};
 
 // 页面加载组件属性
 export interface PageLoadingProps extends Omit<LoadingProps, 'center'> {
@@ -49,190 +111,159 @@ export const PageLoading: React.FC<PageLoadingProps> = ({
     'loading-page',
     dark ? 'loading-page-dark' : '',
     className,
-  ].filter(Boolean).join(' ');
+  ]
+    .filter(Boolean)
+    .join(' ');
 
-  const overlayStyle: React.CSSProperties = {
+  const overlayStyles: React.CSSProperties = {
+    backgroundColor: maskOpacity !== undefined 
+      ? `rgba(0, 0, 0, ${maskOpacity})` 
+      : undefined,
     zIndex,
-    ...(maskOpacity !== undefined && {
-      backgroundColor: dark 
-        ? `rgba(0, 0, 0, ${maskOpacity})` 
-        : `rgba(255, 255, 255, ${maskOpacity})`,
-    }),
     ...style,
   };
 
   return (
-    <div 
+    <div
       className={overlayClasses}
-      style={overlayStyle}
+      style={overlayStyles}
       onClick={handleMaskClick}
     >
-      <div 
-        className="loading-page-content"
-        onClick={(e) => e.stopPropagation()}
-      >
-        <Loading
-          type={type}
-          size={size}
-          color={color}
-          className="loading-page-size"
-        />
-        {tip && (
-          <div className={`loading-page-text ${dark ? 'loading-page-text-dark' : ''}`}>
-            {tip}
-          </div>
-        )}
+      <div className="loading-content" onClick={(e) => e.stopPropagation()}>
+        <Loading type={type} size={size} color={color} />
+        {tip && <div className="loading-tip">{tip}</div>}
       </div>
     </div>
   );
 };
 
-// 局部加载组件
-export interface LocalLoadingProps extends Omit<LoadingProps, 'center'> {
-  /** 是否显示 */
+// 局部加载组件属性
+export interface LocalLoadingProps extends LoadingProps {
+  /** 是否显示加载 */
   spinning?: boolean;
-  /** 包裹的元素 */
-  children?: React.ReactNode;
   /** 描述文案 */
   tip?: string;
+  /** 最小高度 */
+  minHeight?: number | string;
+  /** 延迟显示加载的时间 (ms) */
+  delay?: number;
   /** 是否为暗色主题 */
   dark?: boolean;
-  /** 容器类名 */
-  wrapperClassName?: string;
-  /** 最小高度 */
-  minHeight?: string | number;
+  /** 子元素 */
+  children?: React.ReactNode;
 }
 
 /**
  * 局部加载组件
  */
 export const LocalLoading: React.FC<LocalLoadingProps> = ({
-  spinning = true,
-  children,
+  spinning = false,
   tip,
+  minHeight = 120,
+  delay = 0,
   dark = false,
-  wrapperClassName = '',
-  minHeight,
+  children,
   type = 'spinner',
   size = 'md',
   color = 'primary',
   className = '',
   style,
 }) => {
-  const wrapperClasses = [
-    'relative',
-    wrapperClassName,
-  ].filter(Boolean).join(' ');
+  const [showLoading, setShowLoading] = React.useState(spinning && delay === 0);
 
-  const wrapperStyle: React.CSSProperties = {
-    ...(minHeight && {
-      minHeight: typeof minHeight === 'number' ? `${minHeight}px` : minHeight,
-    }),
+  React.useEffect(() => {
+    if (spinning && delay > 0) {
+      const timer = setTimeout(() => setShowLoading(true), delay);
+      return () => clearTimeout(timer);
+    } else {
+      setShowLoading(spinning);
+    }
+  }, [spinning, delay]);
+
+  const containerClasses = [
+    'loading-local',
+    dark ? 'loading-local-dark' : '',
+    className,
+  ]
+    .filter(Boolean)
+    .join(' ');
+
+  const containerStyles: React.CSSProperties = {
+    minHeight: typeof minHeight === 'number' ? `${minHeight}px` : minHeight,
+    ...style,
   };
 
-  const overlayClasses = [
-    'loading-overlay',
-    dark ? 'loading-overlay-dark' : '',
-  ].filter(Boolean).join(' ');
-
   return (
-    <div className={wrapperClasses} style={wrapperStyle}>
-      {children}
-      {spinning && (
-        <div className={overlayClasses}>
-          <div className="flex flex-col items-center gap-3">
-            <Loading
-              type={type}
-              size={size}
-              color={color}
-              className={className}
-              style={style}
-            />
-            {tip && (
-              <div className={`text-sm ${dark ? 'text-white' : 'text-gray-600'}`}>
-                {tip}
-              </div>
-            )}
+    <div className={containerClasses} style={containerStyles}>
+      {showLoading && (
+        <div className="loading-mask">
+          <div className="loading-content">
+            <Loading type={type} size={size} color={color} />
+            {tip && <div className="loading-tip">{tip}</div>}
           </div>
         </div>
       )}
+      <div className={showLoading ? 'loading-blur' : ''}>{children}</div>
     </div>
   );
 };
 
-// 按钮加载组件
-export interface ButtonLoadingProps {
-  /** 是否显示加载 */
+// 按钮加载组件属性
+export interface ButtonLoadingProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  /** 是否加载中 */
   loading?: boolean;
-  /** 加载文案 */
+  /** 加载时的文案 */
   loadingText?: string;
-  /** 按钮内容 */
-  children?: React.ReactNode;
-  /** 按钮类型 */
-  type?: 'button' | 'submit' | 'reset';
-  /** 点击事件 */
-  onClick?: () => void;
-  /** 按钮是否禁用 */
+  /** 加载图标类型 */
+  loadingType?: LoadingType;
+  /** 加载图标大小 */
+  loadingSize?: LoadingSize;
+  /** 是否禁用 */
   disabled?: boolean;
-  /** 按钮大小 */
-  size?: 'small' | 'default' | 'large';
-  /** 按钮样式类名 */
-  className?: string;
-  /** 自定义样式 */
-  style?: React.CSSProperties;
+  /** 子元素 */
+  children?: React.ReactNode;
 }
 
 /**
- * 带加载状态的按钮组件
+ * 按钮加载组件
  */
 export const ButtonLoading: React.FC<ButtonLoadingProps> = ({
   loading = false,
   loadingText,
-  children,
-  type = 'button',
-  onClick,
-  disabled = false,
-  size = 'default',
+  loadingType = 'spinner',
+  loadingSize = 'sm',
+  disabled,
   className = '',
-  style,
+  children,
+  ...buttonProps
 }) => {
-  const sizeClasses = {
-    small: 'px-3 py-1.5 text-sm',
-    default: 'px-4 py-2 text-sm',
-    large: 'px-6 py-3 text-base',
-  };
-
+  const isDisabled = disabled || loading;
+  
   const buttonClasses = [
-    'inline-flex items-center justify-center',
-    'font-medium rounded-lg',
-    'transition-colors duration-200',
-    'focus:outline-none focus:ring-2 focus:ring-offset-2',
-    'disabled:opacity-50 disabled:cursor-not-allowed',
-    'bg-blue-600 hover:bg-blue-700 text-white',
-    'focus:ring-blue-500',
-    sizeClasses[size],
+    'loading-button',
+    loading ? 'loading-button-loading' : '',
     className,
-  ].filter(Boolean).join(' ');
-
-  const isDisabled = loading || disabled;
+  ]
+    .filter(Boolean)
+    .join(' ');
 
   return (
     <button
-      type={type}
-      onClick={onClick}
+      {...buttonProps}
       disabled={isDisabled}
       className={buttonClasses}
-      style={style}
     >
       {loading && (
-        <Loading
-          type="spinner"
-          size="xs"
+        <Loading 
+          type={loadingType} 
+          size={loadingSize} 
           color="white"
-          className="mr-2"
+          className="loading-button-spinner"
         />
       )}
-      {loading && loadingText ? loadingText : children}
+      <span className={loading ? 'loading-button-text' : ''}>
+        {loading && loadingText ? loadingText : children}
+      </span>
     </button>
   );
 };

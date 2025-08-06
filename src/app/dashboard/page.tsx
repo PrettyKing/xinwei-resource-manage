@@ -308,16 +308,16 @@ export default function DashboardPage() {
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           <button
-            onClick={() => window.location.href = '/dashboard/materials'}
+            onClick={() => window.location.href = '/dashboard/inbound-materials'}
             className="p-6 bg-blue-50 hover:bg-blue-100 rounded-xl transition-colors text-center group"
           >
             <MaterialsIcon size={32} className="text-blue-600 mx-auto mb-3 group-hover:scale-110 transition-transform" />
-            <div className="text-sm font-medium text-gray-900">材料管理</div>
-            <div className="text-xs text-gray-600 mt-1">查看和管理材料</div>
+            <div className="text-sm font-medium text-gray-900">入库管理</div>
+            <div className="text-xs text-gray-600 mt-1">管理入库材料</div>
           </button>
 
           <button
-            onClick={() => window.location.href = '/dashboard/inbound'}
+            onClick={() => window.location.href = '/dashboard/inbound-materials'}
             className="p-6 bg-green-50 hover:bg-green-100 rounded-xl transition-colors text-center group"
           >
             <InboundIcon size={32} className="text-green-600 mx-auto mb-3 group-hover:scale-110 transition-transform" />
@@ -356,7 +356,7 @@ export default function DashboardPage() {
                 有 {stats.lowStockMaterials} 种材料库存不足，请及时补货。
               </p>
               <button
-                onClick={() => window.location.href = '/dashboard/materials?lowStock=true'}
+                onClick={() => window.location.href = '/dashboard/inbound-materials?lowStock=true'}
                 className="mt-2 text-sm text-red-600 hover:text-red-800 underline"
               >
                 查看详情 →
