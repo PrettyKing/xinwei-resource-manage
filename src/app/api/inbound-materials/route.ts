@@ -2,6 +2,13 @@ import { NextRequest, NextResponse } from 'next/server';
 import { connectToDatabase } from '@/lib/mongodb';
 import { InboundMaterial } from '@/models/InboundMaterial';
 import { verifyAuth } from '@/services/auth';
+import {
+  getOperatorFromRequest,
+  validateSupplierId,
+  validateRequiredFields,
+  calculateTotalValue,
+  sanitizeString
+} from '@/utils/validation';
 
 // GET - 获取入库材料列表
 export async function GET(request: NextRequest) {
@@ -99,23 +106,30 @@ export async function POST(request: NextRequest) {
     } = body;
 
     // 验证必填字段
-    if (!orderNumber || !materialName || !manufacturer || !specification || !color) {
+    const requiredFields = ['orderNumber', 'materialName', 'manufacturer', 'specification', 'color'];
+    const missingFields = validateRequiredFields(body, requiredFields);
+    
+    if (missingFields.length > 0) {
       return NextResponse.json(
-        { success: false, error: '请填写所有必填字段' },
+        { success: false, error: `缺少必填字段: ${missingFields.join(', ')}` },
         { status: 400 }
       );
     }
 
-    if (!currentStock || currentStock < 0) {
+    // 验证数值字段
+    const stockNumber = Number(currentStock);
+    const priceNumber = Number(unitPrice);
+
+    if (isNaN(stockNumber) || stockNumber < 0) {
       return NextResponse.json(
-        { success: false, error: '库存数量必须大于0' },
+        { success: false, error: '库存数量必须是大于等于0的数字' },
         { status: 400 }
       );
     }
 
-    if (!unitPrice || unitPrice <= 0) {
+    if (isNaN(priceNumber) || priceNumber <= 0) {
       return NextResponse.json(
-        { success: false, error: '单价必须大于0' },
+        { success: false, error: '单价必须是大于0的数字' },
         { status: 400 }
       );
     }
@@ -124,8 +138,9 @@ export async function POST(request: NextRequest) {
     await connectToDatabase();
 
     // 检查入库单号是否重复
+    const normalizedOrderNumber = orderNumber.trim().toUpperCase();
     const existingMaterial = await InboundMaterial.findOne({ 
-      orderNumber: orderNumber.trim().toUpperCase() 
+      orderNumber: normalizedOrderNumber
     });
 
     if (existingMaterial) {
@@ -135,30 +150,42 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    // 获取操作员信息
+    const operator = getOperatorFromRequest(request);
+    
+    // 处理供应商ID
+    const validSupplierId = validateSupplierId(supplierId);
+    
+    // 计算总价值
+    const totalValue = calculateTotalValue(stockNumber, priceNumber);
+
     // 创建新的入库材料记录
-    const newMaterial = new InboundMaterial({
-      orderNumber: orderNumber.trim().toUpperCase(),
+    const materialData = {
+      orderNumber: normalizedOrderNumber,
       materialName: materialName.trim(),
       manufacturer: manufacturer.trim(),
       specification: specification.trim(),
       color: color.trim(),
-      pantoneColor: pantoneColor?.trim(),
-      usedComponent: usedComponent?.trim(),
-      customer: customer?.trim(),
-      season: season?.trim(),
-      currentStock: Number(currentStock),
-      unitPrice: Number(unitPrice),
-      unit: unit?.trim() || '件',
-      description: description?.trim(),
-      remarks: remarks?.trim(),
-      supplierId,
-      supplierName: supplierName?.trim(),
-      batchNumber: batchNumber?.trim(),
+      pantoneColor: sanitizeString(pantoneColor),
+      usedComponent: sanitizeString(usedComponent),
+      customer: sanitizeString(customer),
+      season: sanitizeString(season),
+      currentStock: stockNumber,
+      unitPrice: priceNumber,
+      totalValue: totalValue,
+      unit: sanitizeString(unit) || '件',
+      description: sanitizeString(description),
+      remarks: sanitizeString(remarks),
+      supplierId: validSupplierId,
+      supplierName: sanitizeString(supplierName),
+      batchNumber: sanitizeString(batchNumber),
       manufactureDate: manufactureDate ? new Date(manufactureDate) : undefined,
       expiryDate: expiryDate ? new Date(expiryDate) : undefined,
-      status: 'pending'
-    });
+      status: 'pending' as const,
+      operator: operator
+    };
 
+    const newMaterial = new InboundMaterial(materialData);
     await newMaterial.save();
 
     return NextResponse.json({
@@ -169,6 +196,24 @@ export async function POST(request: NextRequest) {
 
   } catch (error) {
     console.error('创建入库材料失败:', error);
+    
+    // 如果是 Mongoose 验证错误，提供更详细的错误信息
+    if (error.name === 'ValidationError') {
+      const errors = Object.values(error.errors).map((err: any) => err.message);
+      return NextResponse.json(
+        { success: false, error: `数据验证失败: ${errors.join(', ')}` },
+        { status: 400 }
+      );
+    }
+
+    // 如果是重复键错误
+    if (error.code === 11000) {
+      return NextResponse.json(
+        { success: false, error: '数据重复，请检查入库单号或其他唯一字段' },
+        { status: 400 }
+      );
+    }
+
     return NextResponse.json(
       { success: false, error: '服务器内部错误' },
       { status: 500 }
