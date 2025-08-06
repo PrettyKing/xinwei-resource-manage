@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { connectToDatabase } from '@/lib/mongodb';
 import { InboundMaterial } from '@/models/InboundMaterial';
 import { verifyAuth } from '@/services/auth';
+import mongoose from 'mongoose';
 
 // GET - 获取入库材料列表
 export async function GET(request: NextRequest) {
@@ -135,6 +136,23 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    // 处理 supplierId - 如果为空字符串或无效ObjectId，则设为 undefined
+    let validSupplierId;
+    if (supplierId && supplierId.trim() && mongoose.Types.ObjectId.isValid(supplierId)) {
+      validSupplierId = new mongoose.Types.ObjectId(supplierId);
+    }
+
+    // 计算总价值
+    const stockNumber = Number(currentStock);
+    const priceNumber = Number(unitPrice);
+    const totalValue = stockNumber * priceNumber;
+
+    // 创建默认操作员信息 (临时解决方案，实际应该从认证信息中获取)
+    const defaultOperator = {
+      id: new mongoose.Types.ObjectId(), // 临时生成一个ObjectId
+      name: 'System User' // 默认操作员名称
+    };
+
     // 创建新的入库材料记录
     const newMaterial = new InboundMaterial({
       orderNumber: orderNumber.trim().toUpperCase(),
@@ -146,17 +164,19 @@ export async function POST(request: NextRequest) {
       usedComponent: usedComponent?.trim(),
       customer: customer?.trim(),
       season: season?.trim(),
-      currentStock: Number(currentStock),
-      unitPrice: Number(unitPrice),
+      currentStock: stockNumber,
+      unitPrice: priceNumber,
+      totalValue: totalValue, // 显式设置totalValue
       unit: unit?.trim() || '件',
       description: description?.trim(),
       remarks: remarks?.trim(),
-      supplierId,
+      supplierId: validSupplierId, // 使用处理过的supplierId
       supplierName: supplierName?.trim(),
       batchNumber: batchNumber?.trim(),
       manufactureDate: manufactureDate ? new Date(manufactureDate) : undefined,
       expiryDate: expiryDate ? new Date(expiryDate) : undefined,
-      status: 'pending'
+      status: 'pending',
+      operator: defaultOperator // 设置操作员信息
     });
 
     await newMaterial.save();
