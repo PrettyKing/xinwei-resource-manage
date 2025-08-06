@@ -8,7 +8,7 @@ import {
   CloseIcon,
   UserIcon,
   MailIcon
-} from '@/components/icons';
+} from '@/components/icons/index';
 import { ButtonLoading } from '@/components/Loading';
 
 interface UserDeleteConfirmModalProps {

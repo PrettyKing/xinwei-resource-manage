@@ -8,7 +8,7 @@ import {
   MaterialsIcon,
   SaveIcon,
   LoadingIcon
-} from '@/components/icons';
+} from '@/components/icons/index';
 import { ButtonLoading } from '@/components/Loading';
 
 interface MaterialModalProps {

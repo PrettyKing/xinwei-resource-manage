@@ -7,10 +7,9 @@ import {
   LoginIcon,
   UserIcon,
   LockIcon,
-  MailIcon,
   EyeIcon,
   EyeSlashIcon
-} from '@/components/icons';
+} from '@/components/icons/index';
 import { PageLoading, ButtonLoading } from '@/components/Loading';
 
 interface LoginForm {
@@ -18,12 +17,6 @@ interface LoginForm {
   password: string;
 }
 
-interface RegisterForm {
-  username: string;
-  email: string;
-  password: string;
-  confirmPassword: string;
-}
 
 // 自定义输入框组件
 interface InputProps {
@@ -103,19 +96,11 @@ const showMessage = (message: string, type: 'success' | 'error' = 'success') => 
 
 export default function LoginPage() {
   const [loginLoading, setLoginLoading] = useState(false);
-  const [registerLoading, setRegisterLoading] = useState(false);
-  const [activeTab, setActiveTab] = useState('login');
   const [loginData, setLoginData] = useState<LoginForm>({ username: '', password: '' });
-  const [registerData, setRegisterData] = useState<RegisterForm>({
-    username: '',
-    email: '',
-    password: '',
-    confirmPassword: ''
-  });
   const [errors, setErrors] = useState<Record<string, string>>({});
   
   const router = useRouter();
-  const { login, register, isAuthenticated, isLoading } = useAuth();
+  const { login, isAuthenticated, isLoading } = useAuth();
 
   // 如果已认证，重定向到仪表盘
   useEffect(() => {
@@ -151,36 +136,6 @@ export default function LoginPage() {
     return Object.keys(newErrors).length === 0;
   };
 
-  const validateRegister = (): boolean => {
-    const newErrors: Record<string, string> = {};
-    
-    if (!registerData.username.trim()) {
-      newErrors.username = '请输入用户名';
-    } else if (registerData.username.length < 3) {
-      newErrors.username = '用户名至少需要3个字符';
-    }
-    
-    if (!registerData.email.trim()) {
-      newErrors.email = '请输入邮箱';
-    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(registerData.email)) {
-      newErrors.email = '请输入有效的邮箱地址';
-    }
-    
-    if (!registerData.password) {
-      newErrors.password = '请输入密码';
-    } else if (registerData.password.length < 6) {
-      newErrors.password = '密码至少需要6个字符';
-    }
-    
-    if (!registerData.confirmPassword) {
-      newErrors.confirmPassword = '请确认密码';
-    } else if (registerData.password !== registerData.confirmPassword) {
-      newErrors.confirmPassword = '两次输入的密码不一致';
-    }
-    
-    setErrors(newErrors);
-    return Object.keys(newErrors).length === 0;
-  };
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -199,26 +154,6 @@ export default function LoginPage() {
     }
   };
 
-  const handleRegister = async (e: React.FormEvent) => {
-    e.preventDefault();
-    
-    if (!validateRegister()) return;
-    
-    setRegisterLoading(true);
-    try {
-      await register({
-        username: registerData.username,
-        email: registerData.email,
-        password: registerData.password,
-      });
-      showMessage('注册成功！即将跳转到仪表盘');
-      router.push('/dashboard');
-    } catch (error) {
-      showMessage(error instanceof Error ? error.message : '注册失败', 'error');
-    } finally {
-      setRegisterLoading(false);
-    }
-  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center p-4">
@@ -232,36 +167,9 @@ export default function LoginPage() {
           <p className="text-gray-600">材料入库管理后台</p>
         </div>
 
-        {/* 标签页 */}
-        <div className="px-8">
-          <div className="flex space-x-1 bg-gray-100 p-1 rounded-lg">
-            <button
-              onClick={() => setActiveTab('login')}
-              className={`flex-1 py-2 px-4 text-sm font-medium rounded-md transition-colors duration-200 ${
-                activeTab === 'login'
-                  ? 'bg-white text-blue-600 shadow-sm'
-                  : 'text-gray-500 hover:text-gray-700'
-              }`}
-            >
-              登录
-            </button>
-            <button
-              onClick={() => setActiveTab('register')}
-              className={`flex-1 py-2 px-4 text-sm font-medium rounded-md transition-colors duration-200 ${
-                activeTab === 'register'
-                  ? 'bg-white text-blue-600 shadow-sm'
-                  : 'text-gray-500 hover:text-gray-700'
-              }`}
-            >
-              注册
-            </button>
-          </div>
-        </div>
-
         {/* 表单内容 */}
         <div className="p-8 pt-6">
-          {activeTab === 'login' ? (
-            <form onSubmit={handleLogin} className="space-y-4">
+          <form onSubmit={handleLogin} className="space-y-4">
               <CustomInput
                 placeholder="请输入用户名或邮箱"
                 value={loginData.username}
@@ -286,73 +194,15 @@ export default function LoginPage() {
                 loading={loginLoading}
                 loadingText="登录中..."
                 size="default"
-                className="mt-6"
+                className="mt-6 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transition-colors duration-200 flex items-center justify-center"
               >
                 立即登录
               </ButtonLoading>
 
-              <div className="text-center mt-4">
-                <p className="text-sm text-gray-600">测试账号：admin / 123456</p>
-                <p className="text-xs text-gray-500 mt-1">没有账号？点击上方注册标签页</p>
-              </div>
-            </form>
-          ) : (
-            <form onSubmit={handleRegister} className="space-y-4">
-              <CustomInput
-                placeholder="请输入用户名"
-                value={registerData.username}
-                onChange={(value) => setRegisterData({ ...registerData, username: value })}
-                icon={<UserIcon size={20} />}
-                error={errors.username}
-                required
-              />
-              
-              <CustomInput
-                type="email"
-                placeholder="请输入邮箱"
-                value={registerData.email}
-                onChange={(value) => setRegisterData({ ...registerData, email: value })}
-                icon={<MailIcon size={20} />}
-                error={errors.email}
-                required
-              />
-              
-              <CustomInput
-                type="password"
-                placeholder="请输入密码"
-                value={registerData.password}
-                onChange={(value) => setRegisterData({ ...registerData, password: value })}
-                icon={<LockIcon size={20} />}
-                error={errors.password}
-                required
-              />
-              
-              <CustomInput
-                type="password"
-                placeholder="请再次输入密码"
-                value={registerData.confirmPassword}
-                onChange={(value) => setRegisterData({ ...registerData, confirmPassword: value })}
-                icon={<LockIcon size={20} />}
-                error={errors.confirmPassword}
-                required
-              />
-
-              <ButtonLoading
-                type="submit"
-                loading={registerLoading}
-                loadingText="注册中..."
-                size="default"
-                className="mt-6"
-              >
-                立即注册
-              </ButtonLoading>
-
-              <div className="text-center mt-4">
-                <p className="text-sm text-gray-600">注册后将自动登录系统</p>
-                <p className="text-xs text-gray-500 mt-1">已有账号？点击上方登录标签页</p>
-              </div>
-            </form>
-          )}
+            <div className="text-center mt-4">
+              <p className="text-sm text-gray-600">测试账号：admin / 123456</p>
+            </div>
+          </form>
         </div>
       </div>
     </div>

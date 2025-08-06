@@ -13,7 +13,7 @@ import {
   ExportIcon,
   AlertIcon,
   RefreshIcon
-} from '@/components/icons';
+} from '@/components/icons/index';
 import { PageLoading, LocalLoading, ButtonLoading } from '@/components/Loading';
 import MaterialModal from '@/components/MaterialModal';
 import DeleteConfirmModal from '@/components/DeleteConfirmModal';

@@ -14,7 +14,7 @@ import {
   DeleteIcon,
   SaveIcon,
   SearchIcon
-} from '@/components/icons';
+} from '@/components/icons/index';
 import { LocalLoading } from '@/components/Loading';
 
 interface CreateInboundModalProps {

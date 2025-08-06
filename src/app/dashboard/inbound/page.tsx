@@ -17,7 +17,7 @@ import {
   CheckIcon,
   CloseIcon,
   ClockIcon
-} from '@/components/icons';
+} from '@/components/icons/index';
 import { PageLoading, LocalLoading } from '@/components/Loading';
 import CreateInboundModal from '@/components/modals/CreateInboundModal';
 

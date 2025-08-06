@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/contexts/AuthContext';
 import { checkRolePermission } from '@/lib/auth';
-import { AlertIcon } from '@/components/icons';
+import { AlertIcon } from '@/components/icons/index';
 import { PageLoading } from '@/components/Loading';
 
 interface ProtectedRouteProps {

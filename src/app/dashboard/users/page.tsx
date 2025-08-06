@@ -12,7 +12,7 @@ import {
   RefreshIcon,
   MailIcon,
   CalendarIcon
-} from '@/components/icons';
+} from '@/components/icons/index';
 import { PageLoading, LocalLoading } from '@/components/Loading';
 import UserModal from '@/components/UserModal';
 import UserDeleteConfirmModal from '@/components/UserDeleteConfirmModal';

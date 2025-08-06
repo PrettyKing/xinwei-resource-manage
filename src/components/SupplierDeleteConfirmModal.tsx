@@ -9,7 +9,7 @@ import {
   BuildingIcon,
   UserIcon,
   MapIcon
-} from '@/components/icons';
+} from '@/components/icons/index';
 import { ButtonLoading } from '@/components/Loading';
 
 interface SupplierDeleteConfirmModalProps {

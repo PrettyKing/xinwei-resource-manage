@@ -11,7 +11,7 @@ import {
   AlertIcon,
   TrendUpIcon,
   CalendarIcon
-} from '@/components/icons';
+} from '@/components/icons/index';
 import { PageLoading, LocalLoading } from '@/components/Loading';
 
 interface DashboardPageState {

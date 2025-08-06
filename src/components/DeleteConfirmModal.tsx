@@ -6,7 +6,7 @@ import {
   AlertIcon,
   DeleteIcon,
   CloseIcon
-} from '@/components/icons';
+} from '@/components/icons/index';
 import { ButtonLoading } from '@/components/Loading';
 
 interface DeleteConfirmModalProps {

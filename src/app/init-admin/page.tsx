@@ -10,7 +10,7 @@ import {
   EyeSlashIcon,
   SaveIcon,
   CheckIcon
-} from '@/components/icons';
+} from '@/components/icons/index';
 import { ButtonLoading } from '@/components/Loading';
 
 interface FormData {

@@ -72,15 +72,7 @@ function authReducer(state: AuthState, action: AuthAction): AuthState {
 interface AuthContextType extends AuthState {
   login: (username: string, password: string) => Promise<void>;
   logout: () => Promise<void>;
-  register: (userData: RegisterData) => Promise<void>;
   checkAuth: () => Promise<void>;
-}
-
-interface RegisterData {
-  username: string;
-  email: string;
-  password: string;
-  role?: string;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -126,32 +118,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     }
   };
 
-  // 注册函数
-  const register = async (userData: RegisterData) => {
-    dispatch({ type: 'AUTH_START' });
-    
-    try {
-      const response = await fetch('/api/auth/register', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(userData),
-      });
-
-      const data = await response.json();
-
-      if (!data.success) {
-        throw new Error(data.error || '注册失败');
-      }
-
-      // 注册成功后自动登录
-      await login(userData.username, userData.password);
-    } catch (error) {
-      dispatch({ type: 'AUTH_FAILURE' });
-      throw error;
-    }
-  };
 
   // 退出登录函数
   const logout = async () => {
@@ -211,7 +177,6 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     ...state,
     login,
     logout,
-    register,
     checkAuth,
   };
 

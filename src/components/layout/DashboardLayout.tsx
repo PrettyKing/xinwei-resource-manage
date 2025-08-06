@@ -16,7 +16,7 @@ import {
   ChevronDownIcon,
   SearchIcon,
   BellIcon
-} from '@/components/icons';
+} from '@/components/icons/index';
 import { Palette } from 'lucide-react';
 import { PageLoading } from '@/components/Loading';
 

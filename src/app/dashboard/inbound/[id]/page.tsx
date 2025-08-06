@@ -13,7 +13,7 @@ import {
   UserIcon,
   CalendarIcon,
   StatusIcon
-} from '@/components/icons';
+} from '@/components/icons/index';
 import { PageLoading, LocalLoading } from '@/components/Loading';
 
 // 箭头左图标

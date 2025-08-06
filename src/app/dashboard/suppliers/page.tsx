@@ -14,7 +14,7 @@ import {
   MailIcon,
   MapIcon,
   BuildingIcon
-} from '@/components/icons';
+} from '@/components/icons/index';
 import { PageLoading, LocalLoading } from '@/components/Loading';
 import SupplierModal from '@/components/SupplierModal';
 import SupplierDeleteConfirmModal from '@/components/SupplierDeleteConfirmModal';
