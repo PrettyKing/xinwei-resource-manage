@@ -129,13 +129,13 @@ export default function SupplierModal({ isOpen, onClose, onSuccess, supplier, mo
       if (token) {
         headers['Authorization'] = `Bearer ${token}`;
       }
-
-      const url = mode === 'edit' ? `/api/suppliers/${supplier?.id}` : '/api/suppliers';
+      const url = mode === 'edit' ? `/api/suppliers/${supplier?._id}` : '/api/suppliers';
       const method = mode === 'edit' ? 'PUT' : 'POST';
 
       // 处理空邮箱字段
       const submitData = {
         ...formData,
+        //@ts-ignore
         email: formData.email.trim() || undefined
       };
 

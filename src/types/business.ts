@@ -19,7 +19,7 @@ export interface User {
 
 // 供应商类型
 export interface Supplier {
-  id: string;
+  _id: string;
   name: string;
   code: string;
   contactPerson: string;
