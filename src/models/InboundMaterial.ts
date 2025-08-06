@@ -123,7 +123,8 @@ const InboundMaterialSchema = new Schema<IInboundMaterial>({
   totalValue: {
     type: Number,
     required: true,
-    min: 0
+    min: 0,
+    default: 0 // 添加默认值
   },
   unit: {
     type: String,
@@ -142,10 +143,11 @@ const InboundMaterialSchema = new Schema<IInboundMaterial>({
     trim: true
   },
   
-  // 供应商信息
+  // 供应商信息 - 修改为可选字段
   supplierId: {
     type: Schema.Types.ObjectId,
-    ref: 'Supplier'
+    ref: 'Supplier',
+    required: false // 显式设为非必需
   },
   supplierName: {
     type: String,
@@ -173,17 +175,19 @@ const InboundMaterialSchema = new Schema<IInboundMaterial>({
     type: Date
   },
   
-  // 操作信息
+  // 操作信息 - 添加默认值处理
   operator: {
     id: {
       type: Schema.Types.ObjectId,
       ref: 'User',
-      required: true
+      required: true,
+      default: () => new mongoose.Types.ObjectId() // 默认生成一个ObjectId
     },
     name: {
       type: String,
       required: true,
-      trim: true
+      trim: true,
+      default: 'System User' // 默认操作员名称
     }
   }
 }, {
@@ -210,8 +214,18 @@ InboundMaterialSchema.index({
 
 // 计算总价值的中间件
 InboundMaterialSchema.pre('save', function(next) {
-  if (this.isModified('currentStock') || this.isModified('unitPrice')) {
+  // 如果 currentStock 或 unitPrice 被修改，或者 totalValue 未设置，则计算 totalValue
+  if (this.isModified('currentStock') || this.isModified('unitPrice') || !this.totalValue) {
     this.totalValue = this.currentStock * this.unitPrice;
+  }
+  next();
+});
+
+// 验证 supplierId 的中间件
+InboundMaterialSchema.pre('save', function(next) {
+  // 如果 supplierId 是空字符串，将其设为 undefined
+  if (this.supplierId === '') {
+    this.supplierId = undefined;
   }
   next();
 });
