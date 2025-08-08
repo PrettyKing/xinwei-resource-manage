@@ -73,7 +73,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
       label: '统计分析',
     },
     {
-      key: '/pantone',
+      key: '/dashboard/pantone',
       icon: <Palette size={20} />,
       label: '潘通色卡',
     },
