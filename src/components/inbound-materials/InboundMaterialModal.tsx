@@ -17,6 +17,20 @@ interface InboundMaterialModalProps {
 const seasonOptions = ['春季', '夏季', '秋季', '冬季', '全年'];
 const unitOptions = ['件', '米', '平方米', '公斤', '吨', '升', '毫升', '个', '套', '卷'];
 
+// 辅助函数：安全地格式化日期为 YYYY-MM-DD 格式
+const formatDateForInput = (date: Date | string | undefined): string => {
+  if (!date) return '';
+  
+  try {
+    const dateObj = date instanceof Date ? date : new Date(date);
+    if (isNaN(dateObj.getTime())) return '';
+    return dateObj.toISOString().split('T')[0];
+  } catch (error) {
+    console.error('Date formatting error:', error);
+    return '';
+  }
+};
+
 export function InboundMaterialModal({ 
   isOpen, 
   onClose, 
@@ -464,7 +478,7 @@ export function InboundMaterialModal({
                 </label>
                 <input
                   type="date"
-                  value={formData.manufactureDate ? formData.manufactureDate.toISOString().split('T')[0] : ''}
+                  value={formatDateForInput(formData.manufactureDate)}
                   onChange={(e) => handleInputChange('manufactureDate', e.target.value ? new Date(e.target.value) : undefined)}
                   className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
@@ -476,7 +490,7 @@ export function InboundMaterialModal({
                 </label>
                 <input
                   type="date"
-                  value={formData.expiryDate ? formData.expiryDate.toISOString().split('T')[0] : ''}
+                  value={formatDateForInput(formData.expiryDate)}
                   onChange={(e) => handleInputChange('expiryDate', e.target.value ? new Date(e.target.value) : undefined)}
                   className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />

@@ -1,5 +1,15 @@
 import mongoose, { Schema, Document } from 'mongoose';
 
+// 审核历史记录接口
+export interface IAuditRecord {
+  action: 'approve' | 'reject';
+  status: string;
+  auditorId: mongoose.Types.ObjectId;
+  auditorName: string;
+  remarks?: string;
+  auditDate: Date;
+}
+
 // 整合的入库材料接口
 export interface IInboundMaterial extends Document {
   // 入库基本信息
@@ -33,6 +43,9 @@ export interface IInboundMaterial extends Document {
   
   // 状态和审批
   status: 'active' | 'inactive' | 'pending' | 'approved';
+  
+  // 审核历史
+  auditHistory?: IAuditRecord[];  // 审核历史记录
   
   // 批次信息
   batchNumber?: string;           // 批次号
@@ -161,6 +174,38 @@ const InboundMaterialSchema = new Schema<IInboundMaterial>({
     default: 'pending',
     index: true
   },
+  
+  // 审核历史
+  auditHistory: [{
+    action: {
+      type: String,
+      enum: ['approve', 'reject'],
+      required: true
+    },
+    status: {
+      type: String,
+      required: true
+    },
+    auditorId: {
+      type: Schema.Types.ObjectId,
+      ref: 'User',
+      required: true
+    },
+    auditorName: {
+      type: String,
+      required: true,
+      trim: true
+    },
+    remarks: {
+      type: String,
+      trim: true
+    },
+    auditDate: {
+      type: Date,
+      required: true,
+      default: Date.now
+    }
+  }],
   
   // 批次信息
   batchNumber: {

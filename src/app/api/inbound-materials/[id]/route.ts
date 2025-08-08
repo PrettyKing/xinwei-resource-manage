@@ -3,6 +3,8 @@ import { connectToDatabase } from '@/lib/mongodb';
 import { InboundMaterial } from '@/models/InboundMaterial';
 import { verifyAuth } from '@/services/auth';
 
+
+
 // GET - 获取单个入库材料详情
 export async function GET(
   request: NextRequest,
@@ -56,12 +58,6 @@ export async function PUT(
   { params }: { params: { id: string } }
 ) {
   try {
-    // 验证身份
-    const authResult = await verifyAuth(request);
-    if (!authResult.success || !authResult.user) {
-      return NextResponse.json({ success: false, error: '未授权访问' }, { status: 401 });
-    }
-
     // 解析请求体
     const body = await request.json();
     const {

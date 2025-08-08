@@ -9,13 +9,15 @@ import {
   DeleteIcon,
   FilterIcon,
   ExportIcon,
-  RefreshIcon
+  RefreshIcon,
+  AuditIcon
 } from '@/components/icons/index';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { PageLoading, ButtonLoading } from '@/components/Loading';
 import { InboundMaterialModal } from '@/components/inbound-materials/InboundMaterialModal';
 import { DeleteConfirmModal } from '@/components/inbound-materials/DeleteConfirmModal';
+import { AuditModal } from '@/components/inbound-materials/AuditModal';
 import { useAuth } from '@/contexts/AuthContext';
 import { api } from '@/utils/api';
 
@@ -31,7 +33,7 @@ const statusMap = {
 const seasonOptions = ['春季', '夏季', '秋季', '冬季', '全年'];
 
 export default function InboundMaterialsPage() {
-  const { token } = useAuth();
+  const { token, user } = useAuth();
   const [loading, setLoading] = useState(true);
   const [materials, setMaterials] = useState<InboundMaterial[]>([]);
   const [filteredMaterials, setFilteredMaterials] = useState<InboundMaterial[]>([]);
@@ -45,6 +47,7 @@ export default function InboundMaterialsPage() {
   const [selectedMaterial, setSelectedMaterial] = useState<InboundMaterial | null>(null);
   const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [deleteLoading, setDeleteLoading] = useState(false);
+  const [showAuditModal, setShowAuditModal] = useState(false);
 
   // 页面初始化
   useEffect(() => {
@@ -118,6 +121,50 @@ export default function InboundMaterialsPage() {
           operator: { id: '2', name: '李四' },
           createdAt: new Date('2024-01-10'),
           updatedAt: new Date('2024-01-12')
+        },
+        {
+          _id: '3',
+          orderNumber: 'IN2024003',
+          materialName: '真丝面料',
+          manufacturer: '江南丝绸厂',
+          specification: '16姆米真丝',
+          color: '珠光白',
+          pantoneColor: '11-4001 TPG',
+          usedComponent: '衬衫面料',
+          customer: 'ZARA',
+          season: '秋季',
+          currentStock: 150,
+          unitPrice: 120.00,
+          totalValue: 18000,
+          unit: '米',
+          description: '100%桑蚕丝，质地顺滑',
+          remarks: '需要专业洗涤',
+          status: 'pending',
+          operator: { id: '3', name: '王五' },
+          createdAt: new Date('2024-01-16'),
+          updatedAt: new Date('2024-01-16')
+        },
+        {
+          _id: '4',
+          orderNumber: 'IN2024004',
+          materialName: '羊毛呢料',
+          manufacturer: '内蒙古纺织',
+          specification: '180g/m²',
+          color: '深海蓝',
+          pantoneColor: '19-4052 TPG',
+          usedComponent: '大衣面料',
+          customer: 'COS',
+          season: '冬季',
+          currentStock: 80,
+          unitPrice: 85.00,
+          totalValue: 6800,
+          unit: '米',
+          description: '澳洲羊毛，保暖性佳',
+          remarks: '防虫处理',
+          status: 'pending',
+          operator: { id: '4', name: '赵六' },
+          createdAt: new Date('2024-01-17'),
+          updatedAt: new Date('2024-01-17')
         }
       ];
       setMaterials(mockData);
@@ -225,6 +272,33 @@ export default function InboundMaterialsPage() {
   const openDeleteModal = (material: InboundMaterial) => {
     setSelectedMaterial(material);
     setShowDeleteModal(true);
+  };
+
+  // 打开审核模态框
+  const openAuditModal = (material: InboundMaterial) => {
+    setSelectedMaterial(material);
+    setShowAuditModal(true);
+  };
+
+  // 处理审核
+  const handleAuditMaterial = async (materialId: string, action: 'approve' | 'reject', remarks?: string) => {
+    try {
+      const result = await api.put(`/api/inbound-materials/${materialId}/audit`, {
+        action,
+        remarks
+      }, token);
+      
+      if (result.success) {
+        await loadMaterials(); // 重新加载数据
+        setShowAuditModal(false);
+        setSelectedMaterial(null);
+      } else {
+        throw new Error(result.error || '审核失败');
+      }
+    } catch (error) {
+      console.error('审核失败:', error);
+      throw error;
+    }
   };
 
   const exportData = () => {
@@ -468,11 +542,24 @@ export default function InboundMaterialsPage() {
                     </td>
                     <td className="px-4 py-4">
                       <div className="flex items-center gap-2">
+                        {/* 审核按钮 - 仅admin可见，且状态为pending时显示 */}
+                        {user?.role === 'admin' && material.status === 'pending' && (
+                          <Button
+                            variant="ghost"
+                            size="sm"
+                            onClick={() => openAuditModal(material)}
+                            className="p-1 h-8 w-8 text-orange-600 hover:text-orange-700"
+                            title="审核"
+                          >
+                            <AuditIcon size={16} />
+                          </Button>
+                        )}
                         <Button
                           variant="ghost"
                           size="sm"
                           onClick={() => openEditModal(material)}
                           className="p-1 h-8 w-8"
+                          title="编辑"
                         >
                           <EditIcon size={16} />
                         </Button>
@@ -481,6 +568,7 @@ export default function InboundMaterialsPage() {
                           size="sm"
                           onClick={() => openDeleteModal(material)}
                           className="p-1 h-8 w-8 text-red-600 hover:text-red-700"
+                          title="删除"
                         >
                           <DeleteIcon size={16} />
                         </Button>
@@ -528,6 +616,17 @@ export default function InboundMaterialsPage() {
         onConfirm={handleDeleteMaterial}
         material={selectedMaterial}
         loading={deleteLoading}
+      />
+
+      {/* 审核模态框 */}
+      <AuditModal
+        isOpen={showAuditModal}
+        onClose={() => {
+          setShowAuditModal(false);
+          setSelectedMaterial(null);
+        }}
+        onAudit={handleAuditMaterial}
+        material={selectedMaterial}
       />
     </div>
   );

@@ -35,7 +35,8 @@ export {
   FilterIcon,
   RefreshIcon,
   CloseIcon,
-  XIcon
+  XIcon,
+  AuditIcon
 } from './actions';
 
 // 状态和通知相关图标

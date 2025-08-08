@@ -1,3 +1,13 @@
+// 审核记录类型
+export interface AuditRecord {
+  action: 'approve' | 'reject';
+  status: string;
+  auditorId: string;
+  auditorName: string;
+  remarks?: string;
+  auditDate: Date;
+}
+
 // 用户相关类型
 export interface User {
   id: string;
@@ -78,6 +88,9 @@ export interface InboundMaterial {
   
   // 状态和审批
   status: 'active' | 'inactive' | 'pending' | 'approved';
+  
+  // 审核历史
+  auditHistory?: AuditRecord[];
   
   // 批次信息
   batchNumber?: string;           // 批次号
