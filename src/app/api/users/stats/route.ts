@@ -87,7 +87,7 @@ export async function GET(request: NextRequest) {
         manager: managerUsers,
         operator: operatorUsers
       },
-      recentUsers: recentUsers.map(user => ({
+      recentUsers: recentUsers.map((user:any) => ({
         id: user._id.toString(),
         username: user.username,
         email: user.email,

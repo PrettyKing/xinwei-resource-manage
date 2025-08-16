@@ -72,7 +72,7 @@ export async function POST(request: NextRequest) {
           isPasswordValid = await user.comparePassword(password);
           console.log('使用comparePassword验证:', isPasswordValid);
         } catch (error) {
-          console.log('comparePassword方法出错:', error.message);
+          console.log('comparePassword方法出错:', error);
         }
       }
       
@@ -85,7 +85,7 @@ export async function POST(request: NextRequest) {
             console.log('使用bcrypt直接验证:', isPasswordValid);
           }
         } catch (error) {
-          console.log('bcrypt验证出错:', error.message);
+          console.log('bcrypt验证出错:', error);
         }
       }
       

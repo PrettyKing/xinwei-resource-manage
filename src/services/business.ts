@@ -1047,4 +1047,31 @@ export class UserService {
 
     return user.avatar || '/default-avatar.png'; // 返回默认头像路径
   }
+  static async updateStatus(id: string, status: 'active' | 'inactive', userId:string): Promise<IUser | null> {
+    await connectToDatabase();
+    
+    if (!isValidObjectId(userId)) {
+      throw new Error('无效的用户ID格式');
+    }
+    
+    const user = await User.findByIdAndUpdate(
+      userId,
+      { status },
+      { new: true, runValidators: true }
+    );
+
+    return user?.toObject() || null;
+  }
+  static async getById(id: string): Promise<IUser | null> {
+    await connectToDatabase();
+    
+    if (!isValidObjectId(id)) {
+      throw new Error('无效的用户ID格式');
+    }
+    const user = await User.findById(id).lean();
+    if (!user) {
+      return null;
+    }
+    return user as any as IUser; 
+  }
 }

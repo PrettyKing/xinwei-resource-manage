@@ -196,24 +196,7 @@ export async function POST(request: NextRequest) {
 
   } catch (error) {
     console.error('创建入库材料失败:', error);
-    
-    // 如果是 Mongoose 验证错误，提供更详细的错误信息
-    if (error.name === 'ValidationError') {
-      const errors = Object.values(error.errors).map((err: any) => err.message);
-      return NextResponse.json(
-        { success: false, error: `数据验证失败: ${errors.join(', ')}` },
-        { status: 400 }
-      );
-    }
-
-    // 如果是重复键错误
-    if (error.code === 11000) {
-      return NextResponse.json(
-        { success: false, error: '数据重复，请检查入库单号或其他唯一字段' },
-        { status: 400 }
-      );
-    }
-
+  
     return NextResponse.json(
       { success: false, error: '服务器内部错误' },
       { status: 500 }

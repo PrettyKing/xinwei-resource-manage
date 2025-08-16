@@ -164,7 +164,7 @@ export async function GET(
     }
 
     // 查询材料及其审核历史
-    const material = await InboundMaterial.findById(id).select('materialName auditHistory').lean();
+    const material:any = await InboundMaterial.findById(id).select('materialName auditHistory').lean();
     
     if (!material) {
       return NextResponse.json(

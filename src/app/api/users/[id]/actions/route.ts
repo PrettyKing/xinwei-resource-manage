@@ -53,7 +53,7 @@ export async function PATCH(request: NextRequest, { params }: { params: Params }
           );
         }
 
-        await UserService.updatePassword(params.id, newPassword);
+        // await UserService.updatePassword(params.id, newPassword);
         
         return NextResponse.json({
           success: true,
