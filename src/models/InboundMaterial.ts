@@ -269,7 +269,7 @@ InboundMaterialSchema.pre('save', function(next) {
 // 验证 supplierId 的中间件
 InboundMaterialSchema.pre('save', function(next) {
   // 如果 supplierId 是空字符串，将其设为 undefined
-  if (this.supplierId === '') {
+  if ((this.supplierId as any) === '') {
     this.supplierId = undefined;
   }
   next();

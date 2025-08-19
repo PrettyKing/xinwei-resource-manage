@@ -62,7 +62,7 @@ export async function loginUser(credentials: { username: string; password: strin
     }
 
     // 更新最后登录时间
-    await UserService.updateLastLogin(user._id);
+    await UserService.updateLastLogin((user._id as any).toString());
 
     // 生成令牌
     const token = generateToken({
@@ -169,7 +169,11 @@ export async function updateUserProfile(request: NextRequest, updateData: Partia
       updateData.password = await hashPassword(updateData.password);
     }
 
-    const updatedUser = await UserService.update(decoded.userId, updateData);
+    const updatedUser = await UserService.update(decoded.userId, updateData, decoded.userId);
+    
+    if (!updatedUser) {
+      throw new Error('更新用户失败');
+    }
     
     return {
       success: true,
@@ -214,7 +218,7 @@ export async function changePassword(
     const hashedNewPassword = await hashPassword(passwords.newPassword);
 
     // 更新密码
-    await UserService.update(decoded.userId, { password: hashedNewPassword });
+    await UserService.update(decoded.userId, { password: hashedNewPassword }, decoded.userId);
 
     return {
       success: true,

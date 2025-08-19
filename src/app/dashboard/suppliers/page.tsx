@@ -163,7 +163,7 @@ export default function SuppliersPage() {
         headers['Authorization'] = `Bearer ${token}`;
       }
 
-      const response = await fetch(`/api/suppliers/${state.selectedSupplier.id}`, {
+      const response = await fetch(`/api/suppliers/${state.selectedSupplier._id}`, {
         method: 'DELETE',
         headers
       });
@@ -397,7 +397,7 @@ export default function SuppliersPage() {
                     {state.suppliers.map((supplier) => {
                       const statusConfig = getStatusConfig(supplier.status);
                       return (
-                        <tr key={supplier.id} className="hover:bg-gray-50">
+                        <tr key={supplier._id} className="hover:bg-gray-50">
                           <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                             {supplier.code}
                           </td>

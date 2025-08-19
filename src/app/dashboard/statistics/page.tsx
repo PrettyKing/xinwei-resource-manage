@@ -247,13 +247,13 @@ export default function StatisticsPage() {
           <span className="text-sm text-gray-600">统计时间范围:</span>
           <DatePicker
             date={dateRange.start}
-            onSelect={(date) => setDateRange(prev => ({ ...prev, start: date }))}
+            onSelect={(date) => setDateRange(prev => ({ ...prev, start: date || null }))}
             placeholder="开始日期"
           />
           <span className="text-gray-400">至</span>
           <DatePicker
             date={dateRange.end}
-            onSelect={(date) => setDateRange(prev => ({ ...prev, end: date }))}
+            onSelect={(date) => setDateRange(prev => ({ ...prev, end: date || null }))}
             placeholder="结束日期"
           />
         </div>

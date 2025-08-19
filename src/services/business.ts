@@ -24,7 +24,8 @@ import {
   PaginationParams,
   PaginatedResponse,
   DashboardStats,
-  RecentActivity
+  RecentActivity,
+  InboundItem as IInboundItem
 } from '@/types/business';
 import { connectToDatabase } from '@/lib/mongodb';
 import mongoose from 'mongoose';
@@ -77,7 +78,7 @@ export class MaterialService {
     ]);
 
     return {
-      items,
+      items: items as unknown as IMaterial[],
       total,
       page: pagination.page,
       pageSize: pagination.pageSize,
@@ -92,7 +93,7 @@ export class MaterialService {
       throw new Error('无效的材料ID格式');
     }
     
-    return Material.findById(id).populate('category').lean();
+    return Material.findById(id).populate('category').lean() as unknown as IMaterial | null;
   }
 
   static async create(data: CreateMaterialForm, userId: string): Promise<IMaterial> {
@@ -236,7 +237,7 @@ export class MaterialService {
       .select('name code unit price')
       .sort({ name: 1 })
       .lean()
-      .then(materials => materials.map(m => ({ 
+      .then(materials => materials.map((m: any) => ({ 
         id: m._id.toString(), 
         name: m.name, 
         code: m.code,
@@ -279,7 +280,7 @@ export class SupplierService {
     ]);
 
     return {
-      items,
+      items: items as unknown as ISupplier[],
       total,
       page: pagination.page,
       pageSize: pagination.pageSize,
@@ -294,7 +295,7 @@ export class SupplierService {
       throw new Error('无效的供应商ID格式');
     }
     
-    return Supplier.findById(id).lean();
+    return Supplier.findById(id).lean() as unknown as ISupplier | null;
   }
 
   static async create(data: CreateSupplierForm, userId: string): Promise<ISupplier> {
@@ -361,7 +362,7 @@ export class SupplierService {
       .select('name code')
       .sort({ name: 1 })
       .lean()
-      .then(suppliers => suppliers.map(s => ({ 
+      .then(suppliers => suppliers.map((s: any) => ({ 
         id: s._id.toString(), 
         name: s.name, 
         code: s.code 
@@ -423,7 +424,7 @@ export class InboundService {
     ]);
 
     return {
-      items,
+      items: items as unknown as IInboundOrder[],
       total,
       page: pagination.page,
       pageSize: pagination.pageSize,
@@ -459,12 +460,12 @@ export class InboundService {
 
     return {
       ...inbound,
-      items: items.map(item => ({
+      items: items.map((item: any) => ({
         ...item,
         material: item.materialId,
         id: item._id.toString()
-      }))
-    };
+      })) as IInboundItem[]
+    } as unknown as IInboundOrder;
   }
 
   static async create(data: CreateInboundForm, userId: string): Promise<IInboundOrder> {
@@ -507,7 +508,7 @@ export class InboundService {
         orderNo,
         supplierId: data.supplierId,
         title: data.title,
-        remark: data.remark,
+        description: data.description,
         totalAmount,
         submittedBy: userId,
         status: 'draft'
@@ -522,7 +523,7 @@ export class InboundService {
         quantity: item.quantity,
         unitPrice: item.unitPrice,
         totalPrice: item.quantity * item.unitPrice,
-        remark: item.remark,
+        description: item.description,
         status: 'pending'
       }));
 
@@ -635,7 +636,7 @@ export class InboundService {
       
       // 更新库存和明细
       for (const item of items) {
-        const actualQuantity = actualQuantities[item._id.toString()] || item.quantity;
+        const actualQuantity = actualQuantities[(item._id as any).toString()] || item.quantity;
         
         if (actualQuantity > 0) {
           // 更新材料库存
@@ -778,7 +779,7 @@ export class DashboardService {
       }
 
       activities.push({
-        id: inbound._id.toString(),
+        id: (inbound._id as any).toString(),
         type,
         title: inbound.title,
         description,
@@ -802,17 +803,17 @@ export class UserService {
       throw new Error('无效的用户ID格式');
     }
     
-    return User.findById(id).lean();
+    return User.findById(id).lean() as unknown as IUser | null;
   }
 
   static async findByUsername(username: string): Promise<IUser | null> {
     await connectToDatabase();
-    return User.findOne({ username: username.trim() }).lean();
+    return User.findOne({ username: username.trim() }).lean() as unknown as IUser | null;
   }
 
   static async findByEmail(email: string): Promise<IUser | null> {
     await connectToDatabase();
-    return User.findOne({ email: email.trim().toLowerCase() }).lean();
+    return User.findOne({ email: email.trim().toLowerCase() }).lean() as unknown as IUser | null;
   }
 
   static async updateLastLogin(userId: string): Promise<void> {
@@ -1068,10 +1069,10 @@ export class UserService {
     if (!isValidObjectId(id)) {
       throw new Error('无效的用户ID格式');
     }
-    const user = await User.findById(id).lean();
+    const user = await User.findById(id).lean() as unknown as IUser;
     if (!user) {
       return null;
     }
-    return user as any as IUser; 
+    return user; 
   }
 }
