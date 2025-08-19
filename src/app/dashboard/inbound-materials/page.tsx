@@ -240,14 +240,42 @@ export default function InboundMaterialsPage() {
       const result = await api.delete(`/api/inbound-materials/${selectedMaterial._id}`, token);
       
       if (result.success) {
-        await loadMaterials(); // 重新加载数据
+        // 显示成功消息
+        console.log('删除成功:', result.message || '入库材料已成功删除');
+        
+        // 重新加载数据
+        await loadMaterials();
+        
+        // 关闭模态框
         setShowDeleteModal(false);
         setSelectedMaterial(null);
+        
+        // 可以添加成功提示（如果有toast组件的话）
+        // toast.success(result.message || '删除成功');
       } else {
         throw new Error(result.error || '删除失败');
       }
     } catch (error) {
       console.error('删除材料失败:', error);
+      
+      // 更友好的错误提示
+      let errorMessage = '删除失败，请稍后重试';
+      if (error instanceof Error) {
+        if (error.message.includes('权限不足')) {
+          errorMessage = '您没有删除权限';
+        } else if (error.message.includes('仍有库存')) {
+          errorMessage = '该材料仍有库存，无法删除';
+        } else if (error.message.includes('未找到')) {
+          errorMessage = '材料记录不存在';
+        } else {
+          errorMessage = error.message;
+        }
+      }
+      
+      // 如果有toast组件可以显示错误提示
+      console.error('删除错误:', errorMessage);
+      alert(errorMessage); // 临时使用alert，建议替换为toast组件
+      
       throw error;
     } finally {
       setDeleteLoading(false);
@@ -563,15 +591,18 @@ export default function InboundMaterialsPage() {
                         >
                           <EditIcon size={16} />
                         </Button>
-                        <Button
-                          variant="ghost"
-                          size="sm"
-                          onClick={() => openDeleteModal(material)}
-                          className="p-1 h-8 w-8 text-red-600 hover:text-red-700"
-                          title="删除"
-                        >
-                          <DeleteIcon size={16} />
-                        </Button>
+                        {/* 删除按钮 - 仅admin和manager可见 */}
+                        {user?.role && ['admin', 'manager'].includes(user.role) && (
+                          <Button
+                            variant="ghost"
+                            size="sm"
+                            onClick={() => openDeleteModal(material)}
+                            className="p-1 h-8 w-8 text-red-600 hover:text-red-700"
+                            title="删除"
+                          >
+                            <DeleteIcon size={16} />
+                          </Button>
+                        )}
                       </div>
                     </td>
                   </tr>

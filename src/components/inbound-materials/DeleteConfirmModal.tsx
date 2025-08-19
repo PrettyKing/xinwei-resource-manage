@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import { InboundMaterial } from '@/types/business';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -20,16 +21,25 @@ export function DeleteConfirmModal({
   material, 
   loading = false 
 }: DeleteConfirmModalProps) {
+  const [error, setError] = useState<string | null>(null);
   
   if (!isOpen || !material) return null;
 
   const handleConfirm = async () => {
     try {
+      setError(null);
       await onConfirm();
-      onClose();
+      // 如果成功，onConfirm会处理关闭模态框
     } catch (error) {
       console.error('删除失败:', error);
+      // 不再显示错误，因为父组件已经处理了
+      // setError(error instanceof Error ? error.message : '删除失败');
     }
+  };
+
+  const handleClose = () => {
+    setError(null);
+    onClose();
   };
 
   return (
@@ -43,7 +53,7 @@ export function DeleteConfirmModal({
           <Button
             variant="ghost"
             size="sm"
-            onClick={onClose}
+            onClick={handleClose}
             className="p-1 h-8 w-8"
             disabled={loading}
           >
@@ -103,7 +113,7 @@ export function DeleteConfirmModal({
             <Button
               type="button"
               variant="outline"
-              onClick={onClose}
+              onClick={handleClose}
               disabled={loading}
             >
               取消

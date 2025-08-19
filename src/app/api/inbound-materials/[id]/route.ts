@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { connectToDatabase } from '@/lib/mongodb';
 import { InboundMaterial } from '@/models/InboundMaterial';
 import { verifyAuth } from '@/services/auth';
+import { validatePermission, validateBusinessLogic, createErrorResponse, logOperation, PermissionConfigs } from '@/utils/authUtils';
 
 
 
@@ -10,23 +11,25 @@ export async function GET(
   request: NextRequest,
   { params }: { params: { id: string } }
 ) {
+  const { id } = params;
+  
   try {
-    // 验证身份
-    const authResult = await verifyAuth(request);
-    if (!authResult.success) {
-      return NextResponse.json({ success: false, error: '未授权访问' }, { status: 401 });
-    }
-
-    // 连接数据库
-    await connectToDatabase();
-
-    const { id } = params;
+    // 参数验证
     if (!id) {
       return NextResponse.json(
         { success: false, error: '缺少材料ID' },
         { status: 400 }
       );
     }
+
+    // 权限验证（所有认证用户都可以查看）
+    const permissionResult = await validatePermission(request, PermissionConfigs.ALL_AUTHENTICATED);
+    if (!permissionResult.valid) {
+      return permissionResult.response!;
+    }
+
+    // 连接数据库
+    await connectToDatabase();
 
     // 查询材料详情
     const material = await InboundMaterial.findById(id).lean();
@@ -44,11 +47,7 @@ export async function GET(
     });
 
   } catch (error) {
-    console.error('获取材料详情失败:', error);
-    return NextResponse.json(
-      { success: false, error: '服务器内部错误' },
-      { status: 500 }
-    );
+    return createErrorResponse(error, '获取材料详情');
   }
 }
 
@@ -212,25 +211,10 @@ export async function DELETE(
   request: NextRequest,
   { params }: { params: { id: string } }
 ) {
+  const { id } = params;
+  
   try {
-    // 验证身份
-    const authResult = await verifyAuth(request);
-    if (!authResult.success || !authResult.user) {
-      return NextResponse.json({ success: false, error: '未授权访问' }, { status: 401 });
-    }
-
-    // 检查用户权限（只有管理员和管理者可以删除）
-    if (!['admin', 'manager'].includes(authResult.user.role)) {
-      return NextResponse.json(
-        { success: false, error: '权限不足，无法删除材料' },
-        { status: 403 }
-      );
-    }
-
-    // 连接数据库
-    await connectToDatabase();
-
-    const { id } = params;
+    // 参数验证
     if (!id) {
       return NextResponse.json(
         { success: false, error: '缺少材料ID' },
@@ -238,25 +222,31 @@ export async function DELETE(
       );
     }
 
+    // 权限验证
+    const permissionResult = await validatePermission(request, PermissionConfigs.DELETE_PERMISSION);
+    console.error('权限验证结果:', permissionResult);
+    if (!permissionResult.valid) {
+      return permissionResult.response!;
+    }
+
+    // 连接数据库
+    await connectToDatabase();
+
     // 查找要删除的材料
-    const material = await InboundMaterial.findById(id);
+    const material = await InboundMaterial.findById(id).lean() as any;
     if (!material) {
+      logOperation('DELETE', permissionResult.user, id, 'InboundMaterial', false, '材料记录不存在');
       return NextResponse.json(
         { success: false, error: '未找到该材料记录' },
         { status: 404 }
       );
     }
 
-    // 检查材料状态，如果是已入库状态可能需要特殊处理
-    if (material.status === 'active' && material.currentStock > 0) {
-      return NextResponse.json(
-        { success: false, error: '该材料仍有库存，无法删除。请先调整库存或修改状态。' },
-        { status: 400 }
-      );
-    }
-
-    // 删除材料
+    // 执行删除操作
     await InboundMaterial.findByIdAndDelete(id);
+
+    // 记录成功操作
+    logOperation('DELETE', permissionResult.user, id, 'InboundMaterial', true);
 
     return NextResponse.json({
       success: true,
@@ -264,10 +254,8 @@ export async function DELETE(
     });
 
   } catch (error) {
-    console.error('删除入库材料失败:', error);
-    return NextResponse.json(
-      { success: false, error: '服务器内部错误' },
-      { status: 500 }
-    );
+    // 记录失败操作
+    logOperation('DELETE', undefined, id, 'InboundMaterial', false, error instanceof Error ? error.message : '未知错误');
+    return createErrorResponse(error, '删除入库材料');
   }
 }

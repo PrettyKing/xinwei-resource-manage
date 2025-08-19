@@ -1,0 +1,78 @@
+2025-08-19T16:53:36:   ▲ Next.js 14.2.5
+2025-08-19T16:53:36:   - Local:        http://localhost:3000
+2025-08-19T16:53:36: 
+2025-08-19T16:53:36:  ✓ Starting...
+2025-08-19T16:53:36:  ✓ Ready in 522ms
+2025-08-19T16:53:52: 🔗 Mongoose 已连接到 MongoDB
+2025-08-19T16:53:52: ✅ MongoDB 连接成功
+2025-08-19T16:53:52: Token解码结果: { id: '68848723336cac37fe5789fe', username: 'admin' }
+2025-08-19T16:53:52: 找到用户: {
+  id: new ObjectId('68848723336cac37fe5789fe'),
+  username: 'admin',
+  status: 'active'
+}
+2025-08-19T16:53:52: 返回用户信息: { id: '68848723336cac37fe5789fe', username: 'admin' }
+2025-08-19T16:53:52: MongoDB 连接成功
+2025-08-19T17:10:29:   ▲ Next.js 14.2.5
+2025-08-19T17:10:29:   - Local:        http://localhost:3000
+2025-08-19T17:10:29: 
+2025-08-19T17:10:29:  ✓ Starting...
+2025-08-19T17:10:29:  ✓ Ready in 315ms
+2025-08-19T17:10:35: 🔗 Mongoose 已连接到 MongoDB
+2025-08-19T17:10:35: ✅ MongoDB 连接成功
+2025-08-19T17:10:35: Token解码结果: { id: '68848723336cac37fe5789fe', username: 'admin' }
+2025-08-19T17:10:36: 找到用户: {
+  id: new ObjectId('68848723336cac37fe5789fe'),
+  username: 'admin',
+  status: 'active'
+}
+2025-08-19T17:10:36: 返回用户信息: { id: '68848723336cac37fe5789fe', username: 'admin' }
+2025-08-19T17:10:36: MongoDB 连接成功
+2025-08-19T18:40:30:   ▲ Next.js 14.2.5
+2025-08-19T18:40:30:   - Local:        http://localhost:3000
+2025-08-19T18:40:30: 
+2025-08-19T18:40:30:  ✓ Starting...
+2025-08-19T18:40:30:  ✓ Ready in 314ms
+2025-08-19T18:40:36: 🔗 Mongoose 已连接到 MongoDB
+2025-08-19T18:40:36: ✅ MongoDB 连接成功
+2025-08-19T18:40:36: Token解码结果: { id: '68848723336cac37fe5789fe', username: 'admin' }
+2025-08-19T18:40:36: 找到用户: {
+  id: new ObjectId('68848723336cac37fe5789fe'),
+  username: 'admin',
+  status: 'active'
+}
+2025-08-19T18:40:36: 返回用户信息: { id: '68848723336cac37fe5789fe', username: 'admin' }
+2025-08-19T18:40:36: MongoDB 连接成功
+2025-08-19T18:40:39: Token decoded successfully: { userId: undefined, role: 'admin' }
+2025-08-19T18:40:39: User not found for userId: undefined
+2025-08-19T18:40:43: Token解码结果: { id: '68848723336cac37fe5789fe', username: 'admin' }
+2025-08-19T18:40:43: 找到用户: {
+  id: new ObjectId('68848723336cac37fe5789fe'),
+  username: 'admin',
+  status: 'active'
+}
+2025-08-19T18:40:43: 返回用户信息: { id: '68848723336cac37fe5789fe', username: 'admin' }
+2025-08-19T18:40:47: Token decoded successfully: { userId: undefined, role: 'admin' }
+2025-08-19T18:40:47: User not found for userId: undefined
+2025-08-19T18:57:06:   ▲ Next.js 14.2.5
+2025-08-19T18:57:06:   - Local:        http://localhost:3000
+2025-08-19T18:57:06: 
+2025-08-19T18:57:06:  ✓ Starting...
+2025-08-19T18:57:06:  ✓ Ready in 313ms
+2025-08-19T18:57:14: 🔗 Mongoose 已连接到 MongoDB
+2025-08-19T18:57:14: ✅ MongoDB 连接成功
+2025-08-19T18:57:14: Token解码结果: { id: '68848723336cac37fe5789fe', username: 'admin' }
+2025-08-19T18:57:14: 找到用户: {
+  id: new ObjectId('68848723336cac37fe5789fe'),
+  username: 'admin',
+  status: 'active'
+}
+2025-08-19T18:57:14: 返回用户信息: { id: '68848723336cac37fe5789fe', username: 'admin' }
+2025-08-19T18:57:14: MongoDB 连接成功
+2025-08-19T18:57:16: Token decoded successfully: { userId: undefined, role: 'admin' }
+2025-08-19T18:57:16: User not found for userId: undefined
+2025-08-19T19:28:35:   ▲ Next.js 14.2.5
+2025-08-19T19:28:35:   - Local:        http://localhost:3000
+2025-08-19T19:28:35: 
+2025-08-19T19:28:35:  ✓ Starting...
+2025-08-19T19:28:35:  ✓ Ready in 317ms

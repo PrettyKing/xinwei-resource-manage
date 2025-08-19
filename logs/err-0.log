@@ -1,0 +1,8 @@
+2025-08-19T16:57:54: 审核入库材料: {
+  id: '68848723336cac37fe5789fe',
+  username: 'admin',
+  email: 'admin@xinwei.com',
+  role: 'admin',
+  iat: 1755333795,
+  exp: 1755938595
+}

@@ -1,19 +1,31 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { UserService } from '@/services/business';
 import { CreateUserForm, UserFilter, PaginationParams } from '@/types/business';
+import { User, IUser } from '@/models/User';
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
+import { connectToDatabase } from '@/lib/mongodb';
 
 // 验证 JWT Token
 function verifyToken(request: NextRequest) {
+  // 从Authorization header中提取token
   const authorization = request.headers.get('authorization');
-  if (!authorization) {
-    throw new Error('缺少认证令牌');
+  let token = null;
+  
+  if (authorization?.startsWith('Bearer ')) {
+    token = authorization.substring(7);
   }
-
-  const token = authorization.replace('Bearer ', '');
+  
+  // 如果没有Authorization header，尝试从Cookie中获取
   if (!token) {
-    throw new Error('无效的认证令牌');
+    const cookieToken = request.cookies.get('auth-token')?.value;
+    if (cookieToken) {
+      token = cookieToken;
+    }
+  }
+  
+  if (!token) {
+    throw new Error('缺少认证令牌');
   }
 
   try {
@@ -47,7 +59,8 @@ async function hashPassword(password: string) {
 // 用户登录
 export async function loginUser(credentials: { username: string; password: string }) {
   try {
-    const user = await UserService.findByUsername(credentials.username);
+    await connectToDatabase();
+    const user = await User.findOne({ username: credentials.username }).lean() as IUser | null;
     if (!user) {
       throw new Error('用户名或密码错误');
     }
@@ -57,12 +70,12 @@ export async function loginUser(credentials: { username: string; password: strin
       throw new Error('用户名或密码错误');
     }
 
-    if (user.status !== 'active') {
+    if (!user.isActive) {
       throw new Error('账户已被禁用');
     }
 
     // 更新最后登录时间
-    await UserService.updateLastLogin((user._id as any).toString());
+    await User.findByIdAndUpdate(user._id, { lastLogin: new Date() });
 
     // 生成令牌
     const token = generateToken({
@@ -81,8 +94,7 @@ export async function loginUser(credentials: { username: string; password: strin
           username: user.username,
           email: user.email,
           role: user.role,
-          realName: user.realName,
-          status: user.status,
+          isActive: user.isActive,
           lastLoginAt: new Date()
         }
       }
@@ -98,16 +110,26 @@ export async function loginUser(credentials: { username: string; password: strin
 // 用户注册
 export async function registerUser(userData: CreateUserForm) {
   try {
-    // 检查用户名是否存在 - 现在通过 UserService.create 来处理重复检查
+    await connectToDatabase();
+    
+    // 检查用户名是否存在
+    const existingUser = await User.findOne({ username: userData.username });
+    if (existingUser) {
+      throw new Error('用户名已存在');
+    }
 
     // 加密密码
     const hashedPassword = await hashPassword(userData.password);
 
     // 创建用户
-    const newUser = await UserService.create({
-      ...userData,
-      password: hashedPassword
-    }, 'system');
+    const newUser = new User({
+      username: userData.username,
+      email: userData.email,
+      password: hashedPassword,
+      role: userData.role,
+      isActive: true
+    });
+    await newUser.save();
 
     return {
       success: true,
@@ -116,8 +138,7 @@ export async function registerUser(userData: CreateUserForm) {
         username: newUser.username,
         email: newUser.email,
         role: newUser.role,
-        realName: newUser.realName,
-        status: newUser.status
+        isActive: newUser.isActive
       }
     };
   } catch (error) {
@@ -132,7 +153,8 @@ export async function registerUser(userData: CreateUserForm) {
 export async function getCurrentUser(request: NextRequest) {
   try {
     const decoded = verifyToken(request);
-    const user = await UserService.findById(decoded.userId);
+    await connectToDatabase();
+    const user = await User.findById(decoded.userId).lean() as IUser | null;
     
     if (!user) {
       throw new Error('用户不存在');
@@ -145,10 +167,8 @@ export async function getCurrentUser(request: NextRequest) {
         username: user.username,
         email: user.email,
         role: user.role,
-        realName: user.realName,
-        phone: user.phone,
-        status: user.status,
-        lastLoginAt: user.lastLoginAt
+        isActive: user.isActive,
+        lastLoginAt: user.lastLogin
       }
     };
   } catch (error) {
@@ -169,7 +189,12 @@ export async function updateUserProfile(request: NextRequest, updateData: Partia
       updateData.password = await hashPassword(updateData.password);
     }
 
-    const updatedUser = await UserService.update(decoded.userId, updateData, decoded.userId);
+    await connectToDatabase();
+    const updatedUser = await User.findByIdAndUpdate(
+      decoded.userId, 
+      updateData, 
+      { new: true }
+    ).lean() as IUser | null;
     
     if (!updatedUser) {
       throw new Error('更新用户失败');
@@ -182,9 +207,7 @@ export async function updateUserProfile(request: NextRequest, updateData: Partia
         username: updatedUser.username,
         email: updatedUser.email,
         role: updatedUser.role,
-        realName: updatedUser.realName,
-        phone: updatedUser.phone,
-        status: updatedUser.status
+        isActive: updatedUser.isActive
       }
     };
   } catch (error) {
@@ -202,7 +225,8 @@ export async function changePassword(
 ) {
   try {
     const decoded = verifyToken(request);
-    const user = await UserService.findById(decoded.userId);
+    await connectToDatabase();
+    const user = await User.findById(decoded.userId).lean() as IUser | null;
     
     if (!user) {
       throw new Error('用户不存在');
@@ -218,7 +242,7 @@ export async function changePassword(
     const hashedNewPassword = await hashPassword(passwords.newPassword);
 
     // 更新密码
-    await UserService.update(decoded.userId, { password: hashedNewPassword }, decoded.userId);
+    await User.findByIdAndUpdate(decoded.userId, { password: hashedNewPassword });
 
     return {
       success: true,
@@ -236,9 +260,10 @@ export async function changePassword(
 export async function refreshToken(request: NextRequest) {
   try {
     const decoded = verifyToken(request);
-    const user = await UserService.findById(decoded.userId);
+    await connectToDatabase();
+    const user = await User.findById(decoded.userId).lean() as IUser | null;
     
-    if (!user || user.status !== 'active') {
+    if (!user || !user.isActive) {
       throw new Error('用户状态异常');
     }
 
@@ -328,16 +353,24 @@ export function createProtectedResponse(
 export async function verifyAuth(request: NextRequest) {
   try {
     const decoded = verifyToken(request);
-    const user = await UserService.findById(decoded.userId);
+    console.log('Token decoded successfully:', decoded);
+    console.log('Token decoded successfully:', { userId: decoded.id, role: decoded.role });
+    
+    await connectToDatabase();
+    const user = await User.findById(decoded.id).lean() as IUser | null;
     
     if (!user) {
+      console.log('User not found for userId:', decoded.id);
       return {
         success: false,
         error: '用户不存在'
       };
     }
 
-    if (user.status !== 'active') {
+    console.log('User found:', user);
+
+    if (!user.isActive) {
+      console.log('User account is not active:', user.isActive);
       return {
         success: false,
         error: '账户已被禁用'
@@ -351,13 +384,12 @@ export async function verifyAuth(request: NextRequest) {
         username: user.username,
         email: user.email,
         role: user.role,
-        realName: user.realName,
-        phone: user.phone,
-        status: user.status,
-        lastLoginAt: user.lastLoginAt
+        isActive: user.isActive,
+        lastLoginAt: user.lastLogin
       }
     };
   } catch (error) {
+    console.error('Token verification error:', error);
     return {
       success: false,
       error: error instanceof Error ? error.message : '认证失败'
